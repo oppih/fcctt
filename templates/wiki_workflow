@@ -1,6 +1,6 @@
 <br> 
 
-== Full Circle 47(大家动起来~)  ==
+== Full Circle 51 ==
 
 {| cellspacing="0" cellpadding="0" border="1" style="width: 741px; height: 361px;"
 |-
@@ -12,7 +12,7 @@
 | 二校 <br>
 | 状态/Deadline <br>
 |-
-| colspan="3" | [[FC47 编者的话|编者的话]]<br> 
+| colspan="3" | [[FC51 编者的话|编者的话]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -20,7 +20,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Linux新闻|Linux新闻]]<br> 
+| colspan="3" | [[FC51 Linux新闻|Linux新闻]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -28,7 +28,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 绝胜命令行|绝胜命令行]]<br> 
+| colspan="3" | [[FC51 绝胜命令行|绝胜命令行]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -36,7 +36,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Python编程|How-to Python编程——第21部分]]<br> 
+| colspan="3" | [[FC51 Python编程|How-to Python编程——第25部分]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -44,7 +44,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Libre Office|How-to Libre Office——第2部分]]<br> 
+| colspan="3" | [[FC51 Libre Office|How-to Libre Office——第6部分]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -52,7 +52,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Ebook Software In Linux|How-to Ubuntu上的电子书软件]]<br> 
+| colspan="3" | [[FC51 Ubuntu Dev|How-to Ubuntu 开发]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -60,7 +60,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Linux实验室|Linux实验室]]<br> 
+| colspan="3" | [[FC51 KDE|KDE]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -68,7 +68,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 My Story|我的故事]]<br> 
+| colspan="3" | [[FC51 Linux实验室|Linux实验室]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -76,7 +76,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 My Opinion|我的观点]]<br> 
+| colspan="3" | [[FC51 I Think|我认为]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -84,7 +84,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 评测|评测]]<br> 
+| colspan="3" | [[FC51 My Story|我的故事]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -92,7 +92,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 读者来信|读者来信]]<br> 
+| colspan="3" | [[FC51 My Opinion|我的观点]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -100,7 +100,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Ubuntu女士|Ubuntu女士]]<br> 
+| colspan="3" | [[FC51 评测|评测]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -108,7 +108,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Ubuntu游戏|Ubuntu游戏]] 
+| colspan="3" | [[FC51 读者来信|读者来信]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -116,7 +116,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Q来A去|Q来A去]]<br> 
+| colspan="3" | [[FC51 Ubuntu 女士|Ubuntu 女士]] 
 | <br> 
 | <br> 
 | <br> 
@@ -124,7 +124,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 我的桌面|我的桌面]]<br> 
+| colspan="3" | [[FC51 Q来A去|Q来A去]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -132,7 +132,15 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC47 Top 5|Top 5]]<br> 
+| colspan="3" | [[FC51 我的桌面|我的桌面]]<br> 
+| <br> 
+| <br> 
+| <br> 
+| <br> 
+| <br> 
+| <br>
+|-
+| colspan="3" | [[FC51 Top 5|Top 5]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -140,4 +148,3 @@
 | <br> 
 | <br>
 |}
-
