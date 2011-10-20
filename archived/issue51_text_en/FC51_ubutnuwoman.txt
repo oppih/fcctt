@@ -1,0 +1,21 @@
+This month, we're interviewing Ubuntu contributor Cheri Francis about her experience at the Ubuntu Developer Summit (UDS) in Budapest back in May.
+
+Elizabeth Krumbach: When did you get involved with the Ubuntu community, and what areas are you currently involved in?
+
+Cheri Francis: I got involved a few years ago, had a few forays into Ubuntu use, and then started hanging out on IRC, pitching in where I could. I am currently involved in the Ubuntu Women project, the Accessibility team, and the NGO team. I am also a member of the Ohio LoCo team, and a new member of the Ohio LoCo Council.
+
+EK: What inspired you to apply for sponsorship to UDS?
+
+CF: I got an email from a friend on the UW project whom I'd worked with in the past. I asked a few others if they thought I should, and the response was overwhelmingly positive, so I went for it. I wanted to attend because I felt it would be a great opportunity to meet some of the people I'd been working with online, as well as learning more about the nuts and bolts of how everything fits together, and the processes behind everything.
+
+EK: What are some of the sessions you attended?
+
+CF: I tried to focus on community and accessibility where I could. Other than that, I tried to learn as much as possible about some of the topics that were a bit over my head, but still fascinating. Attending the session about the NGO team was interesting, as I'd had no idea that it existed previously, and I think it has the potential to do amazing work. The sessions about the IRC council and Ubuntu Weekly News were very eye-opening for me. Prior to one session, I didn't know about the LoCo ISO Testing initiative, nor the Laptop Testing project. I intend to learn more about both of those.
+
+EK: What were your biggest take-aways from the summit?
+
+CF: It was an awesome thing, in the literal sense. So many people that give their time and energy to creating and maintaining Ubuntu, both software and community. I left UDS with the desire to do what I can to help encourage new users and contributors. By helping our LoCo be more visible and inviting, and helping to raise the visibility of my teams.
+
+EK: Do you have any tips for first-time attendees?
+
+CF: Ask a TON of questions before you go. Read every email multiple times to make sure you don't miss instructions. Know that the schedule is constantly changing. Don't be afraid to speak up, but try to keep it on topic.

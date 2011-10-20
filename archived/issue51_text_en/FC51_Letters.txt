@@ -1,0 +1,79 @@
+Kindle and Google Earth
+
+Several months ago, I decided that I would like to have some eBooks from Amazon, so I downloaded the Kindle for Windows software, but it wouldn't install with the default version of Wine. After some searching, I found the way to get it to work on my Ubuntu 10.10 was to download the Wine 3 beta version. So far, I have had no problems with this version.
+
+sudo add-apt-repository ppa:ubuntu-wine/ppa && sudo apt-get update && sudo apt-get install wine1.3
+
+I already had an Amazon account, so registering was not a problem, and when I updated to 11.04, I was able to get back all the books I had bought by hitting the archived button.
+
+From 10.10 I had a problem with installing Google Earth. Downloading the .deb file from the Google site and using Gdebi to install, left me with some oversized text boxes on the screen. This was fixed by downloading the Microsoft True Type fonts:
+
+sudo apt-get install msttcorefonts
+
+It seems that Goggle Earth needs them for its display.
+
+Brian Cockley
+
+KDE Login
+
+I'm going to switch from Unity to KDE after trying out Unity for a while. Just dont like it. But, on another note, I wonder if you have any advice on a KDE question. I can use a Kubuntu live CD (11.04) on my desktop computer and it runs perfectly. Everything boots and I'm able to use the system. But, if I install it to the hard drive, I never get past the screen that shows those 5 icons as the desktop loads up. My system will lock up and need to be restarted.
+
+Chris
+
+Ronnie replies: Having emailed back and forth with Chris about this, it seems that you have to explicitly choose KDE from the dropdown menu at login. Otherwise you'll be greeted with a blank screen.
+
+
+
+Pint and a Pizza
+
+I have to admit, I am getting a little tired of the complaints about Unity, and really don't understand why they don't click a few buttons and run their Ubuntu under Gnome - it's still there you know. I am prepared to give Unity a chance, and already I am using it without thinking. In addition to that, a lot of the kinks will be ironed out by 11.10. If I didn't like Unity, I would be using Gnome and wouldn't be complaining. If I didn't like Ubuntu, I would move quietly to Kubuntu or even another distro.
+
+And don't worry about Canonical, the owner (Mark Shuttleworth) wouldn't even notice the money missing if it folded over night. He sold his four year old company for millions when he was twenty-five and I am sure investments have doubled that by now.
+
+So, come on people, less of the whining, and either knuckle down, or move on. Start worring about the important things in life such as Greece, our national debt, and how this will affect the price of a pint and a pizza over the coming year.
+
+Ampers
+
+
+Adding KDE
+
+If/when you get around to writing a Part 2 article about KDE, I implore you, please make a mention on how you can switch from Ubuntu to Kubuntu without losing all your programs - that would make me a very happy bunny indeed!
+
+John Haywood
+
+Ronnie says: the easiest way is to install the kubuntu-desktop package. You'll then be able to choose KDE, or Gnome, at login. The only down side of this is that your application menu in both KDE and Gnome will contain both Gnome and KDE applications. No big deal, it just makes your menu a bit full looking.
+
+
+More PAM
+
+The official PAM website http://pam-face-authentication.org has the proper installation and configure procedure. The right way to install PAM in Ubuntu is described here: http://pam-face-authentication.org/downloads.php
+
+The PPA has the .debs for Lucid, Maverick and Natty. After installing you only need to configure the plugin.
+
+So, it's not hard to install, and the documentation is not out-of-date.
+
+Antonio Chiurazzi
+
+
+He's Right You Know
+
+In my opinion, he [FCM#50 - My Opinion] is right. I draw parallels between Microsoft and Canonical. Microsoft changes their OS regularly to get more money from people. I assume Canonical has some reason to change things, other than just for the sake of change.
+
+I'm a reasonably advanced user - not interested in the latest tool or trying things out for the fun of it, but just wanting a stable and consistent platform to use. I try to interest my friends in Ubuntu, especially those who don't want to shell our for the latest Windows, or MS Office, or whatever.
+
+But more important than money is time, and most of them would rather pay for stability than to exist on the bleeding-edge where they constantly have to call me for help and advice. And frankly my time is also important - I'm not a paid support engineer for Canonical. I have a hard time recommending Ubuntu, because I know Canonical is going to fiddle just for the fun of it, and I'll be stuck with friends wanting their machine repaired.
+
+I want a single consistent experience from release to release. I don't expect my buttons to wander around, change color, go away or anything else that hinders me from using the computer. I can deal with change, but rather that I don't want to HAVE to reset choices I have already made because some designer at Canonical thinks he knows better than I do. That's Microsoft's way of treating users.
+
+If Canonical wants to continue to change the standards, then there should be a single configuration file of choices the user has made which will be read and obeyed by the upgrade process, containing the USER's choice of window manager, screen layout, favorite browser, commonly used tools, and so on.
+
+My question to Canonical is, 'Is Ubuntu for the hacker, the designer, the advanced user, the "elite", the uber-geek, or is it for the masses?' If the former, then Microsoft's eternal dominance is assured. If the later, quit changing things for the sake of changing things!
+
+Thomas
+
+
+Under The Weather
+
+Looking for some sunshine I logged onto the Met Office website and saw their desktop widget available for download. It needs Adobe Air 2.5, but the good news is that they cater for Linux users. But, this latest widget needs 1GB of RAM to run! I just upgraded my RAM to 2GB, and to think that half of it would disappear instantaneously sends shudders through my spine. I'll just keep my bookmark to the forecast page.
+
+Roy Read

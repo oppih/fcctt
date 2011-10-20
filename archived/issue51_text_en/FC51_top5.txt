@@ -1,0 +1,35 @@
+Ekiga
+
+Homepage: http://ekiga.org/
+
+Ekiga, originally written by Damien Sandras as a master’s thesis, is one of the most popular open source softphones, particularly after the acquisition and subsequent shutdown of Gizmo5 by Google. One of the main reasons is its ease of use. Most VoIP clients, for example, require you to sign up with an external service. While you can use a third party server, Ekiga offers a built-in service, helping new users feel right at home. But don’t be fooled into thinking Ekiga is only for the novice user; the application sports many advanced features, including support for a laundry list of codecs and LDAP address-book lookup. Users thinking about moving to Ekiga full-time will also be happy to discover Ekiga Call Out, which allows users to call “real” phone numbers for cheap rates.
+
+To install Ekiga, use the ekiga package in the universe repositories.
+
+QuteCom
+
+QuteCom (formerly known as WengoPhone and run by the French VoIP service Wengo) is another highly popular SIP client. Like Ekiga, it supports voice and video chatting. Where it excels is its support for third party protocols. Its developers have implemented support for the libpurple library, the library powering the popular cross-platform program Pidgin. As a result, QuteCom users can chat with MSN, AIM, ICQ Yahoo, Jabber, Facebook, MySpace, and Skype users (though support for Skype is buggy and has questionable legal ramifications).
+
+To install QuteCom, use the qutecom package in the universe repositories.
+
+Linphone
+
+Homepage: http://www.linphone.org/
+
+If you want a slightly more configurable SIP client (with a much less user-friendly interface), check out Linphone. It has a bevy of advanced configuration settings, including IPv6/IPv4 switching, manual RTP/UDP ports, maximum transmission unit configuration, and so on. Additionally, it’s cross-platform - you can use the app on Android, Blackberry, or your iPhone, a nice feature if you want a uniform interface. Finally, for you terminal junkies, there’s a built-in command line interface.
+
+To install Linphone, use the Ubuntu package at the official download page.
+
+Twinkle
+
+Homepage: http://www.twinklephone.com/
+
+Twinkle has always been my favorite KDE SIP client. To start, it’s incredibly user friendly. Its wizard interface for setting up accounts includes built-in support for FreeWorld Dialup, sipgate, SIPPhone (though SIPPhone, run by Gizmo5, is currently defunct), and Diamondcard, which lets you make calls to landlines and other “real” phones. There’s also lots of KDE integration; of particular use is the KAddressBook integration (though you can use the built-in address book if you don’t use KDE). Finally, for the scripters and coders of the world, Twinkle offers event scripts. You can configure various Bash scripts to execute when certain events (incoming call, outgoing call, call released, etc.) are triggered.
+
+Skype
+
+Homepage: http://www.skype.com/
+
+No list of VoIP clients would be complete without Skype, the grandfather of softphones, recently acquired by Microsoft for $8.5 billion. Unfortunately, even before the Microsoft acquisition, Skype’s Linux support lagged. While both Windows and Mac users have access to 5.x builds, Linux users are forced to use 2.2. That means quite a few features, including group video, are missing. You’ll also be stuck with a slightly dated interface - though, if you’ve seen the more recent iterations of the Windows interface, that might not be a bad thing. Most unfortunate of all, Skype uses its own proprietary protocol - you have to have a Skype account, and you can’t officially use any third party clients to connect to it.
+
+To install Skype, download the .deb package for Ubuntu from the official homepage.

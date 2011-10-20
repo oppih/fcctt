@@ -1,0 +1,19 @@
+Allow me to introduce myself. My name is Adel, and I am a Kazakh from China. (Yeah, a lot of us live in China, since China and Kazakhstan are neighboring countries. In fact, my home is just near the intersection of the four countries: Russia, China, Mongolia, and Kazakhstan.)
+
+I met Ubuntu much later than most Full Circle readers - at version 10.04. When I rolled into college in Beijing in 2009, I didn't know much about computers, and I didn't own a computer, since it was too expensive for me. So, I often went to the netbar to enjoy the computers. The cost is 2 yuan per hour, about $0.31 US. I like collecting different software and other things while others are enjoying computer games. In fact I seldom play games.
+
+Then I accidentally came across Ubuntu, version 10.04. At first, I just thought it was a program, but soon I found that it was so popular in the software websites. Yes, it is an operating system.
+
+In China, nearly 100% of computers run Windows, including those in the netbars and schools. When I use a computer in the netbar, it always crashes,  which often drives me mad - you never know why they do this. I wanted to buy a laptop for myself because I wanted to try Ubuntu so much, and with one I need not go to netbars, but this was impossible.
+
+Then I found a new software called VirtualBox, which I think many of you are familiar with. With it, I could run Ubuntu in the computer in the netbar! This is exciting! Almost every weekend I went to the bar to virtualize my Ubuntu. How I wanted a computer for myself!
+
+The things above happened in 2010, and, in December of that year, I finally bought my first computer. It has an Atom D510 CPU and 2GB DDR and a 160GB hard disk. In fact it is a netbook. The second day, I went to the netbar and downloaded the latest Ubuntu 10.10 and installed it on my computer. Yes, I installed it by clearing the whole disk which ran Windows 7 when I bought it, which is so slow when I start it.
+
+Now I have been using Ubuntu more than 3 months. Everything is going so perfectly! I work with OpenOffice.org (can you help me install LibreOffice? thank you!), watch videos with VLC, and chat with Skype since it allows me to do video chatting. Firefox works very well too, and I also installed Chrome. Almost forget one thing - I also installed Macbuntu. I think you must have heard of it? It is so wonderful not only because it looks beautiful, but also you can use “expose” by moving the mouse to the right corner or left corner when you are dealing with many apps. (I had once used my friend's Mac OS, but the expose in it is much less convenient than Macbuntu, for you must use the keyboard and four fingers to use it, not just the mouse.)
+
+Yeah, that's all my wonderful experience with Ubuntu. Nearly all my friends envy my desktop when they see my computer. (They just think it is Mac OS, hahahaha.) I love it so, so, so much!!! I will never leave it and never use that heavy and slow Windows!
+
+Now my life has really, really changed. With color everyday, Ubuntu gives me so much pleasure and excitement, although I know little about the Linux world. No, Ubuntu shouldn't be treated as Linux, it is Ubuntu, the way it is, which always gives you new convenience, new choices, and new adventure. 
+
+Thanks for reading my letter. My English level is just OK since it is not my mother language. (I started learning English in 2003.) I will be very happy if you give me a short reply that says you have spared your time to read my article, no matter if you print it or not. Maybe, I should write this in Chinese and send it directly to the Chinese part, but, after thinking about it, I determined to send it to you since I want you and foreign friends to know my confident and happy experience with Ubuntu.
