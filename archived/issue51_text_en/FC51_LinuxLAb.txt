@@ -1,0 +1,125 @@
+All software installed by default on a Debian-based system (like Ubuntu and Kubuntu) is organized in packages. The packages themselves are stored in a repository. The installation CD contains such a repository, but, in most cases, one accesses a repository via a server, the so-called mirror. Such a mirror gives access to a copy of the original repository created by the owner of the distribution. Any new version of a package is added to the distribution repository and afterwards copied to all mirrors.
+
+One system (for example your PC) can obtain packages from one to many repositories. The list of repositories used by a system can be found in the files /etc/apt/sources.list and /etc/apt/sources.list.d/*.list, and can also be found under Settings in GUI packet management tools like Synaptic (Repositories) and kPackageKit (Origin of Packages).
+
+The contents of all repositories is reread when we execute the command “apt-get update,” or when we press the Reload button in Synaptic. This allows the tools to verify which packets have new versions and offer them for upgrade.
+
+It is also possible to create your own repository for private use.
+
+Why would you create a private repository?
+
+Well, I have a number of packages that are not available from the standard repositories. I downloaded packages from vendor sites containing drivers for my all-in-one scanner and my graphical card, I have some packages that are required by these driver packages and that are no longer supported by the newer Ubuntu versions and, finally, I created some packages myself.
+
+I put any new version of such a package in my private repository. When my children come home on the weekend from university, and they push on the Reload button in Synaptic, the new package versions are nicely installed on their laptops. That is easy for me as I'm sure that any new package version will find its way to each PC without any further intervention from my side.
+
+Procedure
+
+The creation of a repository takes five steps:
+• install the packages with the necessary tools
+• create a digital signature
+• create the repository directory and the related configuration files
+• add packages to the repository and build the repository. Repeat this step each time you have added a new package or package version.
+• make your repository known to the package tools on your system. Repeat this step for each system you manage.
+
+In case you have multiple systems, you must decide if you want to distribute your repository to the other systems via a web-server (http) or using a directory shared via NFS or Samba.
+
+Step 1
+
+Install the packages apt-utils, gzip, make and gnupg. You need additionally a web-server like apache2 in case you want to make your repository accessible via the web.
+
+Step 2
+
+If you don't have a digital signature yet, make one now with the command:
+
+gpg --gen-key
+
+This tool will ask a lot of questions. The most important ones are your name, your e-mail address, and a pass-phrase. A reasonable default is proposed for the other, more difficult questions.
+
+Step 3 
+
+Make now a directory to store the packages. This directory must finally be accessible by all your systems.
+
+/var/www/repository is a good choice in case you decided to use apache as a web-server.
+/mnt/repository could be used if you decided to go for NFS or Samba.
+
+You will need the following configuration files in this directory: a public key, the steer-file for apt-ftparchive, and a makefile.
+
+You can create the public key with: 
+
+gpg --export -a > repository.gpg
+
+The steer-file apt-ftparchive.conf can be created with a text editor (e.g. kate), and should have the following contents (above right, but replace “John Doe” with your own name).
+
+Create also a makefile (below right), Makefile. Notice that all lines, except the first one, must start with a tab (not spaces !).
+
+Step 4
+
+Put your binary and/or source packages in this directory.
+
+I will use as example a packet I created myself. It binds commands to the multimedia keys on my Cherry keyboard. The binary package is called cherry-keyboard_1.1_all.deb. The related source packages are cherry-keyboard_1.1.dsc, cherry-keyboard_1.1_i386.changes and cherry-keyboard_1.1.tar.gz.
+
+You may place the packages in subdirectories if you like: the apt-ftparchive tool will scan all subdirectories.
+
+When you are ready, go to your repository directory and type “make” on the command line: your repository will be built. You will be prompted for the pass-phrase linked to your digital signature at the end of the execution.
+
+Execute “make” again, each time you add a new package or package version. This will update the repository.
+
+Step 5
+
+The last step is to make your repository known to the package tools on your PC.
+
+Make first your public key known to apt, so that it can verify the signature of the repository files:
+
+sudo cp repository.gpg /usr/share/keyrings
+
+
+sudo apt-key add /usr/share/keyrings/repository.gpg
+
+Finally, configure the location of your repository by creating a file /etc/apt/sources.list.d/repository.list, using for example sudo kate.
+
+The contents depends on the distribution method you have chosen:
+when you have exported your directory via NFS or Samba as /mnt/repository:
+
+deb  file:/mnt/repository/. ./
+
+
+deb-src  file:/mnt/repository/. ./
+
+when you made your repository available via web-server 192.168.0.5:
+
+deb  http://192.168.0.5/repository/. ./
+
+
+deb-src  http://192.168.0.5/repository/. ./
+
+We are ready now. Verify that everything is working fine by executing the following commands:
+
+sudo apt-get update
+
+apt-cache show cherry-keyboard
+
+You should now get something like:
+
+cherry-keyboard - Enables multimedia keys on Cherry keyboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References:
+“The Debian System - Concepts and Techniques” by Martin F. Krafft, 2005, Open Source Press GmbH, Germany, ISBN 3-937514-07-4

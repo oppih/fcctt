@@ -1,0 +1,31 @@
+KDE 4.7 Released
+
+KDE is delighted to announce its latest set of releases, providing major updates to the KDE Plasma Workspaces, KDE Applications, and the KDE Platform that provides the foundation for KDE software. Version 4.7 of these releases provide many new features and improved stability and performance.
+
+• Plasma Workspaces Become More Portable
+• Updated KDE Applications
+• Improved Multimedia, Instant Messaging and Semantic Capabilities
+• Instant Messaging integrated into desktop
+• Stability As Well As Features
+
+Source: KDE.org
+
+Humble Indie Bundle #3
+
+Humble Indie Bundle #3 has just been released. The games this time are: Crayon Physics Deluxe, Cogs, VVVVVV, Hammerfight and And Yet It Moves. As the website explains:
+
+If you bought these five games separately, it would cost around $50, but we're letting you set the price! All of the games work great on Mac, Windows, and Linux.
+
+As of writing the average Linux payment is $10.37. Average Mac payment is $5.43 with Windows at $3.47
+
+Source: humblebundle.com
+
+Indian Courts To Use Ubuntu
+
+For the past four years all Indian Courts have been using RedHat Enterprise 5. Now, the Supreme Court of India has directed all Courts (approximately 17,000 of them) to change to Ubuntu 10.04. The Supreme Court of India has also given all Courts a customized Ubuntu DVD.
+
+Each Court uses at least five computers. That's five computers multiplied by seventeen thousand Courts. That's 85,000 computers that will get Ubuntu
+
+The Supreme Court of India committee page in which all the Indian Courts are directed to install Ubuntu is at: http://www.sci.nic.in/e-committee.htm
+
+Source: A.Ramesh Babu (email)

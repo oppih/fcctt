@@ -1,0 +1,30 @@
+It seems there are more KDE users out there than I thought. Quite a few people emailed me asking for a Part Two on Using KDE. So, here it is. I’ll show you how to spice up your KDE desktop by enabling the KWin effects (which are to be thought of as a KDE native Compiz Fusion, but built into KDE), and the toggle effects on/off, and by editing the configuration of some effects.
+
+With all effects off, KDE is a bit bland:
+Head into System > System Settings, and double click Desktop Effects:
+
+This is where the magic happens. Tick the box beside ‘Enable desktop effects,’ then click the ‘Apply’ button at the bottom right of the window (right):
+
+You’ll get a pop-up which asks you if everything looks OK. You have several seconds to reply by clicking Accept. Your desktop effects are now active! Should your display be unable to enable desktop effects, KDE will tell you this and not black out. It’s very nice that way.
+
+Your theme probably won’t show much in the way of effects, so usually I go back to the Desktop Theme window and assign/reassign a Desktop Theme. This makes sure your theme is using your snazzy new desktop effects such as blur or transparency.
+
+In the ‘All Effects’ tab (still in Desktop Effects), you’ll see a list of all available effects. But the first thing I like to do is assign effects to the screen corners, which is in ‘Workspace Behaviors':
+
+I assign a desktop grid to my top left, and the cube to the top right, but you can assign them as you see fit.
+
+Going back into Desktop Effects (General tab), you can change how you switch windows. I, personally, prefer Flip Switch, but there are several to choose from. Below that you can change how you switch desktops. I like to slide. Below that you have the animation speeds.
+
+Going into the ‘All Effects’ tab again, it’s time to configure your effects. First off, the old classic Wobbly Windows. Clicking the spanner button on the right of each effect name will let you edit that effect’s settings.
+
+The Appearance items will let you change how a window is shown or closed. The animations range from Glide, in which the window smoothly fades in from small to large through to other animations which explode the windows into smithereens!
+
+You can also customise the key settings to enable or disable an effect. In this example, I assigned Ctrl+F12 to start/stop snowflakes falling on my desktop. This is done by clicking the current key binding, clicking Customise, and doing the key combination to assign it. Desktop Effects will also tell you if that key combo is being used elsewhere, and give you the option to assign that key combo to the currently selected effect, thus removing it from its previous effect.
+
+There’s a lot of things you can do with the effects that not only make your desktop look pretty, but also help you in your work with features such as dimming/blurring unselected/frozen windows, or shading the background, thus highlighting the admin login and such like.
+
+Like last time, I recorded my desktop as I ran through this tutorial, so you can see the above effects being enabled/edited in my video on YouTube: http://www.youtube.com/watch?v=YSSE-xO9vT0
+
+Before I leave you to play with your wobbly windows and cubes, I thought I’d give you a list of equivalent applications. It’s daunting to try to find your KDE equivalent of something, so (on the next page) I’ve listed some of the most commonly used and installed-by-default apps in Ubuntu with their KDE kousin.
+
+Are there any questions you have about KDE you’d like an article on? Drop me an email to ronnie@fullcirclemagazine.org and I’ll see if I can make your wish come true.

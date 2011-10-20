@@ -1,0 +1,185 @@
+A number of you have commented about the GUI programming articles and how much you've enjoyed them. In response to that, we will start taking a look at a different GUI toolkit called Tkinter. This is the “official” way to do GUI programming in Python. Tkinter has been around for a long time, and has gotten a pretty bad rap for looking “old fashioned”. This has changed recently, so I thought we'd fight that bad thought process. 
+PLEASE NOTE – All of the code presented here is for Python 2.x only. In an upcoming article, we'll discuss how to use tkinter in Python 3.x. If you MUST use Python 3.x, change the import statements to “from tkinter import *”.
+
+A Little History And A Bit Of Background
+
+Tkinter stands for “Tk interface”. Tk is a programming language all on its own, and the Tkinter module allows us to use the GUI functions there. There are a number of widgets that come natively with the Tkinter module. Some of them are Toplevel (main window) container, Buttons, Labels, Frames, Text Entry, CheckButtons, RadioButtons, Canvas, Multiline Text entry, and much more. There are also many modules that add functionallity on top of Tkinter. This month, we'll focus on four widgets. Toplevel (from here I'll basically refer to it as the root window), Frame, Labels, and Buttons. In the next article, we'll look at more widgets in more depth.
+
+Basically, we have the Toplevel container widget which contains (holds) other widgets. This is the root or master window. Within this root window, we place the widgets we want to use within our program. Each widget, other than the Toplevel root widget container, has a parent. The parent doesn't have to be the root window. It can be a different widget. We'll explore that next month. For this month, everything will have a parent of the root window.
+
+In order to place and display the child widgets, we have to use what's called “geometry management”. It's how things get put into the main root window. Most programmers use one of three types of geometry management, either Packer, Grid, or Place management. In my humble opinion, the Packer method is very clumsy. I'll let you dig into that on your own. The Place management method allows for extremely accurate placement of the widgets, but can be complicated. We'll discuss the Place method in a future article set. For this time, we'll concentrate on the Grid method.
+
+Think of a spreadsheet. There are rows and columns. Columns are vertical, rows are horizontal. Here's a simple text representation of the cell addresses of a simple 5-column by 4-row grid (above right).
+So parent has the grid, the widgets go into the grid positions. At first glance, you might think that this is very limiting. However, widgets can span multiple grid positions in either the column direction, the row direction, or both.
+
+Our First Example
+
+Our first example is SUPER simple (only four lines), but shows a good bit.
+
+from Tkinter import *
+
+root = Tk()
+
+button = Button(root, text = "Hello FullCircle").grid()
+
+root.mainloop()
+
+Now, what's going on here? Line one imports the Tkinter library. Next, we instantiate the Tk object using root. (Tk is part of Tkinter). Here's line three.
+
+button = Button(root, text = "Hello FullCircle").grid()
+
+We create a button called button, set its parent to the root window, set its text to “Hello FullCircle,” and set it into the grid. Finally, we call the window's main loop. Very simple from our perspective, but there's a lot that goes on behind the scenes. Thankfully, we don't need to understand what that is at this time.
+
+Run the program and let's see what happens. On my machine the main window shows up at the lower left of the screen. It might show up somewhere else on yours. Clicking the button doesn't do anything. Let's fix that in our next example.
+
+Our Second Example
+
+This time, we'll create a class called App. This will be the class that actually holds our window. Let's get started.
+
+from Tkinter import *
+
+This is the import statement for the Tkinter library.
+
+We define our class, and, in the __init__ routine, we set up our widgets and place them into the grid.
+
+The first line in the __init__ routine creates a frame that will be the parent of all of our other widgets. The parent of the frame is the root window (Toplevel widget). Next we define a label, and two buttons. Let's look at the label creation line.
+
+self.lblText = Label(frame, text = "This is a label widget")
+
+We create the label widget and call it self.lblText. That's inherited from the Label widget object. We set its parent (frame), and set the text that we want it to display (text = “this is a label widget”). It's that simple. Of course we can do much more than that, but for now that's all we need. Next we set up the two Buttons we will use:
+
+self.btnQuit = Button(frame, text="Quit", fg="red", command=frame.quit)
+
+self.btnHello = Button(frame, text="Hello", command=self.SaySomething)
+
+We name the widgets, set their parent (frame), and set the text we want them to show. Now btnQuit has an attribute marked fg which we set to “red”. You might have guessed this sets the foreground color or text color to the color red. The last attribute is to set the callback command we want to use when the user clicks the button. In the case of btnQuit, it's frame.quit, which ends the program. This is a built in function, so we don't need to actually create it. In the case of btnHello, it's a routine called self.SaySomething. This we have to create, but we have a bit more to go through first.
+
+We need to put our widgets into the grid. Here's the lines again:
+
+frame.grid(column = 0, row = 0)
+
+self.lblText.grid(column = 0, row = 0, columnspan = 2)
+
+self.btnHello.grid(column = 0, row = 1)
+
+self.btnQuit.grid(column = 1, row = 1)
+
+First, we assign a grid to the frame. Next, we set the grid attribute of each widget to where we want the widget to go. Notice the columnspan line for the label (self.lblText). This says that we want the label to span across two grid columns. Since we have only two columns, that's the entire width of the application. Now we can create our callback function:
+
+def SaySomething(self):
+
+   print "Hello to FullCircle Magazine Readers!!"
+
+This simply prints in the terminal window the message “Hello to FullCircle Magazine Readers!!”
+Finally, we instantiate the Tk class - our App class - and run the main loop.
+
+root = Tk()
+
+app = App(root)
+
+root.mainloop()
+
+Give it a try. Now things actually do something. But again, the window position is very inconvenient. Let's fix that in our next example. 
+
+Our Third Example
+
+Save the last example as example3.py. Everything is exactly the same except for one line. It's at the bottom in our main routine calls. I'll show you those lines with our new one:
+
+root = Tk()
+
+root.geometry('150x75+550+150')
+
+app = App(root)
+
+root.mainloop()
+
+What this does is force our initial window to be 150 pixels wide and 75 pixels high. We also want the upper left corner of the window to be placed at X-pixel position 550 (right and left) and the Y-pixel position at 150 (top to botton). How did I come up with these numbers? I started with some reasonable values and tweaked them from there. It's a bit of a pain in the neck to do it this way, but the results are better than not doing it at all.
+
+Our Fourth Example - A Simple Calculator
+
+Now, let's look at something a bit more complicated. This time, we'll create a simple “4 banger” calculator. If you don't know, the phrase “4 banger” means four functions: Add, Subtract, Multiply, and Divide. Right is what it looks like in simple text form.
+
+We'll dive right into it and I'll explain the code (middle right) as we go.
+
+Outside of the geometry statement, this (left) should be pretty easy for you to understand by now. Remember, pick some reasonable values, tweak them, and then move on.
+
+We begin our class definition and set up our __init__ function. We set up three variables as follows:
+•  CurrentValue – Holds the current value that has been input into the calculator.
+•  HolderValue – Holds the value that existed before the user clicks a function key.
+•  CurrentFunction – This is simply a “bookmark” to note what function is being dealt with.
+
+Next, we define the CurrentDisplay variable and assign it to the StringVar object. This is a special object that is part of the Tkinter toolkit. Whatever widget you assign this to automatically updates the value within the widget. In this case, we will be using this to hold whatever we want the display label widget to... er... well... display. We have to instantiate it before we can assign it to the widget. Then we use the built in 'set' function. We then define a boolean variable called DecimalNext, and a variable DecimalCount, and then call the DefineWidgets function, which creates all the widgets, and then call the PlaceWidget function, which actually places them in the root window.
+
+def DefineWidgets(self,master):
+
+self.lblDisplay = Label(master,anchor=E,relief = SUNKEN,bg="white",height=2,textvariable=self.CurrentDisplay)
+
+Now, we have already defined a label earlier. However, this time we are adding a number of other attributes. Notice that we aren't using the 'text' attribute. Here, we assign the label to the parent (master), then set the anchor (or, for our purposes, justification) for the text, when it gets written. In this case, we are telling the label to justify all text to the east or on the right side of the widget. There is a justify attribute, but that's for multiple lines of text. The anchor attribute has the following options... N, NE, E, SE, S, SW, W, NW and CENTER. The default is CENTER. You should think compass points for these. Under normal circumstances, the only really usable values are E (right), W (left), and Center.
+
+Next, we set the relief or visual style of the label. The “legal” options here are FLAT, SUNKEN, RAISED, GROOVE, and RIDGE. The default is FLAT if you don't specify anything. Feel free to try the other combinations on your own after we're done. Next, we set the background (bg) to white in order to set it off from the rest of the window a bit. We set the height to 2 (which is two text lines high, not in pixels), and finally assign the variable we just defined a moment ago (self.CurrentDisplay) to the textvariable attribute. Whenever the value of self.CurrentDisplay changes, the label will change its text to match automatically.
+
+Shown above, we'll create some of the buttons.
+
+I've shown only 4 buttons here. That's because, as you can see, the code is almost exactly the same. Again, we've created buttons earlier in this tutor, but let's take a closer look at what we are doing here.
+
+We start by defining the parent (master), the text that we want on the button, and the width and height. Notice that the width is in characters and the height is in text lines. If you were doing a graphic in the button, you would use pixels to define the height and width. This can become a bit confusing until you get your head firmly wrapped around it. Next, we are setting the bind attribute. When we did the buttons in the previous examples, we used the 'command=' attribute to define what function should be called when the user clicks the button. This time, we are using the '.bind' attribute. It's almost the same thing, but this is an easier way to do it, and to pass information to the callback routine that is static. Notice that here we are using '<ButtonRelease-1>' as the trigger for the bind. In this case, we want to make sure that it's only after the user clicks AND releases the left mouse button that we make our callback. Lastly, we define the callback we want to call, and what we are going to pass to it. Now, those of you who are astute (which is each and every one of you) will notice something new. The 'lambda e:' call. 
+
+In Python, we use Lambda to define anonymous functions that will appear to interpreter as a valid statement. This allows us to put multiple segments into a single line of code. Think of it as a mini function. In this case, we are setting up the name of the callback function and the value we want to send as well as the event tag (e:). We'll talk more about Lambda in a later article. For now, just follow the example. 
+
+I've given you the first four buttons. Copy and paste the above code for buttons 5 through 9 and button 0. They are all the same with the exception of the button name and the value we send the callback. Next steps are shown right.
+
+The only thing that hasn't been covered before are the columnspan and sticky attributes. As I mentioned before, a widget can span more than one column or row. In this case, we are “stretching” the label widget across all four columns. That's what the “columnspan” attribute does. There's a “rowspan” attribute as well. The “sticky” attribute tells the widget where to align its edges. Think of it as how the widget fills itself within the grid. Above left is the rest of our buttons.
+
+Before we go any further let's take a look at how things will work when the user presses buttons. 
+
+Let's say the user wants to enter 563 + 127 and get the answer. They will press or click (logically) 5, then 6, then 3, then the “+,” then 1, then 2, then 7, then the “=” buttons. How do we handle this in code? We have already set the callbacks for the number buttons to the funcNumButton function. There's two ways to handle this. We can keep the information entered as a string and then when we need to convert it into a number, or we can keep it as a number the entire time. We will use the latter method. To do this, we will keep the value that is already there (0 when we start) in a variable called “self.CurrentValue”, When a number comes in, we take the variable, multiply it by 10 and add the new value. So, when the user enters 5, 6 and 3, we do the following...
+
+User clicks 5 – 0 * 10 + 5 (5)
+
+User clicks 6 – 5 * 10 + 6 (56) 
+
+User clicks 3 – 56 * 10 + 3 (563)
+
+Of course we then display the “self.CurrentValue” variable in the label.
+
+Next, the user clicks the “+” key. We take the value in “self.CurrentValue” and place it into the variable “self.HolderValue,” and reset the “self.CurrentValue” to 0. We then repeat the process for the clicks on 1, 2 and 7. When the user clicks the “=” key, we then add the values in “self.CurrentValue” and “self.HolderValue”, display them, then clear both variables to continue. 
+
+Above is the code to start defining our callbacks.
+
+The “funcNumButton routine receives the value we passed from the button press. The only thing that is different from the example above is what if the user pressed the decimal button (“.”). Below, you'll see that we use a boolean variable to hold the fact they pressed the decimal button, and, on the next click, we deal with it. That's what the “if self.DecimalNext == True:” line is all about. Let's walk through it.
+
+The user clicks 3, then 2, then the decimal, then 4, to create “32.4”. We handle the 3 and 2 clicks through the “funcNumButton” routine. We check to see if self.DecimalNext is True (which in this case it isn't until the user clicks the “.” button). If not, we simply multiply the held value (self.CurrentValue) by 10 and add the incoming value. When the user clicks the “.”, the callback “funcFuncButton” is called with the “Dec” value. All we do is set the boolean variable “self.DecimalNext” to True. When the user clicks the 4, we will test the “self.DecimalNext” value and, since it's true, we play some magic. First, we increment the self.DecimalCount variable. This tells us how many decimal places we are working with. We then take the incoming value, multiply it by (10**-self.DecimalCount). Using this magic operator, we get a simple “raised to the power of” function. For example 10**2 returns 100. 10**-2 returns 0.01. Eventually, using this routine will result in a rounding issue, but for our simple calculator, it will work for most reasonable decimal numbers. I'll leave it to you to work out a better function. Think of this as your homework for this month.
+
+The “funcClear” routine simply clears the two holding variables, then sets the display.
+
+def funcClear(self):
+
+self.CurrentValue = 0
+
+self.HolderValue = 0
+
+self.DisplayIt()
+
+Now the functions. We've already discussed what happens with the function 'Dec'. We set this one up first with the “if” statement. We go to the “else,” and if the function is anything else, we clear the “self.DecimalNext” and “self.DecimalCount” variables.
+
+The next set of steps are shown on the previous page (right hand box).
+
+The DisplayIt routine simply sets the value in the display label. Remember we told the label to “monitor” the variable “self.CurrentDisplay”. Whenever it changes, the label automatically changes the display to match. We use the “.set” method to change the value.
+
+def DisplayIt(self):
+
+print('CurrentValue = {0} - HolderValue = {1}'.format(self.CurrentValue,self.HolderValue))
+
+self.CurrentDisplay.set(self.CurrentValue)
+
+Finally we have our startup lines.
+
+if __name__ == '__main__':
+
+StartUp()
+
+Now you can run the program and give it a test.
+
+As always, the code for this article can be found at PasteBin. Examples 1, 2 and 3 are at: http://pastebin.com/mBAS1Umm and the Calc.py example is at: http://pastebin.com/LbMibF0u
+
+Next month, we will continue looking at Tkinter and its wealth of widgets. In a future article, we'll look at a GUI designer for tkinter called PAGE. In the meantime, have fun playing. I think you'll enjoy Tkinter.

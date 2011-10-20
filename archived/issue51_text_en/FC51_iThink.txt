@@ -1,0 +1,49 @@
+
+Ronnie says: Even though I purposely didn’t mention Unity, I still ended up with a ton of anti-Unity comments. So, Ignoring the negative comments towards Unity, you thought:
+
+
+LXDE is one of the best desktop environments out there. I even use it on my gaming rig with 8 GB of RAM and a hexacore processor. KDE is my choice when I want eye-candy and productivity.
+
+Bodhi for the win!
+
+
+Kubuntu on my desktop & laptop for work on an everyday basis. Gnome for some short time basis usage, and Lubuntu/CrunchBang for low resources machines.
+
+KDE made huge steps but it seems too bloated.
+
+I decide what I use, and I decide what apps I need. I need only a tiling wm and terminals + firefox + geany. Nothing more and nothing less.
+
+Mint KDE gives me the joy of Linux, the beauty and ease of use of KDE, plus a true ready-to-use out-of-the-box experience. The fact that they don't release updates before they're READY? Priceless.
+
+Linux Mint works 'Out of the Box'. Nothing to add or download; just turn it on and use it.
+
+Xfde and Enlightenment FTW!
+
+
+Ubuntu rescued my computer that wouldn't run Windows XP any more. Love it!
+
+Ubuntu 11.04 Unity 2D in a laptop, and Ubuntu 8.04 in a Dell MIni 9, and Vista in a PC.
+
+LXDE rocks! Very low RAM use.
+
+OpenSUSE & KDE, Rules!!!
+
+
+Most of the time I use Ubuntu, but in slow machines I use Xubuntu or Lubuntu.
+
+I have multiple machines, 1 Fedora running KDE, and 2 Ubuntu running Gnome. I also have a couple headless servers but I didn't count those.
+
+Waiting for KDE4- LTS distro supporting my Wacom Bamboo CTH-460 pen tablet.
+
+Ubuntu 11.04/Unity for my main home PC. Ubuntu 10.04, no desktop, for media center. Headless Ubuntu 11.04 server for all home server needs. Lubuntu 11.04 for my old netboox Asus eeepc 900.
+
+I really hope KDE will be the next hit. It just keeps getting better and better.
+
+Ubuntu and Gnome to show off, Mint and LXDE for work, and Puppy for troubleshooting.
+
+
+Lubuntu on my old laptop works great. I prefer it over Xubuntu. At office, Ubuntu 10.04 LTS.
+
+I will use the Classic Desktop of Ubuntu 11.04 until summer 2012. Till that time the GNOME-Shell and Unit should be cured of childhood diseases. Then I will decide to go forward with the GNOME-Shell, Unity ... or even KDE?
+
+I am using Unity right now on my Ubuntu machine. But I am thinking about give another chance to Gnome 3 Shell... However, as both of them are sometimes acting funny on Ubuntu, I have also a Fluxbox session, just in case... My other (older) computer is happily running Xubuntu.

@@ -1,0 +1,34 @@
+I took this screenshot before upgrading to 11.04 because I don't know what will happen with my existing desktop configuration since 11.04 will use Unity by default.
+
+The dock at the bottom of the screen is AWN, and I have various screenlets on the right side of the screen, and 2 sticker screenlets toward the left side of the screen - to try and make them look as though they are hanging on the wall.
+
+My computer is a Toshiba Satellite L655-S5157, with an Intel i3 processor, 4 GB of RAM (even though I'm running 32-bit Ubuntu to help ensure that device drivers work with my hardware - I still had to do some tweaking to get the wireless adapter to work and the headphones jack to work), and I upgraded to a 750 GB hard drive.
+
+Scott M. Keeth
+
+I took this picture some time ago. It's not really my idea of a perfect desktop, but I had fun doing it.
+
+Software used: emerald theme manager, compiz, AWN, screenlets (with quick folder applets intalled), and, not to be forgotten, Cairo Dock, all running on Ubuntu 10.10, with GNOME 2.32. 
+
+Cairo Dock is heavy, and you need to have a good computer running it or you will end up having a turtle system.
+
+Computer hardware specification: Compaq presario CQ42 203AU, RAM 3GB, graphic card ATI radeon 1GB, hard disk 320GB.
+
+Ihsan Jaffar
+
+This is my Ubuntu 10.10 desktop. I like this setup because of its simplicity and yet classic and sophisticated feel. I downloaded the wallpaper from:
+http://linuxhub.net/2010/01/top-35-handpicked-ubuntu-wallpapers/, used the theme Dust, adjusted the screen resolution to 1280 x 1024, and set the panels to transparent (right-click > properties...). Below that is the Cairo dock. My PC specs are:
+
+• Dual-core 2.5 GHz
+• 2GB RAM	
+• Integrated Graphics 256 MB
+
+Eyob Fitwi
+
+Apropos of "The Netbook is Not Dead Yet" by Allan J. Smithie in issue #49 of Full Circle, my desktop is running on an Asus EEE-PC 900E, and it runs wonderful on it. Listening to music using either Audacious (right hand corner) or Banshee Media Player, the default player, is just perfect. The wallpaper is from:
+
+http://lalitpatanpur.deviantart.com/art/GNU-Linux-quot-Starbuck-s-quot-logo-141284973
+
+I'm always on deviantart looking for Ubuntu wallpapers - wonderful site for it. The skin is elementary, and the icon is Faenza-Dark set. 
+ 
+Ramon Barros

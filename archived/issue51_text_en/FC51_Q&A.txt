@@ -1,0 +1,106 @@
+Q  I have always edited the grub list, but, in 10.04, if I do, and remove say, four of the repeated entries, they are put back by the system on reboot.
+
+A  The best way to deal with it is to actually remove the old kernels. At boot up, note the final five characters of the oldest kernel, such as 32-31. Run Synaptic Package Manager, and search for that string. You should get half a screen of packages, with two "linux-headers" items and one "linux-image" being installed. Right-click on each of them, and select "mark for complete removal." Then click on "Apply."
+
+After that, open Accessories/Terminal and enter this command:
+
+sudo update-grub
+
+The grub list should be shorter by two items.
+
+
+Q  I can't seem to get my sound running on my Compaq Presario CQ56 with Ubuntu 10.04.
+
+A  Follow the instructions on this page: https://wiki.ubuntu.com/Audio/InstallingLinuxAlsaDriverModules or upgrade to Ubuntu 11.04.
+
+
+Q  I recently upgraded to Ubuntu 11.04, and the new scroll bars drive me crazy. How can I get the fat scroll bars back?
+
+A  Run Synaptic Package Manager, Search for liboverlay and remove it. After a reboot, you should have fat scroll bars.
+
+
+Q  I have just installed ubuntu 11.04 on my laptop. Everything is great, but I don't get any sound.
+
+A  Have a look at https://wiki.ubuntu.com/DebuggingSoundProblems. Odds are, your sound is muted somewhere.
+
+
+Q  I have installed and run Truecrypt, but it doesn't seem to encrypt files.
+
+A  When you run Truecrypt, it can create a file which is a Truecrypt "volume," and unmount or mount Truecrypt volumes. Then you can paste files in and out of the volume. When you mount a volume, you have to provide the password you used to create it, and then the contents are displayed as openly as if they were in a regular folder. However, you can upload a volume to an online storage site, and be confident that the contents are safe from casual browsing. (If the American NSA wants to see your files, all bets are off.) Then a buddy can download the volume, provide the password you have given him, and access the files.
+
+If you want to encrypt just a single file, it is probably easier to use the Nautilus file manager. Highlight the file, right-click, and select "Compress." A window will pop up. Enter a file name, and select "7z" as the file type. Click on "Other options," and you can specify a password, and select "Encrypt the file list too." Click "Create," and you are done.
+
+
+Q  Let's say I've got one .avi video with a film with its original audio language (e.g. English) and another .avi with the same film but with a second audio language (e.g. re-dubbed in Italian). Is it possible to get only one .avi video with the film and the two audio languages selectable?
+
+A  This command will do it:
+
+ffmpeg -i input -vcodec copy -acodec copy output.mkv -newaudio -i input2 -acodec copy
+
+
+Q  I installed Ubuntu 11.04 on my netbook, leaving some unused space on the hard drive. I got it all set up the way I liked it, then I installed Android-x86 2.2 in the unused space. Now the boot menu includes only Android.
+
+A  (Thanks to Garvinrick4 in the Ubuntu Forums.) Boot from a LiveUSB flash drive, or a LiveCD if your computer has a CD drive. Open Accessories/Terminal and enter these commands:
+
+sudo fdisk -l
+
+(Enter your password when prompted. It should show you the storage devices, and your hard drive is probably /dev/sda. If it's not, modify the next two commands.)
+
+sudo mount /dev/sda1 /mnt
+
+sudo grub-install --root-directory=/mnt /dev/sda
+
+sudo umount /mnt
+
+sudo reboot
+
+
+Q  I installed Google Chromium browser, didn't like it, so I removed it. Now when I click on a link in Evolution 2.30.3, I get a dialogue box telling me: Could not open link. Failed to execute child process "/usr/bin/chromium-browser" (no such file or directory)
+
+A  Start Firefox. Click on Edit/Preferences. Select the Advanced tab. Near the bottom, is "Always check to see if Firefox is the default browser on startup". Click the "Check Now" button. Select "yes."
+
+
+Q  I am an accountant. My children need to get into my computer to do homework, but I want to block spreadsheet programs to protect my work content.
+
+A  You can't block them from running programs, but you can block them from being able to access your files. Set up a non-admin userid for the kids, then in a terminal run:
+
+chmod 750 /home/yourusername
+
+Make sure you have a strong password they don't know!
+
+
+Q  My brother was messing with something to do with the look and feel of Unity, and now I have a crazy drop shadow on my mouse cursor. I hate where the drop shadow is placed and want it back to its default position.
+
+A  I found it. It's in the nVidia settings of all places.
+
+
+Q  I want to know how to preview sites in progress locally while using Kompozer.
+
+A  Install LAMP (in addition to Linux: Apache, Mysql and PHP), a full web server. The location of the site is /var/www. Copy your php and html files from Kompozer (javascript+images+other web content) there. In the browser you can access it via 'localhost' or 127.0.0.1.
+
+
+Tips and Techniques
+How hot, version 2.0
+
+In Issue 43, I revealed one of my hang-ups: I want to know how hot things are, dammit! Then Unity arrived (for me, as a testing environment, not my production system), and applets were gone, apparently. Conky to the rescue!
+
+Easier said than done. If someone would like to propose a "Top 5 Conky Tutorials," I think it would be a great addition to Full Circle Magazine. It was easy to find instructions on how to change the border and colour, but I honestly don't give a rat's patootie about those things. Eventually, Google led me to some useful information, but it wasn't easy. I also grabbed the official Conky manual and pasted it into a text file for offline perusal.
+
+I installed lm-sensors before I got into this.
+
+I have included my .conkyrc file. Everything up to the word "TEXT" was simply cribbed from some web site, and seemed to be OK. Displaying the uptime and the kernel version were from the same source, and they struck me as OK. Then we get into the meat of the matter. "Hwmon temp 1" turned out to be the chipset temperature, mostly based on trial and error. I had hoped there would be other "temp" variables, but it was not to be.
+
+"Hddtemp" is the temperature reported by the hard drive. To get this, you must install hddtemp, and run it as a daemon:
+hddtemp -d /dev/sda (or the name of your hard drive)
+
+I have an Nvidia video card, and I installed a proprietary driver, and apparently that was all I needed for "nvidia temp" to work.
+
+For the CPU temperature, a whole lot of piping was needed. "Sensors" is part of the lm-sensors package. "Cut" extracts just the desired information, and "sed" formats it.
+
+My temperature fetish is not limited to my computer, I also want to know the temperature outside. If you Google conkyforecast, you will find a place to download what turns out to be a repository name, which is added to Synaptic or Software Center. Then you can install the actual conkyforecast program. Also sign up as a partner at weather.com, if you are in North America. (Sorry, I have no idea what to do if you are outside North America. Letters please!) You will get a partner id and licence key. Create a .conkyForecast.config file in your root folder, following the pattern I have included, but with your own partner id, licence key, and default location. (Partners can display the weather on their web sites, but we're not actually going to do that.)
+
+Again, I piped the output from conkyForecast into Cut, because the raw output included an ugly "A" with an accent.
+
+The other items in my conky config are pretty boring: CPU frequency and utilization, memory and swap usage, and disk space usage.
+
+The full text for the Conky discussed here (and shown below) can be seen at: http://pastebin.com/hSQwBPpT

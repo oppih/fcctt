@@ -1,0 +1,55 @@
+Recently, I made the decision to move from WMFS (Window Manager From Scratch) to XMonad, since WMFS had started to present some issues when handling certain windows and layouts. Once I had made the switch, I was fighting with xmobar to get it working. Luckily, a guy on the ArchLinux Forum made the suggestion that I use Conky with dzen2 for my panel instead of Conky with xmobar, as I was trying to do. And so, I will be covering how to create your own status bar using dzen2 and Conky. Before I start I'd like to note that I am using a version of dzen2 that has xft support enabled. If you happen across a line in my configuration files/examples that is in the format “Togoshi Gothic:size=9”, you'll need to replace it with a font from xfontsel, or else try the dzen2 packages from https://launchpad.net/~justinbogner/+archive/ppa/+packages, which seem to have XFT support. For those of you interested in my entire xmonad.hs, it's listed in the further reading section.
+
+Below is my .conkyrc that I use for the status bar. I'll cover the important lines and explain what the scripts do. I won't be including my scripts, since they are either only for ArchLinux or are used for programs (like MPD and Dropbox) that not everyone uses. If you want a specific script, feel free to email me.
+
+background no
+out_to_console yes
+out_to_x no
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+${execi 1 /usr/bin/mpd-info} | Dropbox: ${execi 5 echo $(dropbox status)} | $memperc% ($mem) | Updates: ${execi 300 python ~/Dropbox/Scripts/conky/packages-short} | ${execi 60 python ~/Dropbox/Scripts/conky/gmail.py} Email(s) | ^fg(\#9F6B00)${time %a %b %d %H:%M}^fg()
+
+The first line disables the background, and the next two disable the graphical aspect, so that Conky simply returns a string. The update_interval tells Conky how often to refresh the information. Total_run_times tells Conky to exit after a certain number of runs. Set it to 0 for infinite number of runs. User_spacer none tells it to not space out the commands below TEXT, since I do it by hand.
+
+The following line of commands does the following:
+
+<artist>-<song> | Dropbox: <status> | % (<used RAM>) | Updates: <# of updates> | # new Email(s) | <clock>.
+
+The clock is wrapped in ^fg(\#9F6B00)^fg(), so that dzen2 prints it in a nice gold colour, which matches my currently selected workspace (separate dzen2 instance). To see a screenshot, check the second link in the Further Reading section.
+
+Once you've decided on your .conkyrc, you'll need to decide on the switches you want to use with dzen2. For that, you'll need to know the following switches:
+
+-fg <hex> - sets the foreground colour using the hex value for the colour
+-bg <hex> - sets the background colour using the hex value for the colour
+-fn <font> - sets the font
+-h <size in pixels> - sets the height
+-y <y-coordinate> - shifts the bar up/down
+-x <x-coordinate> - shifts the bar left/right
+-w <pixels> - sets width of the bar
+-sa <l,c,r> - set alignment of slave window
+-ta <l,c,r> - set alignment of title windows
+-xs <screen> - set the screen to display on.
+
+An example of how I call dzen2 for my workspaces (not the dzen2 instance with Conky):
+
+dzen2 -fg '#9c9c9c' -bg '#0c0c0c' -fn 'Togoshi Gothic:size=9' -h 18 -y 0 -w 660 -ta l
+
+An example of how I pipe Conky (it's a little more complicated the way I do it in my config file, but it's just easier to manage that way):
+conky -c ~/.xmonad/.conkyrc_dwm_bar|dzen2 -w 1040 -x 660 -ta r
+
+The x-coordinate is the same as the width of the first bar, so that it lines up. You can also configure some default options for dzen2 using your .Xresources file in the format of:
+
+dzen2.<property>: <setting>
+
+Example:
+
+dzen2.font: "Togoshi Gothic:size=10"
+
+Hopefully you've found this useful. For those of you who are going to use this to pretty up your Conky without using lua, or to those of you who run a window manager where there is no integrated status bar, I'd be interested to see how you guys put this information to use! If you have any questions, comments, or requests, you can reach me at lswest34@gmail.com. Please put “C&C” or “FCM” in the subject line of the email, so it doesn't get lost.
+
+Further Reading:
+http://pastebin.com/3g5TGQJJ – my xmonad.hs
+http://lswest.deviantart.com/#/d3lalq7 - Screenshot

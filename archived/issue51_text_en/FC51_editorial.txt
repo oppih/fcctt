@@ -1,0 +1,13 @@
+Welcome to another issue of Full Circle!
+
+I have to say, I was very taken aback by all those requesting more KDE articles from me. I had assumed that KDE was still quite 'fringe', and not widely used. Seems I was very wrong. Even last month's question showed that KDE, while miles behind Gnome, is still quite popular, and that may increase as people take a dislike to Gnome-Shell.
+
+For the second KDE article, I've focused on enabling desktop effects and listing some KDE equivalents to Gnome applications. Oh, and If you're wondering how to install KDE on your Ubuntu based distro, then you should check out the letters page. The Python and LibreOffice series continue, and the Ubuntu Development series reaches part three, where Daniel shows how to submit a bug fix.
+
+If family history is more your thing, then have a look at this month's review of GRAMPS - the genealogy software. Starting next month, David Rowell will begin a series of articles showing how to use GRAMPS - beginning with creating a new database and entering names and details. So, keep an eye out for that.
+
+My pile of My Desktop and My Story articles is getting quite low, so now is a good time to submit your desktop/story articles. Please include some info on how you got your desktop to look the way it does. But, don't let me stop you if you want to write an article on something else. All articles are welcome!
+
+All the best, and keep in touch.
+Ronnie
+ronnie@fullcirclemagazine.org
