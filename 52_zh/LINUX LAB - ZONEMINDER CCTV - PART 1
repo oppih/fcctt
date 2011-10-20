@@ -1,0 +1,84 @@
+Don’t you just wish you could have your own CCTV system? It could help look after your car, your house, even your baby. Well, you can! ZoneMinder is a piece of software which - when hooked to a camera - will allow you to monitor, record, and even motion-detect for security, and all recorded to your PC. Not only that, but it can email you with a screenshot of the recording when a camera has detected motion.
+
+In this example, I’m using my Logitech C310 HD webcam. It’s automatically detected in most Ubuntu-based distros, and you can check that it’s working by installing an application such as ‘Cheese’. If the webcam is working in Cheese, then there’s a good chance it will work in ZoneMinder.
+
+So, with my webcam plugged in and working in Cheese, it’s time to install ZoneMinder:
+
+sudo apt-get install zoneminder apache2 php5-mysql libapache2-mod-php5 mysql-server ffmpeg
+
+You’ll notice that we’re installing Apache and MySQL. Apache is installed because it’s possible to control ZoneMinder via the Internet. The whole of ZoneMinder is controlled in a browser window. MySQL is needed as ZoneMinder saves most of its activations and such-like in a MySQL database.
+
+Next, we need to get Apache talking nicely to ZoneMinder:
+
+sudo ln -s /etc/zm/apache.conf /etc/apache2/conf.d/zoneminder.conf
+
+With that done, we need to restart Apache with:
+
+sudo apache2ctl restart
+
+Now you should be able to get into ZoneMinder by going to your browser and pointing it to:
+
+http://localhost/zm/
+
+
+
+For reasons of security, I’d recommend that you create an admin account for yourself in ‘Options’ (under the ‘User’ tab), and, in the ‘System’ tab, turn on user authentication so that should anyone load up your browser/bookmark, they won’t have admin access to your CCTV system!
+
+This is where I hit my first major hurdle. My webcam is local. As in, it’s sitting in the same room as me as I tinker with ZoneMinder. The other alternative is ‘remote’ which means the camera is not in the same room as me. No matter what I did, I could not get my camera to work with ZoneMinder. One major flaw with ZoneMinder is that it doesn’t just autodetect a camera and work, like Cheese does. The trick is to use mjpg-stream to stream the video from the camera to ZoneMinder. Thus, ZoneMinder now recognises it as a remote camera. This is when I hit my second major problem. The .deb package for mjpg-stream is no longer recognised as being valid (in the eyes of Ubuntu/apt-get), but I did manage to find a patched version which does work. So, you need to download MJPG from: http://goo.gl/nFhNC
+
+Double click the downloaded file, or open it in Gdebi, and let it install. To run MJPG we open a terminal and do:
+
+mjpg_streamer -i “input_uvc.so -r 320x240 -f 6” -o “output_http.so -p 8080” -b
+
+What we’re doing here is telling the camera to stream the video at 320 x 240 resolution, at six frames per second, via http to port 8080. Now we can configure ZoneMinder.
+
+First click the ‘Add New Monitor’ button, and, in the pop up window, click the ‘General’ tab. From the drop-down menu beside ‘Source Type,’ choose ‘Remote,’ and, for the moment, we’ll leave ‘Function’ as ‘Monitor’ - you can, if you wish, give your camera a meaningful name. This means we’ll just be viewing the camera, not recording or doing any fancy motion-detection yet. Click the ‘Source’ tab, and in here we enter the screen width and height as 320 and 240 respectively, and the port as 8080. The hostname is localhost, and ‘Remote Host Path’ is (and don’t forget the question mark at the start!):
+
+?action=stream
+
+And, finally, click the ‘Save’ button.
+
+Before we can see anything in ZoneMinder, we need to change its default image-to-browser setting from JPG to MPG. This is done in the Options > ‘Images’ tab. Now we’re ready to go.
+
+Now, back in the ZoneMinder main screen, you should have your monitor (aka: camera) listed. Below the header of ‘Name’ should be your camera name (if you gave it a name) which you can click to see what your camera is streaming.
+
+Now, the next problem. Our settings of 320x240 at 6fps is hardly ideal, 640x480 at 30fps would be nice, but in some distros ZoneMinder has a shared memory problem which needs to be fixed before we can bump up the resolution.
+
+To prove it’s a ZoneMinder problem, we can test the camera output by going to the browser and entering:
+
+http://localhost:8080/?action=stream
+
+and you’ll see your camera at 320x240 at 6fps. Close the tab/window in your browser and kill MJPG from a terminal with:
+
+killall mjpg_streamer
+
+then enter:
+
+mjpg_streamer -i “input_uvc.so -r 640x480 -f 30” -o “output_http.so -p 8080” -b
+
+to set your camera at 640x480 at 30fps. Go back to your browser and do:
+
+http://localhost:8080/?action=stream
+
+and your camera will indeed be in 640 x 480 and displaying 30 frames per second.
+
+Go back in to ZoneMinder and edit your camera settings to make the resolution 640 wide and 480 high, save it, go back, and check what your camera is streaming. You’ll probably see nothing. If you see something then you’re doing better than I did! If you see nothing, read on.
+
+To fix things, we need to edit the sysctl.conf file by doing:
+
+sudo gedit /etc/sysctl.conf
+
+and below the line that says #kernel.printk we want to put:
+
+kernel.shmall=268435456
+kernel.shmmax=268435456
+
+and save it. You can close your text editor too; we shouldn’t need it again. To use that new sysctl.conf file, we need to head over to the terminal again and do:
+
+sudo sysctl -p
+
+which will show you the stuff we just typed in. All good.
+
+Get ZoneMinder in your browser again and you might notice that your source ‘localhost’ is in red. If it is, click it, then click ‘Save’; that should fix it, and the text should go back to being orange. Click your camera (under ‘Name’) and it should work!
+
+In the next part of this tutorial we’ll enable some simple motion-detect capabilities, and also play back some recordings.

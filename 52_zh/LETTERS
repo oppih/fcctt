@@ -1,0 +1,69 @@
+Any Takers?
+
+Here's the situation: 
+
+• I have a desktop running Mint 11, a eeePC 701 running Crunch Bang, a Toshiba netbook running Windows 7 Cripple, a Kindle, an iPod Touch and lastly my wife has a big Toshiba notebook running Vista.  The desktop is dual booting Windows 7 Home Premium.  I'm still using Win 7 now and then and using its C:\ for primary storage.
+
+• The desktop is connected to a switch/router using Ethernet, all the rest using WiFi.  The router connects to our cable service.  Internet access isn't a problem on any of them.
+
+• Connected to the desktop is an HP Photosmart printer/scanner which I can use (at least as a printer) from the eeePC, the netbook and the big notebook so I assume I could from anywhere.  THAT was an adventure!
+
+• I also have a couple external hard drives connected to the desktop using Firewire.  One is formatted fat 32 the other NTFS.
+
+I'd like to share various folders on the computers with either everyone or, in a couple cases, just myself.  I want to use one of the external drives as a dedicated back-up drive.  I'm at a loss as to how to accomplish that which I think should be a relatively simple task. I just don't understand the gobbledygook surrounding networks. Back in the '90's I managed to set-up a couple peer-to-peer networks in the office but that ended with 'Windows for Workgroups'! You have to understand I'm 74 now and my tolerance for BS has deteriorated a lot!
+
+David Rowell
+
+Ronnie says: Anyone out there able to write a HowTo on home networking for David, and the many others out there?
+
+
+LTS
+
+Regarding Thomas's letter in FCM#51. Perhaps Thomas is new to Ubuntu so I would like to point him in the right direction. There is a version of Ubuntu especially for governments and large corporations which is exactly what he needs. It is called LTS (Long Term Support) and the versions which are LTS come out in the Spring in even years. The last one was 10.04 and the next one is 12.04 - these, therefore, are only changed every two years, and have a five year support cycle. Owing to the long support cycle, companies and governments can safely only change every four years.
+
+If you are a hacker, and I use it in its true form, you have something to play with every six months, whereas if you are a business user or someone who hates change, you can keep it going for three to five years.
+
+I use 10.04 LTS for work (I run a local newspaper) but at home I grab the first beta of every new release! At 72, I need a little excitement in life.
+
+Andrew "Ampers" Taylor
+
+
+
+GRAMPS
+
+I wanted to comment on the article about the GRAMPS genealogy program in the latest issue.  I was very interested to see that there was a review of GRAMPS and will be looking forward to future articles about the software. It really is the only way to go in Linux and was the final piece in the puzzle that allowed me to go Ubuntu full time. I wanted to make the switch but as a long time amateur genealogist I just had to be able to replace the Family Tree Maker software I had used for years. When I came across GRAMPS the problem was solved. It took some learning and the import of data from one program to the other wasn't as perfect as I had hoped, but it was a done deal once I go the hang of it.
+
+I will be looking forward to seeing any future articles on this fine software.
+
+Steve Barcomb
+
+
+
+While the easiest data to find is online, if you get serious about genealogy you will find yourself poring over municipal and church archives, local to where your ancestors lived. The vast majority of this data has not yet found its way online.
+
+John Cardiff
+
+
+Wireless
+
+My EEE PC Sheashell 1015PEM had a similar problem with wireless connection stability [FCM#49]. The solution was suggested somewhere on Ubuntu Forums - reinstall the wireless driver after each kernel update. Since Broadcom STA wireless driver package contains the source code - reinstalling it results in compiling the driver on getting a new kernel. This solved, for me, the disconnection problems. What I did is this:
+
+1. Remove driver using System > Administration > Additional Drivers
+
+2. Reinstall driver module. In my case it is command:
+
+sudo apt-get --reinstall install bcmwl-kernel-source
+
+3. Reboot the computer
+
+4. Activate the driver using System > Administration > Additional Drivers
+
+Artemy Vysotsky
+
+KDE For Me
+
+I didn't have the courage to go with Unity when Ubuntu 11.04 came out and instead opted for Kubuntu. In many ways I'm glad I did because I was introduced to some very good KDE applications and some new ways of working. Connecting to network drives so that LibreOffice can open files for example. There is much to like and I will probably carry on with Kubuntu because of its familiarity.
+
+I was given another laptop at work and thought that I would see what all this Unity fuss was all about. I was really quite surprised once I jumped over a few hurdles, as much of what was agreeable about the good old Ubuntu was there under the hood. All one had to do was dig about a bit and things worked as expected. In truth, I am rather pleased with Ubuntu 11.04. I have even come to like the launcher which I decided to emulate in Kubuntu. Perhaps the thing which I found hardest to remember is the menu drop downs being on the top bar of the screen. It takes a while for this behaviour to become natural. I am now using both variants of Ubuntu and find both have their merits. I have hopes that people do what KDE users came to realise. KDE 4.X is very good indeed and I am certain that Unity will also improve. Both desktops in my opinion are already good and will no doubt improve over time. Note that Windows has not been mentioned so far because although I am a Systems Admin in a Windows environment, Ubuntu allows me to do many things much more easily.
+
+Iain Mckeand 

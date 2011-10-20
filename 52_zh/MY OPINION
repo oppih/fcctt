@@ -1,0 +1,36 @@
+Why is it that our secondary schools insist on buying the latest and expensive Microsoft Office software? Not only do they use our taxpayers' money, but they force the pupils, or at least their parents, to also buy the latest software so that they can complete their homework assignments at home. As a parent, this has been puzzling and frustrating me for the last 3 years.
+
+"Why don't you use LibreOffice instead?", I hear you say.
+
+As much as I love the open source alternatives, Microsoft seems to be doing everything in its power to make sure new formats, like docx and pptx, don't import into LibreOffice or OpenOffice without seriously messing up page layouts, text boxes, word art, fonts, text formatting and wrapping around pictures.
+
+After wiping the slow Vista OS off my daughter's Dell laptop and replacing it with a much faster and more reliable dual boot Ubuntu 10.04 LTS and Linux Mint 11 system, she was constantly complaining that she had to waste time re-formatting all her documents and presentations when she switched between LibreOffice and the MS Office 2007 they use at her school. I've tried everything but just could not help her solve this annoying problem. Against all my instincts, I was just starting to consider buying the new Windows 7 OS to install on her laptop so that I could install Office 2007 seeing that I already had a disc with 3 licenses. It was then that I decided to search the web for help on installing Office 2007 using Wine, the Windows Compatibility Layer. After sifting through a number of conflicting posts, and trial and error, I managed to get it working, not on the latest Linux Mint 11 partition, but on the Ubuntu 10.04 partition instead. My biggest challenge was to activate the install because it simply would not let me type anything into the key activation box for some reason.
+
+A Quick How-To
+
+This is how you can do it: first, make sure you have the latest version of Wine installed by entering the following commands into the terminal:
+
+sudo add-apt-repository ppa:ubuntu-wine/ppa
+
+sudo apt-get update
+
+sudo apt-get install wine1.3
+
+In my case, I first used Synaptic to search for all "wine" related packages and marked them for complete removal. I also opened my home folder and set it to view hidden files and then deleted the .Wine folder. However, if you have any other software already installed under Wine, I would not recommend these last two steps.
+
+Next, check in the Software Manager to see whether you have "PlayOnLinux" and "WineTricks" installed, and, if not, install both packages. You should then find PlayOnLinux under Games from the Applications menu. Now, run PlayOnLinux and click on "install". Wait for PlayOnLinux to update its list of supported Windows software packages, and click on "Office" from the list which appears on the left. You can now select from various versions of Microsoft Office. I chose 2007.
+
+It then asks you to insert the installation disc and point to the relevant folder - Office12 in my case. Now just follow the instructions on the screen to complete the installation. I chose the custom installation, and made sure I only had Word, Excel, PowerPoint, Publisher and shared tools selected. I understand MS Access will not work under Wine at all. Before you can use PowerPoint, you need to go to Applications > Wine > Configure Wine, and, on the "Libraries" tab, under "New override for library," type: "riched20", then click "Add". Now click the newly added "riched20" file, click "Edit", and select "Native (Windows)". Other posts suggest you follow the same procedure to add each of the following: "riched30", "msxml3", "msxml4", "msxml6", "corefonts", "tahoma", "vb6run", "vcrun6", and "msi2". Apart from a few suggesting additional font sets, I'm not sure what all the others are supposed to be doing. I entered all of them without breaking anything in Wine or Office.
+
+If it all went well, you should be able to find the Office 2007 application icons under the Wine programmes menu from where you can send links to the desktop or the launcher panel.
+
+I was very disappointed that the same procedure did not work on Mint 11 (based on the latest Ubuntu 11.04 Natty). However, under Ubuntu 10.04, Office 2007 has been working perfectly so far, apart from the fact that I'm unable to "send" any documents directly to email from within any of the Office applications. An easy workaround is to attach the documents to emails using Evolution or ThunderBird.
+
+I just wish that the government would embrace open source software - not only to save money, but also to encourage ICT teachers and their pupils to be more adventurous. Who knows, instead of just herding sheep, they may actually inspire the next Linus Torvalds, who could go on and invent something even better than Linux for the benefit of all mankind.
+
+
+Full Circle Podcast
+
+The podcast aims to be relevant by focusing on topic of interest to Linux users. We focus on such topics as software freedom, Linux development, Open Source software, Android and mobile devises, security issues, and Linux distribution releases. Special attention is given to the top ten Linux distributions: Ubuntu, Linux Mint, Fedora, Debian, openSUSE, Arch, PCLinuxOS, Puppy Linux, Sabayon, and CentOS.
+
+linuxnewspodcast.com

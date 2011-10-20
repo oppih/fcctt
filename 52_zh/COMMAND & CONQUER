@@ -1,0 +1,75 @@
+I recently received an email from a reader, Chris, who can be found on launchpad.net as MrChris. He was asking me about Japanese input in LaTeX, as a follow-up to my article in FCM Issue #50. I didn't know the answer off the top of my head, but, together, we figured out a solution, which I felt I should share with anyone who may have the same question. Also, since the latex-cjk-* packages stand for “Chinese, Japanese, Korean”, I've covered (roughly) how to get each of the 3 languages working.
+
+Packages:
+texlive
+texlive-latex-extra
+latex-cjk-common
+latex-cjk-japanese
+latex-cjk-japanese-wadalab
+
+For Chinese (using Method #1 listed below), you'll also need:
+latex-cjk-chinese
+latex-cjk-chinese-arphic-gkai00mp
+
+For Japanese, I used the following template: http://pastebin.com/tasDkhZ3
+
+
+Server Circle ad
+
+Server Circle is a new question and answer site run by techies.
+
+Users with any level of experience can ask technical questions for free about anything server related, and receive answers from trusted experts, who are rated by the community.
+
+With time you can earn reputation points, and even financial rewards, by contributing your answers to questions from other people.
+
+http://www.servercircle.com
+As a brief explanation to the code:
+
+\usepackage{ucs} – unicode support
+\usepackage[utf8x]{inputenc} – extended UTF-8 encoding (includes asian characters)
+\usepackage[english]{babel} – sets the typographical rules (in this case, to English). This includes, among others, where to break words if it flows over a line. By assigning a typographical set of rules that doesn’t apply to Asian characters, you ensure that groups of Kanji aren’t separated when breaking over a line.  In using a language that doesn't support asian locale, you ensure that Kanji that need to be grouped together, aren't split.
+
+\usepackage[overlap, CJK]{ruby} – This is the package required to get CJK working
+\usepackage{CJKulem} – Used for certain options for CJK
+
+\renewcommand{\rubysep}{-0.2ex} – changes the default spacing
+\newenvironment{Japanese}{\CJKfamily{min} \CJKtilde \CJKnospace}{} - This creates a new environment (like “document”, “enumerate”, “itemize”, etc.), which configures the options for Japanese input.
+
+The rest of the code is pretty self-explanatory. Once you compile the file, the PDF should contain the Japanese, in a nicely-formatted font. The only issue is that the text is not compiled top-to-bottom and right-to-left, as is the standard for Japanese. I haven't yet found a solution that works well for this. If anyone has a suggestion, feel free to pass it along.
+
+For Chinese:
+
+Method #1:
+
+The same template that works for Japanese would work for Chinese too, with the following adjustments:
+
+\newenvironment{Chinese}{
+\CJKfamily{gkai}
+\CJKtilde
+\CJKnospace}{}
+
+Also, the line “\begin{Japanese}” would logically have to be changed to “\begin{Chinese}”. Besides that, it will compile. As mentioned above, this will result in left-to-right and horizontal text. For top-to-bottom and right-to-left formatting, move on to Method #2.
+
+Method #2:
+
+Disclaimer: I have not tried this method, nor do I know who originally wrote the script. However, Chris, the reader who originally posed the question, has tried it and gotten it to work, so I felt it deserved to be included here.
+
+Download the following script: http://scripts.sil.org/cms/scripts/render_download.php?&format=file&media_id=xetex_chinese_sample&filename=xetex_chinese_sample.zip
+
+According to Chris, he had to make the following changes:
+
+“Unfortunately, the uploader created it on a Mac where the fonts are different. However, in XeTeX you can specify fonts that are available in other programs and system-wide - so you can just pick a nice font in LibreOffice and specify that one. After changing the fonts, using "xetex <file>.tex" [it] actually compiles successfully! See http://pastebin.com/WiiXsbNz for a modified file.”
+
+For Korean, the same method as used for Japanese can be used. You'd simply need to pick a font family for Korean, and install the following package:
+
+latex-cjk-korean
+
+Since I don't speak Korean, I haven't been able to try it out and find the correct font family, but I would suggest trying it without a font family specified, or else searching for a test document online.
+
+I hope you have found this article useful. If anyone has a specific issue (or question), you can reach me at lswest34@gmail.com. Please be sure to include “FCM” or “C&C” in the subject line, so that I don't overlook it. Any suggestions, or corrections, can also be emailed to me at the above address. If your enquiry requires a large excerpt of code, I would appreciate it if you would upload it to pastebin.com, or some other such site, and simply supply the link in the email. If the code isn't too long, please quote it or clearly denote the text from the email, in order to allow for quick referencing.
+
+References:
+Original Japanese test document is from here: https://bbs.archlinux.org/viewtopic.php?pid=622937#p622937
+Information on UCS is from here: http://kile.sourceforge.net/Documentation/html/lang.html#ucs
+A blog post by Chris on Japanese: http://blog.mindfall.net/?p=221
+A blog post by Chris on Chinese: http://blog.mindfall.net/?p=236

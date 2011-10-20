@@ -1,0 +1,142 @@
+Last month we discussed tkInter and four of the widgets available: TopLevel, Frames, Buttons, and Labels. I also told you last month, I'd discuss how to have a widget as a parent other than the Toplevel widget.
+So, this month, we'll discuss more on Frames, Buttons, and Labels, and introduce Checkboxes, Radio buttons, Textboxes (Entry widgets), Listboxes with a vertical scrollbar, and Messageboxes. Before we get started, let's examine some of these widgets. 
+
+Checkboxes are considered a many of many type selection widget that has two options, checked or not checked, or you could consider it on or off. They are usually used to provide a series of options where any, many, or all of those options may be selected. You can set an event to inform you when the checkbox has been toggled, or just query the value of the widget at any time.
+
+Radiobuttons are considered a one of many type selection widget. It also has two options, on and off. However, they are grouped together to provide a set of options that logically can have only one selection. You can have multiple groups of Radiobuttons that, if properly programmed, won't interact with each other.
+
+A Listbox provides a list of items for the user to select from. Most times, you want the user to select only one of the items at a time, but there can be occasions that you will allow the user to select multiple items. A scroll bar can be placed either horizontally or vertically to allow the user to easily look through all the items available.
+
+Our project will consist of a main window and seven main frames that visually group our widget sets:
+
+• The first frame will be very basic. It simply consists of various labels, showing the different relief options.
+• The second will contain buttons, again pretty simple, that use the different relief options.
+• In this frame, we'll have two checkboxes and a button that can programmatically toggle them, and they will send their state (1 or 0) back to the terminal window when clicked or toggled.
+• Next, we'll have two groups of three radio buttons, each sending a message to the terminal window when clicked. Each group is separate.
+• This has some text or entry boxes, which aren't new to you, but there's also a button to enable and disable one of them. When disabled, no entry can be made to that textbox.
+• This is a list box with a vertical scroll bar that sends a message to the terminal whenever an item is selected, and will have two buttons. One button will clear the list box and the other will fill it with some dummy values.
+• The final frame will have a series of buttons that will call various types of message boxes.
+
+So now, we'll start our project. Let's name it “widgetdemo1.py”. Be sure to save it because we will be writing our project in little pieces, and build on them to make our full app. Each piece revolves around one of the frames. You'll notice that I'm including a number of comments as we go, so you can refer back to what's happening. Above are first few lines.
+
+The first two lines (comments) are the name of the application and what we are concentrating on in this part. Line three is our import statement. Then we define our class. The next line starts our __init__ routine, which you all should be familiar with by now, but, if you are just joining us, it's the code that gets run when we instantiate the routine in the main portion of the program. We are passing it the Toplevel or root window, which comes in as master here. The last three lines (so far), call three different routines. The first (DefineVars) will set up various variables we'll need as we go. The next (BuildWidgets) will be where we define our widgets, and the last (PlaceWidgets) is where we actually place the widgets into the root window. As we did last time, we'll be using the grid geometry manager. Notice that BuildWidgets will return the object “f” (which is our root window), and we'll pass that along to the PlaceWidgets routine.
+
+Above right is our BuildWidgets routine. Each of the lines that start with “self.” have been split for two reasons. First, it's good practice to keep the line length to 80 characters or less. Secondly, it makes it easier on our wonderful editor. You can do two things. One, just make each line long, or keep it as is. Python lets us split lines as long as they are within parentheses or brackets. As I said earlier, we are defining the widgets before we place them in the grid. You'll notice when we do the next routine, that we can also define a widget at the time we place it in the grid, but defining it before we put it in the grid in a routine like this makes it easier to keep track of everything, since we are doing (most of) the definitions in this routine.
+
+So, first we define our master frame. This is where we will be putting the rest of our widgets. Next, we define a child (of the master frame) frame that will hold five labels, and call it lblframe. We set the various attributes of the frame here. We set the relief to 'SUNKEN', a padding of 3 pixels on left and right (padx), and 3 pixels on the top and bottom (pady). We also set the borderwidth to 2 pixels so that its sunken relief is noticeable. By default, the borderwidth is set to 0, and the effect of being sunken won't be noticed. Finally, we set the total width of the frame to 500 pixels. 
+
+Next, we define each label widget that we will use. We set the parent as self.lblframe, and not to frame. This way all the labels are children of lblframe, and lblframe is a child of frame. Notice that each definition is pretty much the same for all five of the labels except the name of the widget (lbl1, lbl2, etc), the text, and the relief or visual effect. Finally, we return the frame back to the calling routine (__init__).
+
+The following page (top right) shows our PlaceWidgets routine.
+
+We get the frame object in as a parameter called master. We assign that to 'frame' to simply be consistent with what we did in the BuildWidgets routine. Next, we set our main grid up (frame.grid(column = 0, row = 0)). If we don't do this, nothing works correctly. Then we start putting our widgets into the grid locations. First we put the frame (lblframe) that holds all our labels, and set its attributes. We put it in column 0, row 1, set the padding to 5 pixels on all sides, tell it to span 5 columns (left and right), and finally use the “sticky” attribute to force the frame to expand fully to the left and right (“WE”, or West and East). Now comes the part that sort of breaks the rule that I told you about. We are placing a label as the first widget in the frame, but we didn't define it ahead of time. We define it now. We set the parent to lblframe, just like the other labels. We set the text to “Labels |”, the width to 15, and the anchor to east ('e'). If you remember from last time, using the anchor attribute, we can set where in the widget the text will display. In this case, it's along the right border. Now the fun part. Here we define the grid location (and any other grid attributes we need to), simply by appending “.grid” at the end of the label definition.
+
+Next, we lay out all of our other labels in the grid - starting at column 1, row 0.
+
+Here is our DefineVars routine. Notice that we simply use the pass statement for now. We'll be filling it in later on, and we don't need it for this part:
+
+def DefineVars(self):
+  # Define our resources
+  pass
+
+And lastly we put in our main routine code:
+
+root = Tk()
+root.geometry('750x40+150+150')
+root.title("Widget Demo 1")
+demo = Demo(root)
+root.mainloop()
+
+First, we instantiate an instance of Tk. Thern we set the size of the main window to 750 pixels wide by 40 pixels high, and locate it at 150 pixels from the left and top of the screen. Then we set the title of the window and instantiate our Demo object, and finally call the Tk mainloop.
+
+Give it a try. You should see the five labels plus the “last minute” label in various glorious effects.
+
+Buttons
+
+Now save what you have as widgetdemo1a.py, and let's add some buttons. Since we built our base program to be added to, we'll simply add the parts that apply. Let's start with the BuildWidgets routine. After the labels definitions, and before the “return frame” line, add what is shown on the next page, top right.
+
+Nothing really new here. We've defined the buttons, with their attributes, and set their callbacks via the .bind configuration. Notice that we are using lambda to send the values 1 through 5 based on which button is clicked. In the callback, we'll use that so we know which button we are dealing with. Now we'll work in the PlaceWidgets routine. Put the code below after the last label placement.
+
+Once again, nothing really new here, so we'll move on. Bottom right is our callback routine. Put it after the DefineVars routine.
+
+Again, nothing really fancy here. We just use a series of IF/ELIF routines to print what button was clicked. The main thing to look at here (when we run the program) is that the sunken button doesn't “move” when you click on it. You would not usually use the sunken relief unless you were making a button that stays “down” when you click it. Finally, we need to tweak the geometry statement to support the extra widgets we put in:
+
+root.geometry('750x110+150+150')
+
+Ok. All done with this one. Save it and run it.
+
+Now save this as widgetdemo1b.py, and we'll move on to checkboxes. 
+
+Checkboxes
+
+As I said earlier, this part of the demo has a normal button and two checkboxes. The first checkbox is what you would normally expect a checkbox to look like. The second is more like a “sticky” button - when it's not selected (or checked), it looks like a normal button. When you select it, it looks like a button that is stuck down. We can do this by simply setting the indicatoron attribute to False. The “normal” button will toggle the checkboxes from checked to unchecked, and vice versa, each time you click the button. We get to do this programmatically by calling the .toggle method attached to the checkbox. We bind the left mouse button click event (button release) to a function so we can send a message (in this case) to the terminal. In addition to all of this, we are setting two variables (one for each of the checkboxes) that we can query at any time. In this case, each time the checkbox is clicked we query this value and print it. Pay attention to the variable portion of the code. It is used in many widgets.
+
+Under the BuildWidget routine, after the button code we just put in and before the return statement, put the code shown on the next page, top right.
+
+Again, you have seen all of this before. We create the frame to hold our widgets. We set up a button and two check boxes. Let's place them now using the code on the next page, middle right.
+
+Now we define the two variables that we will use to monitor the value of each check box. Under DefineVars, comment out the pass statement, and add this...
+
+self.Chk1Val = IntVar()
+self.Chk2Val = IntVar()
+
+After the button callback return, put the text shown bottom right.
+
+And finally replace the geometry statement with this:
+
+root.geometry('750x170+150+150')
+
+Save and run. Save it as widgetdemo1c.py, and let's do radio buttons. 
+
+Radiobuttons
+
+If you are old enough to remember car radios with push buttons to select the station presets, you'll understand why these are called Radiobuttons. When using radiobuttons, the variable attribute is very important. This is what groups the radiobuttons together. In this demo, the first group of buttons is grouped by the variable named self.RBVal. The second is grouped by the variable self.RBValue2. We also need to set the value attribute at design time. This ensures that the buttons will return a value that makes sense whenever they are clicked.
+
+Back to BuildWidgets, and, just before the return statement, add the code shown on the following page.
+
+One thing of note here. Notice the “last minute” label definitions in the PlaceWidget routine. These long lines are broken up to show how to use parens to allow our long lines to be formatted nicely in our code, and still function correctly.
+
+In DefineVars add:
+
+self.RBVal = IntVar()
+
+Add the click routines:
+
+def RBClick(self):
+
+    print("Radio Button clicked - Value is {0}".format(self.RBVal.get()))
+
+def RBClick2(self):
+
+    print("Radio Button clicked - Value is {0}".format(self.RBVal2.get()))
+
+and, finally, rework the geometry statement as follows.
+
+root.geometry('750x220+150+150')
+
+Save the project as widgetdemo1d.py, and run it. Now, we'll start working on standard textboxes (or entry widgets).
+
+Entry
+
+Again, we've used textboxes or entry widgets in various GUI flavors before. However this time, as I said earlier, we will show how to keep the user from making changes to the textbox by disabling it. This is helpful if you are showing some data, and allowing the user to change it only when in the “edit” mode. By now, you should be pretty sure that the first thing we need to do is add code (shown right) to the BuildWidget routine.
+
+Listbox
+
+Next we'll work our listbox. Starting in BuildWidgets, add the code from the following page, right side.
+
+As usual, we create our frame. Then we create our vertical scroll bar. We do this before we create the list box, because we have to reference the scrollbar '.set' method. Notice the attribute 'height = 5'. This forces the listbox to show 5 items at a time. In the .bind statement, we use '<<ListboxSelect>>' as the event. It's called a virtual event, since it's not really an “official” event.
+
+Now, we'll deal with the additional code for the PlaceWidgets routine, and that's shown on the following page, left side.
+
+Message Dialogs
+
+This section is simply a series of “normal” buttons that will call various types of Message Dialogs. We've done them before in a different GUI toolkit. We will explore only 5 different types, but there are more. In this section, we'll look at Info, Warning, Error, Question, and Yes/No dialogs. These are very useful when you need to pass some information to your user in a rather big way. In the BuildWidgets routine add the code shown below.
+
+Here is the support routine. For the first three (Info, Warning, and Error), you simply call 'tkMessageBox.showinfo', or whichever you need, with two parameters. First is the title for the message dialog, and second is the actual message you want to show. The icon is handled for you by tkinter. For the dialogs that provide a response (question, yes/no), we provide a variable that receives the value of which button was clicked. In the case of the question dialog, the response is either “yes” or “no”, and, in the case of the yes/no dialog, the response is either “True” or “False”.
+
+Finally, modify the geometry line:
+root.geometry('750x490+550+150')
+
+Save this as widgetdemo1f.py, and play away.
+
+I've put the code for widgetdemo1f.py on pastebin at http://pastebin.com/ZqrgHcdG.

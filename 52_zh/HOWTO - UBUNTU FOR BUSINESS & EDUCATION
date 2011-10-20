@@ -1,0 +1,64 @@
+I started using Ubuntu in 2006, and made the complete switch in 2008. I have been employed in the environmental business since 1998, and started dabbling in database design using Microsoft Access 97 in 2000. I loved Access, and, at the time, I used it to manage clients' information for the company where I worked. I changed companies, and the Access database grew to manage cost estimates, basic employee info, invoicing, projects, mailing (electronic and regular), and there even was a module to make boring (drilling) logs. Later on, as a side job from my “home office,” I sold databases to other companies.
+
+Several times in my career, I thought about opening my own business. The ideas revolved around environmental consulting and database design. It seemed like a pretty good idea, since some of the databases I created back in 2002 are still kicking, and I had learned a good deal about environmental regulations, sampling, procedures and whatnot. Not to mention business management (lots of hats are worn when you are in a small business). In this environment I also learned about software licensing.
+
+We were using MS Office for our report writing, table (spreadsheet) creation, email, publications (brochures), and database management; MS Visio for our CAD needs; ARCView for our geographical information software (GIS); Surfer for our isopleths (topographical-like contours); Peachtree for our accounting; Adobe Acrobat, and, of course, Norton antivirus. The tab to set up a computer with said software ran to a bit over $3,000, not including the computer itself. ARCView is a heavy lifter, and benefits from more that 2 GB of RAM, a powerful CPU, a dedicated GPU (midlevel at least), and a big monitor. Yearly software renewals were approximately $500. I almost forgot, there was a Windows 2000 server sitting in a corner that housed our documents and managed the backups.
+
+A small business has to spend a good amount of money to open shop. Say what you will, but small businesses are what keep the country going. They are so important that the US government has an agency dedicated to small businesses, the U.S. Small Business Administration (http://www.sba.gov). Luckily for me, I have not had the need to set up my own shop, but I do some side-jobs - so the idea still hangs in the back of my head.
+
+Ever since I started using Ubuntu, I looked at how can this “no cost” alternative be used to help small businesses. Furthermore, I had donated several refurbished computers to children without one, and to a church. I installed Ubuntu on them because the need was for Web surfing and office software - mainly with education purposes (finish assignments and create school reports), and there was little money available. These computers were not very different from what a small business would use. With all the above in mind, I started to devise a list of software and hardware needed to run a small business. This is a “guide” that will come in parts. First, I will talk about hardware and OS, then office productivity and specific need software. The setup for this fictional environmental company will be as follows:
+• Five employees. One of the employees will do accounting most of the time; two technicians who will mostly do field work and equipment maintenance, and will use a computer to enter project related data; and two “staff” who will do field work, report writing, project management, cost estimates, and run the daily administrative tasks.
+• Two desktop computers, two workstations, two laptops
+• One server
+• One network multifunction printer and scanner
+• Office productivity, accounting, CAD, and GIS software
+
+For the hardware part, a small business would think of going to an electronics retailer or Web shop and ordering the computers they want. Check the certified Ubuntu computers at http://www.ubuntu.com/certification. Ubuntu certification means that these computers will work out of the box with Ubuntu.
+
+The easiest is to buy a computer with Ubuntu pre-installed. Dell, System 76, and ZaReason sell Ubuntu pre-installed computers. Although Dell is the largest of the three, it does not offer servers. Don't go crazy building systems with lots of RAMs and huge hard drives. You will be fine with 2 GB of RAM and 120 GB of disk space. In a business environment, data is not held on individual computers but on the server.
+
+Although builds change over time, look at these models:
+System 76 (http://www.system76.com):
+• Wildebeest – it offers a dedicated GPU, remember to include the CD drive [D]
+• Lemur or Gazelle [L]
+• Elan [S]
+
+ZaReason (http://zareason.com):
+• Limbo – remember to include the CD drive and at least dual cores [D]
+• Hoverboard, Strata or Verix [L]
+• ZU 4110 [S]
+
+Emperor Linux (http://www.emperorlinux.com): 
+• All their laptops
+
+[D] = desktop
+[L] = laptop
+[S] = server
+
+Dell has only one build, so check the options. Dell servers can be bought with SUSELinux or RedHat, and as such I will not discuss them further. One thing to note is that when you buy a computer with Ubuntu pre-installed, it seems that you pay more than a similarly configured Windows computer. Why? Only the powers that be know. However, adding software will tilt the balance in your favor. When considering laptops, think about Solid State Drives (SSD). According to Consumer Reports, laptops are more prone to repair than desktops. I can think of various reasons for this: cramped spaces that do not ventilate properly, and shock and vibrations from carrying them around and dropping them. SSDs make computers more expensive but your data is more secure.
+
+The workstations have the same considerations as above - with the added requirement of a dedicated GPU, and, maybe, increased RAM. You can opt for a gaming GPU or a workstation GPU. Nvidia brands its workstation cards as Quadro or NVS (http://www.nvidia.com/page/workstation.html), and ATI brands its as FirePro (http://www.amd.com/us/products/workstation/Pages/workstation.aspx). The main boast of workstation GPUs is that they are certified by several CAD and GIS vendors. I use a Radeon 4670 with 1GB of RAM.
+
+When buying the servers, consider buying support. You can view the different levels of support at http://www.canonical.com/enterprise-services/ubuntu-advantage/server. Server setup can be difficult, and is different from desktop setup. Ubuntu server does not install a GUI, it is all terminal. If you are not comfortable using the terminal all the time, it can be daunting. Mind you, a GUI can be installed, but overall it is best to have the option of paid support for at least the first year if you are not completely comfortable. After all, the server is going to hold your precious data. You can check FCM Perfect Server Guide, or the Ubuntu server installation guide (https://help.ubuntu.com/10.04/serverguide/C/index.html) for information on how to set up your server.
+
+Another build option is to buy all the parts yourself. You can get some discounts on buying in bulk. Check the components to make sure they will work with Ubuntu. I have used cheap MSI motherboards that I bought at CompUSA, and they have worked well. My Dell computer has a Foxconn motherboard, and most Intel motherboards are fully supported. Some components have longer warranties when bought singly, but you will have to service the computers yourself. Another task to add to your list is to install the OS and additional software.
+
+When you select the OS, you might be tempted to get the latest Ubuntu build. Consider it carefully. LTS editions have three-year support on the desktop and five-year support on the server. Regular editions have only eighteen-month support. LTS editions are issued every two years. What this means is that your upgrading strategy is well defined. You know that you will get updates for Canonical-backed software for that length of time. Afterwards, you are on your own. A good strategy would be to start migrating to a LTS between the 24th and 30th month. The support team can help you with this.
+
+Along with OS installation is codec support. You might think that you will just enable the restricted-extras packages and be done with it. In the US, and in many other countries in the world, it is illegal to use those codecs without buying a license. Since you are running a business, you cannot afford to be out of compliance, because it might cost you. Just read about Ernie Ball at http://news.cnet.com/2008-1082_3-5065859.html. Legal playback support is a must if you want to see and hear most content in today's Web. Luckily for us, there is a Spanish company that sells such licensed codecs: Fluendo (http://www.fluendo.com). The full codec pack (http://www.fluendo.com/shop/product/complete-set-of-playback-plugins/) will set you back approximately $40 US. I have them and they work great. Note that these codecs allow only decoding. You cannot legally encode wma, wmv, mpa or mp3 using these codecs. The same goes for DVD playback. If you want to have such playback, you can buy the Fluendo DVD player, or get PowerDVD for Linux, which is sold in the Ubuntu store. When I bought the Dell, CorelDVD for Linux was installed. Both Corel and PowerDVD are unusable in 10.04, that is why I bought the Fluendo DVD player. It works and it works well. Fluendo also has Moovida Pro, a multimedia manager and viewer that provides the codecs, the DVD player, an mp3 encoder and commercial DVD backup (you can copy commercial DVDs as iso images to your hard drive). The downside to it is that none of the codecs work outside Moovida Pro.
+
+After you have set up all the computers and the server, think about where you want to print your documents. Since I run a one-man shop, I use the HP Photosmart Premium (c309) shown below. Photo printing, scanning, duplex, and for those who need it, fax, make this a good unit. And HP provides more support for Linux than other printer manufacturers. When you plan to buy a HP printer, go to the HPLIP website at http://hplipopensource.com to determine what level of support your printer has. A small business will need more than what this printer provides. HP provides laser and inkjet multifunctions that will match your budget and need. One good example is the HP Color Laserjet CM2320fxi, (http://h10010.www1.hp.com/wwpc/us/en/sm/WF06b/18972-18972-3328064-12004-3328083-3597338-3597361-3597470.html). It offers network connectivity, automatic duplex, scanning, a good amount of RAM, and an automatic feeder. The HPLIP website lists the printer as fully supported, which means that everything works. Xerox WorkCentre 6505/DN also looks like a promising machine (http://www.office.xerox.com/multifunction-printer/color-multifunction/workcentre-6505/spec-enus.html). The specs say that it will work with Linux and there is an RPM package to install the CUPS driver.
+
+Now you only need to connect all your gear on a network. For that you will need a switch. (Or a router -- ed.) There are eight devices to connect plus your internet modem. If every connection is wired, that means nine ports. Netgear and Cisco offer a sixteen port switch at (http://www.netgear.com/business/products/switches/smart-switches/GS716T.aspx) and (http://www.cisco.com/cisco/web/solutions/small_business/products/routers_switches/200_series_switches/index.html). This will enable a very basic network as everything will be connected to this switch. You will need to set a static IP for the printer and server - otherwise you will have trouble every time you power up the computer. For a more secure, and complicated setup, check with a local consultant, the forums, or the paid support that you may have acquired when you bought the server.
+
+Right now you have all your hardware joined together. Next issue we will start talking about software needs.
+
+
+Below Zero ad
+Below Zero is a Co-located Server Hosting specialist in the UK.
+
+Uniquely we only provide rack space and bandwidth. This makes our service more reliable, more flexible, more focused and more competitively priced. We concentrate solely on the hosting of Co-located Servers and their associated systems, within Scotland's Data Centres.
+
+At the heart of our networking infrastructure is state-of-the-art BGP4 routing that offers optimal data delivery and automatic multihomed failover between our outstanding providers. Customers may rest assured that we only use the highest quality of bandwidth; our policy is to pay more for the best of breed providers and because we buy in bulk this doesn't impact our extremely competitive pricing.
+
+At Below Zero we help you to achieve Zero Downtime.

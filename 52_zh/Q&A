@@ -1,0 +1,93 @@
+Q  I'm trying to fix a problem by modifying a file in the bin folder, but I get "permission denied."
+
+A  If you open Accessories/Terminal and enter the command:
+
+gksudo nautilus
+
+you can change the permissions. Be very, very careful, a wrong click can really mess up your system.
+
+
+
+
+Q  I want to remap the buttons on an xbox controller.
+
+A  Use xboxdrv. For information, go to: http://linux.softpedia.com/get/Utilities/xboxdrv-37436.shtml
+
+
+Q  I was decommissioning a machine and deleted some folders while doing so, while connected to Ubuntu One. When I synced my other machines, the folders were removed from them, as well.
+
+A  (Thanks to duanedesign in the Ubuntu Forums) Programs like DropBox and Ubuntu One are file sync services, they do not make good back up services. The file sync works both ways. Changes made locally are reflected on the cloud and vice versa. So if you remove a folder from the cloud, or your computer, it will be removed from all your computers.
+
+If you need to recover a deleted folder please contact Ubuntu One support, and include the name of the folder, and we can try to recover that folder for you.
+
+Gord says: If you're going to decommission a machine, take it offline and re-partition the hard drive.
+
+Q  My Dell Mini 10V has a 1.6 GHz dual core CPU. However, when I check, the CPUs are running at 800 MHz.
+
+A  (Thanks to 3rdalbum in the Ubuntu Forums) 1.6 GHz is the top speed of the processors. If they are virtually idle, they will drop back to 800MHz each to save power and reduce heat. If under load, they will shoot back to the full 1.6 GHz each.
+
+
+
+Q  I'm trying to set up Ubuntu Server 11.04 as a home file server, and I'm having some issues.
+
+A  It's much, much easier to install Desktop Ubuntu (perhaps the long-term release, 10.04), then use the Nautilus file manager to create and share (under the right-click menu) some folders.
+
+"Server" is really meant for "headless" (no monitor, no keyboard) computers hosting high-volume web sites, or other applications where performance is an issue.
+
+
+
+Q  My Ubuntu is messed up so badly it will not boot. I have a LOT of files on the hard drive which I cannot afford to lose. How can I reinstall Ubuntu so I do not damage my files, and be able to pick back up where I left off?
+
+A  Hard drives fail! If you can't afford to lose the files, you must have backup. Go to your favorite computer store and buy two external hard drives which are each large enough to hold your data. Boot from a LiveCD, plug in an external hard drive, and copy your files onto it. Take the drive somewhere that it will not be destroyed if your home burns down. Plug in the other drive, and make another copy, which you can put in a safe place where you live. Once that's done, begin thinking about reinstalling Ubuntu.
+
+
+
+
+Q  I recently installed K9Copy and a lot of other packages were installed along with it. Now I want to uninstall it, but only K9Copy uninstalls. How can I find and uninstall all the dependent packages that came along with it?
+
+A  (Thanks to Chiel92 in the Ubuntu Forums) Open Accessories > Terminal and enter this command:
+
+sudo apt-get autoremove
+
+
+
+
+
+Q  I have done a clean install of 11.04 but I'm having a little trouble finding drivers for my Broadcom BCM4306 802.11 b/g wireless.
+
+A  (Thanks to IWantFroyo in the Ubuntu Forums) You can go into Synaptic and search for 'b43'. There will be three firmware packages, each with a list of the cards they support in the description. Your card should be there somewhere.
+
+
+Q  I want to combine several MP3s into a single playable file.
+
+A  Run Synaptic Package Manager and install mp3wrap. It is a command-line program, so you use Accessories > Terminal to run it.
+
+
+Q  I am trying to share a USB external drive, formatted as NTFS, from my Ubuntu computer to my Windows systems.
+
+A  (Thanks to Morbius1 in the Ubuntu Forums) Add a "force user" line to your smb.conf for the drive:
+
+[HDMovies]
+path = /media/HDMovies
+comment = HD Movies 01
+public = yes
+only guest = yes
+guest ok = yes
+force user = jynks
+
+After saving, restart Samba with this terminal command:
+
+sudo service smbd restart
+
+
+
+Q  What's the deal with the new laptops with "switchable graphics," also known as "Nvidia Optimus"?
+
+A  See: http://ubuntuforums.org/showthread.php?t=1657660 and https://github.com/MrMEEE/bumblebee#readme.
+
+
+
+
+Q  If I try to start my Lenovo G475 notebook without the adsl cable plugged in, it crashes!
+
+A  (Thanks to drivard.com) Turn on the Network Boot feature in the BIOS. (Holding F2 at boot up probably gets you into the BIOS setup on these computers.) This also affects some Acer notebooks.
