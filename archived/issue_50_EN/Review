@@ -1,0 +1,72 @@
+REVIEW
+Written by Nedim Muminović
+PAM Facial Recognition
+
+Have you ever imagined logging in to your system using only your face? Sounds like science fiction, but it is now possible with an application called PAM Face Authentication. Using a webcam, it scans your face and allows you to log in without typing a password. No more passwords. The application was developed as part of the Google Summer-of-Code 2008 for openSUSE. The project was then extended during the Google Summer-of-Code 2009 to make it compatible with the KDE and Pardus distributions.
+
+The official website is pam-face-authentication.org, and it contains instructions on how to install the application. In this text we will install the application from source code. In my experience, available packages for Ubuntu and Kubuntu do not work with the latest releases. Users of previous versions are lucky. They can install it using the available packages. Webcam drivers gspca and uvc are integrated in the kernel, so you don't need to install the drivers manually.
+ 
+Let’s start with the installation.
+
+Installation
+
+The first step is to install all dependencies. If you try to do it using the available documentation, you will notice it is not possible. The problem is caused by packages which don't exist! The solution is instead of libhighgui4 write libhighgui2.1. Here are the corrected commands:
+
+sudo apt-get install build-essential cmake qt4-qmake libx11-dev libcv-dev libcvaux-dev libhighgui2.1 libhighgui-dev libqt4-dev libpam0g-dev checkinstall
+
+When we have installed all the dependencies, we begin downloading, compiling, and installing the app. Execute these commands one-by-one.
+
+cd /tmp && wget http://pam-face-authentication.googlecode.com/files/pam-face-authentication-0.3.tar.gz
+
+tar zxf pam-face-authentication-0.3.tar.gz && cd pam-face-authentication-*
+
+mkdir build && cd build
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr ..
+
+make
+
+sudo make install
+
+
+Configuration
+
+To login to your system with face recognition, we must start with the face trainer. Just type qt-facetrainer in terminal, or go to Applications > Lost and Found > Qt Face Trainer. Follow the instructions.
+
+Next step is making a file which will contain plug-in information. Type these commands consecutively:
+
+cat << EOF | sudo tee /usr/share/pam-configs/face_authentication /dev/null
+
+Name: face_authentication profile
+Default: yes
+Priority: 900
+Auth-Type: Primary
+Auth:
+[success=end default=ignore] pam_face_authentication.so enableX
+EOF
+
+
+After that, enable the plug-in using the following command:
+
+sudo pam-auth-update --package face_authentication
+
+Finally, you are finished with the installation. Users with enabled Auto login must disable it manually by going to System Administration > Login Screen > Convenience, and untick Enable Auto-Login.
+
+Problems
+
+During testing, in a few cases, the application was unable to recognize me and it was frustrating. Fortunately, login with a password is still possible. Also, there were cases when the webcam was connected, but the application warned me that the webcam was disconnected.
+
+Reading this text, you probably asked yourself something like “Is it possible to cheat the application?”. I am leaving the reader to find the answer!
+
+Positive:
+Easy to use.
+
+Negative:
+Documentation is out-of-date, few bugs, hard to install, accuracy of recognition.
+
+Overall
+
+Since this is the only application of this type available for Linux, it does a good job. It can even be compared to commercial applications. Currently, all applications of this type aren't accurate. In a few years, we could expect it to be the default way to log in to your system with increased usage of these applications. Until then, there is no need to install it. Sooner or later, you will be frustrated by the accuracy of recognition.
+
+The best thing about PAM face authentication is it is free.
+

@@ -1,0 +1,56 @@
+HOW-TO  Libre Office - Part 5
+Written by Elmer Perry
+
+In the previous part of this series, we discussed using frames for document layout. In this part, we will turn to another useful layout tool in LibreOffice Writer: Sections. Sections differ from frames in several respects, but, in some ways, they can achieve the same results. While both will allow you to divide a portion of your document into columns, when you use sections, you have no control over the width. Sections will take the entire width from the left margin to the right margin. Sections also cannot break in the middle of a paragraph. You cannot link sections together the way you link frames. While you cannot link sections together, sections give you the ability to link to other documents, or to a section in another document. 
+
+Perhaps the best way to think about sections is as a way to divide your document into different pieces like introduction, argument 1, argument 2, etc. Sections can also allow you to separate a portion of a document for use in another document. Sections can become a powerful tool for allowing you to pull content from other documents. 
+
+Using Sections
+
+For our example, we will import quotations from a document of quotes. Start a new document, and add a list of different quotes. Do the following for each of the quotes: 
+
+Select the entire quote. 
+
+On the menus, got to Insert > Section. 
+
+Give the quote a name that will remind you what the quotation is about. (For example, one of my quotes is from Albert Einstein on science. I named it quote_science.)
+
+Once you have made each of the quotes its own section, save the file as quotes.odt.
+
+Next, let's create a new document, and add some paragraph body text. (Hint: You can add dummy text to your document by typing “dt” and pressing the F3 key.) Write a lead-in to your quote, and press enter. To get our quote from our quotes document, Insert > Section. As always, give the section a name that helps you remember what it is. Select the Link checkbox. Click on the file browser button (…) next to File name. Select the document containing your quotes, and Open. Use the Section dropdown box to select the quote you want to insert into your document. If you want to write-protect your quote from editing, check Protected under Write-protection. You can also protect the section from editing with a password. (NOTE: Write protection, even with a password, does not guarantee someone cannot hack your document and change its content.) You can add the other quotes from your quote document using the same method.
+ 
+Editing Sections
+
+Now that we have added our quotes, let's make them stand out by indenting them and giving them a background color. Format > Sections. The edit Sections dialog presents you with a list of sections in your document. Select the section you want to edit. In the main window of the dialog, we can change the link document, or the section in the document the section is linked to. Here we can also change the write-protection and visibility of the section. (I can't think of any practical reason why you would hide a portion of the document, but the option is there should you need it.) 
+
+
+Click the Options... button to bring up the options dialog. On the Indents tab, change the Before section and After section to 0.30”. On the Background tab, select a color for the background of your quote. Click OK. Change the other quotation sections, and then click OK on the Edit Sections dialog. Your quotes now have an indentation and a background color. 
+
+Changes Made in Linked Document
+
+If you need to change the information in a section linked to another document, you might ask whether it is better to change the original document or within the new document. Both are possible. The choice is really yours. The one thing to remember is changing a linked section in a document will not be reflected in the original document, but changes in the original document may be reflected in the linking document.
+
+
+You can control how updates are done in the LibreOffice Writer options: Tools > Options > LibreOffice Writer > General. Under Update, you can choose to have links updated automatically, manually, or never. Automatically will update the links when a document with links is opened. Manually will ask you whether you want to update links. Never will not update links when a document with links is opened. 
+
+Manually Updating Links
+
+If you make changes in the original document, and you want to update the linked document to reflect those changes, you have two ways to update the linked document. Edit > Links... will display the Edit Links dialog. Here you can select individual links and update them. To update all the links at once, use Tools > Update > Links. 
+
+Frames or Sections?
+
+In some cases, whether you use frames or sections matters little. There are situations where either can accomplish the tasks. However, taking the time to consider the functionality of each can help you make the best choice. For example, if you are doing a research paper, and you have compiled your quotes and data into a Writer document, sections would probably be your best choice for inserting pieces of the data into your paper. However, if you need to start an article on a page, skip a page, and finish it on another page, linked frames is a better choice. Taking some time to think about the purpose, layout, and content sources of your document, and the functionality of frames and sections, will help you decide the best tool for your document. 
+
+While frames and sections are similar in many ways, they have different functionality that makes them suitable for different purposes. The powerful ability to link to portions of another document makes sections unique. Remember to plan your layout and decide ahead which tools you will use to accomplish the task.
+
+In the next article, we will look at page styles, headers, and footers in Writer documents. 
+
+Below Zero is a Co-located Server Hosting specialist in the UK.
+
+Uniquely we only provide rack space and bandwidth. This makes our service more reliable, more flexible, more focused and more competitively priced. We concentrate solely on the hosting of Co-located Servers and their associated systems, within Scotland's Data Centres.
+
+At the heart of our networking infrastructure is state-of-the-art BGP4 routing that offers optimal data delivery and automatic multihomed failover between our outstanding providers. Customers may rest assured that we only use the highest quality of bandwidth; our policy is to pay more for the best of breed providers and because we buy in bulk this doesn't impact our extremely competitive pricing.
+
+At Below Zero we help you to achieve Zero Downtime.
+
+Elmer Perry is a children's minister in Asheville, North Carolina whose hobbies include web design, programming, and writing. His website is eeperry.wordpress.com

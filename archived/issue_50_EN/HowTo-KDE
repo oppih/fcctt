@@ -1,0 +1,44 @@
+HOW-TO
+Written by Ronnie Tucker
+Use KDE 4.6
+
+If you're gnashing your teeth at Gnome3, or unhappy with Unity, then maybe you should try KDE. Kubuntu gives you the best of both worlds. Not only does it give you Ubuntu as a foundation, but it comes with KDE 4 as its default desktop. This article is for those of you thinking about trying KDE but are worried it's too different from your beloved Gnome.
+The first difference you'll notice about the default KDE desktop is that the main taskbar is at the bottom of the screen, but don't worry, you can rearrange pretty much everything in KDE. The 'Desktop Folder' box is what's known as a 'widget'. Widgets are little apps (for want of a better word) that run on your desktop and give you quick access to things. Moving over the widget gives you access to some controls to remove, lock, or configure, the widget.
+
+Another shortcut to settings is to click the icon in the top right of the screen
+
+The big 'K' button (above right) at the bottom left is your main access point for all your apps
+
+The tabs along the bottom are quick links to your Favourites (right clicking on an app in the menu lets you add it to your favourites), Applications (that are installed), Computer (your drives and places), Recently Used for files (or apps), and Leave, which lets you reboot, or close down, your machine.
+
+While Gnome has Nautilus as its file browser, KDE has Dolphin (shown on the next page, top left). This can be accessed by clicking K > Favourites > File Manager (Dolphin).
+
+Initially it may seem bulky with the Places down the left, and the Information down the right, but those can be removed or configured as you see fit, especially the Information box on the right. KDE lets you rate files (out of five stars) and even 'tag' files with descriptive words. This makes finding files so much easier later on in life.
+
+In K > Applications > Graphics you have, amongst other things, Okular which is used for viewing documents, Gwenview, for viewing images, and Ksnapshot which is for taking screenshots. K > Applications > Internet gives you a torrent client (KTorrent), messenger client (Kopete), an IRC client, desktop sharing apps, feed readers, even a dialup client. Its default browser is rekonq, but there's a one click link in there to install Firefox. Under Multimedia, KDE gives you one of the best audio players anywhere, Amarok. Not only that, but you get one of the best disc burning apps too, K3B. Even when I used Gnome I installed Amarok and K3B. If you install 11.04 then you'll get LibreOffice in the Office section along with many contact and personal organisers, time trackers, and even a formula editor. Under System, you'll have access to the information centre, partition manager, screen resize/rotate, system monitor, and more. This is also where you'll find Software Management (KPackageKit) which is the KDE equivalent of Synaptic for access to repositories. Utilities gives you text editors, virtual keyboards, and the like. Settings takes you to the System Settings for the whole of KDE.
+
+
+This one handy window lets you edit account details, application appearance (where you can make any GTK apps look KDE native), file associations, and much more. Desktop Effects lets you use the KDE native effects which mimic those seen in Compiz. Sharing, as the name suggests, lets you connect to your other machines - whether Windows or Linux. Network Settings lets you get deeper into networking while Workspace Appearance lets you completely change the look of the default KDE. Speaking of which, KDE is linked to several sites which let you grab themes and wallpapers very easily. A right click on the desktop, and choose Desktop Settings, gives you a window with what you have so far in wallpapers. But clicking Get New Wallpapers takes you online (within the window) to view downloadable wallpapers
+
+
+Clicking install gets you a new wallpaper in seconds. The same is true for themes. Adding a widget to your desktop can be helpful too. My personal favourite is the post-it note widget which is very handy, especially with a memory like mine. A right click on the desktop and choosing Add Widgets gets you a list of all the currently installed Widgets. Again a click on the Get New Widgets button will let you download new ones in a jiffy. Scroll along the widgets and drag and drop the widget to the desktop.
+
+Clicking the big yellow post-it note lets you type some reminder text while the buttons that slide out the side will let you resize, configure, or rotate your post-it note. Clicking somewhere on the slideout panel will let you move the widget.
+
+In fact, your entire taskbar, at the bottom of the screen, is made up of widgets, so you can rearrange things, even create a new taskbar at the top of the screen keeping the bottom bar for more widgets.
+
+Opening the KPackageKit you will see that it's quite different from Synaptic.
+
+As it says, Get and Remove Software lets you see what you have installed or what you can install via categories. But you can still search by name too. Software Updates will list available updates, which is also shown with a cog icon in your taskbar.
+
+Settings shows you which repositories you have access to, but clicking Edit Origins will let you easily add a repository.
+
+Going back to Dolphin, you can configure it to taste. Clicking the View menu will let you add/remove panels (such as the Places and Information), but also add panels such as a Terminal.
+
+Zooming in/out will resize your icons and you can change view modes and turn on/off previews. Previews are nice, and actually allow you to preview audio/video files in the Information panel.
+
+I've only scratched the surface of what KDE can do. If having Unity makes you miss having a proper desktop, give KDE a try, Kubuntu especially, as it's easier to use than you might think.
+
+NOTE: A video showing most of what you’ve read can be seen at: http://www.youtube.com/watch?v=EgQUDPRt7zw
+
+If you’d like to know more about KDE then drop me an email at ronnie@fullcirclemagazine.org and I’ll write a Part Two on how to further customise KDE.

@@ -1,0 +1,35 @@
+LINUX LAB
+Written by Robin Catling
+Gnome Shell -vs- Unity
+
+Unity is Ubuntu's somewhat condescending attempt to produce a desktop environment with usability in mind. It rather patronizes the classic Gnome desktop, which was always functional rather than stylish, but has served Linux users well for some years. Gnome 3, with Gnome Shell, brings major changes, too.
+Gnome Shell and Unity are the Gnome-based desktops designed from the start with usability and new users in mind. Unity is native to Ubuntu and its derivatives, whereas Gnome Shell will be available across many distributions.
+
+The new user wants visual cues for everything; simplicity in layout, messages and notifications; also a quick way to pin favorite programs and files where they are accessible with a single click. Similarly, they want a quick way to find, well, everything else. The veteran hacker, by contrast, wants freedom to customize and configure a working environment for day-in, day-out use. So what do they get?
+
+Both are desktop shells, interfaces that interact with a common Gnome back-end and applications. On the surface, they are both informed by shared design principles - not to mention each other, since they are concurrent developments. Throw in a splash of Macintosh, a big pinch of interfaces from music players to phones, and we get a massive culture shock compared to more familiar desktops. That translates to more mouse-mileage, and changes of screens and panels, than classic Gnome 2. There are far fewer options for customization in both, corralling unruly users who might otherwise break out of the defined standard. Finding the other controls that you need will demand the patience to search many layers below the main desktop.
+
+Panels and Launchers
+
+Both shells park their panels on the left side of the screen; the ‘Dashboard’ in Gnome 3, the 'Launcher' in Unity. Designers believe that this works best for net-books and other landscape-aspect screens, so that's where the panels are fixed. Gnome 3 uses a minimum of two screens; a working desktop in which programs run, and the full-screen overlay which is Gnome Shell for configuring and launching programs. Unity retains a launcher (or dock) with a top context menu, and all running programs on a single screen which is always visible.
+
+Gnome Shell's Dashboard sits full-screen and previews the running applications. It scales down the thumbnail views of all of them, as more programs are opened. The top panel, titled “Activities,” has a search box for finding applications. Unity's Launcher brackets running applications with small arrows, replacing task-switcher buttons. Some say these are elegant space-savers, I find them uselessly illegible. The Launcher accommodates an overflow of application icons by showing a concertina’d stack at the bottom of the single column; it opens quickly when you need to scan them. I’d rather have a better way of managing that single column at the outset. Unity features a 'Dash' of sorts; 'Application Spaces' is a near- full screen panel which shows all the installed applications. It is filterable by categories (equivalent to Gnome 2's main menu categories), and includes a search field right in the Dash panel itself. I find this manages the available on-screen real-estate badly, displaying a single line of items plus a link announcing how many items are not displayed - even if there is only one.
+
+And this is the problem I have with both shells; struggling so hard to eliminate drop-down menus in favor of more visual icons and dashboards, they impose on the user the need to learn these new working methods without actually making things any easier. The right-click context menu has disappeared, and a whole chunk of productivity with it.
+
+Window Management
+
+By default, neither interface allows custom window resizing. It’s default or maximum. Both use hot-spots on the edges of the desktops to minimize or maximize, or to tile windows. Gnome 3 even eliminates title-bar buttons forcing you to rely on the hot spots. This all seems like enforced conformity, limiting user choice for no clear benefit.
+
+Customization
+
+Both interfaces feature fixed, bare, top bars; you get a clock and a collection of indicators; controls for sound, batteries, network, and user account information. Gnome 3 also uses the panel for a task indicator - something you don't get in Unity. Yes, you can at least change colors and wallpapers in both. Unity will auto-hide the panel (but only on the left), Gnome won't. Beyond that, customizing your desktop is controversial. You want to add applets to your desktop panel, or application launchers to the desktop? Gnome 3 doesn't give you the the option of desktop icons at all, and the Unity framework steers you away from them.
+
+Verdict
+
+Unity might have an edge on elegance of design. Although Gnome 3 handles virtual workspaces better, it still seems to be working out complexity that should never have made it past the first Beta release. At least Unity delivers notifications that are colloquial and helpful. Gnome 3 is something of a sullen beast.
+I have an issue with the 'dash' in both. Finding an application from an array of icons is not anything that I want to regularly do in either of them. They've flattened the hierarchy of drop-down menus and left us with hordes of multi-colored icons. Meanwhile, file management is left largely untouched and unloved. Yes, I know we're all going to have our 'stuff' stored on the cloud soon, but that's not now. 'Now' is still Nautilus file manager, with all its faults and limitations.
+
+It seems to me they both fall uncomfortably between netbook and smartphone, using grids of icons and non-linear operations. I've seen it called “the smart-phone, one-size-fits-all approach.” I'm not sure this is the way to world domination. Why so much mousing-around the desktop? Do I want to have to learn the keyboard shortcuts? In which case why bother switching from classic Gnome desktop at all? I can’t help thinking KDE 4.x does much of this so much better?
+
+If you're a new Linux user, these shells are going to confuse the beejeezus out of you, whilst frustrating the living daylights out of veteran hackers. It might work for the young and open-minded, the just-getting-things-done, social-surfing, living-on-line users. On small, light-weight machines, under casual use, Unity and Gnome Shell could work well. But at some stage, the new user becomes a veteran, and productivity will hit brick walls deliberately built by both. Unfinished brick walls at that; Gnome 3 might yet ditch some of its complexity; I am also aware that Unity has evolved fast and is not in its finished form. Who knows what changes will come from real-world use of what is effectively a large-scale public beta-test?

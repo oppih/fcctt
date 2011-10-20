@@ -1,0 +1,131 @@
+Q&A
+Compiled by Gord Campbell
+If you have Ubuntu-related questions, email them to: questions@fullcirclemagazine.org, and Gord will answer them in a future issue. Please include as much information as you can about your problem.
+
+Q  My Asus laptop runs at above 60°C at best, using Natty. It often goes as high as 80°C when I have several tabs open in Firefox, and sometimes shuts down because it is too hot.
+
+A  (Thanks, Jackn!) I now never see more than 65°C. I've used two Firefox add-ons (AdBlock and FlashBlock), I cleaned the fan and vents (http://www.notebookreview.com/default.asp?newsID=4020), and I propped up the far end of the laptop such that it's tilted to expose the vents.
+
+
+Q  My computer's manufacturer has released a new version of the BIOS. I don't use Windows at all; how can I update my BIOS?
+
+A  Go to this web site:
+http://www.linuxinsight.com/how-to-flash-motherboard-bios-from-linux-no-dos-windows-no-floppy-drive.html
+
+
+Q  Sometimes, videos have a blue tint, and stay that way until I reboot. I have an Nvidia video card.
+
+A  Go to this web site: http://www.wiredrevolution.com/ubuntu/fix-blue-tinted-video-in-ubuntu
+
+
+Q  In Ubuntu 11.04, when a window is opened, if it is sufficiently large, it maximizes. How can I disable this auto-maximize behavior?
+
+A  Install CompizConfig Settings Manager (CCSM). Run it, and go to the Window Management section. Select "Grid". There is a tab labelled "Edges" that controls the Resize Actions and Thresholds.
+
+
+Q  What hardware does my computer need to run Unity?
+
+A  Canonical has produced this information: https://wiki.ubuntu.com/DemystifyingUnityGraphicsHardwareRequirements
+
+
+Q  How can I set up a sound track for a presentation in LibreOffice?
+
+A  It's old, but it still works:
+http://answers.yahoo.com/question/index?qid=20080527003902AAYuk1N
+
+
+Q  I just added a hard drive in my computer; it shows up in disk utility and I have formatted it. How can I access it?
+
+A  If you open any of the "Places," on the left side you should see a line that says "nnn GB Filesystem" where nnn is the size of your new hard drive. Click on it, and now you can create folders and paste files.
+
+
+Q  I use Remote Desktop in Ubuntu 10.10 to connect to several Windows 2008 servers. How can I transfer files back and forth between my computer and the servers?
+
+A  (Thanks to e79 on the Ubuntu Forums) Install Remmina from the Ubuntu Software Center. In the first config window, specify a "Share Folder." When navigating "Computer" from the server, you can copy/paste to or from the Share Folder.
+
+
+Q  How can I find the IP address of the computers on my network?
+
+A  (Thanks to Ernesto RD in the Ubuntu Forums) Click on "Places," Network. It should show you the names of all the computers on your network. Open Accessories/Terminal, and enter the command:
+
+nmblookup [name of a computer]
+
+It will show you the IP address of that computer.
+
+
+
+Q  I would like to move /home to another disk.
+
+A  It's in the Community Documentation:
+https://help.ubuntu.com/community/Partitioning/Home/Moving
+
+
+
+Q  What is the name of the conky configuration file?
+
+A  It's .conkyrc and it goes in your home folder.
+
+
+Q  I want to convert a raw DV file to H.264 using ffmpeg. I run this command:
+ffmpeg -i dvgrab-001.dv -acodec faac -vcodec h264 -f flv test.flv
+and it says, "Unknown encoder 'h264'".
+
+A  Use -acodec libfaac and -vcodec libx264
+
+
+Q  I have a 3.5-inch floppy drive, with Ubuntu 11.04 Natty Narwhal. When I put a floppy disk into the drive and click on the drive in 'Computer' it says 'Unable to mount location, no media in the drive'.
+
+A  (Thanks to Coffeecat in the Ubuntu Forums) Put a floppy disc in the drive, open a terminal, and enter this command:
+
+udisks --mount /dev/fd0
+
+Also, you need to use floppies slightly differently in Linux. When you drag and drop files to the floppy file manager window, they may not be written immediately, but remain in cache memory. Therefore, before you physically remove the disc, right-click on the desktop icon to unmount it. Pending writes will then be made after which you can safely remove the disc.
+
+
+
+Q  How can I install the Sun (Oracle) Java JRE?
+
+A  Go to this web site: http://sites.google.com/site/easylinuxtipsproject/java
+
+
+
+Q  Is there any way I can convert mp3 files to aac?
+
+A  Run System/Administration/Synaptic Package Manager. Search for sound converter, select to install it and click "Apply". It should appear in Sound & Video. In Preferences, you set the format of the output file.
+
+
+Q  I would like to have two monitors. Do I need two graphics cards?
+
+A  Most modern graphics cards have multiple outputs. With the power off, connect the two monitors. They will probably both show the same output. Run System > Preferences > Monitors, and change the settings.
+
+
+Q  What is GTK?
+
+A  From the gtk.org web site: "GTK+, or the GIMP Toolkit, is a multi-platform toolkit for creating graphical user interfaces... GTK+ is suitable for (programming) projects ranging from small one-off tools to complete application suites."
+
+
+
+
+Tips and Techniques
+
+Pesky File Ownership
+
+I keep my computers pretty simple: one user with the same name on all computers, no oddball applications, simple folder structure. I would never run into a problem with file ownership, would I?
+
+It finally happened. While using my laptop, I connected to the shared folder on my desktop. I created a sub-folder called miro, and copied a few media files into it. Back at the desktop, I could play the media files just fine, but when I went to delete them, no joy. When I looked at the file properties from Nautilus, they were owned by root, not gord.
+
+I knew what command could modify file ownership, so I opened Accessories/Terminal and entered the "change owner" command:
+
+chown
+
+It suggested my next command:
+
+chown --help
+
+I sat and read through what appeared. It's pretty murky, but there were a couple of examples. I used these commands:
+
+cd shared
+
+sudo chown -cR gord miro
+
+The "-c" told chown to show me each change it made. The "R" meant "recursive," so it would not just change the folder "miro," but also everything under it. It listed each of the files, and the folder itself, and said it had changed each of them to have the owner "gord". Just what I wanted!
