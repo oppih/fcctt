@@ -1,0 +1,51 @@
+TOP 5
+Written by Andrew Min
+USB Installers
+
+
+Ubuntu Live USB creator
+
+Homepage: https://launchpad.net/usb-creator
+
+The easiest way to put Ubuntu onto a USB drive is to use the built-in “Startup Disk Creator” tool, officially known as the Ubuntu Live USB creator. It’s also the easiest to use - just take an Ubuntu-based ISO or IMG (Kubuntu, Xubuntu, and so on), insert a flash drive, and start. It also supports persistence, which keeps all your files and settings intact even after a reboot.
+
+Ubuntu Live USB Creator is pre-installed on most Ubuntu installations. If you don’t have it, use the usb-creator-gtk or usb-creator-kde, depending on your desktop environment.
+Universal USB Installer
+
+Homepage:
+http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+
+If you have a Windows machine, but want to make the switch to a Linux operating system, you may want to try Pendrivelinux.com’s Universal USB Installer. It’s suggested by Canonical for Windows and Mac users on the Ubuntu download page, and for good reason. It supports over eighty operating systems (including well-known Linux distributions like Ubuntu, lesser known ones like Peppermint Linux, system rescue tools like Acronis Rescue CD, and even the Windows 7 install CD). Like Canonical’s offering, it also supports persistence.
+
+To get Universal USB Installer, just click the download link at the homepage.
+LinuxLive USB Creator
+
+Homepage: http://www.linuxliveusb.com/
+
+A similar tool to help Windows users transition to Linux is LinuxLive USB Creator, sometimes abbreviated LiLi. It’s advertised for “both beginners and geeks”, with advanced features packaged for even the most novice users. Its wide feature set includes persistence, automatic updates, automatic downloads of your chosen ISO, and a wide list of supported operating systems. Its most unique feature is support for VirtualBox; it installs a portable version of the popular virtualization software so that you can run your chosen operating system within Windows. Of course, you can also boot directly from the drive itself.
+
+To install LinuxLive USB Creator, use the installer from the homepage.
+
+LiveUSB Install
+
+Homepage: http://live.learnfree.eu/
+
+LiveUSB Install is a project created by the developers of the USU Linux distribution, a derivative of Ubuntu. Unlike most of the others on this list, it supports both Windows and Linux - so Ubuntu users who want to try out new derivatives can do so with ease. It supports standard features like persistence and automatic downloads. What sets it apart is its compatibility - it officially supports over 100 distributions and should work with many more.
+
+To install LiveUSB Install, use the Debian package on the download page.
+
+UNetbootin
+
+Homepage: http://unetbootin.sourceforge.net/
+
+One of the more mature programs on this list, UNetbootin is one of the older Live USB installers. It’s completely cross-platform (Windows, Mac OS X, and Linux are all supported as hosts) and supports a decent number of disks (though not quite as many as some of the others). One of its most unique features is its hard drive install - if you want to install a distribution, don’t have a USB drive, and don’t want to burn a CD, you can use UNetbootin to create a frugal install.
+
+To install UNetbootin, use the unetbootin package in the universe repositories.
+
+The Ubuntu UK podcast is presented by members of the United Kingdom’s Ubuntu Linux community.
+
+We aim is to provide current, topical information about, and for, Ubuntu Linux users the world over. We cover all aspects of Ubuntu Linux and Free Software, and appeal to everyone from the newest user to the oldest coder, from the command line to the latest GUI.
+
+Because the show is produced by the Ubuntu UK community, the podcast is covered by the Ubuntu Code of Conduct and is therefore suitable for all ages.
+
+Available in MP3/OGG format in Miro or iTunes, or listen to it directly on the site.

@@ -1,0 +1,169 @@
+I THINK...
+Last month's question was:
+Should Ubuntu keep its current schedule, or switch to a rolling release?
+
+Should Ubuntu keep its current schedule, or switch to a rolling release?
+
+If you chose 'Scheduled Release', should it stay as 6 monthly, or become yearly? *
+
+It's important that ubuntu stick to its aim of security. By switching to a rolling release, Ubuntu would forfeit security and functionality, for bleeding-edge software. As an Arch user (rolling release system), I can say that the issues that would crop up could scare off a large number of Ubuntu's user base, and also destroy the belief that "Ubuntu is easy to use".
+Lucas Westermann
+   
+"Once a year release. The public is ‘used to’ ubuntu scheduled releases, but one a year would be better... less strain on devs, etc, more stable features, and bugs fixed pre-release."
+syko
+
+Rolling plus LTS milestones would make sense.
+If it moves to rolling release, it would become the ultimate Linux based OS; I hope Mark will make the decision to move to a rolling release.
+Marian
+
+With every 6 months’ releases, we got some Big Updates at one time, and it is good. Small updates just not so interesting and epic...
+Mixabuben
+
+I am about to switch to Arch Linux 100% because of this. I love apt but hate reinstalling stuff every six months, and ubuntu upgrades always break too much stuff. Plus, I like the freedom to choose, and right now I choose Gnome 3 and rolling releases. 
+A rolling release is the only future way to go if Linux ever wants to become a serious contender for the desktop - not many new Linux users want to constantly update their releases.  Herman
+
+My choice depends a lot on whether Unity continues or Gnome 3 comes to Ubuntu.   
+I look forward to the scheduled releases.   
+Do what works best, but I hate having to remove everything to do an upgrade. So, rolling release appeals to me.
+Stephen R Douglas
+
+"We don't need releases before they are fully tested and ready. The worst thing is to have a new release that causes all kinds of problems. I don't want problems. If I did I would use something like Debian unstable.
+Release it only when it is ready, and don't ask us users to find the problems. I love ubuntu, and stay with the LTS releases for just that reason. If the LTS begins to have ‘problems’, I will switch to another distro.
+Jerry Turba
+
+Stick with scheduled releases. The rush to get Natty / Unity out ended in the current disaster - rolling releases would make that worse. 6 months is good, but annual wouldn't be bad if we were changing things for the better, not the dumber - as just happened in April. Annual would give more time to work out bugs before rushing to release, which might have made Unity worth having. As it is, I'd rather use a windoze machine than Natty with Unity.
+Robin Goodfellow
+   
+I think each release of ubuntu should be perfect with fewer bugs as possible. The current scheduled release every 6 months provides very little time for ubuntu community to bug-fix most of the bugs. We need more time to fix the bugs to make ubuntu the perfect OS.
+skumara
+
+Scheduled releases can help in publicity, but rolling releases are the way to go - so that people need not do a fresh install every time. (Most people I know break their systems upgrading to newer releases, and just do a fresh install).
+Salvadesswaran Srinivasan
+
+I'm not sure there is any issue to be addressed here. What's wrong with the current schedule? If small updates are needed, don't we get them through Update Manager when they are available with larger updates on a six monthly cycle. It all seems fine to me. Why change a working formula?
+JFR
+
+I think more frequent updates in smaller increments would be more manageable.
+Dave Nelson
+
+In my opinion, it should actually be a mix of both. I often manually install the latest svn versions of certain software, because I really want or need some features, and often Ubuntu still is behind in packaging the newest stable software. In a one year, cycle I would need to wait longer for official updates of some software, but if it could be mixed with a rolling release, then that would be solved. I'd suggest a scheduled release for major updates and upgrades (Unity, Gnome 3, etc...), and a continuous rolling release for the minor type of updates. That way, Ubuntu could have more time to prevent situations like with the 11.04 release, because, well, let's face it, it is the ‘Windows ME or Vista’ of Linux at the moment.. Unity got released way too early, and ubuntu even messed up the classic mode. I'm used to quality in Linux, and am very critical about it. If that happens again, I move to Debian.
+Bart
+
+As long as the developers can maintain a 6-month scheduled release, there seems no compelling reason to switch to a rolling release. With a scheduled release, you know when to expect next releases. This fact alone should make it easier for sysadmins to plan and schedule upgrade paths and rollouts.
+Tom
+
+Scheduled, and only LTS - as it should be rock solid! 6 months is good for alpha and beta testing, so I'm personally using only LTS releases.
+CLI
+
+Like Arch and Linux Foresight, a rolling release distro feels the way to go. For one it is more efficient and flexible; allowing and enabling one to go back and forth is an easy way to fix and solve issues that can arise.
+Conrad Linde
+
+
+I use Debian as rolling release onto a second machine, and I think it's more comfortable to admin.
+apt-get dist-upgrade or upgrade is more fast & easy than a full setup.
+A good way to manage a rolling release is the CUT project on Debian or the MintUpdate for LMDE : packages are available in the main repository when they are stable enough for end users. Free to you to add another repo...
+lame duck
+
+Go with a rolling release. After all we had Unity imposed on us so why not do something else just as stupid?
+anon
+
+Most of the major packages I use have been already out-of-date in every *buntu release for the last 4 years. I get a newer obsolete version with each scheduled release. I now have 150 plus repositories to try and keep up-to-date, and I build or install outside synaptic 10 of the major applications like Gimp, LibreOffice, etc.
+R. Geleick
+
+Both are needed, so why not make the LTS scheduled and the normal releases rolling?
+Bourlas
+   
+I think that a "half-rolling" release model, like the Chakra Linux one, will be the perfect compromise for all needs. With this model, you have to install only once, and then all application packages will be updated "immediately", while system packages (graphic drivers, kernel, etc), will be tested for a while, and eventually updated.
+Nick
+   
+Scheduled releases allow for important experimentation, and to make a clean break from older set-ups.
+Six-monthly seems to be too much for Canonical; there is always a rush before release. Yearly would take off the pressure and allow a better-shaped release.
+Retain the LTS releases, though, as they are important.
+Paddy Landau
+
+A rolling release seems much more convenient, providing newly added packages are tested before releasing them in the wild. The advantage of this is that you have the latest version when it arrives, and it avoids having to make a major change every 6 months. I live somewhat on the bleeding edge, and, to do that, I now use a number of ppa repositories to get the latest SW from.
+It would be useful if they had 2 types of releases, an LTS for users who want stability and support, and a rolling distribution in between LTS releases, providing always the latest SW releases.
+Marc
+
+The six-month schedule release seems more like a race against time rather than a good upgrade with no bugs.   
+anon
+
+I think they should stick with the scheduled release. Whether it's six months, or a year, doesn't matter. However, what they should be doing is this: decide what they want each LTS to look like (within as much reason as possible). Work on one or two of those features in each intermediate release, and concentrate on bug-fixing for the main focus of each intermediate release. They're doing this now, to an extent. But, I would like to see them concentrate more on bug-fixing for at least one or two releases in the near future. Wipe out as many of the long-standing bugs as they can (especially the paper-cuts).
+Patrick D.
+
+Even if we use rolling release, we may still need to install from DVD from zero (for new PC, or, if we for some reason forgot to update for a long time
+Aloysius
+   
+Scheduled releases create a dependable Linux distribution advantage. The discipline to keep to the schedule sets Ubuntu apart and strongly supports its growth.
+Art Gunn
+
+Ubuntu has matured to the point that it doesn't need new releases every six months. New releases can now be made when there are significant changes and without the pressure of a 6-month schedule.
+Harry Webb
+   
+Getting stuck with old software until a new release is my main dislike in Ubuntu. Especially when new software just doesn't make into a new release like Vim 7.3 with Maverick. Of course ppa's can often solve this, but that does take away some of the convenience of having a central repository, since ppa's sometimes come and go.
+Patrick
+
+Since the Ubuntu developers are going to be fixing a lot of Unity bugs, we shouldn't have to install a new version to get those fixes. Rolling Release would solve this.
+Russell
+   
+Rolling releases are great for bleeding edge environments; however, if you are attempting to build widely-distributable packages, you need to know what versions of libraries and tools are available to the OS.   
+anon
+
+Does not matter. They have limited our choice even further with 11.04 chasing some of us away. There have never seen so many negative comments in other releases. I think the vision of everyone using computers like tablets is flawed.
+Bullet
+   
+Having a known and set release schedule allows both home and business users to better plan upgrades. Rolling releases would bring chaos to a process that works very well.
+Anthony Papillion
+
+A rolling release would allow me to keep an OS on my system without having to feel like I need to cleanly install my system every six months. After a clean install, then there is all the reinstalling and tweaking it to the way I had it before, only this can take hours.
+Chris
+
+I use Ubuntu 10.10 and find it quicker than KDE 4.? by a mile. I sure wish 10.10 was a rolling release.
+harold
+
+I think the rolling release approach is easier for most people who just want to get work done with their machines, and not have the hassle of a fresh install every 6 months. I like PCLinuxOS for this reason. I have run it on one of my computers for two years, and don't plan on replacing it. I have another machine running Mint Debian for the same reason. (This doesn't stop me from burning a disk of every Ubuntu release that comes along.)
+Chuck Pilger
+
+I like scheduled because i love stability of my pc.
+Filippo Locatelli
+
+I'm a laptop user, and Boot-time is everything for me. If they can do a rolling release with a fast boot time, I'll be in 7th Heaven. (I've been thinking about Linux Mint Debian Edition but understands it boots rather slowly). I have a lot of extra software that I use. Reinstalling every 6 months is not nice! (don't know how well upgrades go nowadays)
+Tobie
+   
+I think for the greater adoption numbers that Mark Shuttleworth is aiming for - that would be the way to go.... Similar like the service packs in windows or the enterprise Linuxes, the ordinary non-technical average Joe would like it installed and easily updated for many years - to just get things done. As a long time Linux user, I have no problem with either way, but then, I do put a lot of thinking into my use of software.
+Len Gingrich
+   
+"Scheduled releases always have show stopping bugs because of deadlines. Rolling releases would fix these as and when they happen. Latest apps could also be pushed out a lot sooner."
+teemac
+
+A rolling release means that there is less pressure to release something that is not ready. Unity provides a good example. The developers decided they didn't want to/couldn't wait for 11.10, so released it in 11.04 even though it is buggy and clearly not ready. A rolling release would allow additional time to iron out the bugs.
+Steve Guard   
+   
+Although, with the current level of development that Canonical is making, 6 months is a bit short. More testing and bug tracking is needed."
+Eduardo
+
+Go to a rolling release and delete Unity immediately! Seriously, It would be nice to get new versions of programs (eg. libreoffice, etc) faster, but this might mean occasional regressions.
+Alice Cooper
+
+It gives me the opportunity to upgrade twice a year - which is as much time as I want to spend. Good compromise between old apps and effort
+Ulrich
+   
+I'm using Linux Mint DEBIAN Edition (LMDE) and it's the best distro I have used. It will be very difficult for Ubuntu Debian to surpass Linux Mint, but going Debian Rolling Release is a step closer to perfection.
+killmess
+   
+Stability, NOT Bleeding edge. One of the reasons I chose Ubuntu was its stability, otherwise I would have chosen Fedora and their policy of not having a LTS. If Ubuntu goes rolling release, I'm moving to either Mint LTS or back to Debian.
+nDR01d
+   
+Scheduled is best cause it creates excitement during testing and launching. It also creates creativity on what to implement beyond the available features. To me, Rolling Release is much on bug fixes.
+Robert Ngalu
+
+I think the scheduled releases and the support time are just right. You don't need to wait too long for new software, but if you are more interested in stability, you just stay with the LTS release. I'm concerned that a pure rolling release strategy would affect the stabilty too much. If you desperately need one new piece of software (Firefox 5 or whatever), there's always the option of using a PPA.
+Kerstin
+
+
+The question I'd like to pose for FCM#51 is:
+
+Which distro(s) do you use, and with which desktop manager(s)?
+
+
+To give your answer, go to: http://bit.ly/j1b0qd

@@ -1,0 +1,32 @@
+LINUX NEWS
+
+Asus To Preload Ubuntu On Eee PCs
+
+Asustek has announced that it will ship three models of its Eee PC's with Ubuntu 10.10 preinstalled. Canonical announced Asus' decision to load the Eee PC 1001PXD, 1011PX and 1015PX with Ubuntu 10.10 as one that will "make it one of the most user-friendly PCs on the market".
+
+When Asus introduced the Eee PC back in 2007, it shipped with the Xandros Linux distribution, however once Microsoft realised that netbooks were becoming a big seller, it came out with a cut down version of its Windows operating system. Ubuntu has produced a version of its Linux distribution for several years for netbooks. However [...] many users don't want to bother installing another operating system, a fact that has not been lost on Canonical.
+
+Source: theinquirer.net
+
+Linux 3.0 'Steady Plodding Progress'
+
+Linus Torvalds has put penguins out of their misery by revealing that the next version number for the Linux kernel will be 3.0.
+
+A week after Torvalds publicly deliberated what the next iteration of the Linux kernel should be, he said he bit "the bullet" and simply numbered the thing. He pointed out that the renumbering of the distro was discussed at 2010's Kernel Summit.
+
+"But let's face it – what's the point of being in charge if you can't pick the bike shed colour without holding a referendum on it? So I'm just going all alpha-male, and just renumbering it. You'll like it," he wrote in an email yesterday, in which he announced the first Release Candidate of the 3.0 code.
+
+Source: channelregister.co.uk
+
+Google Docs Offline Support Confirmed
+
+Google has been on-and-off with offline support in Google Docs. While the cloud service used to have limited offline functionality with Google Gears, it seems Google is adamant at enabling full offline capabilities through HTML 5 and various other technologies, which will enhance the value of its recently released Chromebooks.
+
+At present, users can already gain offline access to documents, although the interface is not exactly what you would expect of a cloud service. Google's own Cloud Connect syncs documents, presentations and spreadsheets with Microsoft Office applications. Microsoft is also about to launch Office 365, which will provide similar functionality.
+
+Source: cmswire.com
+
+
+Full Circle Notifier
+
+Our very own Full Circle Notifier is now at 1.0.2. FCN is a small application that sits in your system tray and will not only announce issue/podcast releases, and can be set to automatically download them for you too! Several people have created packages of FCN and translations are starting. For more info, see the FCN Google Group: http://goo.gl/4Ob4

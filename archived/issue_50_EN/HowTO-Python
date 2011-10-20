@@ -1,0 +1,263 @@
+HOW-TO
+Written by Greg Walters
+Program In Python - Part 24
+
+WOW! It's hard to believe that this is the 24th issue already. Two years we've been learning Python! You've come a very long way.
+
+This time we are going to cover two topics. The first is printing to a printer, the second is creation of RTF (Rich Text Format) files for output.
+
+Generic Printing under Linux
+
+So let's start with printing to a printer. The idea to cover this came from an email sent by Gord Campbell. It's actually easy to do most printing from Linux, and easier than that other operating system that starts with “WIN” - and I won't deal with that OS. 
+
+As long as all you want to print is straight text, no bold, italics, font changes, etc, it's fairly easy. Here's a simple app that will print directly to your printer...
+
+
+import os 
+
+pr = os.popen('lpr','w') 
+
+pr.write('print test from linux via python\n') 
+
+pr.write('Print finished\n') 
+
+pr.close() 
+
+This is fairly easy to understand as long as you expand your mind just a bit. In the above code, 'lpr' is the print spooler. The only requirement is that we have already configured 'lpd' and that it's running. More than likely, when you use a printer under Ubuntu, it's already done for you. 'Lpd' is usually referred to as a “magic-filter” that can automatically convert different types of documents to something the printer can understand. We are going to print to the 'lpr' device/object. Think of it simply as a file. We open the file. We have to import 'os'. Then in line 2, we open the 'lpr' with write access - assigning it to the object variable 'pr'. We then do a 'pr.write' with anything we want to print. Finally (line 5) we close the file, which will send the data out to the printer.
+
+We can also create a text file, then send it out to the printer like this...
+
+import os
+
+filename = 'dummy.file' 
+
+os.system('lpr %s' % filename)
+
+In this case, we are still using the lpr object, but we are using the 'os.system' command to basically create a command that looks to linux like we sent it from a terminal.
+
+I'll leave you to play with this for now.
+
+PyRTF
+
+Now let's deal with RTF files. RTF format (that's kind of like saying PIN number since PIN stands for Personal Identification Number, so that translates to Personal-Identification-Number Number. Something from the department of redundancy department, huh?) was originally created by the Microsoft Corporation in 1987, and its syntax was influenced by the TeX typesetting language. PyRTF is a wonderful library that makes it easy to write RTF files. You have to do some planning up front on how you want your files to look, but the results will be well worth it.
+
+First, you need to download and install the PyRTF package. Go to http://pyrtf.sourceforge.net and get the PyRTF-0.45.tar.gz package. Save it someplace and use archive manager to unpack it. Then using terminal, go to where you unpacked it. First we need to install the package, so type “sudo python setup.py install” and it will be installed for you. Notice there is an examples folder there. There's some good information there on how to do some advanced things.
+
+Here we go. Let's start as we usually do, creating the stub of our program which is shown on the next page, top right.
+Before going any further, we'll discuss what's going on. Line 2 imports the PyRTF library. Note that we are using a different import format than normal. This one imports everything from the library.
+Our main working routine is MakeExample. We've stubbed for now. The OpenFile routine creates the file for us with the name we pass into it, appends the extension “rtf”, puts it into the “write” mode, and returns a file handle.
+
+We've already discussed the if __name__ routine before, but to refresh your memory, if we are running the program in a standalone mode, the internal variable __name__ is set to “__main__”. If we call it as an import from another program, then it will just ignore that portion of the code.
+
+Here, we create an instance of the Renderer object, call the MakeExample routine, getting the returned object doc. We then write the file (in doc) using the OpenFile routine.
+
+Now for the meat of our worker routine MakeExample. Replace the pass statement with the code shown below.
+
+Let's look at what we have done. In the first line we create an instance of Document. Then we create an instance of the style sheet. Then we create an instance of the section object and append it to the document. Think of a section as a chapter in a book. Next we create a paragraph using the Normal style. The author of PyRTF has preset this to be 11-point Arial font. We then put whatever text we want into the paragraph, append that to the section, and return our doc document.
+
+That is very easy. Again, you need to plan your output fairly carefully, but nothing too onerous. 
+
+Save the program as “rtftesta.py” and run it. When it's completed, use openoffice (or LibreOffice) to open the file and look at it. 
+
+Now let's do some neat things. First, we'll add a header. Once again, the author of PyRTF has given us a predefined style called Header1. We'll use that for our header. In between the doc.Sections.append line and the p = Paragraph line, add the following. 
+
+p = Paragraph(ss.ParagraphStyles.Heading1)
+
+p.append('Example Heading 1')
+
+section.append(p)
+
+Change the name of the rtf file to “rtftestb”. It should look like this:
+
+DR.Write(doc, OpenFile('rtftestb'))
+
+Save this as rtftestb.py and run it. So now we have a header. I'm sure your mind is going down many roads thinking about what more can we do. Here's a list of what the author has given us as the predefined styles.
+
+Normal, Normal Short, Heading 1, Heading 2, Normal Numbered, Normal Numbered 2. There's also a List style, which I will let you play with on your own. If you want to see more, on this and other things, the styles are defined in the file Elements.py in the distribution you installed.
+
+While these styles are good for many things, we might want to use something other than the provided styles. Let's look at how to change fonts, font sizes and attributes (bold, italic, etc) on the fly. After our paragraph and before we return the document object, insert the code shown top right, and change the output filename to rtftestc. Save the file as rtftestc.py. And run it. The new portion of our document should look like this...
+
+It is also possible to provide overrides for elements of a style. For example you can change just the font size to 24 point or typeface to Impact or even more Attributes like BOLD or Italic or BOTH.
+
+Now what have we done? Line 1 creates a new paragraph. We then start, as we did before, putting in our text. Look at the fourth line (TEXT(' size to 24 point', size = 48),). By using the TEXT qualifier, we are telling PyRTF to do something different in the middle of the sentence, which in this case is to change the size of the font (Arial at this point) to 24-point, followed by the 'size = ' command. But, wait a moment. The 'size =' says 48, and what we are printing says 24 point, and the output is actually in 24-point text. What's going on here? Well the size command is in half points. So if we want an 8-point font we have to use size = 16. Make sense?
+
+Next, we continue the text and then change the font with the 'font =' command. Again, everything within the inline TEXT command between the single quotes is going to be affected and nothing else.
+
+Ok. If that all makes sense, what else can we do?
+
+We can also set the color of the text within the TEXT inline command. Like this.
+
+p = Paragraph()
+
+p.append('This is a new paragraph with the word ',
+
+    TEXT('RED',colour=ss.Colours.Red),
+
+     ' in Red text.')
+
+section.append(p)
+ 
+Notice that we didn't have to restate the paragraph style as Normal, since it sticks until we change it. Also notice that if you live in the U.S., you have to use the “proper” spelling of colour.
+
+Here are the colors that are (again) predefined: Black, Blue, Turquoise, Green, Pink, Red, Yellow, White, BlueDark, Teal, GreenDark, Violet, RedDark, YellowDark, GreyDark and Grey.
+
+And here is a list of all the predefined fonts (in the notation you must use to set them):
+
+Arial, ArialBlack, ArialNarrow, BitstreamVeraSans, BitstreamVeraSerif, BookAntiqua, BookmanOldStyle, BookmanOldStyle, Castellar, CenturyGothic, ComicSansMS, CourierNew, FranklinGothicMedium, Garamond, Georgia, Haettenschweiler, Impact, LucidaConsole, LucidaSansUnicode, MicrosoftSansSerif, PalatinoLinotype, MonotypeCorsiva, Papyrus, Sylfaen, Symbol, Tahoma, TimesNewRoman, TrebuchetMS and Verdana.
+
+So now you must be thinking that this is all well and good, but how do we make our own styles? That's pretty easy. Move to the top of our file, and before our header line, add the following code.
+
+result = doc.StyleSheet
+
+NormalText = TextStyle(TextPropertySet(result.Fonts.CourierNew,16))
+
+ps2 = ParagraphStyle('Courier',NormalText.Copy())
+
+result.ParagraphStyles.append(ps2)
+
+Before we write the code to actually use it, let's see what we have done. We are creating a new stylesheet instance called result. In the second line, we are setting the font to 8-point Courier New, and then “registering” the style as Courier. Remember, we have to use 16 as the size since the font size is in half-point values.
+
+Now, before the return line at the bottom of the routine, let's include a new paragraph using the Courier style.
+
+So now you have a new style you can use anytime you want. You can use any font in the list above and create your own styles. Simply copy the style code and replace the font and size information as you wish. We can also do this...
+
+NormalText = TextStyle(TextPropertySet(result.Fonts.Arial,22,bold=True,colour=ss.Colours.Red))
+
+ps2 = ParagraphStyle('ArialBoldRed',NormalText.Copy())
+
+result.ParagraphStyles.append(ps2)
+
+And add the code below...
+
+p = Paragraph(ss.ParagraphStyles.ArialBoldRed)
+
+p.append(LINE,'And now we are using the ArialBoldRed style.',LINE)
+
+section.append(p)
+
+to print the ArialBoldRed style.
+
+Tables
+
+Many times, tables are the only way to properly represent data in a document. Doing tables in text is hard to do, and, in SOME cases, it's pretty easy in PyRTF. I'll explain this statement later in this article.
+
+Let's look at a standard table (shown below) in OpenOffice/LibreOffice. It looks like a spreadsheet, where everything ends up in columns.
+
+Rows go left to right, columns go down. Easy concept. 
+
+Let's start a new application and call it rtfTable-a.py. Start with our standard code (shown on the next page) and build from there.
+
+We don't need to discuss this since it's basically the same code that we used before. Now, we'll flesh out the TableExample routine. I'm basically using part of the example file provided by the author of PyRTF. Replace the pass statement in the routine with the following code...
+
+doc = Document()
+
+ss = doc.StyleSheet
+
+section = Section()
+
+doc.Sections.append(section)
+
+This part is the same as before, so we'll just gloss over it.
+
+table = Table(TabPS.DEFAULT_WIDTH * 7,
+
+     TabPS.DEFAULT_WIDTH * 3,
+
+     TabPS.DEFAULT_WIDTH * 3)
+
+This line (yes, it's really one line, but is broken up for easy viewing) creates our basic table. We are creating a table with 3 columns, the first is 7 tabs wide, the second and third are three tabs wide. We don't have to deal with tabs alone, you can enter the widths in twips. More on that in a moment.
+
+c1 = Cell(Paragraph('Row One, Cell One'))
+
+c2 = Cell(Paragraph('Row One, Cell Two'))
+
+c3 = Cell(Paragraph('Row One, Cell Three'))
+
+table.AddRow(c1,c2,c3)
+
+Here we are setting the data that goes into each cell in the first row.
+
+c1 = Cell(Paragraph(ss.ParagraphStyles.Heading2,'Heading2 Style'))
+
+c2 = Cell(Paragraph(ss.ParagraphStyles.Normal,'Back to Normal Style'))
+
+c3 = Cell(Paragraph('More Normal Style'))
+
+table.AddRow(c1,c2,c3)
+
+This group of code sets the data for row number two. Notice we can set a different style for a single or multiple cells.
+
+c1 = Cell(Paragraph(ss.ParagraphStyles.Heading2,'Heading2 Style'))
+
+c2 = Cell(Paragraph(ss.ParagraphStyles.Normal,'Back to Normal Style'))
+
+c3 = Cell(Paragraph('More Normal Style'))
+
+table.AddRow(c1,c2,c3)
+
+This sets the final row.
+
+section.append(table)
+
+return doc
+
+This appends the table into the section and returns the document for printing.
+
+Save and run the app. You'll notice that everything is about what you would expect, but there is no border for the table. That can make things difficult. Let's fix that. Again, I'll mainly use code from the example file provided by the PyRTF author.
+
+Save your file as rtftable-b.py. Now, delete everything between 'doc.Sections.append(section)' and 'return doc' in the TableExample routine, and replace it with the following...
+
+thin_edge  = BorderPS( width=20, style=BorderPS.SINGLE )
+
+thick_edge = BorderPS( width=80, style=BorderPS.SINGLE )
+
+thin_frame  = FramePS( thin_edge,  thin_edge,  thin_edge,  thin_edge )
+
+thick_frame = FramePS( thick_edge, thick_edge, thick_edge, thick_edge )
+
+mixed_frame = FramePS( thin_edge,  thick_edge, thin_edge,  thick_edge )
+
+Here we are setting up the edge and frame definitions for borders and frames.
+
+table = Table( TabPS.DEFAULT_WIDTH * 3, TabPS.DEFAULT_WIDTH * 3, TabPS.DEFAULT_WIDTH * 3 )
+
+c1 = Cell( Paragraph( 'R1C1' ), thin_frame )
+
+c2 = Cell( Paragraph( 'R1C2' ) )
+
+c3 = Cell( Paragraph( 'R1C3' ), thick_frame )
+
+table.AddRow( c1, c2, c3 )
+
+In row one, the cells in column one (thin frame) and column 3 (thick frame) will have a border around them.
+
+c1 = Cell( Paragraph( 'R2C1' ) )
+
+c2 = Cell( Paragraph( 'R2C2' ) )
+
+c3 = Cell( Paragraph( 'R2C3' ) )
+
+table.AddRow( c1, c2, c3 )
+
+None of the cells will have a border in the second row.
+
+c1 = Cell( Paragraph( 'R3C1' ), mixed_frame )
+
+c2 = Cell( Paragraph( 'R3C2' ) )
+
+c3 = Cell( Paragraph( 'R3C3' ), mixed_frame )
+
+table.AddRow( c1, c2, c3 )
+
+Once again, cells in column 1 and three have a mixed frame in row three.
+
+section.append( table )
+
+So. You have just about everything you need to create, through code, RTF documents.
+
+See you next time!
+
+Source code can be found at pastebin as usual. The first part can be found at http://pastebin.com/3Rs7T3D7 which is the sum of rtftest.py (a-e), and the second rtftable.py (a-b) is at http://pastebin.com/XbaE2uP7.
+
+
+Greg Walters is owner of RainyDay Solutions, LLC, a consulting company in Colorado and has been programming since 1972. He enjoys cooking, hiking, music, and spending time with his family. His website is www.thedesignatedgeek.com.

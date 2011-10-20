@@ -1,0 +1,70 @@
+Every month we like to publish some of the emails we receive. If you would like to submit a letter for publication, compliment or complaint, please email it to: letters@fullcirclemagazine.org. PLEASE NOTE: some letters may be edited for space.
+
+Universal Installer
+
+With all the fuss over Unity isn't it time all distro developers regardless of preference collaborated on a Universal Installer that worked across the board instead of concerning themselves with trying to impress?
+
+If Linux really wants to take on Windows - and Windows is certainly trying to destroy open source - perhaps they should realise it is Windows' single-mindedness, and single-pointedness, that are the real reasons they continue to dominate the market. I believe very strongly that this lack of true unity is the main reason Linux continues to lag behind. Distros can still be diverse without being perverse. Creating a universal OS installer would go a long way to getting far more people on board. Anyone who has tried different distros knows the problems this diversity of installation procedures can lead to. Most people don't have the patience to deal with the differences in installation. The different Installation processes are only interesting to geeks who live to tinker. Most people want to switch on quick, do what they have to do, and thats it. If they have some fun along the way then fine, but what they don't want, or need, is to be put off at the first hurdle.
+
+Billie 
+
+
+Improving Software
+
+I think that the most important question to ask the users of Linux distributions is not about the OS, but about the software that runs under the OS.
+
+I think that the best possible OS is something that the users do not even notice, it is unobtrusive, and it works without getting in the way (e.g. the other day I was copying some files from an NTFS portable HDD to a Windows 7 notebook NTFS HDD, and I got errors about the length of file names).
+
+So, in the end, the scope of asking questions to the end users about the OS appears (at least to me) somewhat limited (and relevant mostly to the interface which, in the end, is important but not overly so).
+
+Therefore the big questions are relevant to the improvement of the software library. From my side the very big matter is that the spreadsheet capabilities of OpenOffice/LibreOffice are too much behind that of Excel. It is imperative to introduce a non linear solver, to improve the charting and to "port" some Excel addons (e.g. Xnumbers and Xmatrix, fundamental for engineering calculations).
+
+Giulio
+
+
+What New Features?
+
+Should Linux interfaces be making so much effort to look like Windows?
+
+The reason for posing this is with the Unity and Gnome 3 efforts to do 3D windows things truely are looking more like Microsoft. Its pretty, but does it improve things? I use Metacity because it allows, amongst lots of other subtle usability features, placing windows side-by-side and they have this nice bit of 'pressure' needed to push them past one another. This makes it easy to line up several windows without getting RSI. So, the seeming bent by the leading lights in the community to dump 2D and its sensible approach to an interface leaves me a bit concerned.
+
+Roy
+
+Unity Tweaks
+
+A lot of readers seemed to be having trouble tweaking Unity. For general tweaking I found this article very helpful http://www.webupd8.org/2011/04/things-to-tweak-fix-after-installing.html. Among other things, this will tell you how to get rid of the workspace icon on the dock that one reader was complaining about.
+
+For Compiz tweaking you can install the compizconfig-settings-manager, which is not installed by default, and use that to make some changes. For those complaining about having to search through the entire list of programs to find what you want, you can still find programs under the older categories of Accessories, Education, etc. It is not obvious where this is. But once in the Dash (where you go to search for programs) in the upper right corner is the old category list. There may be a down arrow there, I do not have my computer with Unity sitting in front of me at the moment. Also using the Dash just begin typing any part of the name of the program you want and some choices will begin to appear.
+
+Sue Newland
+
+
+Home Photo Server
+
+I want to take this opportunity to tell you that I really like your magazine and learn from each issue.
+
+This evening i installed SSH on my desktop and am going to try accessing it from my laptop. If that is successful, I'm going to get my daughter to try accessing it and if that works, I'll set up a photo gallery of photos I've shot over the years, including about a thousand of my first grandson. I'll also give the site to my sister and a cousin to see how it all works and if that is successful may give it to a few close friends with whom I'd like to share my photos. I have some gallery programs, jAlbum, which I used to set up a web site from windoze. They have a Linux version and it is quite good. I'll also try gallery to see how that compares. I think it will be exciting to have a home server to serve my photos.
+
+Michael
+
+
+What, No Xen?
+
+Considering full Xen support just recently landed in the kernel it was a little disappointing not to see Xen even mentioned in the recent Full Circle article on virtual machines.
+
+Admittedly Xen is rather different than the other products mentioned and arguably not as suited to a casual user. However, it seems like something still worth mentioning, if only to note it's differences.
+
+SloggerK
+
+
+Kindle & Google Earth Wrinkles
+
+Several months ago, I decided that I would like to have some ebooks from Amazon, so I downloaded the Kindle For PC program (Windows version) and it wouldn't install with the default Wine. After some searching, I found the way to get it it work on Ubuntu 10.10 was to download Wine 3, a beta version. So far, I have had no problems with this version.
+
+sudo add-apt-repository ppa:ubuntu-wine/ppa && sudo apt-get update && sudo apt-get install wine1.3
+
+Because I already had an Amazon account registering was not a problem, and when I updated to 11.04, I was able to get back all the books I had bought by hitting the archived button.
+
+From 10.10 I had a problem with installing Google Earth. Downloading the .deb file from the Google site, and using Gdebi to install it, left me with some oversized text boxes on the screen. This was fixed by downloading the Microsoft True Type fonts (sudo apt-get install msttcorefonts). It seems that Goggle Earth needs them for its display.
+
+Brian Cockley

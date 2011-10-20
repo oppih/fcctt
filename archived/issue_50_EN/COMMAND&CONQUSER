@@ -1,0 +1,88 @@
+COMMAND & CONQUER
+Written by Lucas Westermann
+LaTeX
+
+Before I begin this month's article, I would like to share two of John Niendorf's uses for gm (thanks for sharing them!). They are:
+
+alias imgresize='gm mogrify -resize 640x480 *.jpg *.JPG'
+
+alias frameall='gm mogrify -mattecolor yellow -frame 5x5+0+5 *.JPG *.jpg *.jpeg *.png'
+
+These aliases could be either pasted into your .bashrc file, or to a dedicated aliases file. The upper command resizes all the jpeg files to 640 x 480, and the second one adds a frame around all jpeg and png files.
+
+Now, on to this month's article. As some of you may know, typing mathematical formulae (in lectures, or classes, or for any other reason) within programs such as OpenOffice or LibreOffice is not the easiest thing in the world. Especially when you start getting into set theory or other advanced mathematical concepts with Greek letters, symbols like “for all”, and so forth. For these sorts of things, I highly recommend using LaTeX (see Issue 11 for a basic introduction to LaTeX). In this article, I will be introducing you to some math packages and some useful tips and tricks for formatting mathematical formulae nicely. As for software, I'm quite fond of Texmaker, and the texlive packages offered in the official Ubuntu repositories should include all the packages I refer to here.
+
+Document Preamble
+
+The preamble is all the text included before the \begin{document} line in Latex. This includes document settings, headers, footers, package imports, and package settings. My typical math documents contain the following packages:
+
+tikz (for diagrams/graphs, for which I load the decorations.markings tikz library)
+amsmath – offers enhancements to all basic mathematical functionality
+amsfonts – offers special math formatting (math calligraphy (\mathcal{}), math block text (\mathbb{}), etc.)
+amssymb – offers the ability to display numbered equations, in-line math, etc.
+hyperref (when using a table of contents) – Allows the creation of click-able links in TeX documents.
+
+Below is an actual preamble that I use for my Linear Algebra notes (the document section consists of only two include statements – and the references for utf8 and ngerman are because my lecture is in German).
+
+TikZ is probably the most complicated package to use, so I will cover it first. The following is the code used to create graph A:
+
+\begin{tikzpicture}[node distance=2cm, auto]
+
+\node (1) {$\hat{1}$};
+
+\node (2) [right of = 1] {$\hat{2}$};
+
+\node (3) [below of = 2] {$\hat{3}$};
+
+\draw[decoration={markings,mark=at position 1 with {\arrow[ultra thick]{>}}},postaction={decorate}] (1) to node {1} (2);
+
+\draw[decoration={markings,mark=at position 1 with {\arrow[ultra thick]{>}}},postaction={decorate}] (2) to node {3} (3);
+
+\draw[decoration={markings,mark=at position 1 with {\arrow[ultra thick]{>}}},postaction={decorate}] (3) to node {2} (1);
+
+\end{tikzpicture}
+
+Graph A
+
+This code creates 3 nodes (named 1, 2 and 3). The information in the braces (“{}”) is the label for the node (what is displayed), so leaving it blank results in an empty node. The next three lines “\draw” create the lines between nodes (using the node names – which is in the normal brackets), and labelled again by what’s within the braces.
+
+Using the math packages to create and align equations:
+
+\begin{align*}
+
+(\mathbb{K}_1^1) & \alpha +(\beta + \gamma )= (\alpha + \beta)+\gamma \\
+
+(\mathbb{K}_1^2) & \alpha + 0 = 0 + \alpha = \alpha \\
+(\mathbb{K}_1^3) & \alpha \cdot -\alpha = -\alpha \cdot \alpha = 0 \\
+
+(\mathbb{K}_1^4) & \alpha + \beta = \beta + \alpha
+
+\end{align*}
+
+This results in the text shown below.
+ 
+The align* environment allows you to use tabbing characters (“&”) to align the text nicely. This is especially useful when doing a proof, and you want to align the equations at their equals signs. The \mathbb{} results in the blocked K. The “_” and “^” refers to sub and superset. If you have a super/subset that is longer than a single character, you will need to enclose it in braces. The \alpha, \beta, and \gamma refers to the Greek letters. The \cdot is a multiplication sign, the double backslashes denote line breaks, and the rest is self-explanatory.
+
+Other useful commands are things like:
+
+“\forall” (the upside-down A symbol)
+“\exists” (reversed E)
+“\in” (the curved e-symbol used when referring to sets)
+“\cup” (union symbol – set theory)
+“\cap” (intersection symbol – set theory)
+“\mathcal{}” (makes the letter in braces cursive – used by my professor when referring to a basis – a set of linearly independent vectors)
+I hope you've found this article useful. I could have covered more examples, but regardless of how many I covered, it would still suit only a small number of use-cases. As such, you should view these as examples of what you can do with LaTeX. See the further reading section for a link to a useful manual. If you've any questions, or requests, email me at lswest34@gmail.com. Please put the words Full Circle Magazine, FCM, or C&C in the subject line, so I don't overlook it.
+
+Further Reading:
+http://en.wikibooks.org/wiki/LaTeX – Wikibook covering a large amount of standard uses of LateX. For all other non-standard uses, a quick google search should suffice.
+http://sourceforge.net/projects/pgf/ - Included in the zip file (see the Downloads section) is a great manual for many uses of the TikZ package.
+
+Lucas has learned all he knows from repeatedly breaking his system, then having no other option but to discover how to fix it. You can email Lucas at: lswest34@gmail.com.
+
+Server Circle is a new question and answer site run by techies.
+
+Users with any level of experience can ask technical questions for free about anything server related, and receive answers from trusted experts, who are rated by the community.
+
+With time you can earn reputation points, and even financial rewards, by contributing your answers to questions from other people.
+
+http://www.servercircle.com
