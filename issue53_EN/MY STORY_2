@@ -1,0 +1,43 @@
+MY STORY
+Written by Matt Anthony
+
+I love Windows. Some of you are probably laughing right now, thinking to yourself “what a funny typo to slip past the editors, he put 'Windows' instead of 'Ubuntu'.”
+
+I'm serious, I love Windows. It has kept me gainfully employed since the mid-80's. I've watched iteration after iteration come and go, from Windows 1.0 to Windows 7, and have helped many, many, many users throughout the years negotiate their various troubles with the operating system.
+
+Windows does what it does, which is making the use of a computer relatively simple for a vast majority of users. Is it flawed? Absolutely. Will it ever be a 'perfect' operating system? For some users it already is, for others it will never work 'right'. For all of its faults, flaws, and glaring weaknesses, it is highly unlikely that Linux, Mac, or any other OS will ever knock it from its perch as the world’s most widely used operating system. As long as that remains fact, I will remain gainfully employed.
+
+Now with all that being said, I adore Ubuntu for entirely different reasons. My first introduction to Ubuntu came in 2006, at a FOSE show here in Washington, DC. Among all the vendor booths and companies competing for attention was a tiny table manned by three people, handing out copies of Ubuntu 5.10 Breezy Badger. There was no high pressure/high energy sales pitch from these guys, only a simple request: “Just try it”.
+
+Into my bag of swag went the Ubuntu packet (Live CD and Install Disk), forgotten for a month or two until I moved offices. When I found the disks again, I remembered the request made when I first got them, “Just try it”. Like a lot of the other “My Story” writers, I happened to have a recently deceased computer, a Gateway Solo 5300 laptop. I popped in the Live CD, and, less than a minute later, I have a desktop. Graphics card, sound card, wireless NIC - everything recognized and functioned right off the bat. I didn't have to swap out disks, load additional drivers, download anything from the Internet - everything just worked.
+
+Color me impressed.
+
+I played around for a few days, trying out everything I could from the Live CD. Occasionally, I would forget the laptop I was using was actually broken, but would be reminded each time I rebooted and saw the “Windows did not start correctly” screen. That eventually settled the matter, “Just try it” soon became “Just do it,” and I wiped the drive and fully installed Ubuntu. I gave the CDs to a colleague when I finished the install. When he asked “what's this?” my answer was, of course, “Just try it”.
+
+Over the next year, I was happily learning all I could about Ubuntu; the forums were (and still are) an amazing wealth of knowledge and support. Tux magazine (now defunct) was also a useful resource. My colleague installed Ubuntu within a few days of using the Live CD, both of us forgoing the “dual boot” and diving head first into the OS. There were some headaches ('stupid iTunes doesn't work in this OS' being the primary one) but overall the experience was fantastic. 
+
+Eventually though, my old Gateway laptop really did die of massive hardware failure. I bought a new system, a Lenovo Ideapad S10 netbook, which came preinstalled with Windows XP. I left the laptop as it came (minus all the bloatware) and ran happily for a while, Ubuntu all but forgotten. I didn't have a CD player so I couldn't run a Live CD. Besides, iTunes worked fine so all seemed right with the world.
+
+A few months ago, I began to notice my little netbook really struggling to get through simple tasks, such as booting. I decided to time how long it took to boot the system and open my homepage. Five minutes and eight seconds later as I stared at my homepage - which finally opened - and I remembered how quick Ubuntu was on my old laptop. Maybe I needed to “Just try it”, again. 
+
+A quick search of the Internet led me to Pendrivelinux.com, where I easily created a bootable USB drive featuring Maverick Meerkat. A reboot, BIOS adjustment, and thirty eight seconds was all it took to rekindle the feelings I had for this operating system. Okay, so iTunes still doesn't work in it (I know I can run a VM, or Wine) but, for the relatively few songs I have in their m4p format, I can burn them to a CD and rip them back on another system. 
+
+Banshee works great (couldn't get Amarok to work properly) and keeps my devices synced perfectly, Calibre is amazing for keeping my ebooks and Sony Pocket reader organized, setting up my email through Evolution couldn't have been simpler. I've even used OpenOffice (and now LibreOffice) to help a customer recover some PowerPoint slideshows that Windows thought were corrupted and unreadable. 
+
+That pretty much brings me to the end of my story. I, on occasion, have the opportunity to pass Ubuntu on to someone new. I show them my netbook, how quickly it operates, all the free software, all the same functionality they currently enjoy using Windows. Most of them smile politely, reminding me that I enjoy Linux because I'm a “geek”. A couple seem genuinely interested, and to those I hand a Live CD with the same three words that got me started; “Just try it”.
+
+My System:
+
+I run a Lenovo Ideapad S10 netbook with a full version of Ubuntu 11.04 installed. I removed the Unity interface as I much prefer the “classic” desktop. Because it's a netbook, the system specs are not very impressive: Intel Atom 1.60GHz processor, 1.5GB RAM, and an 80GB hard drive. I added a Bluetooth controller to the system to run my mouse (there are only two USB slots in this thing, so I didn't want to waste one on a mouse). Ubuntu worked with everything straight “out of the box”. Even my HP Photosmart C6280 printer was found on the first try, and, with the HP plug in, I can easily scan, print and copy wirelessly. 
+
+My desktop is pretty plain, which is just how I like it. I'm running three Screenlets, which are the standard Clock, Weather, and Calendar. On occasion, I switch to an AWN Dock, but usually switch back to the standard bottom panel after a few days. Guess I just haven't found the right configuration for the AWN Dock that will make me keep it. That's another reason I like Ubuntu so much; it's so customizable and so easy to switch around.
+
+
+The Ubuntu Podcast covers all the latest news and issues facing Ubuntu Linux users and Free Software fans in general. The show appeals to the newest user and the oldest coder. Our discussions cover the development of Ubuntu but aren’t overly technical. We are lucky enough to have some great guests on the show, telling us first hand about the latest exciting developments they are working on, in a way that we can all understand! We also talk about the Ubuntu community and what it gets up to.
+
+The show is presented by members of the UK’s Ubuntu Linux community. Because it is covered by the Ubuntu Code of Conduct it is suitable for all.
+
+The show is broadcast live every fortnight on a Tuesday evening (British time) and is available for download the following day.
+
+podcast.ubuntu-uk.org

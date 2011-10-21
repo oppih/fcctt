@@ -1,0 +1,62 @@
+REVIEW
+Written by Robin Catling
+Linux Mint 11
+
+Linux Mint comes in two flavors (I know, I know, cliché alert...), the rolling Debian release, and the more established, Ubuntu-derived, periodic release. Mint 11, codenamed 'Katya,' is the newest based on Ubuntu 11.04, re-spun with the Mint team's distinctive applications and software choices. 
+
+If you are expecting revolutionary or cutting edge: don't. Mint 11 uses Ubuntu as its base, but with classic Gnome 2.32 as the default desktop environment. It remains, in our view, the premier Linux for new users and migrants from the Redmond way of life. Call it conventional if you like, but it has polish and it's tried and tested. Linux Mint 11 comes with updated software, refinements, and new features to make a comfortable desktop in use.
+
+Some people attribute Mint's dramatic rise in popularity to defecting Ubuntu users who are unhappy with Ubuntu Unity; I think there's more to it than that. 
+
+Mint Installer
+ 
+I still think this one has the edge over the Ubuntu installer; coherent Mint branding starts here, as the installation steps through, quickly and solidly bringing you to a clean, attractive desktop. 
+
+Mint has long been distinctive with its Mint Menu and Welcome screen. Mint 11 includes some artwork changes, an apt download command, and some changes in the packaged software. For a major numbered release, the main change is the adoption of the Ubuntu 11.04 code base. 
+
+Mint is available either as a full liveDVD or a lighter, smaller, liveCD (minus codecs and extra applications) available for those without a DVD burner, or for distributors in the USA and Japan. 
+
+Software Manager 
+
+I still regard Software Manager as one of Mint's major selling points. Ever more polished, a splash screen appears when you launch it, and the main window has bigger category icons, with new categories for templates and fonts. 
+
+It now shows even more icons and preview screen-shots. Previews of application icons are now gathered from the mintinstall-icons package and also from your current theme icons. Searches now take in package summary descriptions as well as titles; this may take longer but gives more accurate search results. 
+
+Further layout changes in Software Manager take it further on from the equivalent Ubuntu Software Center. Select a package to install, and the Mint Software Manager runs a diagnostic to tell you precisely which packages it will add to or remove from your system alongside the total download size. This may be just an impression, but Mint's ratings and reviews seem more complete to me. 
+
+Expanding Mint 
+
+The LiveCD edition is much reduced in the scope of applications installed, and comes with limited multimedia support from first boot. Both these are overcome with desktop short-cuts and Mint Menu entries for Upgrade to the DVD Edition and Install Multimedia Codecs. These provide additional browser plug-ins and codecs for full multimedia support of MP3 and video, the VLC player, Gimp, Giver, Tomboy, LibreOffice-Base, and additional fonts; Java, Samba file sharing, more backgrounds, themes and icons. 
+
+Shifting Mint 
+
+The Mint team has actually used the feedback in the reviews and scores provided by the user community in the Software Manager, changing the default application software: 
+• Gwibber is dropped, just before Ubuntu does the same
+• gThumb replaces F-Spot as the default photo manager 
+• Banshee replaces Rhythmbox as the default music player, the same as Ubuntu 
+• A stack of Pulse Audio utilities are no longer installed by default
+• LibreOffice replaces OpenOffice.org. 
+
+Mint Update 
+
+Mint Update was always a strong selling point, categorizing updates according to criticality. It's now faster as change-logs are downloaded asynchronously in the background. The whole thing now has a more attractive graphical interface; for example, all Update dialogs are now modal, so you can't lose windows in a stack like you can in Ubuntu (which drives me crazy). After a successful update, the Update Manager hides itself, without parking a confirmation dialog on the screen. Warnings and information tabs now only appear for updates that need them. 
+
+The update rules including the safety level for each package are embedded and refreshed with each Mint 11 Update Manager version, so the majority are no longer downloaded in real time; Update Manager checks only for new versions of itself, which it updates as a priority, then for package updates for everything else. 
+
+Similar to Software manager, Mint Update runs a diagnostic to determine package and library dependencies, which is output in a separate dialog, so that, for each update, you get a better picture of what it entails. 
+
+The Good, the Bad, the Indifferent 
+
+• Themes and artwork: Mint has always featured good backgrounds and themes. Mint 11 leaves behind water droplets and goes 3-D,
+• Desktop Settings also provides the control framework for any desktop in any desktop version; Gnome, KDE, LXDE, XFce,
+• Fortune Quotes: Mint has a sense of humor, which is why the terminal window features an ASCII-art cow telling bad jokes. You can turn these off, too,
+• Mint menu's application categorization has its critics, mainly those who find them inconsistent. It may be true, but the Mint Menu remains one of the more familiar features for those looking for a 'Start' menu,
+• Overlay scrollbars: Linux Mint 11 inherits the overlay scrollbars from Ubuntu upstream, and enables them by default. I hate them, but I can turn them off using the Desktop Settings tool ,
+• The boot process is a mixed bag of changes; the Plymouth boot screen kicks in late in a fast boot process, which is mostly 'quiet', that is to say - black. Very professional, but not so helpful when it fails to boot into higher resolutions, which it sometimes does. 
+
+Verdict 
+
+This is one of those times when conservative with a small 'c' is a complement. Full marks to Clement Lefebvre and the team for delivering an incremental update with stability and continuity in mind. 
+
+
+

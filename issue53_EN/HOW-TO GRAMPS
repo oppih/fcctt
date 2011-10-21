@@ -1,0 +1,62 @@
+HOW-TO 
+Written by David O. Rowell
+GRAMPS - Part 2
+
+I need to begin by correcting some bad advice in the previous article. The Marriage event is properly entered for the family - not for the individual. It is, after all, a family event, and not just that of any person, although it will show in the individual screen as a shared event.
+
+Before you get too far along in recording your family history, here are some hints gained from many researchers’ experience and mistakes:
+
+• DO NOT start by trying to find family data on the Internet. Always work from the known to the unknown – gives your feet a firm place to stand.
+
+• Don't blindly assume those family legends to be the complete truth. They usually have some root in reality, but you may not recognize it right off.
+
+• Don't expect “Who Do You Think You Are?” results without years of hard work! 
+
+• Begin by recording what you know about yourself – your birth date and place. How did you know that? Gather copies of your birth record if you don't have it already. In the US, a birth certificate will generally include only a minimum of extracted data. Try to get a copy of the actual courthouse journal entries.
+
+• Dates are usually entered in day-month-year (08 Jun 2011) format to avoid confusion. Enter as much of the date as you know. Some useful common abbreviations are – cal, Calculated; bef, Before; aft, After; ca, Circa; abt, About; est, Estimated; bet, Between. 
+
+As we saw in the last article, Gramps facilitates this by having a date selection screen where you can choose how best to enter the dates as you know them. Just click the little box to the right. You can even choose the calendar you're using – not a problem for most of us! Making a choice from the 'Quality' dropdown says something about how certain you are about the date. Making a choice from 'Type' takes care of choices mentioned above. Entering one or two dates into the date fields completes the entry. The 'Text Comment' box will show you how your choices will appear. You'll use 'Calculated' for those birth dates extrapolated from Census data or calculated from an age and death date. Be aware of accuracy problems found in many date calculators. Many don't take into account everything they should!
+
+Be aware that there was a calendar change from Julian to Gregorian method of calculation that may well impact your work. While the change should have taken place in the 1500's each country decided when to adopt it. Britain and the British colonies seem to have adopted the new calendar in 1752. Suffice it to say that, if you're dealing with dates around the changeover you have to be very careful. You may also run into double dates that stem from the definition of what date the year started. Then there was the French Republican calendar, but we won't go there! My advice is to record the date as you found it and make use of 'Notes' to record your evaluation of the situation.
+
+• As you gather family data, you're bound to find that you have entered children out of birth date order. To fix this click the edit box to the right of 'Family'. On this screen (only) you can drag and drop to establish the right order, or you can use the 'up' and 'down' arrows.
+
+• Placenames are entered in small to large order - parish, township or city, county, state, country; e.g. Lysander Township, Onondaga County, New York, US of A. This level of detail is needed to make a positive location. It is important that places be entered as they existed when the event took place. Knowing that will help in locating primary records. For example the present Oswego County, NY, was formed from Oneida and Onondaga Counties in 1816. Hinmansville and its records would have been in Onondaga County in 1810 - even though it is in Oswego County now. Nor will you find an 1810 census for Oswego County. You can search for this sort of information on the 'Learn” tab at FamilySearch.org.
+
+• I will guarantee that you will want to revisit your source data at some time in the future. If you record enough information to uniquely identify both the specific source and where you found it, I feel that's enough. Others would insist on a more formal citation. Data on the Internet had to come from somewhere else. Cite the source of your source. In that manner, you have some assurance of finding the data even if the site changes. It may seem a tedious waste of effort to find and record the source information for your data, but it’s not. Just do it!
+
+• If you're married, record your spouse's and children's data in the same way. The complete family information is usually recorded on a 'family group sheet'. Gramps will generate a 'Family Group Report,' simply choose Reports->Text Reports->Family Group Report. Select your family and options, then press OK. I find PDF output to be the most convenient, but Open Document format is handy if you need to edit the report. I'd avoid plain text, it’s formatted for fixed-width printing, and RTF, because every WP processes it differently!
+
+• Be sure to select the child's relationship to the parents when recording family data. Gramps includes what appears to be all the usual parent relationships in the dropdown box. Please don't ask how to handle the complex situations that might develop from a surrogate mother situation or sperm or egg donation. I'm sure those have been discussed on the Gramps forums – look there.
+
+• Now it’s time to record yourself as a member of your parents’ family. Record your siblings too. Again, secure copies of documents that verify the data. 
+
+• Working backward in time, record your parents as members of your grandparents’ families. You may begin to find that documentation is getting hard to find. Record what you know and make a to-do list for the unknowns. Try to find pictures and get your grandparents to talk about the people and places in them.
+
+• If you don't know parts of a person's name, DO NOT enter unk or unknown – that will bite you, guaranteed! I type [–?–], there's no question that is a symbol, not a name. I took that away from months’ long discussion on one of the Genealogy newsgroups years ago.
+
+• Contact your cousins, aunts, and uncles. Find out about your family history from “the horse’s mouth” so to speak. One day my cousin and I looked at each other and realized that we were 'the older generation'! Too late then.
+Genealogy isn't just dates and numbers. Try to flesh out your knowledge with pictures, recordings, letters, medical information, precious objects, and interviews. Talk to your parents about events that have special meaning to them. Have them identify people and places in pictures.
+
+• Start some sort of filing system to keep track of the documents you're gathering. Some file by person, some by family. Some use notebooks, some use folders in a file. Your choice, but do something, or you'll find yourself staring at a pile of half remembered papers! Develop a system to preserve the names and places you've identified in those old pictures. Reading through http://genealogy.about.com/cs/organization/a/filing_systems.htm will give you some ideas.
+
+• It is helpful to keep a record of places (books, web sites ...) you've researched, what you searched for, and what you found. “Nothing” is a perfectly valid and useful fact! This practice will help prevent searching again and again for the same item in the same place. Of course this isn't strictly true in the case of searching on the Internet, since URLs and content vary with time.
+
+• Consider this about the Census – the census taker only recorded what he thought he heard, generally without checking spelling. In many cases someone else may have provided the information to the census taker, perhaps the family was away for the day? Get used to inferred birth years changing over time. Accept the fact that names and name spelling just weren't that important in the old days. I've found a certain “liquidity” in reported ages. Perhaps being older or younger than your spouse had a certain stigma?
+
+• At some point, hopefully after you've recorded some data for your grandparents, or even great grandparents, you will want to seek further information on the Internet. Learn to develop a skeptical attitude toward what you find – some “researchers” aren't at all careful about what they record. There are even known cases of fraud. There's a lot of garbage and copies of garbage out there. You want to get back to hard evidence – original records if they exist.
+
+• As a newcomer to genealogy, I'd suggest that you visit https://www.familysearch.org/learn/getting_started, and work through some of the guides provided. The Family Search site is provided by The Church of Jesus Christ of Latter-day Saints, the Mormons. I understand that family history is very important in their religion. LDS has undertaken some very large international projects to digitize original records – much of this work is available for your research on the Family Search website at no cost. They also have a worldwide network of FamilySearch Centers. At these Centers, you can view microfilm of these original records and use some for-fee sites at no cost on their computers. Microfilm not found at a Center can be rented very reasonably from their main library in Salt Lake City. On-site staff will be helpful but may not know much about genealogy. No, I'm not evangelizing here - it’s just that LDS has generously provided these services for your use at no cost and with no strings attached. 
+
+• At some time you will need to visit http://www.rootsweb.ancestry.com/ to consult and register for some of their lists. You'll find a wealth of background information on RootsWeb. RootsWeb is hosted by Ancestry, but has remained free and independent of commercial influence.
+
+• Other resources include www.worldgenweb.org which will link to www.usgenweb.org www.canadagenweb.org and other national sites. The information you'll find here is organized geographically, and may contain information you need.
+
+• You may well find that your local library has a genealogy and local history department. Most provide user access to online databases such as Heritage Quest or Ancestry. Some systems even allow remote login. Ask at the Reference desk.
+
+• If you can afford it, www.ancestry.com has, probably, the most complete online digital content. Remember the “Who do You Think You Are?” TV series? You can search for events, names, or places, find and view original and secondary sources, and participate in online training. Considering Ancestry's vast content, the price is reasonable.
+
+• Google is your friend even for genealogy! Surprisingly, Wikipedia will also prove useful.
+
+This brief note should get you well started on the path to building a good sound family history database. Don't forget those sources!

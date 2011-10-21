@@ -1,0 +1,35 @@
+MY STORY
+Written by James L. King III
+Ubuntu In My Classroom
+
+I teach various music classes at Florida Keys Community College in Key West, Florida, and am proud to use Lubuntu - along with open source or public domain materials in as many areas of my job as possible.
+
+I have a history of being interested in being involved in the open source community, having created a piano primer licensed under the GFDL titled “Learning the Code,” which is available for download in several places, including Scribd and the Internet Archive. It was only natural that I would take my opportunity to teach in the classroom to see what materials could be successfully used in music appreciation.
+
+First, I have a simple Acer Aspire One 255E netbook. This is the modest machine that I use to get results in the classroom. I use the Lubuntu distro, having switched to it after Ubuntu switched to Unity. I really like Lubuntu and see it as the eventual successor to Xubuntu.
+
+For classroom lectures and presentations, I use LibreOffice Impress 3.3. I embed music and video clips liberally in my presentations, as they seem to keep students' attention. I looked at other open-source presentation software, but, of all solutions available on Lubuntu, LibreOffice serves my needs best. As LibreOffice improves, I will continue to improve my presentations.
+
+I ask my students to do their presentation projects in Google Docs, when practical, for portability purposes: I feel Google Docs is superior to LibreOffice or MS Office in this regard. No matter what computer displays the presentation, it will look the same. This allows students to view the presentations outside of class on their computer without formatting issues.
+
+I am also using OpenShot and Audacity to create podcast-style video mini-lectures that will eventually be a part of the online curriculum at the school.
+
+I regularly use materials from the Internet Archive and MusOpen. Both of these are great sources for public domain and copyleft music performances. The International Sheet Music Library Project is a great source for first editions and manuscript copies of music, which I use in some of my presentations.
+
+I regularly listen to all the files in each format to determine which one sounds the best. This means that I have several different file formats on my data DVD: mp3, mp4, ogg, ogv, oga, mov, flac and wav. I provide an installer for VLC for my students on the data DVD so they can listen to all the files without problems.
+
+When I would attempt to make mp3s from ogg files, the resulting recompression sometimes made a result that sounded worse than the .ogg file, so I stopped trying to convert everything to mp3 format. If I use Audacity on any of the files to remove surface noise or record pops and clicks, then I save the file in .flac format to avoid any additional degradation from lossy compression.
+
+I use Scribus to typeset, using open source fonts. The fonts I find most useful are the Fontin family (regular, sans, smallcaps), the Nimbus Sans family (especially the condensed variety), Delicious, and Miso. All of my printed material is rendered in .pdf format.
+
+When I am composing (I have written an Alma Mater and a Fight Song for the school), I use MuseScore and Lilypond together. MuseScore allows me to place the notes easily using a GUI, and then I use Lilypond to polish the final score. I really believe Lilypond creates some of the best looking sheet music out there. I used Finale from version 3.1 through 2005, switching to Lilypond in 2006. For my legacy Finale compositions, Finale 2005 runs acceptably well through Wine. Until I started using MuseScore as a GUI aid for inputting notes for Lilypond to typeset, I used jEdit for its wonderful LilypondTool plugin.
+
+For recording, I use Rosegarden or Audacity. My multitrack recording needs are not as extensive as others.
+
+LibreOffice allows me to open up all MS-Office-created documents that the administration asks me to fill out and return, and I have never once been told that the files I saved in MS Office format (using LibreOffice) were corrupted or unusable.
+
+I use public transportation to get back and forth from home to school so I can remain productive while traveling. I use my iPhone on the road, tethered to my netbook for internet access so I can work on files, respond to student emails, and do continued research for the music textbook I am creating (which will be open-sourced when finished).
+
+I see myself as a willing and enthusiastic volunteer to experiment with using open-source materials in an environment that is not always open-source-friendly. I always look at what the software can do and what it's capable of doing, and work within those parameters. If I always looked at what any software (proprietary or open-source) couldn't do, I'd never get anything done with the negativity.
+
+

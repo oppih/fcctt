@@ -1,0 +1,104 @@
+Q&A
+Compiled by Gord Campbell
+
+If you have Ubuntu-related questions, email them to: questions@fullcirclemagazine.org, and Gord will answer them in a future issue. Please include as much information as you can about your problem.
+
+Q I have installed Ubuntu 11.04 on my Dell Mini 1010, and I'm having troubles playing video files such as .avi and .mkv. They load up, but the sound is jumpy and the video skips/jumps, so it’s unviewable.
+
+A Install CompizConfig Settings Manager, then open it from Dash and go to the "OpenGL" plugin and uncheck the "Sync to VBlank" option.
+
+
+Q I've got an ext4 formatted Truecrypt container which has a size of 400 GB. After I deleted all the files in it, Nautilus tells me that I now have only about 100 GB free space, but I can't see any files in the container anymore.
+
+A It has its own Trash bin, which you can see if you Edit/Preferences in Nautilus, and tell it to display hidden files. You have to empty the trash to free up space.
+Q Where can I find information about using a 3G modem?
+
+A http://www.pcurtis.com/ubuntu-mobile.htm contains information ranging from dial-up on land lines to mobile broadband USB sticks.
+
+
+Q I have Sound Recorder installed in Ubuntu 10.04, but when I click on it to do some voice recording to dub over a video I'm building, I get this notice:
+"Could not create the GStreamer GConf audio recording element.
+Please install the 'gconfelements' plug-in from the 'gst-plugins-good' module..."
+
+In checking the Software Center, gsstreamer, etc, they all show as installed.
+
+I'm using a USB connect headset/mic for clean voice recording.
+
+A After a full clean install of 11.04, it seems to be working well.
+
+
+Q I was fooling around with Mysql, but then I forgot my password. When I uninstall it and then install it again, it does not ask me for a new password.
+
+A Use Synaptic Package Manager, and "mark for complete removal." That should get rid of the hidden folders in Home, where the old password is stored.
+
+
+Q I need to install Blender 2.5, which is not in the repositories.
+
+A Open Accessories > Terminal and enter these three lines:
+
+sudo add-apt-repository ppa:cheleb/blender-svn
+
+sudo apt-get update
+
+sudo apt-get install blender
+
+
+
+Q How do I share my CD/DVD drive for general usage, so that whatever a CD/DVD is inserted into the drive, it will be accessible on the remote machine?
+
+A Edit your /etc/samba/smb.conf with:
+
+ gksudo gedit /etc/samba/smb.conf)
+
+Instructions to enable a shared CD drive are in the file.
+
+
+
+Q My KDE sessions freeze randomly, and I can only do a hard reset.
+
+A (From the original poster) I found that one of my RAM modules was faulty. MemTest was a real life-saver in finding this.
+
+
+
+Q I get connected OK, but my WEP key isn't being stored; I have to enter it every time!
+
+A (Thanks to Barry in the Ubuntulinux Yahoo Group) Try manually creating the connection using 'Edit Connections' and make sure that the 'Apply to all users' box is ticked.
+
+
+
+Q I am trying to use winff to convert an FLV file to AVI, but I get this error message "Unknown encoder 'libmp3lame.'"
+
+A Enable the Medibuntu repository, and enter this command:
+
+sudo apt-get install ffmpeg libavcodec-extra-52
+
+Q How can I compile C++ programs and other basic languages?
+
+A https://help.ubuntu.com/community/CompilingEasyHowTo
+
+
+
+Q Running Ubuntu Server 10.04, this error appears for a few seconds before it boots:
+"error: no argument specified. Press a key to continue..."
+
+A Browse this: https://help.ubuntu.com/community/Grub2, go to section 12.1.5. Because you are running Server, you just need to run steps 8, 9 and 10.
+
+
+Tips and Techniques
+Help Wanted: Community Docs
+
+One of the great strengths of Ubuntu is the Community Docs, a Wiki of how to do this, that and the other thing in Ubuntu.
+
+However, the articles do not include a date-written. There's a date last-updated at the bottom of the article, but the update might have been to fix a spelling mistake.
+
+The authors' guidelines suggest you must include what version of Ubuntu a new article applies to. However, lots of authors have ignored this. As well, many authors have made no attempt to keep their articles up to date. So you get an article which says it applies to Dapper, and it turns out that it was valid all the way to Jaunty, but after that it became obsolete. It still shows up on Google.
+
+A "how-to" written in 2007, when I began using Ubuntu, is more likely to mislead people in 2011, than to help them. The solution? If you look at an article and find that it's obviously obsolete, take a bit of time to fix it.
+
+It takes a few steps to be authorized to update the community docs. First, go to the WikiGuide article. You should have a look at each section, even if you're not going to remember it all. Then follow the "/Registration" link. From there, follow the link to the Launchpad Help Site. More links, to the account sign-up page, then "Create a new account." Fill in your information, and try to get the annoying captcha right. You'll get an email with a "confirmation code" you can copy and paste into the next screen.
+
+Now, when you are reading a community doc, you can click on "log in to Edit," and when you do, "Edit" will appear at the bottom of the screen.
+
+The rigamarole to sign up on Launchpad might seem like a nuisance, but there needs to be some procedure to block random people from vandalizing the community docs, and that's the chosen process. Really, it takes only a few minutes, and you will probably spend longer than that just staring at the first doc you decide to improve.
+
+

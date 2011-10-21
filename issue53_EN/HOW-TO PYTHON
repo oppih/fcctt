@@ -1,0 +1,104 @@
+HOW-TO
+Written by Greg Walters
+Program In Python - Part 27
+
+If you've ever waited in line to buy a movie ticket, you've been in a queue. If you've ever had to wait in traffic at rush hour, you've been in a queue. If you've ever waited in a government office with one of those little tickets that says you’re number 98, and the sign says "Now serving number 42," you've been in a queue.
+
+In the world of computers, queues are common. As a user, most times, you don't have to think about them. They are invisible to the user. But if you ever have to deal with realtime events, you will eventually have to deal with them. It's just data of one type or another, waiting in line for its turn to be processed. Once it's in the queue, it's there until it gets accessed, and then it's gone. You can't get the value of the next data item unless you pull it out of the queue. You can't, for example, get the value of the 15th item in the queue. You have to access the other 14 items first. Once it's accessed, it's out of the queue. It's gone, and unless you save it to a long-term variable, there's no way to get the data back.
+
+There are multiple types of queues. The most common ones are FIFO (First In, First Out), LIFO (Last In, First Out), Priority, and Ring. We'll talk about ring queues another time.
+
+FIFO queues are what we see in everyday life. All of the examples I listed above are FIFO queues. The first person in the line gets handled first, moves on, then everyone moves up one spot in the line. In a FIFO buffer, there is (within reason) no limit to the number of items it can hold. They just stack up in order. As an item is handled, it is pulled out (or dequeued) of the queue, and everything moves closer to the front of the queue by one position.
+
+LIFO Queues are less common in life, but there are still real-world examples. The one that comes to mind most quickly is a stack of dishes in your kitchen cabinet. When the dishes are washed and dryed, they get stacked in the cabinet. The last one in on the stack is the first one that comes out to be used. All the rest have to wait, maybe for days, to be used. It's a good thing that the movie ticket queue is FIFO, isn't it? Like the FIFO queue, within reason, there is no limit to the size of a LIFO queue. The first item in the queue has to wait as newer items are pulled out of the buffer (plates pulled off the stack) until it's the only one left.
+
+Priority queues are a bit harder for many people to imagine right off the bat. Think of a company that has one printer. Everyone uses that one printer. The print jobs are handled by department priority. Payroll has a higher priority (and thankfully so) than say, you, a programmer. You have a higher priority (and thankfully so) than the receptionist. So in short, the data that has a higher priority gets handled, and gets out of the queue, before data that has a lower priority.
+
+FIFO
+
+FIFO queues are easy to visualize in terms of data. A python list is an easy mental representation. Consider this list...
+
+[1,2,3,4,5,6,7,8,9,10]
+
+There are 10 items in the list. As a list, you access them by index. However, in a queue, you can't access the items by index. You have to deal with the next one in the line and the list isn't static. It's VERY dynamic. As we request the next item in the queue, it gets removed. So using the example above, you request one item from the queue. It returns the first item (1) and the queue then looks like this.
+
+[2,3,4,5,6,7,8,9,10]
+
+Request two more and you get 2, then 3, returned, and then the queue looks like this.
+
+[4,5,6,7,8,9,10]
+
+I'm sure you get the idea. Python provides a simple library, surprisingly enough, called Queue, that works well for small-to-medium sized queues, up to about 500 items. Above is a simple example to show it.
+
+In this example, we initialize the queue (fifo = Queue.Queue()) then put the numbers 0 through 4 into our queue (fifo.put(i)). We then use the internal method .get() to pull items off the queue until the queue is empty, .empty(). What is returned is 0,1,2,3,4. You can also set the maximum number of items that the queue can handle by initializing it with the size of the queue like this.
+
+fifo = Queue.Queue(300)
+
+Once the maximum number of items have been loaded, the Queue blocks any additional entries going into the queue. This has a side effect of making the program look like it's "locked" up, though. The easiest way to get around this is to use the Queue.full() check (above right). 
+In this case, the queue is set for a maximum of 12 items. As we put items into the queue, we start with '0' and get up to '11'. When we hit number 12, though, the buffer is already full. Since we check to see if the buffer is full before we try to put the item in, the last item is simply discarded. 
+
+There are other options, but they can cause other side-effects, and we will address this in a future article. So, for the majority of the time, the bottom line is either use a queue with no limit or make sure you have more space in your queue than you will need.
+
+LIFO
+
+The Queue library also supports LIFO queues. We'll use the above list as a visual example. Setting up our queue, it looks like this:
+
+[1,2,3,4,5,6,7,8,9,10]
+
+Pulling three items from the queue, it then looks like this:
+
+[1,2,3,4,5,6,7]
+
+Remember that in a LIFO queue, items are removed in a LAST-in FIRST-out order. Here's the simple example modified for a LIFO queue:
+
+When we run it, we get "4,3,2,1,0".
+
+As with the FIFO queue, you have the ability to set the size of the queue, and you can use the .full() check.
+
+PRIORITY
+
+While it's not often used, a Priority queue can sometimes be helpful. It's pretty much the same as the other queue structures, but we need to pass a tuple that holds both the priority and the data. Here's an example using the Queue library:
+
+First, we initialize the queue. Then we put four items into the queue. Notice we use the format (priority, data) to put our data. The library sorts our data in a ascending order based on the priority value. When we pull the data, it comes back as a tuple, just like we put it in. You can address by index the data. What we get back is...
+
+In our first two examples, we simply printed the data that comes out of our queue. That's fine for these examples, but in real-world programming, you probably need to do something with that information as soon as it comes out of the queue, otherwise it's lost. When we use the 'print fifo.get', we send the data to the terminal and then it's destroyed. Just something to keep in mind.
+
+Now let's use some of what we've already learned about tkinter to create a queue demo program. This demo will have two frames. The first will contain (to the user) three buttons. One for a FIFO queue, one for a LIFO queue, and one for a PRIORITY queue. The second frame will contain an entry widget, two buttons, one for adding to the queue, and one for pulling from the queue, and three labels, one showing when the queue is empty, one showing when the queue is full, and one to display what has been pulled from the queue. We'll also be writing some code to automatically center the window within the screen. Above left is the beginning of the code.
+
+Here we have our imports and the beginning of our class. As before, we create the __init__ routine with the DefineVars, BuildWidgets, and PlaceWidgets routines. We also have a routine called ShowStatus (above right) which will... well, show the status of our queue.
+
+We now create our DefineVars routine. We have four StringVar() objects, an empty variable called QueueType, and three queue objects - one for each of the types of queues that we are going to play with. We have set the maximum size of the queues at 10 for the purposes of the demo. We also have created an object called obj, and assigned it to the FIFO queue. When we select a queue type from the buttons, we will set this object to the queue that we want. This way, the queue is maintained when we switch to another queue type (code is on previous page, bottom right).
+
+Here we start the widget definitions. We create our first frame, the three buttons, and their bindings. Notice we are using the same routine to handle the binding callback. Each button sends a value to the callback routine to denote which button was clicked. We could just as easily have created a dedicated routine for each button. However, since all three buttons are dealing with a common task, I thought it would be good to work them as a group (code shown right).
+
+Next (below right), we set up the second frame, the entry widget, and the two buttons. The only thing here that is out of the ordinary is the binding for the entry widget. Here we bind the self.AddToQueue routine to the <Return> key. This way, the user doesn't have to use the mouse to add the data. They can just enter the data into the entry widget, and press <Return> if they want to.
+
+Here (next page, bottom) is the last three widget definitions. All three are labels. We set the textvariable attribute to the variables we defined earlier. If you remember, when that variable changes, so does the text in the label. We also do something a bit different on the lblData label. We will use a different font to make it stand out when we display the data pulled from the queue. Remember that we have to return the frame object so it can be used in the PlaceWidget routine. 
+
+This (next page, middle) is the beginning of the PlaceWidgets routine. Notice here that we put five empty labels at the very top of the root window. I'm doing this to set spacing. This is an easy way to “cheat” and make your window placement much easier. We then set the first frame, then another “cheater” label, then the three buttons.
+
+Here we place the second frame, another “cheater” label, and the rest of our widgets.
+
+def Quit(self):
+   sys.exit()
+    
+Next we have our “standard” quit routine which simply calls sys.exit() (above right).
+
+Now our main button callback routine, btnMain. Remember we are sending in (through the p1 parameter) which button was clicked. We use the self.QueueType variable as a reference to which queue type we are dealing with, then we assign self.obj to the proper queue, and finally change the title of our root window to display the queue type we are using. After that, we print the queue type to the terminal window (you don't really have to do that), and call the ShowStatus routine. Next (following page, top right) we'll make the ShowStatus routine.
+
+As you can see, it's pretty simple. We set the label variables to their proper state so they display if the queue we are using is either full, empty, or somewhere in between.
+
+The AddToQueue routine (next page, bottom right) is also fairly straight-forward. We get the data from the entry box using the .get() function. We then check to see if the current queue type is a priority queue. If so, we need to make sure it's in the correct format. We do that by checking for the presence of a comma. If it isn't, we complain to the user via an error message box. If everything seems correct, we then check to see if the queue that we are currently using is full. Remember, if the queue is full, the put routine is blocked and the program will hang. If everything is fine, we add the item to the queue and update the status.
+
+The GetFromQueue routine (middle right) is even easier. We check to see if the queue is empty so as not to run into a blocking issue, and, if not, we pull the data from the queue, show the data, and update the status.
+
+We are getting to the end of our application. Here is the center window routine (above left). We first get the screen width and screen height of the screen we are on. We then get the width and height of the root window by using the winfo_reqwidth() and winfo_reqheight() routines built into tkinter. These routines, when called at the right time, will return the width and height of the root window based on the widget placement. If you call it too early, you'll get data, but it won't be what you really need. We then subtract the required window width from the screen width, and divide it by two, and do the same thing for the height information. We then use that information to set the geometry call. In MOST instances, this works wonderfully. However, there might be times that you need to set the required width and height by hand.
+
+Finally, we instantiate the root window, set the base title, instantiate the QueueTest class. We then call root.after, which waits x number of milliseconds (in this case 3) after the root window is instantiated, and then calls the Center routine. This way, the root window has been completely set up and is ready to go, so we can get the root window width and height. You might have to tweak the delay time a bit. Some machines are much faster than others. 3 works fine on my machine, your mileage may vary. Last but not least, we call the root window mainloop to get the application to run.
+
+As you play with the queues, notice that if you put some data in one queue (let's say the FIFO queue) then switch to another queue (let's say the LIFO queue), the data that was put into the FIFO queue is still there and waiting for you. You can completely or partially fill all three queues, then start playing with them.
+
+Well, that's it for this time. Have fun with your queues. The QueueTest code can be found at http://pastebin.com/5BBUiDce.
+
+
+There are multiple types of queues. The most common ones are FIFO (First In, First Out), LIFO (Last In, First Out), Priority, and Ring.

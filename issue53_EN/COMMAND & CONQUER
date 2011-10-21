@@ -1,0 +1,38 @@
+COMMAND & CONQUER
+Written by Lucas Westermann
+Message Of The Day
+
+Regarding FCM#52: Gord Campbell was kind enough to point out to me that, while Chinese can be written vertically, it seems that it's not as common as I had assumed it to be.
+
+If you, the readers of Command & Conquer, are anything like me, you will have probably enticed one or two people you know into trying Linux. My first and foremost aim is always to make the operating system run as stable as possible, so that the user will have less to fight with (in order to fend off complaints about how Windows had fewer problems). Once I have that taken care of, I give the user a short run through some things they need to be aware of – what this list consists of is generally dependent on the distribution I installed. However, most recently I installed ArchLinux on a netbook (after we decided Chakra didn't quite fit the bill). Shortly thereafter, the KDM wasn't starting properly on run level 5, dropping the user into a tty screen. This is generally one of those moments where the user will feel lost as to how to proceed, which brings me to the purpose of today's article, the Message of the Day (motd). The Message of the Day is a file on the system that is printed upon login, located at /etc/motd and /etc/motd.tail. There is also a package called update-motd for Ubuntu, which seeks to offer more options. Usually used by server administrators to list the terms of use, or list help information (rooms, phone numbers, emails, etc.). Since it's a text file, absolutely anything can go in there. I felt it might be useful to cover a list of things you can put in your Message of the Day, so that if your user needs to log in on a tty shell, he (or she) will not be completely lost.
+
+About the files
+
+For Ubuntu Server (and probably the Desktop version), you need to edit /etc/motd.tail and /etc/motd, so that the .tail file doesn't overwrite the /etc/motd file after a reboot. For the newer versions of Ubuntu, the files may be located in /etc/update-motd.d/. This seems to be a result of the update-motd package, but the files are clearly named and should be easy enough to edit.
+
+Useful commands
+
+The first thing I did was add a list of commands for getting around in the shell (cd, cat, vim/nano, pwd, etc.) and a brief explanation of each command. After that, you may want to supply some system-specific commands (i.e. if you have a command-line email client configured, how to access that); however, it is completely system-dependent.
+
+Important locations
+
+You could also include a list of important files/directories, where the user can either access help pages/tutorials, or else a file with more commands, or a file containing contact information (if it's not included in the MotD already).
+
+Troubleshooting
+
+I would also list one or two of the most common fixes (such as restarting the Xserver or login manager) in order to get the User out of the tty shell. If you feel that the user would be comfortable with it, you can also explain how to capture debugging information, or log files, that they should then send to you.
+
+Mounting external devices
+
+If the user needs to send you log files, or needs to back up a file (or restore a backup), it would be extremely helpful for them to connect an external drive of some sort to the computer. Since hal or udev generally handle that, it may still work in the tty shell, although I find it rather unlikely. Therefore, I would list a few commands (label them something useful, like “USB” (generally FAT32), “external hard drive” (usually ntfs or ext3/ext4), or even specific devices if you know the hardware). I wouldn't advise adding all this extra information in unless it's extremely important, or if the user lives in a location where you, or someone who is comfortable with Linux, cannot easily intervene and help, be it in person or via SSH.
+
+Contact information
+
+If you're employing this as a system administrator for a company, or for someone you don't know well, I would include a phone number, email address, and maybe a website where they can contact you.
+
+That essentially covers all the items I would usually include in a Message of the Day, but it's by no means extensive. If anyone has an interesting or unique use for their Message of the Day, feel free to share it with me at lswest34@gmail.com. If I find it interesting as well, I may compile a list of them for next month's article. As always, suggestions and questions are also very welcome. Any emails sent to me should include “C&C” or “FCM” in the subject line, so that they get sorted properly.
+
+
+The Message of the Day is a file on the system that is printed upon login
+
+If anyone has an interesting or unique use for their Message of the Day, feel free to share it with me.

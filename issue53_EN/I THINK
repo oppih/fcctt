@@ -1,0 +1,76 @@
+I THINK
+Last month's question was:
+With the rise of web-based email, do we really need an email client installed by default?
+
+With the rise of web-based email, do we really need an email client installed by default?
+
+Yes			266	57%
+No			179	38%
+Don't know	21	5%
+
+Do you use web-based email? If so, which one.
+
+Why keep emails on a computer when there is the cloud? GMail lets me import my mail from other servers, why should I not use it? Moreover, I can access the same email on my laptop, on my mom`s pc, on my phone or tablet.
+
+I use both web based and computer based email clients. I see the need for both.
+
+I don't want my business email to be hostage to web-based storage. I want to keep my own records.
+
+In my personal experience, since I'm using GMail, I have never run Evolution again on my Ubuntu System.
+
+Web-based email is slow and not comfortable.
+
+People aren't ready for it not to be included -- yet.
+
+Yes we need to download and store emails for offline use.
+
+I have not used an email client for over 5 years. Web-based works just fine.
+
+I use Hotmail, and have my Gmail accounts downloaded into Thunderbird. I prefer the client, so I can tailor how I view the emails.
+
+Since I have various e-mail adresses, Evolution is important.
+
+Not being able to remove Evolution has bugged me for ages.
+
+Only used to use email client to notify me of mail, but now use Google Mail Checker in Opera, so no need for client now.
+
+Mixed opinion. Essential - No. But if it is necessary to have full integration, then yes. I find that I am more and more impressed with Thunderbird every day. Still, it is not essential for default installation.
+
+An email client is useful to access these emails in case of unavailability of Internet connection.
+
+I do use GMail, but through Thunderbird... So yes, I am using an e-mail client, but personally, I don't really need it by default, as I can easily install it myself. I would just like to have better integration with Thunderbird once I install it.
+
+I want MY data (including emails) on MY computer. Do not want to hear about this "cloud" thing.
+
+Webmail = low security, to me.
+
+
+With the rise of web-based email, we need an email client which merges each email account into a single piece of software.
+
+I sometimes use Thunderbird but would like all that Evolution stuff to go away
+
+
+The question I'd like to pose for FCM#54 is:
+
+What age do you think the average Linux user is?
+
+To give your answer, go to: http://goo.gl/AB1nX
+
+
+Quick How-To : Broadcom Wireless
+by Eric Skala
+
+When you install, or upgrade to, Ubuntu 11.04 you may notice that you can not use your Broadcom Wireless adapter. Many people have left Ubuntu and/or Linux for this reason. Yes, you can look online for a way to install the driver, but I'm going to show you how to quickly install the driver. The way I'm going to show you works in all Ubuntu derivatives.
+
+First, open a Terminal, and enter:
+
+sudo apt-get firmware-b43-installer
+
+It will ask you for your password which you should enter. When the program has been successfully installed go back to your terminal and type in:
+
+sudo apt-get install b43-fwcutter
+
+Again, typing in your password.
+
+If you don’t wont to use the terminal you can open your package manager and search for bcm. Make sure you uninstall the bcmw1-kernal-source package. Search for firmware-b43-installer and install it, then search for b43-fwcutter and install that. Your wireless should now work. I used the steps above to also get the wireless on my Dell Inspiron 1200 laptop to work. Remember, you need to have a wired network connection to do the steps above!
+

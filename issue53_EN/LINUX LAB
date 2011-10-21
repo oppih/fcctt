@@ -1,0 +1,35 @@
+LINUX LAB
+Written by Ronnie Tucker
+ZoneMinder CCTV - Part 2
+
+Last month we got our CCTV system up and running. The only downside was that it was view only. It wouldn’t record. We’ll rectify that this month.
+
+Here’s the scenario: I have my laptop on my desk, and I want to know if someone has touched, moved, or taken my laptop. The easiest way to do this is to have our ZoneMinder CCTV pointing at it:
+
+then, in the ZoneMinder admin screen, click the link which says ‘monitor’. You’ll get a pop-up window with some options. These options are what ZoneMinder is doing. Monitor is what we were doing, just monitoring, or watching, the situation. Here, we want to choose ‘Modect’ which is short for ‘motion detect’ and click ‘Save’.
+
+Now ZoneMinder is sitting watching (monitoring) for motion detection. That is, it is waiting for something to move. When something does move, you’ll notice some numbers appearing on your admin screen (above right).
+
+The number one (in my case) means one event has happened. Clicking the number one in the events column will take you to your list of events:
+
+You’ll see information for your event(s). In this case the ‘Cause’ is ‘Motion’ (a movement). The time the event took place, duration of the event (or movement) and various other pieces of data. If you’ve enabled it in the settings you’ll see a thumbnail of the event too.
+
+Clicking the name/Id will play the event:
+
+Don’t panic, it’s only me closing the lid on my laptop, but it could also have been someone stealing my laptop. You’ll also notice that the playback has the date and time stamped on it.
+
+Just above where it has my time stamp, you’ll see a link to ‘Export’ the scene as a video. If you’re lucky, you’ll get a window which asks you which things you’d like to export:
+
+Me? I got nothing. It turned out to be another ZoneMinder/Ubuntu clash which I could only resolve by using a static URL to gain access to the export screen. So, if you don’t get the export pop-up, try using this URL:
+
+http://localhost/zm/index.php?view=video&eid=127
+
+NOTE: the ‘127’ at the end of the URL is the event ID which can be found either in the event list window, or in the video playback window. Make sure you change the 127 in the above URL before you export your video.
+
+Which should take you to:
+
+where you can choose the video format, frame rate, and video size, and get access to the ‘Generate Video’ button. Once you’ve clicked generate, you can then view, download, or delete the generated video.
+
+And, here’s the generated video of me not stealing my own laptop.
+
+Next month, we’ll discuss more motion detection. What if you’re wanting to watch your car, but you don’t want to have the CCTV getting false positives from wind-blown trees or innocent passers by?

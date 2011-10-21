@@ -1,0 +1,76 @@
+LETTERS
+
+Every month we like to publish some of the emails we receive. If you would like to submit a letter for publication, compliment or complaint, please email it to: letters@fullcirclemagazine.org. PLEASE NOTE: some letters may be edited for space.
+
+Pagemaker
+
+Many thanks for the article in My Opinion in Issue 52: How to install Microsoft Office in Ubuntu. While I did not want to install this software, the Wine set up in the article allowed me to install an old copy of Page Maker. I still use this program and was stuck with a Windows computer previous to this article.
+
+Allan Hambidge
+
+Telephone Bill Desktop
+
+I got my telephone bill today; on the page where they list the calls over a particular amount there was not enough room for them all so they appened a little note "a bit more to go...". What is wrong with "continued overleaf"? This really got me annoyed.
+
+I tell you this to explain why I do not like the way desktop appearance seems to be heading. I do not want pretty pictures, icons or similar displays, I want a well structured menu with the ability to access frequently used items by hot key combinations. I currently have this in my Kubuntu desktop and near enough with my Ubuntu desktop on my laptop. I could, of course, do it all from the command line but typing in a hurry leads to mistakes which are easier to avoid with a clean graphical user interface. Am I out of touch with the modern world? Or is it that there are now two sorts of computers - one in the world of work and one in the world of play?
+
+Even considering the world of work computer for the majority of users, it seems they only use a dedicated program with restricted icon-guided interface and very restricted rights.  The world of play, where so much is dictated by Apple design style, menus and textual interface seem so out of place.   I guess I will continue to be a misfit in my belief that it is possible to have far greater richness in an interface that is menu driven and I hope that Kubuntu and Ubuntu designers will always provide that facility to configure the interface the way the user likes it, not what current style dictates.
+
+Roy Read
+
+GRAMPS Update
+
+While I appreciate that your series (GRAMPS Pt.1, FCM#52) has so far only scratched the surface of the possibilities of GRAMPS, and I note with pleasure that you do tend to push forward the use of Sources and Notes there is one possible error.
+
+While  the person edit form does allow you to add Marriage as an event this is not the preferred method to add Marriages. A Marriage is a family event and should be added as an event under the family edit form, the one marriage event will then correctly be associated with both people and the database structure will correctly link families. I made the mistake of adding marriage events to people when I first started with Gramps and had all sorts of problems finding relationships and seeing people married twice to the same person and lots of database instability. I ended up manually re-entering details for 800+ people.
+
+R. Geleick.
+
+David O. Rowell says: The reader is, of course, right. I never fell into that particular trap - thank goodness! The ability to do decidedly unclever things like that is one of the features that leave me a bit uneasy using GRAMPS.
+
+
+Upgrading From 11.04
+
+A number of friends I convinced to install Ubuntu Linux instead of Windows XP, as well as myself, who have found Ubuntu 11.04 too bug laden, would like to downgrade to 10.10 or perhaps 10.04 LTS in order to get some work done while looking into which Linux distribution, if any, might provide for our needs going forward. It would be nice to see an article on how to return to a previous version, safely, as most all have no means to back up their /home partitions.
+
+While Unity is the primary cause of disatisfaction, many other problems too numerous to list have created an unbearable situation rendering our computers barely usable. None, including myself again, expect 11.10 to be an improvement, so Ubuntu 10.xx will likely be the last upgrade, unless Canonical gets its act together.
+
+Joe
+
+
+
+Dell Go-Go
+
+Dell may no longer sell pre-installed Ubuntu, but on higher cost machines it will sell it to you OS free at a reduced cost to offset the Windows/3rd party licenses. So, call a salesman and negotiate!
+
+Of course, there will be no support except for hardware failure, but that's why we have Ubuntu Forums.
+
+Matt
+
+KDE Konvert
+
+I have not even been able to get Gnome 3 to work on any of my computers, and I think that Ubuntu has totally lost the plot with trying to look like Apple.
+
+Hence, I am returning to KDE. I have found the new KDE 4 very different to the beautiful KDE 3.5, and had written it off in the past. But, with what has happened to Gnome, I think that KDE is the only way to keep Linux. 
+
+I do think that KDE is the way to go. 
+
+I moved to Mint Linux as soon as Ubuntu put the window buttons on the wrong side. I know you can change them, but it shows their attitude to the people who made them what they are, more than anything. But even Mint won't be able to keep Gnome 2 alive. Very sad because Gnome 2 was the perfect desktop for getting the job done, and efficiently.
+
+Ray
+
+More Toys
+
+I have a similar set up to David O. Rowell's (FCM52) and I am working through a consolidation and simplification to reduce the complexity and confusion of having different files on different machines. My approach to simplify things is to add something else.
+
+I have just added a 4 yr old Dell Precision 390. Adding a server negates the need for the separate USB drive and my old NAS box. It makes it possible to move, synchronise or backup all home directories files to one central location (i.e. available then to all other PCs on the home network  or if required, from anywhere on the internet). Not sure yet how the Apple will interact (it may need to have its own directory shares).
+
+It connects to the router via Devolo Powerline Ethernet, is headless (ie no screen or keyboard needed once it is configured and can be shutdown, halted, or started up remotely using 'wakeonlan' so it doesn't need to be left swicthed on) and uses NFS to provide access to the Linux OS PCs. It also uses Samba to provide access to the Windows PCs, and Netatalk to to provide access to my Apple.
+
+Adding the server has cost me just €150, and that was for the two 2TB disks.
+
+All of the above and lots more is possible - Its not bleeding edge speed and its not bleeding edge technology but it is working, it is cheap and it is do-able with a little time and research.
+
+Peter Errity
+
+

@@ -1,0 +1,71 @@
+HOW-TO 
+Written by Allan J. Smithie
+Backup Strategy - Part 1
+
+There's nothing worse than the thought of data loss to an habitual geek, particularly if that geek happens to be a hoarder of bits going back a couple of decades. We're all inexorably going digital; music, photo albums, correspondence; all so convenient, all so ephemeral.
+
+It's not good for one's state of mind to know that hard disks fail; gravity, electric surge, malware, and human stupidity all take their toll. What's needed is a safety net; a backup strategy. Oh, look, I just happen to have one...
+
+What to Backup
+
+Don't panic over software. Program loss is merely an inconvenience, since programs can be replaced easily, particularly Open Source programs; much easier than grubbing around for License/Activation Keys for proprietary software.
+
+Data loss, however, is the real tragedy. Data can be priceless and literally irreplaceable.
+
+What data files to backup, then?
+
+Photos, documents, spreadsheets, calendars, email (mailboxes or individual messages). Music, too, if, like me, you have an old library ripped from quarter-inch tape.
+
+Critically, you need to know where everything is stored. Key to this is a detailed inventory, starting with a system-wide search based on the file types (extensions). Don't assume you or your dearest save things to the folders that you should use. Run that search, note where everything is. Do the housekeeping, and tidy up. Rationalise. De-duplicate. Know what's vital and current. Empty the trash. Include memory sticks and external hard drives in that inventory.
+
+You won't want system cache or temporary files, swap files, or page files, as you can rarely extract anything useful from them, and they fill up with junk anyway. If there is anything you need to keep from your cache, copy it out to a more secure location.
+
+You will need to know the types of files (usually described by the file extension, such as .odt, .pdf, .mpeg, .mp3, .mp4) in order to better specify your inclusions and exclusions when you backup.
+
+Any databases (.dbf, .db) may have additional backup conditions to cope with locked or open files, records and indexes. Think of your vital club membership, mailing list, video index; all the backups can be rendered useless if you backup while they're in a locked (edited) state. Best close them and the applications that use the data while you backup.
+
+Where Are the Files/Data for Backup?
+
+The local (internal) hard disk is the number one stop, followed by external drives, network (server) drives, NAS, SAN, and peer-to-peer connected machines. USB 'flash' memory sticks are excellent for holding the latest 'sneaker-net' copies of documents, closely followed by external USB or Firewire hard drives. I have 'temporary' and intermediate copies of data duplicated across several devices already. Mobile phones and PDA's; iPhone, iPad, or synced files from Blackberry? Make a list of all the different types of data and devices you need to backup.
+
+Version Control
+
+How volatile is your data? High priority or critical information can change regularly. Are you going to want to backup each version? There may be a need for generations of backups, for audit trails and inspections, company or government data retention policies, or plain old work-in-progress, so you can back out a generation of changes should things go wrong. You should plan your generations of data to best use the storage available, so decide what's the best frequency to take copies, and how long to retain them. There's a whole discipline in IT administration built around backup, versioning and retention. You can go read.
+
+Backup Destination
+
+The safest data storage plan goes something like this:
+•  local machine disk (original or master copy)
+•  network storage disk (common or shared copy).
+Note that in these days of network computing, this may actually be your master. While you may have RAID (Redundant Array of Inexpensive Disk) which is more robust, don't rely on it. It's still electrons stored as bits on mechanically spun magnetic platters.
+•  offline storage. This was commonly tape, but could be anything loaded on request - tape, disk caddy, mini-disc, optical re-writeable disk, or logical volume mount.
+•  off-site storage. This could be physical media - say a set of imaged disks which are caddied, your digital tapes or data-DVD's.
+•  Remote cloud storage, or on-line backup.
+
+For maximum peace of mind, you should be looking to hold at least three copies of data on a selection of different media types: local, off-site, and cloud.
+
+Local backup does not include the working copy on your PC. Get an external drive for convenience. Keep it somewhere safe, out of site, away from the PC. Use it as a deliberate and planned local backup.
+
+On-premises backups would ideally go into a fire-proof safe.
+
+Off-site means not at your home or office where the PC normally lives. If nothing else, swap between two external hard drives, and always keep one at your mother's house. Maybe have a reciprocal arrangement with your best mate. I know of professional people who use a safety deposit box at the bank.
+
+This provides physical persistence of data, but consider privacy and whether you need encryption for data security. If your off-site backup gets burgled, will that harm you if the data gets into the wrong hands? Family photos? No. My lawyer friend's legal briefs? Yes. That's why he encrypts his backups. This is another whole topic.
+
+Embed Backing-up into your life
+
+This means a program with a scheduler, or a script triggering the backup application to copy your data onto something other than the device where the master copy lives.
+
+Move External Backups Off-site
+
+The value of your backup holds for as long as it stays intact and proof against fire, flood, theft, earthquake, subsidence, and so on. Once you make a backup, remember to move it off-site to your alternate location. Don't leave it on the bookcase, on top of the fridge or under the desk. That's not a useful backup. This is why online or cloud storage is so attractive.
+
+Online backup and storage is now a practical reality for most computer users and there are lots of providers in the industry of cloud storage. Disk space is cheap, bandwidth is available and it automatically migrates off your premises. The best cloud storage services have encryption built in.
+
+Testing
+
+Finally: test your backup with a partial restore from ALL sources. Just because a backup exists, doesn't mean it is usable. Tapes and DVD's decay, disks fail, software doesn't always write with integrity . Test them before you need them in an emergency.
+
+Restoration is always a challenge owing to the volume of data and the length of time it takes. It has to be done to verify the integrity of your backup. If you never rehearse a full restoration, you need to establish what a colleague calls a 'degree of confidence.' The partial restore gives you that confidence that it will work in extremis. Otherwise you're just guessing. How confident are you in your guesses in other areas of life? Exactly.
+
+
