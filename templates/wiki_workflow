@@ -1,6 +1,6 @@
 <br> 
 
-== Full Circle 53 ==
+== Full Circle 54 ==
 
 {| cellspacing="0" cellpadding="0" border="1" style="width: 741px; height: 361px;"
 |-
@@ -12,7 +12,7 @@
 | 二校 <br>
 | 状态/Deadline <br>
 |-
-| colspan="3" | [[FC53 编者的话|编者的话]]<br> 
+| colspan="3" | [[FC54 编者的话|编者的话]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -20,7 +20,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Linux新闻|Linux新闻]]<br> 
+| colspan="3" | [[FC54 Linux新闻|Linux新闻]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -28,7 +28,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 读者来信|读者来信]]<br> 
+| colspan="3" | [[FC54 读者来信|读者来信]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -44,7 +44,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 决胜命令行|决胜命令行]]<br> 
+| colspan="3" | [[FC54 决胜命令行|决胜命令行]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -52,7 +52,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Linux实验室|Linux实验室]]<br> 
+| colspan="3" | [[FC54 Linux实验室|Linux实验室]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -60,7 +60,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Ubuntu女士|Ubuntu女士]] 
+| colspan="3" | [[FC54 Q来A去|Q来A去]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -68,7 +68,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Ubuntu游戏|Ubuntu游戏]] 
+| colspan="3" | [[FC54 我的故事1|我的故事1]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -76,7 +76,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Q来A去|Q来A去]]<br> 
+| colspan="3" | [[FC54 我的故事2|我的故事2]]<br>
 | <br> 
 | <br> 
 | <br> 
@@ -84,7 +84,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53_TOP5|TOP5]]<br> 
+| colspan="3" | [[FC54 我的想法|我的想法]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -92,7 +92,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 我的故事|我的故事]]<br> 
+| colspan="3" | [[FC54 我的桌面|我的桌面]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -100,7 +100,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 我的观点|我的观点]]<br> 
+| colspan="3" | [[FC54 评测|评测 - Synergy]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -108,7 +108,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 我的想法|我的想法]]<br> 
+| colspan="3" | [[FC54 Closing Windows|Closing Windows]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -116,7 +116,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 我的桌面|我的桌面]]<br> 
+| colspan="3" | [[FC54 图书评测|图书评测]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -124,7 +124,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 评测|评测]]<br> 
+| colspan="3" | [[FC54 Python编程|How-to Python编程 - 28]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -132,7 +132,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Python编程|How-to Python编程]]<br> 
+| colspan="3" | [[FC54 Apt-Cache-NG|How-to Apt-Cache-NG]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -140,7 +140,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Libre Office|How-to Libre Office]]<br> 
+| colspan="3" | [[FC54 Bus and Edu|How-to Bus & Edu - 3]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -148,7 +148,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 GRAMPS|How-to GRAMPS]]<br> 
+| colspan="3" | [[FC54 Backup|How-to Backup - 2]]<br> 
 | <br> 
 | <br> 
 | <br> 
@@ -156,15 +156,7 @@
 | <br> 
 | <br>
 |-
-| colspan="3" | [[FC53 Bus and Edu|How-to Bus & Edu]]<br> 
-| <br> 
-| <br> 
-| <br> 
-| <br> 
-| <br> 
-| <br>
-|-
-| colspan="3" | [[FC53 Backup|How-to Backup]]<br> 
+| colspan="3" | [[FC54 FreeMind|How-to FreeMind]]<br> 
 | <br> 
 | <br> 
 | <br> 
