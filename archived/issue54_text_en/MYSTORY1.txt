@@ -1,0 +1,15 @@
+I'm a doctor in Sri Lanka, currently waiting till I get my first appointment. 
+
+I had my first experience with GNU/Linux when I came across Redhat, which was used by one of my cousins, in 2004. Then I got to know about Ubuntu through him, and he made me get free CDs of Ubuntu and Kubuntu. It was in 2006, when I was a med student, I tried it on my home computer, but the experience was not that nice, as I didn't have Internet, hence no further source of information.
+
+I had my laptop in 2007. It was an HP Pavilion DV9000 with 1 GB RAM. The default OS was Vista, and you can imagine the picture. It was good at first sight, but became creepy and annoying whenever I used it. And it was consuming the majority of my RAM and 160GB hard disk, so I wanted a solution.
+
+I again came across Ubuntu, and learned that it had improved a lot, with frequent updates, upgrades, and new versions. So I requested the CD in shipit, and could get them delivered to home within a couple of weeks. First, I tried it as a live-CD, and, once I was comfortable enough, I installed it as dual boot with Vista. I had a big learning curve ahead, so I waded carefully, and took my time to repeatedly go through the try-break-mend-learn cycle. When I could get Internet later, as it was then somewhat affordable, I could move fast with great forums and support pages maintained by experts. Ultimately, I even could identify the script for prepaid Internet connections of my ISP, which was not available according to their customer care!
+
+I continued to move with each version of Ubuntu, which became simpler, user friendly, and attractive every time. Every time it was a clean install, but I stayed with dual boot. When 10.10 arrived, I decided to give up Vista. I upgraded to 11.04, but, since it had many bugs, I reverted back to 10.10. Now I'm fully comfortable with Ubuntu and always recommend it to others. And I have started a blog on Ubuntu, and I try to continue it - even with my busy schedule.
+
+Now, my friends find my laptop being a “hotspot” to have a peep in, but still many stay with Windows. Main fear they have is the learning curve ahead of them. But I was able to change one of them to Ubuntu, and he found it so easy that he stayed with it. Also, my girlfriend loves my system, and knows how easy it is. My sister recently requested dual-boot with Ubuntu in her new laptop.
+
+The drawbacks I came across were many. We had some software that need windows to run, but I could manage with alternative tools, WINE, or with a virtual machine with windows XP. And the false belief of being difficult-to-use is another deeply established idea, that is strengthened by the market sellers and the authorities we have. So, they tend to buy an expensive OS, or have a pirated version and spend some more money on software, specially on virus guards. Reliability is another issue for them, but not for me. This is far more reliable than Windows.
+
+I would like to have a good organization/forum/community such as Ubuntu community in Sri Lanka, as it would solve many problems we, the users and the newcomers, have. This is a community product after all, right?

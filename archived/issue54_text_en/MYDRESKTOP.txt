@@ -1,0 +1,29 @@
+This is my desktop screenshot.  My OS is a homemade mixture from Debian base, Ubuntu, Back Track, Hymera, and a lot of extra repositories. I'm using a lot of software for astronomy, radio communication, and spectral analysis.
+
+PC specs:
+Processor Intel Celeron 1.6Ghz
+1G Ram
+Alternating Gnome with OpenStep and BlackBox
+
+Bratu Florian
+
+
+This is my screenshot on my laptop, it is an HP from 2006, but works nicely to surf the Internet, write mail, read newspapers, and use the bank. I like Unity - easy to use on the laptop - and I use gkrellm to monitor.
+
+Per Gylterud
+
+Here is my current Ubuntu 11.04 desktop.
+
+PC Specs:
+RAM 2GB
+Processor core-i3 2.2GHz.
+Resolution:1366x768
+Laptop: lenovo thinkpad E420
+ 
+Simple efficient ubuntu classic desktop. I use Avant Window Navigator, Divergence IV ¨C ¡°A New Hope¡± GTK2 theme with single panel at the top for better efficiency to do my daily tasks.
+
+Nilimoy Buragohain
+
+I am running Ubuntu 10.10 on a Dell Vostro laptop - with Intel core 2 duo, 2GB RAM, 160GB HDD, resolution is set to 1280*800. I have been using Ubuntu since 8.04, and, since then, I am in love with it. I am using Ambiance theme with wallpaper from Ubuntu-art.org. The bottom dock is aligned using AWN manager; for the gadgets I am using screenlets. My friends ask me which operating system is this!! (open mouthed). 
+
+Nityanand Sharma

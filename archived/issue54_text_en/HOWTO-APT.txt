@@ -1,0 +1,64 @@
+I've only ever had two computers running Ubuntu, I somehow tolerated the need to download the same packages twice. But, now I'm planning to add one or two more. And it seems such a waste of time and traffic. So, I started looking for a solution, and found the apt-cacher program. I have installed it and was rather satisfied with the results... till I upgraded my server machine to Ubuntu 11.04. While apt-cacher was enabled, all my updates were returning errors. So, I started again looking for a solution, and have encountered another deb-package proxy – apt-cacher-ng. I have replaced my old package proxy with the new one, and now updates on my second machine take no time at all.
+
+So, what is apt-cacher-ng, and why do you need it? This is the program that caches all your downloaded .deb files, and shares them among all your computers in the LAN - eliminating the need to download the same package again and again.
+
+Below, I will describe the step-by-step procedure I followed to install and configure it in my network. 
+
+As a source for the procedure, the tips from the following discussion were used: http://ubuntuforums.org/showthread.php?t=1327179.
+
+I had apt-cacher already installed, so:
+• I copied all my deb-files stored in the apt-cacher cache (folder - /var/cache/apt-cacher/packages) to a temp folder on my home partition.
+• removed apt-cacher completely.
+
+If you do not have apt-cacher installed, you'll just skip these two steps as not relevant.
+
+Next, install the apt-cacher-ng package on your server using your preferred package install method.
+
+Start the program. In terminal mode, run the command:
+
+sudo /etc/init.d/apt-cacher-ng start
+
+Configure the package routines on your other computers to use apt-cacher-ng as a proxy. There are several approaches to do this. The one that worked for me, and seems to be the simplest, uses the /etc/apt/apt.conf configuration file. Edit this file, or create it if it does not exist. You can use the following command in terminal mode:
+
+sudo nano /etc/apt/apt.conf
+
+You can replace nano with the name of your favorite text editor, for example, gedit. Add the following line to the file:
+
+Acquire::http { Proxy "http://192.168.2.11:3142"; };
+
+Replace the 192.168.2.11 with the IP Address of your server computer. The same action should be done on each Ubuntu computer in your network.
+
+Next, run the “update” using your package management software. For example, in terminal mode, you can use the following command
+
+sudo apt-get update
+
+This ensures that the apt-cacher-ng builds the package index. Now it will know which packages it should store in the cache. 
+
+Actually, at this point the proxy is ready to work, but the cache is empty, and it will take time to populate it with packages. But wait – I have already stored some deb-files just for this moment. So now is a good time to make use of all the deb-files I have saved:
+• Go to the /var/cache/apt-cacher-ng folder, and create _import sub-folder.
+• Copy all deb-files stored in your temp home folder to /var/cache/apt-cacher-ng/_import (and delete the temp folder and its contents).
+• I also have some packages in the local apt caches on both my Ubuntu computers. So I also copied all deb-files from /var/cache/apt/archives on both my computers to the /var/cache/apt-cacher-ng/_import folder on my server computer.
+
+Now it is time to actually run the import process. The program is controlled through a web page. So open
+ http://<IP_address_of_server>:3142
+
+and you will get the page explaining the usage of apt-cacher-ng, and with the small link “Statistics report and configuration page” in the “Related links” section. Clicking on the link will bring you to: 
+
+http://<IP_address_of_server>:3142/acng-report.html
+
+Scroll down and click the “Start Import” button. This will open another page detailing the package import process as it goes. It will take some time depending on the number of packages you want to import.
+
+From now on there will be no need to download the same packet several times for different computers. For further reading, you can open the documentation installed with apt-cacher-ng and available through http://localhost/doc/apt-cacher-ng/html/index.html on your server computer. Note that you will need to change the default configuration of the apache2 server to make the server documentation available on all your LAN computers. To do so:
+• open the /etc/apache2/sites-enabled/000-default file for editing as root. For example use the following command
+
+sudo nano /etc/apache2/sites-enabled/000-default
+
+Replace nano with your favorite text editor if you wish.
+• Find the section that starts with
+Alias /doc/
+Modify the entry 'Allow from' to give access to all computers in your LAN.
+For example:
+Allow from 10.1.0.0/255.255.0.0
+will give access to the documentation directory through your apache2 web-server from all IPs in the range 10.1.x.y
+
+I hope this guide will help you set your home network for more efficient use.

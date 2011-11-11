@@ -1,0 +1,55 @@
+Let's rewind. In part one, we posited that the safest data storage plan goes something like this:
+• local machine disk: original or master copy
+• network storage disk: common or shared copy
+• off-line storage, which these days means remote cloud storage, or on-line back-up.
+
+This isn't simply jumping on the bandwagon of 'Clouds with everything.' A true off-site backup uses someone else's data-center, which is itself backed up. This offers maximum peace of mind that your precious, ephemeral data can't be lost, even if your original goes up in flames, down in floods, or gets exterminated by a Blue Screen of Death. 
+
+We all know the issues with the traditional backup solution; either it's not done regularly, or somebody sends the wrong generation of tapes to the off-site safe. Or your data DVD sits on top of the book-case for six months when you should have taken it to Grandma's house. 'The Cloud' may be flavor-of-the-year right now, but that doesn't mean you should ignore, we should say, the multitude of Clouds available. Cloud back-up has become an industry in and of itself. Your only real difficulty is choosing which Cloud and which provider meets your needs. Everyone seems to be offering Cloud storage, that's not the same as a Cloud back-up service.
+
+Perhaps we should begin by running down a check-list to help make the decision.
+
+Cost
+
+It's where I always start. Is there an up-front fee? What's the ongoing monthly or annual fee?
+
+How much storage do I get for my money? What service level – that's performance and up-time availability – does that buy me? How big is the jump between price and storage bands?
+
+Cloud backup is a crowded, immature market right now, with providers clamoring for our business. For the average householder, there are introductory offers of basic packages at zero cost, all luring us in with the prospect of the up-sell later. I like free storage space. It seems everyone's providing it, so we have to refine our criteria.
+
+Software
+
+All the mature services offer dedicated software clients to manage the upload and download process. All claim to be cross platform, so long as that means Windows and Mac. Many now have a Linux client available.
+
+I like the idea of browser-based upload and download, also called “NOT having to use a proprietary program to access the service.” This is where Ubuntu One scores, even though it's basic Cloud storage rather than a fully-fledged cloud backup at present.
+
+Ease of Use
+
+We also want ease of use, whereby; 
+• setup and installation is simple, and completed within a few steps of downloading the software.
+• on-line backup can run in the background while we get on with our normal activities, without hogging all our bandwidth; a user-setting for the upload speed is essential.
+• includes and excludes are easily defined for each back-up set, to the lowest granular level of file name or file type, using wild-cards.
+• the scheduler should allow unattended back-ups to a frequency and time-of-day set by you, preferably down to the minute.
+• data can be restored easily and immediately, with some notion of versioning of back-up sets.
+• we have easy, centralized management of all our backups sets with sufficient meta-data to distinguish sets from each other.
+
+Encryption
+
+These days we should take data security very seriously. Thank you, Sony and the DoD. A true back-up of all your important stuff is going to include your personal stuff, banking, and correspondence. Nobody wants to suffer identity theft. 
+
+As far as the Cloud is concerned, there are several ways of doing this, the best being to implement a solid version of 128-bit encryption, minimum, at the client end, before it leaves your machine to travel over the wire. Preferably this should include blind signing so that nobody at the provider has your key which could compromise your data, either through an inside job or as the victim of an external hack. You have to be your own policeman.
+
+Performance
+
+We absolutely need speed and reliability. The platform at the providers' facility also needs to be scalable; it shouldn't slow down or fail every time the US East Coast wakes up and goes on-line en mass at 8am EST. The theory also needs to work in practice, as Amazon S3 discovered earlier this year.
+The service also needs to maintain our data mirrored for resilience and fail-over, as protection against data loss due to sabotage, fire, theft, flood, virus, or other disasters. Put another way, your Cloud service shouldn't be keeping boxes of tapes at Grandma's house. This is what we in business call a compliance test.
+
+Convenience 
+
+Now things get interesting, separating men from boys, sheep from goats, and mixed-metaphors from clichés. It may be that the deciding x-factor is one of these;
+• file-sharing capabilities; being able to define shares, 'rooms', 'peeks', or public links at the granular file level, with some tiered security according to permissions that you alone are able to set from your management console.
+• remote web access to data, at anytime. Ideally it's that browser-based client that allows you to securely access your data (perhaps without all the capabilities as the dedicated client) from any machine.
+• true 24-by-7-y-365 data availability. See Performance.
+• status reporting for verification and audits. We need to have confidence demonstrated by proper management information.
+
+Very little of this is new; in fact, most conventional client-side backup applications and web-hosting services have all these covered; now is the time to put the two together in the Cloud. With these considerations in mind, you can now look at the various services on offer, and judge for yourself how they stack up.

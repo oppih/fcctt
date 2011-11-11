@@ -1,0 +1,43 @@
+As per the results of the latest research, working with more than one monitor can increase your productivity by 9 to 50 percent. Often, modern PCs have two video outputs, but what can we do if we have a graphics card with a single output and we want to connect two or more monitors? In this situation, it is not possible to connect the second screen without changing the video card. A solution can be to connect the second monitor to another PC so you can work with two screens, but also on two different computers with two sets of keyboard and mouse. The solution is Synergy (http://synergy-foss.org/). Synergy is a free and open-source software released under the terms of the GNU General Public License. With this software, you can share your mouse and keyboard between multiple computers, where each PC has its own display.
+
+The first version of Synergy was created in May 2001 by Chris Schoeneman; it was written in C++ and it worked with the X Window System only. In 2009, Chris Schoeneman, Sorin Sbârnea, and Nick Bolton started a fork of Synergy named Synergy+ with the aim of making a cross-platform software. Now, this fork project has been merged back into Synergy. The latest stable version is 1.3.7, while 1.4.3 is a beta version.
+
+Synergy uses a local area network and it can share mouse, keyboard, and clipboard between two or more PCs. Another advantage is that Synergy is supported on Windows, Mac OS X, and Linux, so each PC can have a different operating system. In this manner, you do not need emulators or virtual machines, each program runs on its operating system. Clipboard works with a small ftp client-server application within the main program which allow you to copy and paste between PCs, regardless of their operating systems. Redirecting the mouse and keyboard is as simple as moving the mouse off the edge of your screen. Key presses will be delivered to whichever computer the mouse-pointer is located in.
+The program is based on a client-server architecture. The server defines which screen-edges lead to which machines, and share its mouse and keyboard. Clients are connected to the server to offer the use of their desktops. With Synergy, you have a multiple monitor system with the computing power of many computers, and you can work on many operating systems concurrently.
+
+You can download the program from http://synergy-foss.org/download/. Here is an example of a configuration file for the server (two PCs, pc1 on the right and pc2 on the left, both in front of you).
+
+section: screens
+       pc1:
+       pc2:
+end
+section: links
+       pc1:
+           left = pc2
+       pc2:
+           right = pc1
+end
+
+If you do not like to write config files, you can install a GUI, for example Qsynergy (http://code.google.com/p/quicksynergy/). The version for Windows has the GUI within the installer. To run the programs use these commands:
+
+client: synergyc ip_addr_pc1
+
+server: synergys --config filename.conf 
+
+The main problem of Synergy is security, if you work on a non-trusted local network. In fact, communications are not encrypted and key presses, mouse movements and clipboard contents sent to Synergy clients can be easily sniffed on network traffic. You can solve this problem by configuring an SSH server so all communications are tunneled through a secure encrypted connection. In this page there is a guide to configure Synergy with SSH: http://synergy-foss.org/pm/projects/synergy/wiki/Security
+
+For my own experience, I use Synergy every day at work, where I have a laptop and two servers. The laptop has its own screen and a second monitor, while each of the servers has a video card with only one output. I use all PCs with a keyboard and a mouse connected to one of the servers. When I need a Windows program, I do not need emulators or virtual machines, I simply restart the laptop in Windows and I can work as before, with my four “monitors-PCs” system.
+
+Score: 9/10
+
+Good:
+• Works on Windows, Linux, and Mac OS X, and allows communications between them
+• Clipboard works between PCs, regardless of their operating system
+• You can connect several PCs (and monitors), and control all of them with only one keyboard and mouse
+• No latency for mouse movements and key presses
+
+
+Bad:
+• Communications are not encrypted
+• Sometimes does not write some special character on a client, even with the same operating system (é, ë, â, etc.)
+• If the PC with the server is locked, you cannot use client PCs

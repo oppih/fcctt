@@ -1,0 +1,19 @@
+So, we’ve got our CCTV to run as a monitor to see what’s going on outside; we can record said events; and we can even detect motion to trigger a recording. But, how do we deal with false positives? Read on.
+
+With ‘Modect’ (motion detection) enabled as your ‘Function’ in ZoneMinder, click the ‘0’ (zero) under ‘Zones’, and you’ll see a new window:
+
+This is where we will define zones to include, or exclude, from the motion detection. Click ‘Add New Zone’ to get another new window (shown below).
+
+The zone window will let you assign a name to your zone; then, in the drop down menus, you can tell ZoneMinder what you want this zone to be. Active is just that, the zone is activated and ready for movement within it. Inclusive, Exclusive, and the other types, are best explained in the ZoneMinder wiki at: http://www.zoneminder.com/wiki/index.php/Documentation#Defining_Zones. For example, you could create a zone around your car which would be active while another zone could be inclusive. This means that, when your car zone becomes active, it would trigger your inclusive zone(s) to record catching the thief leaving the scene of the crime. To edit the first zone (the first one is already created in the window and is waiting for you to edit it), you simply drag the corners of the (in this case) green box to surround the area. You can click the small ‘+’ icon beside a point to add another point after it - to help in creating complex zones. Next, choose a preset for the zone, the preset will depend upon your hardware and how precise you want to be in the monitoring.
+
+So, I’ve created an active zone which excludes my left hand.
+
+If I move my left hand to my right side, or move my right arm, then an alarm will be activated, but if I keep my left hand on the track pad - even while moving it - then no alarm will trigger.
+
+I knew it! I’ve always has my suspicions that my right hand was trying to steal my laptop!
+
+Like we did last time, you click the number below events to see your list of events, and click to play back the recorded alarms.
+
+You can get really complex zone patterns in ZoneMinder, so take the time to play with them!
+
+Next month we’ll have an article from John D showing you how to set up VOIP at home.

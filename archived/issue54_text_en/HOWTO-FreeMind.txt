@@ -1,0 +1,83 @@
+
+NOTE: LibreOffice will return next issue.
+
+
+FreeMind is a mindmap application: a graphic way of structuring thoughts, opinions, ideas, objects, or any other thing you need to have visualized in a nice way. 
+
+A mindmap can be used for structuring any information in any domain: it's a way to organize details, input or records of any kind. Examples could be: a shopping or to-do list; a note-taking tool in classrooms; a presentation tool for board meetings... in fact: the possibilities with mindmap applications are limitless. 
+
+Amongst all other mindmap software, FreeMind is a free and high quality program and productivity tool, made in Java, and licensed under GNU 2 GPL V2+, meaning it's free to use the program for whatever purpose you want.  As it is developed in Java, it is available on any computer platform such as Linux, Apple/Mac, or Microsoft environments. 
+
+FreeMind is the ideal tool for, let's say, anything you need to organize in your daily life, at school, or at work . Planning and organizing parties, weddings, or any event; projects like moving to another place, building a new house, or reconstructing the kitchen; it's even an interesting way to collect recipes, phone numbers, or as a catalog of your stamp collection. Teachers can use it to prepare and present lessons; students can use it as an exam preparing program; and even for writing essays it can be very useful. At work I use FreeMind daily for preparing and presenting meetings, brainstorming, and as a to-do list. By the way: this FreeMind article is mainly written in FreeMind and exported to LibreOffice for editing and fine tuning afterwards. 
+
+Installing the application
+
+Installing FreeMind is easy: just grab it from the repository by searching for it in KpackageKit (KDE) or in the Ubuntu Software Center (Gnome): all necessary files will be installed in a moment. The FreeMind startup icon will be shown in the office-category: clicking on it will launch the application in seconds. 
+
+Exploring the application
+
+As soon as you have the application on your desk, you'll discover: 
+• the menu: you'll find common 'file', 'edit', and 'view' menu-items and specific application-items (in most cases a keyboard shortcut is also available)
+• a horizontal toolbar: you'll find most used application commands as a button or dropdownlist
+• tabs: you can open different mindmaps and switch easily from one to another
+• the main window: your working place: start thinking, and write what you think
+• a secondary vertical toolbar: you can add icons to nodes, here you can pick them
+• a note window (at the bottom): you can add text (html) to a selected node
+
+Using the application
+
+The first time you open FreeMind, a brand new empty mindmap is ready for your brilliant ideas: click on 'New Mindmap', and change the title to your subject (e.g. 'FCM article about FreeMind'). 
+
+Press the <insert> key for a first-level item (e.g. 'introduction'), and press <enter> for the second first-level item (e.g. 'installing the application'). Create new child nodes and sibling nodes as fresh ideas are bubbling up in your head.
+
+ You can use shortcut key combinations: use arrow keys to navigate from one node to another; and <insert>, <enter>, <escape>, and <delete> keys for basic editing; you use <F2>  for a selected node to edit the text of the node.
+ 
+Of course, you can use the mouse to select a node and click on the menu items or buttons to create your entire mindmap. Clicking on a node with child nodes will open or close the nodes (and attached nodes), and you can shift the complete mindmap to any place by clicking and dragging outside a node. 
+
+For practical reasons, nodes are usually rather short, although it's possible to create long nodes. It's possible to attach a note for a selected node (bottom window). Use the built-in simple html-editor for good looking text formatting or even tables. Advanced users can try the html code view (second tab at the bottom of the note window). A note can be the text of a chapter (node), or extra information for an item (node). 
+
+Pressing the <ALT>+<I> combination opens the icon catalog: you can add icons to a selected node for better understanding (the icon can explain a priority level, a to-do result, a project milestone, ...); icons are also available by clicking on them on the secondary vertical toolbar on the left. 
+
+And another function is making this software a high quality product: nodes can be marked as hyperlinks (Insert > Hyperlink) to open a file, website, or e-mail editor, or to navigate to another part of the mindmap. You can even link pictures to a node, and couple nodes with a graphic link (check the items in the Insert menu). 
+
+If you want to change the order of the nodes, you can easily drag and drop selected nodes to another place. The shade of the node you're dragging the node to tells you whether it will be a child or a sibling node. 
+
+Even some special functions are available through the Tools menu. Time scheduled nodes can be made for reminding the user in a project mindmap. Revisions can be colored yellow. 
+
+As your mindmap is getting bigger, you might want to use the filter (horizontal toolbar, 4th icon from left) to find a node or text (press the filter icon and edit the query you need). 
+
+Layout
+
+The layout of your mindmap is still basic. FreeMind has some fancy features to embellish your creation. Clicking on the menu item Format > Automatic layout transforms the simple mindmap into an awesome presentation of your ideas. 
+
+But more is possible: every node (single or multiple selected) can be edited. You can change the font, size, color, and shape of the node text, and also the edges of the node can be edited. Make nodes blink to get the attention of your public, or draw a cloud around a group of nodes to emphasize the priority of the item (Insert > Cloud). The use of styles is possible by right clicking on a node (Physical Style), or by the menu item Format > Physical Style. 
+
+Exporting
+
+If content and layout are ready, you might want to export your mindmap to another format (File > Export): 
+• export a branch to a new map 
+• export to html-file 
+• export to flash html file 
+• export to xhtml file (clickable map image or javascript version) 
+• export to OpenOffice/ LibreOffice text document (the text you're reading was originally made in FreeMind, and then  exported to a LibreOffice .odt format) 
+• export to JPG or PNG image file (shown right). 
+Presenting or using your mindmap can be done in any way, according to your needs. 
+
+Peferences
+
+By changing the preferences, the user can change default settings such as automatic layout, language, environment, behavior, keystrokes, and more (Tools > Preferences).  This way, FreeMind becomes a very handy tool with a personal touch. 
+
+Documentation
+
+More information is accessible through the Help menu: 
+• a built-in mindmap as a help function is always available, showing all possibilities and functionalities of the application 
+• a key-mapping quick guide is also available in PDF (highly recommended if you don't change the default settings) 
+• a wiki with complete project information, documentation, and FAQ page can be found on the FreeMind wiki. 
+
+Don't forget to visit the 'Thank you for the music page' to express your thanks and satisfaction with FreeMind... this is the only way the contributors are being paid! 
+
+My opinion
+
+Computers and software are made to make our lives and work easier and more comfortable. FreeMind is one good example of it: it is easy to install, easy to learn how to use it, very efficient in a wide range of situations, and with interesting exporting functionalities. Some minor points could be (but please, ignore them): a poor picture editing functionality and no kde integration of the software layout. It's a single user program, so collaboration with multiple users at the same time is not possible (yet?); but it is easy to spread the file by mail or by web - thanks to the many ways of exporting the file.
+ 
+Install and try it right away; write a review about your favourite (k)ubuntu software with FreeMind and send it to Full Circle.

@@ -1,0 +1,74 @@
+In the process of configuring ArchLinux on a PC, I realized just how much more efficiently I work in Vim than I do in any other text editor. So, when Article Day rolled around, I checked to see if there had been an article on Vim. Lo and behold, there was only a brief introduction to Vim. To start with, I should probably differentiate a text editor from an office suite like OpenOffice/LibreOffice. A text editor is used for editing stuff like *.txt, *.rtf, *.conf, *~, and basically any other plain text document format (i.e. no formatting). An office suite, on the other hand, works on *.doc and *.odt files (among others). I usually use plain text documents for quick to-do lists, and for writing code. I'm fairly certain there are many of you out there who either write quick notes to themselves, write code (be it software or websites), and perhaps edit some configuration files.
+
+What's the difference between Vim and GVim?
+
+Vim is the console-oriented version of the program (for use in gnome-terminal, rxvt-unicode, tty screens, and so forth). GVim is a graphical front-end for Vim, and allows easy access to some of the more esoteric commands.
+
+Why should I use Vim/GVim?
+
+I'm not going to say that Vim/GVim is the only text editor anyone should use, but it's the one I prefer. Why do I prefer it? Simply because it offers sane defaults and keybindings that allow for very quick editing - without the need for a mouse. I find that keeping my hands on my keyboard actually allows for faster work than pausing to move the mouse (or keeping a hand on the mouse most of the time). If you find yourself nodding along with this, you should give Vim/GVim a shot. For example: Say you wanted to delete 250 sequential lines in some source code because you need to move the method elsewhere. In Vim you would simply type in 250 and then hit the “d” key twice (for delete line). If you then want to paste it somewhere else, simply move there and hit “p”. No need for a mouse or any highlighting whatsoever.
+
+How do you get around if you can't use a mouse?
+
+In GVim you are able to use a mouse, though it's really not necessary. In Vim you get around using page up/page down and the arrow keys (or hjkl where h=left, j=down, k=up, and l=right).
+
+What about syntax highlighting?
+
+Vim and GVim are fully customizable in a configuration file, and allows for custom colors and formatting for code according to file extensions. It also offers a very good syntax engine by default that simply needs to be enabled.
+
+What other useful features does it offer?
+
+It allows you to:
+• Set a custom size (number of spaces) for tab characters, which is useful when coding python.
+• Copy, paste, delete, and insert controls that allow for careful formatting (dw = delete word, dd=delete line, yw=copy word, yy=copy line, p=paste, etc).
+• Printing (with a sane printing default)
+• A tutorial that can be accessed with the command 'vimtutor'
+• Macros (easy creation and execution).
+
+Some basic commands:
+hjkl – movement ( h=left, j=down, k=up, and l=right) – this works only outside of any mode. Inside a mode you'll need to use the arrow keys.
+y – copy (yy = copy line)
+d – delete (dd = delete line)
+w -word (used in conjunction with y or d mainly)
+1-∞<command> - repeat the command that number of times (i.e. 250dd = delete 250 lines starting at, and including, the line currently selected)
+:w – write (can be combined with q to write and quit)
+:e – open
+:q – quit 
+Esc – exit any mode
+i – insert mode (inserts before current selection)
+a – add mode
+r – replace mode
+u – undo
+ctrl+r – redo.
+p – paste anything copied or deleted in Vim/GVim
+:hardcopy – the command to print
+:%s/<regex>/<to replace>/ - allows you to substitute anything you search for in the first block with what is in the second block. This also accepts regular expressions. 
+:set <option> - allows you to set an option for the running instance. See my configuration file for some examples of settings (which I set for any instance).
+ctrl+v – visual mode, allowing the highlighting of multiple lines
+inside visual mode:
+I – insert before all highlighted letters
+X – delete all highlighted letters
+*middle-mouse button (or shift + insert) paste from external linux clipboard after selecting the text to paste.*
+
+This is just a basic list of commands I frequently use. The line marked with asterisks is actually a linux shortcut, but it's very useful in Vim/GVim.
+
+How do I use Vim/GVim?
+
+To open a file, you can either append the path after the Vim/GVim command, or open it using :e once it loads. Once you have opened the file that you want to edit, you can then hit “i” (the key on the keyboard) to enter insert mode. It will tell you what mode is active (blank means there is currently no mode being used) in the bottom-left corner. For the sake of this example, let us simply write “Com3mand 6 Conque”. Once you've entered the text, it's time to fix it up. Move to the 3 using the hjkl keys, and then hit the “x” key to delete it. Head over to the 6 and hit the “r” key, and then enter the ampersand (“&”). Once that's done, you should have: “Command & Conque”. Notice that the “r” is missing! Move the cursor over the e and you'll notice that you can't move the cursor past the already entered text. How do you enter the r then? You can either hit the “i” key for insert and move the cursor using the arrow keys and then enter it. Or, you could “append” the text using the “a” key, which moves the cursor to the space after the selected letter. Then type “r” and you're all set. If you want to save it, do so with :w (and if you haven't given it a path or name yet, you must do so after the w). If you want to just quit, use “:q” (in this case you'll need to add an exclamation point after the q to ignore the changes made). After the “:q!”, you will find yourself back at your desktop (from GVim) or in your terminal if you used Vim.
+
+A few things to remember:
+
+The Vim shortcut keys that use letters (u, ctrl+r, y, d, w, etc) all require you to be in the “blank mode” (i.e. without any editing mode active). Otherwise, you'll just type the letter. Get in the habit of hitting escape after you've made a change so that you don't start typing in gibberish.
+
+Using numbers to repeat commands also works only outside of a mode.
+
+If, when pasting something, you find that it spaces it all out oddly, simply activate the past mode (:set paste) and when you're done, disable it with :set nopaste.
+
+If you want to copy something, and you find you copy the line numbers too, simply shut them off with :set nonumber, and back on with :set number.
+
+If you have any questions, or would like a follow up article with a step-by-step example, please let me know by emailing me at lswest34@gmail.com. If you do email me, please include C&C or FCM in the subject line, so I don't overlook it!
+
+Files:
+My .vimrc (I deleted some functions that require external software or are intended for use with Mutt, so it may result in one or two settings not working): http://pastebin.com/wv260CJk
+The colorscheme I use (see screenshot): http://dengmao.wordpress.com/2007/01/22/vim-color-scheme-wombat/
+Screenshot (full-size): http://lswest.deviantart.com/art/Screenshot-October-2011-262486679

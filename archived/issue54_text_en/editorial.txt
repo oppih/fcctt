@@ -1,0 +1,11 @@
+Welcome to another issue of Full Circle!
+
+We have a whole new section for you this month. As promised, I've begun writing 'Closing Windows'. It'll be a series of articles that will focus on a feature from Windows (XP in this case), then show where that feature is, or how it can be obtained, in Gnome, Unity, KDE, LXDE and XFCE. So, no matter which *buntu you use, this series should help complete beginners. My thanks go to my co-authors on this series. Their names are at the start of this first part, which focuses on My Computer and Windows' file manager, Explorer.
+
+Unfortunately, Elmer is a bit busy this month, so there's no LibreOffice article, but he'll be back next month. In his place is a brief How-To on using FreeMind, the mind-mapping tool. If you've never used a mind-map before, then you're missing out on a great idea tool. As well as the usual serialised articles, we have an article on using Apt-Cache-NG. It will allow you to update serveral machines from one set of downloaded .deb files. Very handy! The final part of my ZoneMinder series will show you how to include/exclude certain areas of a camera view. It's a very powerful feature, and one that will save you from getting a lot of false positives. Next month's Linux Labs will hopefully have an article on setting up your own voice over IP (VOIP) bits. 
+
+One last thing: last month I gave the Italian translation team the honor of being the only team to have translated all issues of FCM. Sorry Italian team, but the Hungarian team have also translated all issues now. Congratulations to you both. Who else is ready to step up and translate the entire back catalogue? 
+
+All the best, and keep in touch.
+Ronnie
+ronnie@fullcirclemagazine.org

@@ -1,0 +1,102 @@
+Q I am using Evolution for my email. I cannot move an email from Junk Mail to another folder, it just makes a copy of the message, still in the Junk Mail folder.
+
+A (Thanks to Barry in the Yahoo Ubuntu Linux group) Mark it as 'not junk' before trying to move it.
+
+
+
+Q I am using the long-term version of Ubuntu, but I would like to have later version of applications.
+
+A Have a look at this article in the Community Docs: https://help.ubuntu.com/community/UbuntuBackports
+
+
+
+Q I'm looking for Linux software that does what the following software does for Windows:
+EMCO MoveOnBoot 2.2.5
+Unlocker 1.9.1
+XPlite/2000Lite
+nLite
+Faronics Anti-Executable 3.40 (or) Faronics Deep Freeze 6.62
+DriveShield Plus
+
+A Most of those are not required for Linux. Remastersys is similar to nLite or Deep Freeze. 
+
+
+
+Q In Libre Office or Open Office, how can I find and replace paragraph breaks?
+
+A (Thanks to David Shaw in the Yahoo Ubuntu Linux group) In the Find and Replace dialogue, click on "More Options." Tick the 'Regular expressions' box. A list of common regular expressions can be found at http://help.libreoffice.org/Common/List_of_Regular_Expressions
+
+For instance, to find a tab, or replace with a tab, use \t in the relevant box. Paragraph breaks are found/replaced with a '$' symbol. Should you actually want to find/replace a dollar symbol, you need to use '\$', or switch regex off.
+
+
+
+Q I have 11.04 installed without problems for about 2 weeks now. I changed something in compiz, and now, when I started up the computer, there is no menu on the left or the top.
+
+A Follow this troubleshooting guide: http://www.tuxgarage.com/2011/04/missing-top-and-side-panels-in-unity.html
+
+
+
+Q I want to buy a monitor - what's compatible?
+
+A Any monitor should work just fine, as long as your PC has the right connector for it (HDMI/DVI/VGA/Displayport).
+
+
+
+Q Wind Mobile offers a mobile broadband service with the E1691 device from Huawei. How can I use it?
+
+A http://hireknowledge.ca/pdf/Tutorial_Huawei_E1691_Linux_v1.0.pdf
+This tutorial might also provide hints for people with other Internet sticks on other wireless networks.
+
+
+
+Q I installed Ubuntu 9.04 from CD to an old computer I had lying around. I tried installing versions 10 and 11, but the computer ran very very slowly, while with 9.04 it's pretty good. Trying to do sudo apt-get udpate fails on everything because it can't find the files online. I read that version 9.04 is not supported and even these old files are not available anymore. What should I do?
+
+A Try the current version of Xubuntu or Lubuntu.
+
+
+
+
+Q I have an AMD Radeon HD5770 graphics card. The GPU cooling fan always runs at full speed, regardless of GPU load. It makes my PC sound like a jet-plane taking off.
+
+A It turned out that installing the FGLRX driver solved the fan issue.
+
+
+
+
+Q I use Ubuntu 10.04. My HP B110A prints fine, but it won't scan.
+
+A Install the latest version of HPLIP:
+
+sudo add-apt-repository ppa:hplip-isv/ppa 
+
+sudo apt-get update
+
+sudo apt-get install hplip
+
+
+
+
+Q I like the Xfce desktop environment, but the only problem is that I can't run any programs because I have no idea how to give it permission to run. For example, I've installed a .jar file and have Java 6 Runtime installed, but I don't know how to give it permission to run.
+
+A It turns out that a jar doesn't have to be tagged as executable to run. From Terminal, CD to the folder where the jar is, then issue this command:
+
+java -jar
+
+(where jar is the name of the file).
+
+
+Q If I download the 64 bit 10.10, and install from the live usb, will it "overwrite" the old 32 bit install?
+
+A Yes.
+
+
+
+Q I can no longer run Update Manager because I'm getting the "Not enough free disk space" problem.
+
+A Running the command: 
+
+df -h
+
+showed that only the boot partition was low on space. Run Synaptic Package Manager to completely remove old kernels, then:
+
+sudo update-grub

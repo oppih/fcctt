@@ -1,0 +1,86 @@
+We are going to explore even more widgets provided by tkinter. This time we will look at menus, combo boxes, spin boxes, separator bar, progress bars and notebooks. Let's talk about them one at a time.
+
+You've seen menus in almost every application that you have ever used. Tkinter makes it VERY easy for us to make menus. Combo Boxes are similar to the list box that we explored in the last widget demo article, except the list “pops down” instead of being visible at all times. Spin box controls are great for giving a fixed range of values that can “scroll” up or down. For example, if we want the user to be able to choose from integers between 1 and 100, we can easily use a spin box. Progress bars are a wonderful way to show that your application hasn't locked up when something takes a lot of time, like reading records from a database. It can show the percentage of completion of a task. There are two types of progress bars, Determinate and Indeterminate. You use a determinate progress bar when you know just how many items you are dealing with. If you don't know the number of items or the percentage of how done your task is at any point, you would use the Indeterminate version. We will work with both. Finally a notebook widget (or tabbed widget) is used many times for things like configuration screens. You can logically group a series of widgets on each tab.
+
+So, let's get started. As usual, we will create a base application and build on to it with each extra widget we add. Shown right is the first part of our application. You've seen most of this before.
+
+Save all of this as widgetdemo2a.py. Remember we will use this as the base to build the full demo. Now we will start the process of creating the menu. Here are the steps we need to do. First, we define a variable to hold the menu instance. Like most any widget we use, the format is...
+
+OurVariable = Widget(parent, options).
+
+In this case, we are using the Menu widget and we will assign it to master as the parent. We do this under the BuildWidgets routine. Next we create another menu item, this time calling it filemenu. We add commands and separators as needed. Finally we add it to the menu bar and do it all over again until we are done. In our example, we'll have the menubar, a File pulldown, an Edit pulldown and a Help pulldown (top right). Let's get started.
+
+Next (middle right) we concentrate on the File Menu. There will be five elements. New, Open, Save, a separator and Exit. We'll use the .add_command method to add the command. All we really need to do is call the method with the text (label = ) and then provide a callback function to handle when the user clicks the item. Finally we use the menubar.add_cascade function to attach the menu to the bar.
+
+Notice that the Exit command uses “root.quit” to end the program. No call back needed for that. Next we'll do the same thing for the Edit and Help menus.
+
+Notice the part in each of the menu group definitions that says “tearoff=0”. If you were to change the “=0” to “=1”, the menu would start with what looks like a dashed line and if you drag it, it “tears off” and creates its own window. While this might be helpful sometime in the future, we don't want that here.
+
+Last but not least, we need to place the menu. We don't do a normal placement with the .grid() function. We simply add it by using the parent.config function (bottom right).
+
+All of this has gone in the BuildWidgets routine. Now (next page, top right) we need to add a generic frame and set the return statement before we move on to the PlaceWidgets routine.
+
+Finally (next page, bottom right) we need to create all the callbacks we defined earlier. For the demo, all we'll do is print something in the terminal used to launch the program.
+
+That's it. Save and run the program. Click on each of the menu options (saving File|Exit for last).
+
+Now (below) we'll deal with the combo box. Save your file as widgetdemo2b.py and we'll get started. The imports, class definition and the def __init__ routines are all the same, as is the bottom part of the program. We'll add two lines to the DefineVars routine. Either comment out the “pass” statement or erase it and put in the following code. (I included the definition line just for clarity.)
+
+First we define a label, which we've done before. Next we define the combo box. We use “ttk.Combobox”, define the parent and set the height to 19, the width to 20 and the textvariable to “self.cmbo1Val”. Remember that we set textvariables in the last widget demo, but just in case you forgot...this is changed anytime the value in the combo box is changed. We defined it in DefineVars as a StringVar object. Next we load the values that we want the user to choose from, again we defined that in DefineVars. Finally we bind the virtual event <<ComboboxSelected>> to the cmbotest routine that we will flesh out in a minute.
+
+Next let's place the combo box and the label into our form (top right).
+
+Save everything and test it out.
+
+Now save as widgetdemo2c.py and we'll start with the separator bar. This is SO super easy. While the updated tkinter provides a separator bar widget, I've never been able to get it to work. Here's an easy work around. We use a frame with a height of 2. The only changes to our program will be the definition of the frame in BuildWidgets after the combo box bind statement and placing the frame in the Place Widgets routine. So, in BuildWidgets put in the following lines (shown middle right)...
+
+Once again, you've seen all this before. Save and test it. You'll probably have to expand the topmost window to see the separator, but it will become much more evident in the next demo. Save as widgetdemo2d.py and we'll add the spin control.
+
+Under DefineVars, add the following line...
+
+self.spinval = StringVar()
+
+By now, you know that this is so we can get the value at any time we want. Next, we'll add some code to the BuildWidgets routine...just before the “return frame” line (bottom right).
+
+Here we define a label and the spin control. The spin control definition is as follows:
+
+ourwidget = Spinbox(parent,low value, high value, width, textvariable, wrap)
+
+The low value must be called as “from_” since the word “from” is a keyword and using that would simply confuse everyting. The values “from_” and “to” must be defined as float values. In this case we want it to have a low value of 1 and a high value of 10. Finally the wrap option says that if the value is (in our case) 10 and the user clicks on the up arrow, we want it to wrap around to the low value and keep going. The same works for the low value. If the user clicks the down arrow of the control and the value is 1, it wraps to 10 and keeps going. If you set “wrap=False”, the control simply stops at whichever direction the user is going.
+
+Now we'll place the widgets in PlaceWidgets (below).
+
+Again, that's it. Save and play. You'll really notice the separator now.
+Save as widgetdemo2e.py and we'll do the progress bars.
+
+Again, we need to define some variables, so in the DefineVars routine add the following code...
+
+self.spinval2 = StringVar()
+self.btnStatus = False
+self.pbar2val = StringVar()
+
+It should be pretty obvious what the two StringVar variables are. We'll discuss the “self.btnStatus” in a moment. For now, let's go and define the widgets for this portion in BuildWidgets (right).
+
+Again this goes before the “return frame” line. What we are doing is setting up a frame for us to put the widgets into. Then we set up two labels as guides. Next we define the first progress bar. Here the only things that might be strange are length, mode and maximum. Length is the size in pixels of our bar. Maximum is the highest value that will be seen. In this case it's 100 since we are looking at percentage. Mode in this case is 'indeterminate'. Remember, we use this mode when we don't know how far we've gotten in a task so we just want to let the user know that something is happening.
+
+Next we add a button (you've done this before), another label another progress bar and another spin control. The mode for the second progress bar is “determinate”. We will use the spin control to set the “percentage” of completion. Next add the following lines (next page, top left) into the PlaceWidgets routine.
+
+Lastly, we add two routines to control our progress bars (botom right).
+
+The TestPBar routine controls the indeterminate progress bar. Basically, we are starting and stopping an internal timer that is built into the progress bar. The line “self.pbar.start(10)” sets the timer to 10 milliseconds. This makes the bar move fairly quickly. Feel free to play with this value up and down on your own. The Spin2Do routine simply sets the progress bar to whatever value the spin control has. We print it as well to the terminal.
+
+That's all the changes for this. Save and play.
+
+Now save as widgetdemo2f.py and we'll deal with the tabbed notebook widgets. In BuildWidgets put the following code (below) before the “return frame” line...
+
+Let's look at what we did. First, we define a frame for our notebook widget. Now we define the widget. All the options are ones we've seen before. Next we define two frames named self.p1 and self.p2. These act as our pages. The next two lines (self.notebook.add) attach the frames to the notebook widget and they get a tab attached to them. We also set the text for the tabs. Finally, we put a label on page number one. We'll put one on page number two when we place the controls just for fun.
+
+In the PlaceWidgets routine put the following code (below).
+
+The only thing that might possibly be strange is the label on page two. We combine the definition and placement in the grid with the same command. We did that when we did our first widget demo app.
+
+That's it. Save and play.
+
+As always the full code for the full application is up on pastebin at http://pastebin.com/qSPkSNU1.
+
+Enjoy. Next time we'll deal with some more database stuff.

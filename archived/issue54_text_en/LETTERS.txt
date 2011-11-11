@@ -1,0 +1,55 @@
+FoxPro
+
+What I need is a substitute for Microsoft FoxPro - the database program Microsoft bought from the originator, and then effectively buried. I use FoxPro to run a big youth baseball league. I don't need a big multi-user relational database program: I am the only user. But Fox has a great structure for what I do, and I hate to leave it behind in order to switch to Linux. Does anyone know of a good substitute that does not require learning an entire new database manipulation paradigm?
+
+Bob Nelson
+
+
+Ubuntu To The Rescue!
+
+I'm an Ubuntu user now for 3 years. I still work on Windows systems. The other day, I showed up at a friend’s house who was receiving the “blue screen of death”. I attempted to get the machine to boot but kept receiving “do you want to format the drive?” message. I took the hard drive home and decided to take a look at it with my Ubuntu system. Guess what, one pop up window - and I'm viewing the hard drive content. Back to my friend’s new machine now, and trying to copy XP external hard drive data to a win7 system, and can't get past the permissions. After researching on the net, I saw advice to use Ubuntu cd to copy files. Why is it that Ubuntu has to bail out Windows all the time? Anyways, with Ubuntu, I'm able to copy his recent files off of his hard drive, and he is one happy camper. The more I use Ubuntu, the more I'm happy with it. 
+
+Bob K
+
+
+Genealogy Addition
+
+This page, www.fileyourpapers.com, has some great ideas concerning filing paperwork so that there is a minimum of fuss in finding what you're looking for. For Gramps, try the method shown for PAF - I think the numbering schemes are the same.
+
+Dave Rowell
+
+
+Garmin GPS
+
+I would like to see an article on “How to Update my Garmin GPS” - using Ubuntu or any GNU/Linux distribution. Garmin seems to be stuck on using MS products, and forcing their customers to do the same. Also, I think a small article in each month’s issue about some vendor that all of us should write to requesting that their product be made compatible with GNU/Linux, preferably Ubuntu. Maybe starting with Garmin, TurboTax, and Netflix - even though Netflix is going down the tubes. I stopped using TurboTax and now use TaxSlayer.
+
+Not bad for a 75-year-young avid Ubuntu user.
+
+Jim Bainter
+
+If anyone out there can help Jim with his Garmin GPS, please drop me an email with info, or an article, and I’ll pass it along. - ED
+
+
+First Cousin - Twice Removed
+	 	 	 	 	
+I want to thank the editors, cast, and crew, and especially Dave Rowell, for the review/article on GRAMPS in FCM#51. It motivated me to get off my duff and begin my own family research. I look forward to FCM#52, and the article showing how to get started. I have begun using GRAMPS, but, it is rather counter intuitive, and I'd rather spend my limited time doing research than learning how to use the program. I'm starting to get overwhelmed by the amount of family data that I am finding, and I am just now starting to correlate that data, and I think this is where GRAMPS is going to be a huge asset.
+
+It's like the commercials for ancestry.com that say “You don't have to know what you're looking for; you just have to start looking!” One of their commercials is of a woman who says she found out her grandparents lived next door to the Wright Brothers and she says, “How cool is that?” Well, I think I can top that. How about knowing all your life from family folklore that you are related to Mark Twain (Samuel Langhorn Clemens), but never knowing the exact relationship. Then you find very concrete evidence, without much searching or cost, that Mark Twain was actually your grandfather's first cousin, and realizing at that point that Mark Twain is your first cousin-twice removed. That's the equivalent of realizing that Tom Sawyer, Huckleberry Finn, and even Becky Thatcher are really your cousins and that the former slave, Jim, is your favorite uncle. “How super-duper COOL is that?”
+
+If you are part of my really large family, especially if you are on the British side of the pond, please go to genforum.com and look for the thread 'Clemons in Virginia', and see what we have come up with so far, and add anything to it that you can. It is evident that there is an African-American branch to the family. How and when did that branch occur? Bruce Spingsteen's saxophonist, Clarence Clemons recently died. Was he a close cousin also? Inquiring minds (mine!) want to know. I can't speak for everyone in my family, but, for me, that would be almost as huge as discovering that I'm related to Mark Twain.
+
+John D. Clemons
+jclemons@naxs.com
+
+
+Upgrading 11.04
+
+A quick remark about the article "Upgrading From 11.04" on page 42 of FCM#53:
+
+When upgrading to a newer version, or re-installing the same version, or installing a new version it is always good to back-up your data. But, when you are really careful and know what you are doing it is not necessary. So, if you don't have means to make a back-up outside your computer read on. There is, however, one thing you need to have done already: give your home folder a separate disk or partition. In other words don't let it be inside the installation of your OS. Have a disk or partition for "/", one for "/home", and maybe others for "/var", "/usr" or whatever.
+
+During installation of a new version or re-installation of your present OS you have to make sure you choose the right answer when the installer comes to the question where you want to install. Don't choose entire disk, but choose something like: Manual, or choose: Let me decide. (I don't have the right text here at the moment). This way you can install the OS on the same partition as you have done before. Simply point to the old "/" partition, give it the name "/" again and format it. Do the same for the other separate partitions (var, usr, ...) but for "/home" you only point to the partition and DON'T format. This way it will be included in the installation but you will keep your data.
+
+I have done it this way for many (re-)installs and never lost a thing. I must say I do make back-ups regularly (every week) and before a new install. But I've never had to use the back-up because I never lost my data.
+
+Jan Mussche.
