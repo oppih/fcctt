@@ -1,35 +1,35 @@
-{{TOCright}} '''Full Circle──Ubuntu社区杂志第53期'''
+ {{TOCright}} '''Full Circle──Ubuntu社区杂志第55期'''
 [[FC杂志中文工作进度|点击此处加入翻译]] 
 == 周边 ==
-* [[FC53_编者的话|编者的话]]
-* [[FC53_Linux新闻|Linux新闻]]
-* [[FC53_读者来信|读者来信]]
+* [[FC55_编者的话|编者的话]]
+* [[FC55_Linux新闻|Linux新闻]]
+* [[FC55_读者来信|读者来信]]
 * [[FC52 Write For Full Circle Magazine|为Full Circle杂志写作]]
 == 常设栏目 ==
-* [[FC53_决胜命令行|决胜命令行]]
-* [[FC53_Linux实验室|Linux实验室]]
-* [[FC53_Ubuntu女士|Ubuntu女士]]
-* [[FC53_Ubuntu游戏|Ubuntu游戏]]
-* [[FC53_Q来A去|Q来A去]]
-* [[FC53_TOP5|TOP5]]
+* [[FC55_决胜命令行|决胜命令行 VIM Advanced Features]]
+* [[FC55_Linux实验室|Linux实验室 VOIP at HOME]]
+* [[FC55_Ubuntu女士|Ubuntu女士]]
+* [[FC55_Ubuntu游戏|Ubuntu游戏]]
+* [[FC55_Q来A去|Q来A去]]
+* [[FC55 CLOSING WINDOWS|CLOSING WINDOWS Control Panel Device Managery]]
 ==== 我的故事 ====
-:* [[FC53 我的故事|我的故事]]
+:* [[FC55 我的故事|我的故事]]
 ==== 我的观点 ====
-:* [[FC53_我的观点|我的观点]]
+:* [[FC55_我的观点|我的观点]]
 ==== 我的想法 ====
-:* [[FC53_我的想法|我的想法]]
+:* [[FC55_我的想法|我的想法]]
 ==== 我的桌面 ====
-:* [[FC53_我的桌面|我的桌面]]
+:* [[FC55_我的桌面|我的桌面]]
 == 评测 ==
-* [[FC53_评测|评测]]
+* [[FC55_评测|评测]]
 == How to 教程 ==
-* [[FC53_Python编程|Python编程]]
-* [[FC53_Libre_Office|Libre Office]]
-* [[FC53 GRAMPS|How-to GRAMPS]]
-* [[FC53 Bus and Edu|How-to Bus & Edu]]
-* [[FC53 Backup|How-to Backup]]
+* [[FC55_Python编程|Python编程]]
+* [[FC55_Libre_Office|Libre Office]]
+* [[FC55 Audacity Basics|How-to Audacity Basics]]
+* [[FC55 Quick Home Server|How-to Quick Home Server]]
+* [[FC55 Backup Strategy|How-to Backup Strategy part 3]]
 == 参看 ==
 * [[FC杂志中文工作进度]]
 
-[[Category:FC杂志翻译存档|53]]
+[[Category:FC杂志翻译存档|55]]
 
