@@ -1,0 +1,15 @@
+Welcome to another issue of Full Circle!
+
+Unfortunately due to work, Mr. Ubuntu Games (Ed Hewitt) has left us, but you, the good peoples of FCM-land, have stepped up and, after many an email I've not chosen a replacement. I've chosen several. This means that, from FCM#56, we'll have at least two Ubuntu Games articles each month. Even though he didn't send me an email to tell me he'd left us, I still wish the rascal well.
+
+As the Python series continues to run full steam ahead, LibreOffice returns, and the HowTo on backing up your data discusses Deja-Dup which is now installed as standard in 11.10. We have that Audacity article you wanted too. Not written by Robin Catling, mind you, but it's still as good!
+
+BackTrack vs BackBox is the subject up for review. If you're at all interested in IT security, or penetration, then this is a must read. Art's come up trumps with this whopping eight page review.
+
+Closing Windows focuses on the *buntu equivalents of Control Panel and Device Manager. It seems like Ubuntu makes you jump through hoops to get at, or properly install, a device manager look-a-like.
+
+My Story this month is a focus on the FCM Italian Translation Team. How they got started, and with each team member having something to say about the team, or process. Many thanks to them, and the other translation teams around the world. I salute you all.
+
+All the best, and keep in touch.
+Ronnie
+ronnie@fullcirclemagazine.org

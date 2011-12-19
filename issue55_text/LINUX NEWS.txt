@@ -1,0 +1,25 @@
+== USB Stick Brings Android to PCs, TVs ==
+Stick it [Cotton Candy] into any device that supports USB storage [...] from there, you can run Android  inside your desktop, courtesy of a Windows/OSX/Linux-compatible client embedded in the device. [...] [It] also features an HDMI connector.
+
+Under its [...] hood, the device sports a 1.2GHz ARM Cortex A9-based processor (the same basic processor architecture you’ll find in the fastest chips from Apple and Nvidia), as well as ARM’s quad-core Mali GPU and 1GB of RAM. It’s an impressive laundry list of specs, and seems more than capable of fueling Android 2.3, aka Gingerbread, the version of the OS that comes on the device.
+
+Source: Wired.com
+
+== £56 Open-Source Hardware Runs Linux  ==
+An open-source hardware group announced a £56 (US$89) motherboard that could be used for robotics, gaming and medical devices.
+
+BeagleBoard's BeagleBone is targeted at the open-source hardware community. It runs a full version of Linux and a full-featured web server. The board is based on Texas Instruments' £3.14 ($5) Sitara AM335x ARM Cortex-A8 processor, which can deliver 720MHz of performance. TI announced the processor on Monday.
+
+Source: computerworlduk.com
+
+==  ==
+Pay what you want for Darwinia, Multiwinia, DEFCON, and Uplink -- the complete catalog from the British indie studio, Introversion! If you beat the average price, you also receive Aquaria and Crayon Physics Deluxe!
+
+This DRM-free collection of games works on Mac, Windows, and Linux, and you can support two worthy charities with your purchase. Download the games instantly from the Humble Bundle or redeem them on Steam.
+
+Darwinia, Aquaria, and Crayon Physics Deluxe are year-on-year grand prize winners at the annual Independent Games Festival, representing the very best in distinctive, engaging gameplay.
+
+http://www.humblebundle.com/
+
+== FC Notifier Update ==
+The Full Circle Notifier is still at 1.0.2, but the PPA has been updated for Oneric. FCN is a small application that sits in your system tray and will announce issue/podcast releases, and can be set to download them too!For more info, see the FCN Google Group: http://goo.gl/4Ob4

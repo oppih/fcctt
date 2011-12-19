@@ -1,0 +1,23 @@
+== COMMAND & CONQUER ==
+Written by Lucas Westermann
+
+Last month, I wrote a brief introduction to Gvim/Vim, which I hope to expand upon in this article. I recently received an email from a reader asking me if it was worth learning your way around Vim or not. The relevant points in the email were:
+a) If you use Windows during the work day, is there even a point to learning how to use Vim?
+b) If you don't program much (or at all), is Vim going to be helpful?
+I sent back quite a long email, but it ultimately boiled down to:
+a) Gvim/Vim have a client for Windows, so you're more than welcome to use it there too.
+b) I find that Vim offers a set of features that makes repetitive tasks extremely easy to accomplish. This is most prominent in coding (i.e. headers, function calls, methods, formatting, refactoring, etc.), but if you do any kind of task where you find yourself repeatedly making the same change to a certain word or to large chunks of text at a time, Vim will definitely make your life a little easier.
+As such, I will be covering Macros, search/replace, find, and a basic introduction to regular expressions this month.
+
+Before I begin, please take the following to heart: Use Vim.
+
+By that I mean simply do your day-to-day tasks in Vim for a week or so, and once you notice yourself repeating a task, do a quick search online to find out how to automate the task (or, at the very least, reduce the number of key strokes). It may slow you down at the start, but it will ultimately cut down on the time you need. The reason I say to search online is simply because, in my experience, finding the answers to questions on your own tends to improve the ability to recall the solution, as opposed to getting the information fed to you from someone.
+
+Now, to the article...
+
+Vim offers a lot of features, not all of which will apply to you. As such, I recommend skipping over any parts you don't expect to need or use, in order to reduce the amount of information you need to take in. For all the following shortcuts, anything in “<>” are variables that you must decide, and anything in “[]” is a physical key on the keyboard you must press. Also, unless otherwise specified, all commands and key presses are entered in the default mode of Vim (the “blank” one).
+
+=== Macros: ===
+
+Vim offers the ability to create Macros on-the-fly. This means you can record a set of commands in Vim so that you can easily repeat them. The basic method is:
+    [q]<letter><commands>[q]

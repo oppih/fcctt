@@ -1,0 +1,86 @@
+=== Ubuntu Classic ===
+Have you told the readers how easy it is to revert back to the classic view in Ubuntu 11.04?
+
+At the login, click other. It will ask for the new user ID. Just type in your user ID, and, at the bottom of the screen, you can select the classic view, and then enter your password, and, presto, you have the old friendly classic view.
+
+James Bainter
+
+Yes, we have printed a minor variation on this. - Ed.
+
+=== Easy Install ===
+I have a method for installing a different version of Ubuntu or its derivatives. I gave up doing upgrades a couple years ago when they became unreliable. I do only fresh installs now, so this method works for upgrading or downgrading your computer.
+
+The first thing I do is to backup all my files that I want to keep. I do not use a backup tool, I just copy all the files to an external device. In my case, it is a 150GB hard drive.
+
+After that is done, I compile a list of all the applications and files that I have added and wish to keep as well. To do this, I open Gedit and list all the applications and files in alphabetical order, separating each one with a space.
+
+At the start of the list I type:
+
+    sudo apt-get install
+
+followed by a space. 
+
+Be sure to use the names of the applications and files that are used to open them from the terminal. Be sure to copy this to your backup file so you will have it to use later.
+
+With that’s all done, it is time to install the version that you wish to have on your computer. After that is done, boot into your system and open the terminal and your list of apps. Copy and paste the entire list into the terminal, and press enter. If there are any errors in any of the names, the terminal will let you know. The terminal will ask you if you wish to continue, enter y and press enter. This could take a while so it would be a good time to configure your desktop to your desires.
+
+Every time I install a new application, I add it to my list so that when it comes time to change my system the list is ready to go.
+
+I have been using Ubuntu on my notebook computer for five and a half years, and truly love it. It is easy to use, fast, and easily configured to fit my tastes. Unfortunately, Ubuntu is going in a direction with Unity that I cannot follow. Unity does not allow me to do what I do as easily as Gnome 2.x. Lucid Lynx is probably going to be the last Ubuntu version that this computer will ever see. I will still use Linux - as Windows and Apple are not options for me.
+
+Jim Barber 
+
+=== WaveMaker ===
+
+For Bob Nelson: you might want to try WaveMaker -- http://www.wavemaker.com/product/
+
+It’s a cross platform RAD tool that builds a HTML enabled application in record time. Linux binaries are available. Provide the right environment, LAMP, and you might have a close proximity to your old application.
+
+John McGinnis
+
+=== A Convert ===
+
+I work as a volunteer at a local community centre due to being made redundant last year.
+ 
+They had a Windows 2003 Server and Windows XP workstations. They were moving to a new location, but the company that installed it could not remember the domain admin password. We could move the server but we could not access the files at the new location due to the server using Sharepoint.
+ 
+All attempts failed trying to use password clearing software, so, as a last resort, I installed Ubuntu as a parallel OS. Logging into Ubuntu, I was able to see and copy all the shared files and folders.
+ 
+We then re-installed the Server as a fresh install - with password recorded by them.
+ 
+I have being playing with Ubuntu for only a few weeks as part of my Open University T155 Linux: an introduction course. I have now installed it on a few desktops and an old laptop, and I am really impressed.
+ 
+I am a true convert – and now spreading the word.
+ 
+Mark Sellars
+
+
+=== Triple/Quad Boot? ===
+
+Ubuntu is the first choice for almost all windows converts. But after spending some time with Linux, and getting yourself dipped into Linux culture, many people are simply just not satisfied with only one Linux Distro.
+
+Can you please explain triple boot / quad boot with one windows XP / 7, and other two are Ubuntu and any other distro like Mint or Debain OS, or any other distro (may be Lubuntu) of your choice. 
+
+Can you also explain manual partitioning. Once you get a grip on manual partitioning, the fear of installation will go away. So end users like me can upgrade it to the latest versions.
+
+A fresh install is a good option, because Ubuntu keeps changing default apps. So, after a successful upgrade, you have many softwares for one application like music.
+
+Experimenting inside virtualbox is always preferable. But recent windows converts do not know about virtualbox.
+
+Currently, I am dual booting XP and Ubuntu 10.04 LTS.
+
+Sujal
+
+=== Non-Printing Characters ===
+
+I am also having trouble with Garmin GPS and would also appreciate any ideas. I tried a virtual Windows XP box (using VirtualBox) but even that wouldn't work. And of course Garmin Helpdesk are worse than useless.
+
+In the Q&A section, there was a question about finding non-printing characters in LibreOffice/OpenOffice. I have found the extension "alternative find and replace" from Thomas Bilek to be very helpful with this.
+
+John
+
+=== Ubuntu Developer Summit ===
+
+If you are like me then you spent some time participating remotely in UDS-P over the past week. I was pretty impressed by the goals that Mark Shuttleworth announced for 14.04 and even more I was delighted to see such a great turnout. I'm hopeful in the future I may be able to travel to physically participate in a UDS because I think the breadth of information you get to take back is well worth the trip not to mention the Ubuntu Community networking opportunities.
+
+Benjamin Kerensa
