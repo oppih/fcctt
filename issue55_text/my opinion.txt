@@ -1,0 +1,30 @@
+Written by Alexander Salomon
+
+My first Linux was Ubuntu 9.10. I had an old computer which needed a replacement and I was looking for a cheap and secure alternative in order to surf the Internet, check my mails, do some easy calculations, write letters, and so on.
+
+I was running Firefox at that time, and I thought that Open Source could be an alternative to Windows. After some research, I choose Ubuntu, which I installed with Wubi in order to try it out. What should I say - it worked. With some support from Ubuntuusers.de, everything worked well. I bought an old P4 for very little money (less than € 30, -), bought a second 500 GB HDD, two additional GB of RAM, a cheap Nvidia graphic card, and even a TV Card, and I got everything running for less than € 200,-, currently with Ubuntu 10.10.
+
+So far - so good, I can do what I initially wanted to do, and we could stop here with the success story.
+
+However, when I take a second look, I need to admit that some things do NOT work. They are not essential, but it makes life hard.
+  • I’m running a Garmin navigation system with a lifetime maps update. I did not find a way to update the device under Linux. Maybe there is one, but I spent so many hours in research – I’m tired of it.
+  • Next device that doesn’t work is my Garmin Forerunner 50. It transfers the data about my workouts via ANT+ technology to the computer. Unfortunately, not under Linux.
+  • My wife’s Ipod – I got it to work somehow but it’s not very smooth. Synchronizing songs is always a pain.
+  • I tried to convert some videos from Apple’s .mov format to .avi. I was unable to get it to work under Linux with WinFF or VLC. Under XP it works just fine with the same programs!
+  • Compare OpenOffice or LibreOffice with the MS product. There are worlds between them. Don’t get me wrong, the open source programs do what they need to do, and the developers have done a great job – but in a professional environment I don’t want to miss my Excel. The open source programs are about 10 years behind. That’s just a fact.
+
+These are just a few examples why Linux will never have more than probably 2-3% share in the developed world (EU/US/Japan).
+
+At the end, I’m running XP and Ubuntu on two HDD on my computer. But honestly, although Ubuntu is great, my 10-year-old XP can do most of the things better than my one-year-old Ubuntu.
+
+As long as no “Linux-Company” (Canonical, Red Hat…) sits together with Nokia, Apple, Canon, Samsung, Garmin, TomTom (I could go on and on and on …) defining standards to get peripheral equipment to run, most people will return to Apple or Windows in the long term.
+
+The “dummy user” has not the knowledge and time to spend hours to get the equipment to run.
+
+Linux really had the potential to play a significant role in the operating system market, but I don’t see any working strategy to establish it alongside Windows and Apple – which is a pity.
+
+That’s just my meandering thought about open source. It works great in an isolated environment - unfortunately not more.
+
+I will stick with Linux, I like the look and feel, and I feel more secure when surfing the internet, but I cannot give up my Windows (which I wanted to do initially).
+
+Anyhow, keep writing the Full Circle Magazine. I love it.

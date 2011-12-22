@@ -1,0 +1,37 @@
+== ==
+My desktop is a tribute for the legend of heavy-metal, Dimebag Darrell. I'm using a Mike Capprotti drawing about this legendary guitar player.
+
+I'm using Cairo-Dock for taskbar and shortcurts.
+
+My specs: Acer Aspire 3050-1458, AMD Sempron 3500+ 1.8 GHz, 1,5GB RAM, and 80 GB.
+
+Marcelo Goulart
+
+== ==
+This is my desktop. I like it clean and simple.
+
+I am running Ubuntu 10.04 LTS, with Docky (bottom & left-hand side docks, auto-hide), and panel on top (auto-hide). Wallpaper is ubuntu-black - can't remember where it came from. Screenlets are circle clock, and three ring sensors showing hard drive space.
+
+I've been using Ubuntu since '05, loving the progress.
+
+Roy Jensen 
+
+== ==
+The wallpaper, a picture I took of a leaf bug. The theme is called Bamboo-zen created by Zgegball. I also use Zgegball's icons - it’s called ubuntu-sunrise. There are 5 screenlets, Calender with no back, A clock, a bulls eye, which I just have because I think it looks nice. The word of the day to stay up on my vocab, CPU usage, and, last but not least, the Cairo-Dock. 
+
+The green gives me an earthly feel.
+
+System Specs:Ubuntu 10.04 (lucid) running on my Dell xps one, with an Intel Core(TM) dual processor 2.3Ghz, 4GBs of ram, 300GB Harddrive space. 
+
+Deon Ragin
+
+== ==
+My desktop runs Ubuntu 10.04, with Plusone wallpaper from deviantART, and Awoken light theme from gnome-looks. I have removed the bottom panel and replaced it with AWN dock. I've been using Ubuntu since Gutsy, and I use my computer mainly for web and software development as a freelancer.
+
+System specs:
+Intel Celeron 2.3GHz
+1GB RAM
+80 GB HDD
+18.5 inch LCD screen at 1360x768 resolution.
+
+Bijay Chamling

@@ -1,0 +1,71 @@
+In Part 8, we looked into formatting our spreadsheet cells to look a certain way, but the true power of Calc comes from its ability to calculate formulas using basic math and its built-in functions. Calc formulas are just what you think, mathematical expressions that use data to create a result. Calc functions give us predefined calculations and decision making. With just a little knowledge of formulas and functions, Calc becomes a powerful data analysis tool. When entering a formula or function into a cell, your formula or function must begin with the = (equals), - (minus), or + (positive) signs. 
+
+=== Arithmetic Operators ===
+
+Calc has five basic arithmetic operators:
++ (Plus) – add two numbers together, or as a sign for a number. Ex. =2+5 or +5
+- (Minus) – subtract one number from another, or negate a number. Ex. =5-2 or -5
+* (Asterisk) – multiplication. Ex. =2*3
+/ (Slash) – division. Ex. =21/7
+^ (Caret) – exponentiation. Ex. =5^2
+
+Just like in real math, you can use parentheses to group expressions together to create more complicated formulas. For example, if you enter the equation =5-2*3 in a cell, when you press the Enter key, you get -1 for the result. However, if you enter the equation =(5-2)*3 in a cell, you get 9 for the result when you press the Enter key. This happens because Calc obeys the rules of precedence. In the first equation, the multiplication is done first, as per the rules, which gives us 5-6, which equals -1. In the second equation, we change the order of operation by using parentheses. In this case, 5-2 is calculated first because of the parentheses, giving us 3, and 3 x 3 is 9. 
+
+=== Cell References ===
+
+Hard coding our numbers doesn't make much sense. We could just use a calculator for that. To unleash the power of Calc's calculating abilities, a reference to the data in our spreadsheet is needed. Cell references allows us to use the data within our spreadsheet in our calculations. Cells are referenced by the column letter and row number. The first cell of the first column is A1, the second cell of the first column is A2, the first cell of the second column is B1, the second cell of the second column is B2, etc. If we enter 5 in cell A1 and 6 in cell B1, we can enter the equation =A1+B1 in any other cell in the spreadsheet, and the result will show as 11. 
+
+In some functions, you will need to reference a range of cells rather than just individual cells. To reference a range of cells, start with the first cell in the range, followed by a colon (:), and the last cell in the range. To access the first 9 items in the B column, use B1:B9. To access the first 5 items in row 1 use A1:E1.
+
+What if you need to reference multiple rows and columns? You just start with the first cell in the block and end with the last cell in the block. For example, to reference all the cells in the first 5 columns and rows, you would use A1:E5.
+
+=== Mathematical Functions ===
+
+If you need to sum a column of numbers, using basic mathematical operators could become laborious very quickly. Calc provides many functions for mathematic calculations, from finding the sum of given cells to trigonometry functions. These functions speed up your entry of formulas. 
+
+SUM() is the bread and butter of mathematical functions. This function is used so often, it has its own button on the function toolbar. SUM() can take up to 30 numbers or cell references between parentheses. You can also use range references with SUM(), which allows you to quickly total a column, row, or range of rows and columns. Multiple numbers, cell references, or range of cells are separated by a semicolon (;).
+SUM() Examples
+
+=SUM(A1;C2;D5) – sum of the three cells
+
+=SUM(2;A1;C5) – sum the number 2 with A1 and C5
+
+=SUM(A1:A5) – sum the first five cells in column A
+
+=SUM(A1:B5) – sum the first five cells in columns A and B
+
+=SUM(A1:A5;C1:C5) – sum the first five cells in columns A and C
+
+Calc provides many other mathematical functions. See the LibreOffice Calc documentation for a complete list, including the trigonometry functions. 
+
+=== Conditional Calculations ===
+
+Sometimes, you only want to perform a calculation when certain conditions are met. A good example of this is avoiding division by zero. If you try to divide-by-zero, you get an error. The conditional function IF() helps us accomplish this. The basic syntax of the IF() function is:
+IF( Test; ThenValue; ElseValue)
+
+So, if we want to divide A1 by B2, but we want to avoid the operation if B2 is zero, we could use the IF() function:
+=IF(B2>0;A1/B2;”Can't div by zero”)
+
+This translates as “If B2 is greater than 0, divide A1 by B2; else, output the text 'Can't div by zero'.”
+
+Conditional calculations can help you avoid errors in your spreadsheets. Use them any time you think problems might pop up, like division-by-zero, or a number not being entered. 
+
+=== Comparative Operators ===
+
+Calc provides six comparative operators we can use in our test.
+= (equal to)
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
+< > (not equal to)
+
+In addition to the comparative operators, we can use the NOT() and AND() functions in our test. The AND() function allows us to test more than one condition and NOT negates the condition. This time, let's make sure neither of the numbers equal 0:
+
+    =IF(AND(NOT(A1=0);NOT(B2=0)); A1/B2; “Can't div by zero”)
+
+In this formula, we make sure than A1 is NOT zero AND B2 is NOT zero before we do our calculation. While this formula shows both the AND() and NOT() functions being used, a more practical formula would be:
+
+    =IF(AND(A1>0;B2>0);A1/B2;”Can't div by zero.”)
+
+We have only begun to scratch the surface of the possibilities using Calc's formulas and functions. Next time, we will take a look at some practical uses for some of these functions. 

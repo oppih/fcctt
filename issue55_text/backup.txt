@@ -1,0 +1,48 @@
+Last time, we looked at data backup from the top down, strategic level. On to more practical matters now, how to back up your data with a 'conventional' utility, and where better to start than with the tool already lined up for the default choice in Ubuntu 11.10 onward: Déjà Dup. This choice has come from left-field, in that Déjà Dup's simplicity is also its weakness. Clearly, we want to get everyone taking responsible back-ups of their data in the simplest way possible, but we'll need a more 'complete' version of the package than is currently on offer. As we take a look at all the missing features, you'll see why.
+
+Déjà Dup is not particularly new, nor is it revolutionary, being a graphical interface onto the command-line backup tool, Duplicity, with the rsync utility providing incremental back-ups. Déjà Dup does include data encryption, network backup using the SSH protocol, and access to some Cloud back-up services.
+
+Déjà Dup is already in the official repositories for Ubuntu Lucid, Maverick and Natty. Install it through the Ubuntu Software Center by searching for 'deja', or use the old-school terminal command:
+
+    sudo apt-get install Déjà-dup 
+
+It sets up a menu entry in Gnome, under System Tools, whilst Unity users need only press the <Super> key and search your desktop for 'Deja' for two launchers to appear, Déjà Dup Backup Tool and Déjà Dup Preferences. As a Gnome desktop application, Déjà Dup has integration with Nautilus, which requires a re-boot after installation to activate.
+
+=== First Use ===
+
+The main application window features just two big buttons for Back-up and Restore. Before performing your first back-up, you'll want to set your preferences using the Déjà Dup Preferences launcher, or Edit > Preferences from the main menu. In Déjà Dup Preferences, you'll find tabs for Storage, Files, and Schedule. 
+
+Storage sets your preferred back-up location, including local, network, and Cloud Storage if you have either Amazon S3 or Rackspace accounts. Déjà Dup provides a wizard to guide the novice (or the lazy) through configuration. Also among the choices are FTP, Windows shares, WebDAV, and SSH. We're coming to the Cloud as a back-up medium in the next article, so let's say Déjà Dup treats the Cloud as just another storage location. The Storage tab is also where you choose to encrypt data or not, using the .gpg standard. 
+
+Files actually sets the folders that you wish to include or exclude from your back-up regime. This is the weakest part of the program at present. It works only at folder level - not at file level, so you can add or remove folders and sub-folders from the set, but not individual files or file types, say 'exlude all *.tmp files.' Moreover, there's no implementation of incremental back-ups; requesting whatever files are added or changed since the last time you ran it, or any key date you might want - such as your last system upgrade, tax-filing date, or your birthday. All of which is possible in the command line tools on which Déjà Dup is built and which are present in just about every other Linux back-up program such as S-Backup.
+
+Schedule sets the timetable for your back-ups, and again, this is where the current version of Déjà Dup is a little disappointing; Déjà Dup doesn't (yet) support precise timing beyond Daily, Weekly, Monthly. I want the choice of 1am, or 1pm, or whenever I'm not busy at the machine. We're hoping to see this by the time Ubuntu 11.10 is released.
+
+=== Encryption ===
+
+There's nothing elaborate in Déjà Dup's encryption; it relies on Duplicity to apply gpg using just the password you provide. You can store this in the default Gnome keyring under your Gnome user ID. This is old-school back-up encryption of the kind we've had the last twenty years. Just don't forget or lose that password if you intend ever to restore your data!
+
+=== Backup, Backup ===
+
+Having saved your preferences, you can close this application and fire up the Backup Tool. The big 'Backup' button initiates an immediate back-up. Here, through the wizard, you can click through your default preferences, or override them with custom settings.
+
+What Déjà Dup creates is a back-up set consisting of two files, or three if you encrypt;
+the manifest, listing your back-up selection, and named duplicity-inc.20110720T204326Z.to.20110720T210455Z.manifest.gpg
+the back-up data file itself, in my example duplicity-inc.20110720T204326Z.to.20110720T210455Z.vol1.difftar.gpg
+the encryption signature file, in this case duplicity-inc.20110720T204326Z.to.20110720T210455Z.sigtar.gpg
+
+You can see in the naming convention, Duplicity identifies itself, then includes the date-time stamp of the back-up set, in which each set is given a sequential volume number.
+
+=== Restoration Drama ===
+
+There is no drama, if all you want is to restore an entire back-up; just click that big Restore button. It will check your back-up folder for previous back-up sets. Choose to restore one to the original location or to another folder. Anything more selective than that, such as choosing includes, excludes, or date ranges to restore, is not currently supported. Roll on the 11.10 version.
+
+Yet what we do have is the ability to selectively restore individual files using the option added to the Nautilus right-click context menu – 'Restore to Previous Version.' Here you can select single or multiple files, and the Restore option fires up Déjà Dup's Restore program to pull in the specified files from whichever back-up set you choose.
+
+Click on a blank area of a Nautilus window, and you get an option in the right-click context menu to 'Restore Missing Files,' that is, anything included a specified back-up set that isn't in the destination folder now, including multiple selections. It's a kind of differential Restore, comparing two of the file lists - backed-up versus current. You can also Revert to Previous Version, which allows you to recover a file from a backup set. 
+
+=== Conclusion ===
+
+Whilst Déjà Dup is a promisingly simple and effective tool in those areas it covers, it's a long way off parity with others such as S-Backup for Gnome, Nepomuk and Kbackup for KDE, and only has a subset of the rsync features available at the command line. In short, Déjà Dup is a hand-held blunt instrument - while we want a remote-controlled laser-scalpel. Some of the missing features have been spotted in development versions, but this makes it a long way off our ideal back-up tool for supporting our strategy for incremental, differential, scheduled, and specific back-up, with local and off-site capability.
+
+Next time, we'll widen our horizons again, searching for the ideal Cloud back-up solution.

@@ -1,0 +1,41 @@
+Written by Riku Järvinen
+
+Frozen Synapse is a turn-based strategy game by Mode7 games, and it has received rave reviews since it was originally released in May 2011. In October, the Humble Frozen Synapse Bundle was launched, including FS, along with Trauma and SpaceChem. This was an opportunity to get the game and a ton of extras at a nominal price: If you paid more than the average (that is, about six dollars), the bundle also included the games of the Humble Frozenbyte Bundle sold earlier this year (and three soundtracks... a bargain alright).
+
+In many ways, my first encounter with FS brought to mind the Rainbow Six games I played many years back, but in a somewhat more simple setting - since the graphics were essentially 2-dimensional and the camera angle was fixed.
+
+It suffices to say that FS is all about how you can, in the sense of logical thought, outsmart your opponent. There are two teams fighting, and both have units with different abilities (such as movement, and battle engagement speed), and weapons of terror (machine gun, shotgun, sniper, grenade launcher, and rocket launcher). The battle takes place in a rectangular maze of blue wall structures, some of which are full-height and others half-height. The half-height walls can be used as shelters; units can dock behind them to avoid enemy fire, and attack while standing up. The units are shown as simple uni-color human-form figures, green versus red in the standard case. 
+
+Before commencing battle, there is a planning stage: one simulates the movements of units (one can also simulate the opponent!), while developing a working strategy. When the decisions are made, the outcome resolves: units act according to their orders, moving, firing, trying to survive five seconds of intensive combat, after which the next planning stage takes place. This cycle is repeated as long as neither of the teams has completed their objective, given before any action takes place. 
+
+Whether to go all-out offensive, or to defend territory, is by no means an easy decision - which depends solely on the goal to be achieved. In addition to the ‘’plain and simple’’ extermination mode, one can rescue hostages, defend areas, or “hold the line” for as long as is necessary. 
+
+=== Installation and gameplay ===
+
+The installation is relatively straightforward: just CHMOD the bin file to an executable, and run it to start the installer. It creates a subdirectory called frozensynapse in the directory to be specified. There you find the runnable file named Frozensynapse (run the file with ./ command). 
+
+Once started, a login screen appears where you can create an account for the multiplayer, or simply choose to play offline in a random skirmish or campaign mode. I suggest creating the account and starting multiplayer as soon as you are familiar with the basic controls since many of the “cool tricks” cannot be learned anywhere else. For the basics, there’s a tutorial which is easy to follow. There’s also a collection of additional tutorial videos on the Frozen Synapse website http://goo.gl/qGbsm.
+
+I’m more of an online gamer, so I consider the beauty of Frozen Synapse to lie in multiplayer mode. The offline campaign mode has received positive reviews elsewhere which I will not repeat here. The thing in multiplayer is to sign up for a collection of battles going on at the same time, and participating currently on a game where there is action, i.e. not to waste time waiting for an hour or two for the other players’ decisions. Normally, people on the servers spend a lot of time planning their moves, and I got my ass kicked big time in the first few fights. Relatively simple-looking battles may take many hours, while players are concurrently occupied in possibly dozens of different scenarios. 
+
+While Frozen Synapse triumphs in the area of gameplay and music, it loses some points due to the modest graphics. Nevertheless, in the heat of battle, one quickly forgets eye-candy and concentrates on the winning strategy. Come to think of it, the simple but elegant nature of the graphics - along with the blueish theme and soundtrack packed with quality electronic music - creates an unique, futuristic, atmosphere. 
+
+I play Frozen Synapse on my laptop (an HP Elitebook 8460p) with an additional 19” LED display. The specs are Core i7 2620QM 2.7 GHz, AMD Radeon HD 6470, 4 GB DDR3 1333 MHz, 128 GB SSD, and Ubuntu 11.10 . While playing with maximum resolution and best graphics options, there was some lag which is probably due to my inadequate graphics card.
+
+Frozen Synapse can be purchased from their website (http://www.frozensynapse.com/) at a price of 24.99 $, which includes an extra free copy you can give to a friend. For 10 $ more, a sword-fighting game called Determinance, a soundtrack of FS, and a cd (in mp3) are added to the bundle. 
+
+=== Conclusions ===
+
+For someone beginning Frozen Synapse multiplayer, I suggest going through the tutorial and running a few skirmish battles. You probably get smoked a few times, but that’s the fastest way to learn. Once prepared, login and meet the real challenge! Here’s a summary of the things I considered good or bad in relation to FS multiplayer mode.
+
+Good:
+  • the sum of the parts (gameplay idea, music, theme) creates a characteristic feeling
+  • packed with tons of relatively simple properties that together create complex combat situations
+  • multiplayer action is intriguing, and could very well become a classic.
+
+
+Bad:
+  • graphics could be more accurate and beautiful 
+  • some crashes on Ubuntu 11.10 while uploading videos to Youtube, and some other minor compatibility issues
+
+score:  9/10

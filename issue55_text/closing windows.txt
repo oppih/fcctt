@@ -1,0 +1,65 @@
+Written by:
+  Ronnie Tucker (KDE)
+  Jan Mussche (Gnome)
+  Elizabeth Krumbach (XFCE)
+  Mark Boyajian (LXDE)
+  David Tigue (Unity)
+  
+The one part of Windows that is used just as much as, if not more than, My Computer, is the Control Panel. The Control Panel is where you configure your Windows, and some hardware, settings.
+
+=== Control Panel ===
+
+All *buntu’s have their own version of Control Panel. In Ubuntu (Gnome), it’s called Control Center, and in Natty it is installed - but it does not show up in the menus. Either you start it from a terminal, or you have to add an entry in the menus.
+
+From a terminal:
+  • choose Applications > Accessories > Terminal.
+  • In the terminal, type: gnome-control-center
+  • Hint: After choosing Applications > Accessories, right-click Terminal and choose “Add this launcher to panel” to have it available at all times.
+Adding an entry to the menus:
+  • Choose System > Preferences > Main Menu
+  • In the left column, choose menu System Tools. On the right-hand side, you will see all the items in this menu.
+  • Click button “New item”
+  • For Name, you can fill in: “Control Center”
+  • for Command, it will be “gnome-control-center”
+  • and for Comment, you can use: “Control center for Gnome Desktop”
+
+Only the Command field is important, the others are just texts to help you find it. Make sure to type entries without the quotes.
+
+  • Click OK, and you will see a new item in the menu. Close this window.
+  • Open menu Application > System Tools > Control Center.
+
+In Unity, it’s located under the icon resembling a gear, in the top left-hand corner of your screen. Click on the gear, and navigate down to system settings. Once you click on system settings, a window will appear with all your ‘Control Panel’ type settings within it. In Kubuntu, it’s called System Settings, and can be found under K > Applications > Settings > System Settings. It’s sometimes found at the top of K > Favorites too. In Lubuntu, it’s called Lubuntu Control Center, and it’s at Menu > System Tools; however, to keep Lubuntu as “light” as possible during the initial install, this application is not installed by default because all the system settings can be easily accessed from the menu system without the Control Center application. Fortunately, the excellent software installer/manager makes it easy to select and install the Control Center, which very nicely gives you access to all the primary system control in one place. Xubuntu calls it Settings Manager, and it can be found via the main menu (the mouse icon) and under Settings. Needless to say, since each desktop flavour is different, the layout and settings available are different. One thing that’s similar among all desktops is that to configure anything you’ll be asked to enter your root (or administrator) password. This is to prevent unauthorised tweaking. Always keep your root password safe!
+
+=== Device Manager ===
+
+Another crucial part of Windows is its Device Manager. In here, you’ll see a list of all available hardware, and if it’s working or not. The Device Manager lets you select pieces of hardware, diagnose problems, and install new drivers, amongst other things. Linux differs quite a bit here since it doesn’t use drivers as such, but, thankfully, Linux has superb hardware recognition. There are exceptions to the rule though. Some hardware manufacturers are what Linux users call ‘proprietary’ - this means that they aren’t very open to sharing their documentation with developers, and that makes it very difficult for developers to get some hardware working in Linux. Like I say though, thankfully it’s becoming quite rare now.
+
+To see what hardware you have while using Ubuntu (Gnome), you have to install a program first. This can be done in a few ways, like everything in Linux:
+The Terminal way:
+  • Choose Applications > Accessories > Terminal, or click the terminal icon in your panel
+  • In the Terminal type:
+
+    sudo apt-get install gnome-device-manager
+
+You will be asked for your password. Type it and press Enter. (Password will not be shown on screen)
+
+The Synaptic way:
+  • Choose System > Administration > Synaptic, and type your password when asked
+  • In the small search field on top, start typing: gnome-device-manager
+  • When you type slowly, you will see the contents of the list change. The correct program will show up after having typed just a few characters.
+  • Click with the right mouse button on the name of the program. A small box appears in which you select “Mark for Installation”.
+  • Now click on the Apply icon in the Toolbar, and, in the summary window which pops up, click Apply again.
+  • Hint: when installing software, tick the selection button to automatically close the window after the installation.
+
+The Software Center way:
+  • Choose Application > Ubuntu Software Center
+  • In the search field top-right, type: gnome-device-manager, and, again after a few characters, the program is found.
+  • Click the name of the program and it is marked. On the far right, you see a button Install. Click it, and the program will be installed - after you type your password.
+
+The Device-Manager shows up in menu Application > System Tools.
+
+For Unity, like with most other versions, you have several ways to view this type of information. Here is one way - although not very intuitive - you get to it by clicking on the ‘Dash Home’ button and typing ‘System’. You will notice an icon labeled ‘System Monitoring’, and one labeled ‘System Info’. They both give you some information that is similar, so feel free to explore both, but what you are looking for is the devices - so click on ‘System Monitoring’. Then click the ‘File Systems’ systems tab. Here are a couple of other ways to see this type of information - but with more detailed info. Try this: in the ‘Dash Home’ type ‘Disk’. There you will see two more icons named ‘Disk Utility’ and ‘Disk Usage Analyzer’. They both can be very useful. Take some time now and open both of them and have a look around. Be careful, the ‘Disk Utility’ application gives you access to format the hard drive, and I’m willing to bet you don’t want to do that. ‘Disk Usage Analyzer’, on the other hand, won’t allow you to destroy the hard drive, but it will allow you to see exactly what is using up your hard drive’s precious space. Kubuntu has KInfoCentre; it’s found at K > Applications > System > Info Centre. By default, Lubuntu uses the System Information utility which is at Menu > System Tools > System Profiler and Benchmark. As with the Control Center, you can easily install the gnome-device-manager - which will provide much of the same information as the System Information screen but organized differently and with greater detail. Once installed, it can be opened from Menu > System Tools > Device Manager. Xubuntu also uses the gnome-device-manager which is installed as outlined above, and then shows up under Mouse > System > Device Manager.
+
+Most Linux device manager equivalents are just displaying a list of what you have in your machine, they won’t let you tinker with the hardware. Hardware configuration is usually done in the equivalent of control panel (see above) - as Linux will want to see your root password before letting you configure anything. Entering your root/admin password all the time may seem annoying, but it keeps your hardware (and software) safe, secure, and stable!
+
+Next issue, we’ll discuss moving, renaming, and finding files, as well as the sometimes confusing methods of deleting/restoring files.

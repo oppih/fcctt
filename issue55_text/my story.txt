@@ -1,0 +1,160 @@
+Written by The Italian Translation Team
+
+First of all we would like to thank Ronnie and his entire team for allowing the Italian FCM team to write about this wonderful magazine. Let's start by saying that our team was born with the first appearance of FCM on the web, and immediately joined the project of the Italian community of Ubuntu. We are now an official project of the Italian LoCo team. During these years, the group proceeded to translate, edit, and paginate FCM - using a dedicated section of the official Italian wiki, where some members post drafts of the translations, and others revise them; when the article is ready to be imported into Scribus, other members proceed to insert them, and in order to do this, they use a shared folder of a cloud service.
+
+To coordinate itself, the team makes massive use of the mailing list, especially now where, with the advent of smart phones and tablets, many can also be connected via portable devices and respond quickly to a discussion on the mailing list.
+
+Every day, the team also uses the Freenode IRC channel (#ubuntu-it-fcm – come and visit our channel, you will be welcome!), where many people meet and also talk to coordinate the project - and have the opportunity to exchange a few jokes; joking helps to work better! However, the IRC also helps to involve new members to the group allowing a full socialization within the group.
+
+In the past year, the group lost a bit of energy to the point that twelve issues of the magazine separated the International edition and the Italian one. In June, 2011, with an enormous force of will, the group decided to reset the gap between the two editions: in only three months, it translated, reviewed, and published thirteen issues! Now, the Italian team can proudly say that it has all the numbers available in its language, special issues included! Actally, we have an extra number, an Italian-only issue with a collection of past articles.
+
+Among our new projects, may we introduce you to the e-Pub version (a version for E-book readers) and the Audio Book version (an audio version of the magazine where the translators read the articles using their own voices); the latter version is in advanced development stage, and shortly we will be able to offer it to all, but bearing in mind especially those people who are visually impaired: the world of GNU/Linux, Ubuntu, and Open Source in general must be accessible to all.
+
+And now let's listen to some of the contributors of the Italian FCM group, who want to spread a bit of the energy, spirit, harmony, and cohesion that made it possible for us to stay updated.
+
+  And remember:
+  *＊FCM Italia ROCKS!＊＊
+
+== Translators say... ==
+
+My collaboration with the Italian FCM group started about a year and an half ago (April 2010), and doubtless it was the experience that made me decide to definitively switch to Ubuntu, leaving once and for all that other OS.
+
+Since I’m not very skilled at IT, I've always had some doubt in to definitively switch to Linux, but the Ubuntu community was very useful to me, and so, one day, I decided to do the 'big jump'.
+
+So, considering that I've received a lot from the other members of the community, I decided that I would have to repay, and browsing the huge Italian Ubuntu community, I came across the FCM group. I've never heard about Full Circle Magazine before then, so I've downloaded some issues and I felt in love immediately, and I decided that I also wanted to give my little help to this precious work, that is to the magazine translation.
+
+That's how I met this wonderful group of people who are enthusiastic and always full of new ideas, who have made the FCM Italian group the first in the world (and I'm very proud about this).
+I love this group, and I'll never leave it.
+
+=== ===
+“But...there's one more thing” (quote): FCM Italia ROCKS! (as someone in our group is used to saying)
+
+Cristiano Luinetti
+(aka Palombo)
+
+=== ===
+I would like to introduce you to the world of the true face of FCM Italy. But it is almost impossible in a few lines, and even less so to those who are not familiar with our work. A group of people united, close-knit, coherent, strong, trusting each other, friendly, devoted to teamwork, always ready for new challenges. Helping in coordinating this amazing group has been for me a personal growth, assessment of personal skills and of the group skills. In short, I gave a little of my time to this group, but I can say that I have received back all that I have given multiplied by one thousand. Thanks Guys, thanks Ubuntu-It, thanks FCM Italy.
+
+Marco Buono
+(aka newlife)
+
+=== ===
+Some years ago, along with a friend, I decided to start the translation of the FCM International magazine "Full Circle", and created a group of Italian translators on the Ubuntu Wiki.
+
+After the release of the first three translated numbers, we received an invitation to bring this project within the Italian LoCo Team, creating the 'FCM Group'. Since then, the translation of the magazine has greatly improved thanks to the significant contribution of all the friends who have been part of this group. Here all the tricks, techniques, and methods used today to translate, revise, and reformat this beautiful magazine were born. The rest of what has been done is ... history!
+
+Paolo Garbin
+(aka paolettopn)
+
+=== ===
+I’ve been an FCM fan since it first appeared. So, I’ve recommended it to each of my friends or relatives that I successfully persuaded to try Ubuntu. A friend of mine, for whom I installed Ubuntu 11.04, said to me: “All I’m reading in FCM is interesting, but completely different from what is installed on my PC” (the last FCM translated to Italian was #39, more or less). He was using 11.04, but he was reading about 10.04. That experience pushed me to join the Italian FCM translation team (a great team) to avoid having someone again tell what my friend had said.
+
+Fabrizio Nicastro
+(bifslacko)
+
+=== ===
+I've been a member of the Italian translation team for a few months, when I finally decided to contribute to the Ubuntu Community in some way. I started reading FCM on a friend’s recommendation, but I often complain about the Italian translators because our releases were spit out really slowly. Then I said "Why not become a member and help them?", and, in a few days, I started to translate for FCM Italy. It didn't take a long time to settle into a so friendly atmosphere like this, made of many willing and competent people. Looking back, I'm glad to have become a member just in time for the final sprint that has aligned us with International releases. Now that the sprint has come to an end, I think my days will be a little more empty.
+
+Anyway, guys, I think people like this are good for the spirit of Ubuntu and FOSS philosophy.
+
+Giuseppe D'Andrea
+(intruder)
+
+=== ===
+I always read every issue of FCM with great pleasure, so that, a few months ago, I decided to join the Italian translation group. I believe that, in addition to the fact that the magazine is excellent, the 'FCM Italy' group is a group of really amazing people with whom you work well. It's also a pleasure to talk with them, and joke a little, and turn away from the boredom of our days. Making yourself useful and fun: you can do it joining FCM Italy!
+
+Irene Bontà
+(sharkbait)
+
+=== ===
+I started contributing to the FCM Italian translation some years ago, because I thought it was a good idea, and I wished Italian people could find some interesting stuff in it. Now, I'm doing my little contribution, but the other guys are doing very good, and FCM is now better than ever.
+
+Dario Cavedon
+(iced)
+
+=== ===
+I have started to collaborate since #37 (even if I read it before). At first, the reason was keeping my English trained, testing, and learning new things, doing something good, a present for me and other people, to collaborate on a shared project. FCM is a great example of how fantastic it is for people to deeply and professionally develop together a project for free. Today, the FCM Italian group is my next degree thesis. At least I'll give it to all, you have earned this.
+
+Davide Miceli
+
+=== ===
+Translating the magazine is my way of saying thanks to the FCM team, your work will be appreciated even by people speaking a different language.
+
+Filling the gap was a necessity, and a bet, at the same time, since outdated articles are so unattractive. We won the bet and now let's keep the pace!
+Gianluca Santoro
+(aka Geekluca)
+
+=== ===
+I still remember very well when, in 2007, I was involved in the activities of the “Gruppo FCM”. Since then, I never stopped working for the magazine, having in mind only to spread the free software culture. But what still amazes me is that I don't know if the group has received more from me, or whether I was getting more from the group. By the way - thank you, Gruppo FCM!
+
+Aldo Latino
+(aka aldolat)
+
+=== ===
+Sometimes it can be difficult to leave the comfortable land of proprietary software to jump into the world of free software: I made up my mind about three years ago, switchin’ to Ubuntu just to become a great admirer of this OS - with five recruits (at least) as assets! And, once I was in, the next logical step couldn’t be nothing but giving, in some way, my contribution: and since I don’t know anything about computers or programming, the choice was simple: I joined the awesome FCM translation group! And my gratification is to know that, if today we reached this goal, even if in a small way, it’s thanks to me too!
+
+Roald De Tino
+
+=== ===
+When we first started talking about a sprint to recover lost ground, I remembered a phrase from W. Churchill: “A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty”. Obviously, the path was not easy, but, with the great dedication of all members of the group which I am honored to be part of, finally we got our opportunity.
+
+Giuseppe Calà
+(gcala)
+
+=== ===
+I am a new Linux user, and, after several experiences with different distros, I found in Ubuntu, more than a valuable alternative to Microsoft’s world. Why does the Community impress me so? The philosophy on which it is based! Not only the Freeware, but also the Sharing value.
+
+Some time ago I discovered Full Circle Magazine and I noticed that the Italian Translations were behind compared to the English issues. So I decided to give a helping hand with translations, and give a contribution to the Community, hoping that more and more people will have the opportunity to discover and learn about the huge capabilities of Linux and Freeware. What can I say about FCM Italy? I am so proud of being in because there is a wonderful atmosphere that makes it such a real great Family!
+
+Francesco Cargiuli
+
+=== ===
+I am happy to join this wonderful group where everyone is willing to help. This sprint - we set this goal - was the driving force that led us to be even more dedicated and active, which at first I did not perceive. In addition to knowing each other and working together, we offer all lovers of Linux in Italy an open, free, and up-to-date magazine. What more can one get out of life? Last but not least ... Thanks to the whole group FCM!
+
+Alessandro Losavio
+(aka alo21)
+	 	 	
+Despite the progress made in recent years, it is undeniable that the free software world is still semi-unknown to many of the people who use a PC. Many continue to use proprietary software - not by choice but due to lack of information. In my small way, I converted my family and my girlfriend’s family to Ubuntu – it's a first step, especially to demonstrate that new things can be absorbed well within traditional contexts. Being part of the translation group of FCM seemed a great way to use my skills to serve a common goal. The strength of the community is empowered by the fact that everyone can help out, according to their abilities.
+
+Giulio Tani
+
+=== ===
+I am a guy who has been using Linux (Ubuntu) for a long time. Honestly, it's not so well known in Italy, no one knows the word “open-source”. I tried to convert all schools, especially mine (ITIS), to Ubuntu because it's a special Operating System, free of charge, up-to-date, and does not need anti-virus... It's completely safe without fear of any intrusion... But these schools apparently did not want to believe. After using Ubuntu one day, I asked myself: "Why not help the Italian community of Ubuntu?" So I started as a joke. I started with the group Ubuntu-test. They welcomed me with open arms and then switched to Ubuntu-promotion. For health reasons, I was forced several times to be away for long periods, but I always returned to the open arms that welcomed me (something to envy... you could only dream of this behaviour in other environments :D) But now I am also on Ubuntu-it-fcm. I integrated myself in this nice, warm and welcoming group! Together we do a good job, and I'm proud to give my little contribution too! Good Job Guys!
+
+Only one last thing .. THANK YOU VERY MUCH WITH ALL MY HEART, GROUP FCM <3
+
+Mirko Pizii
+(aka hallino1)
+
+=== ===
+I learned about Ubuntu from an article in a magazine specializing in computers, I opened my browser to see the Ubuntu WebSite. After browsing the pages of the site, I found this project FCM. I am a fan of open source software and freeware, and I like to test software to find any problems, I also like to improve the quality of translations from English into Italian. I joined FCM Italy to review the articles of the magazine to make them more professional, but also to not present to our readers any typos.
+
+Riccardo Vianello.
+
+=== ===
+What can I say that is special, if I have only recently joined this great group? I have always followed them as an observer, and their beautiful and precise work has made me take the leap as if to say: I want to be with them!!..... and I immediately enrolled in the group! I actively participate in the group-test, but I want to make my contribution in my ability even here, because the Ubuntu Community also deserves it and these guys too! Their spirit of cooperation is very high ..... so I'm there!! Congratulations to the whole group FCM!
+
+Antonio Allegretti
+(aka Tiranno)
+
+=== ===
+My personal “FCM story” started at the very moment when I began to use Ubuntu 6.10 Edgy Eft, and it quickly overwhelmed me. Wow, 5 years have already passed! I was looking for an OS I wanted to use instead of Windows, and a friend of mine (who already collaborated with FCM), introduced me to Ubuntu and the Ubuntu-it community. Since then, as it delighted me, my desire to collaborate and share the Ubuntu Philosophy grew. But alas! I'm not a programmer, so the only way to collaborate was working as a translator for a review or something similar, a good way to keep my English trained, and return back my enthusiasm to the community! The same friend of mine then introduced to me this group, and FCM entered into my life. We translated all the issues, but, as happens to volunteers, we started to withdraw, and it was frustrating sometimes to translate articles talking about software on which development was already stopped! But many stories have a happy ending, and the superheroes of FCM Italy, helped by new vital forces, reached their goal!
+
+Marco Letizia
+(aka letissier85)
+
+=== ===
+It has been more than 2 years now since I joined the FCM Italian team. At that time, I was starting my migration to Ubuntu, and I wanted to contribute to the community and keep practicing my English. My experience was great, the people are awesome, and, during these years, more and more people joined us. I’m proud of being part of this group, which was able to reach a great goal: translate all the issues so far. I would like to thank my fellow translators, and wish them good luck. We rock guys!
+
+Luigi Di Gaetano
+
+== From The Editor ==
+
+I'd like to take this opportunity to thank all the translation teams around the world who work so hard to bring Full Circle to their native language.
+
+To all those who wonder if FCM will ever be in their language? Well, you have to start the team yourself. If you do, drop me an email (ronnie@fullcirclemagazine.org) and I'll give you access to the plain text, Scribus files, and help wherever I can.
+
+Sure, we could just shove the raw text through Google Translate and pull it out as a translated edition, but (unfortunately) I don't have the time to do more than one edition, and no doubt (good as it is) Google Translate would mangle the translation somehow. So, it's up to you (the readers) to translate each issue.
+
+All the best!
+Ronnie

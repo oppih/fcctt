@@ -1,0 +1,63 @@
+Last month's question was:Did you update your current install, or do a fresh install?
+
+== Why did you upgrade instead of a fresh install? ==
+
+to mantain apps and users
+
+It keeps all my installed programs and files
+
+Didn't want to risk losing any of my data and/or settings as I have in the past
+
+Retains my preferred setup, plus previous upgrades have always failed so keep trying. 
+
+Fresh 11.10 install doesn't work on my laptop.
+
+I want to see if this time upgrade works for me
+
+Wanted to know how it would go, if it had failed, a fresh install would always have been an option. Went perfectly, of course, as this ZaReason laptop was made for Linux
+
+== If you did a fresh install, why did you not upgrade? ==
+
+Ubuntu upgrades always cause problems. Its easier to start fresh and move files back in from an external drive. Have to keep good notes of the tweaks though.
+
+Keeps the system faster, and it’s cleaner old style!
+
+Less clutter, less contradicting config files
+
+I never upgrade OSs
+
+To avoid unexpected bugs and errors.
+
+I have heard the horror stories how things go wrong after upgrading. A fresh install seems to be the easy way to avoid all problems.
+
+I love a clean fresh setup. I have a separate /home partition, so I can always install fresh.
+
+It takes about 20 minutes to do a fresh install vs. 2 hours for an update
+
+Trust issues - it failed miserably in the past
+
+Upgrade takes longer & does not always work.
+
+To avoid problems of different software versions and to get rid of clutter. Past experience has proved to me that a fresh install is most trouble-free option.
+
+found Ubuntu Remix and Gnome3!
+
+== If you're not upgrading, why not? ==
+
+Still on 10.10, happy there. Waiting for Unity to mature in 12.04
+
+I do not like Unity, and I do not like the fact that I can't choose Gnome when upgrading or doing a fresh install. If I have to I will move to another distro to have Gnome.
+
+Because of Unity, moved to Mint
+
+No choice of desktop - switched to Debian Squeeze.
+
+I don't like Unity or the direction Ubuntu is going. I've moved to Mint 10, but also looking at Mint Debian Edition. 
+
+I stick with the LTS releases - less drama.
+
+LTS installs only; I do change repositories to have latest, e.g., LibreOffice, Firefox, etc.
+
+I finally have 11.04 configured the way I want it. I don't see that 11.10 offers enough for me to change.
+
+Perfectly happy with Gnome 2, upgrading from 9.04 to 10.04 was a bad experience

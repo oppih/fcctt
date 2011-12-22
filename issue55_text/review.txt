@@ -1,0 +1,239 @@
+Written by Art Schreckengost
+
+For many years, the only choice for IT security personnel when it came to penetration tests (sometimes called pentesting) was to pick BackTrack Linux or create their own modified OS.
+
+Just over a year ago, user options broadened with the introduction of BackBox, an Ubuntu based OS (as BackTrack is, too) from Italy which may be heir apparent to the pentesting throne.
+
+On the surface, both appear similar and they are in several respects, but there are radical differences between them, so a head-to-head comparison may be merited.
+
+=== History and Underlying Base ===
+
+BackTrack is from Switzerland, and was created in 2006 with the merger of two Knoppix based OSs, Whax and Auditor Security Collection. A switch from Knoppix to Slax based live-CD distributions lasted until 2009 - when another change to Ubuntu resulted in BackTrack 4. BackTrack 5 Revolution based on Ubuntu 10.04 LTS (Lucid Lynx) was released in May, 2011, and August, 2011 saw the release of the current version, BackTrack 5 R1, also based on Lucid. 
+
+Backbox comes from Italy, and, prior to 2010, it really didn't have much of a track record, at least not online. Other than scant mentions of version 1 (RC and then beta), even distrowatch.com doesn't mention anything until version 2 was released in September, 2011. The current version, BackBox 2, is based on Ubuntu 11.04 Natty Narwhal - which is an upgrade from versions 1.x which were based on 10.04 like BackTrack.
+
+=== Website ===
+
+BackTrack's website (backtrack-linux.org) is best described as eclectic. With a motto of the quieter you become the more you are able to hear, and a wiki page labeled The Ninjas Guide to BackTrack, one can only imagine what's lurking in the shadows, and a sense of paranoia about being watched might surface. Probably not helping is a design consisting of flames in the background - as if to tell users they may burn for using this OS.
+
+Dig far enough into the website, and you'll find a litany of instructional courses offered in “offensive security” - almost all requiring students to pentest and attack actual systems in a controlled environment. While some are free, they appear to be lead-ins for the more costly and extensive training scenarios. My favorite course is the 5-day venture offered in St. Kitts, Caribbean, but, at $4,000, that's a little out of my wallet's range.
+
+Those wishing to skip all the pages can jump to offensive-security.com to get right to the courses; however, the website is nearly identical to links off the main BackTrack page, and, since it has the .com suffix, it's quite apparent the goal is sales. It could be argued that many developers pitch paraphernalia on their websites, but most of it won't require a second mortgage.
+
+Forums appear to be comprehensive, with some tutorials sprinkled liberally throughout, but you'll have to search through hundreds, if not thousands, of entries to find what you need.
+
+BackBox is a little different in their website. Mainly in English, about half of the forum contents are in Italian - so if you need information there, use your browser's translation extension. In addition, there are 3 pages of video instructions that contain little or no dialog (just follow what is shown), but brush up on your Italian because the on-screen version of the OS is in that language (sort of odd since the screenshots show an American flag sitting in the panel).
+
+Unlike BackTrack, BackBox doesn't sell instructional materials - although I did find it curious that it has Google links to other Linux distributions including Suse (sort of like a Ford dealer pushing Chevys). 
+
+The forums are puny compared to BackTrack, but this OS is only a year old, and it’s trying to build a fan base. Since some of the security-based programs are the same or nearly identical to those offered by BackTrack, users could jump the fence and visit the competition's forums, if necessary.
+
+It appears there may have been an Italian site at http://backbox.opensoluzioni.it/, but I couldn't get it to load, and a quick search shows it may have been discontinued for the predominantly English version. 
+
+=== OS Size and Options ===
+
+BackBox (right) packs two desktops as standard, Xfce, and BackBox Session - a modified Xfce design with a bottom dock, top panel, and more sophisticated background design than standard Xfce. In early 2011, it appears a Fluxbox package was offered but I couldn't determine if it applies to the current version (Fluxbox had some teething problems with more than just this OS and may have been pulled).
+
+32-bit and 64-bit options at 913MB and 945MB, respectively, are offered, but not in the same download, so users have to make an initial choice or take time burning both. 
+
+BackTrack offers Gnome and KDE as desktop options - along with 32 and 64-bit configurations, but instead of combining Gnome and KDE in the same package, they are split so users wanting to test all varieties would have to download 4 packages.
+
+No matter which version you choose, the image is near or at 2GB.
+
+=== Upgrade From Earlier Versions? ===
+
+Even though both OS are based on Ubuntu, the upgrade process is not the same as going to Update Manager and stepping up to the next available version. Yes, you can do that for the underlying code base, but what could happen to the specialized security software?
+
+BackTrack doesn't offer an upgrade option, and even states such on their website. Those wanting to upgrade from one version to the next must do a fresh installation. At least they don't pick any bones about it, but the upsetting issue is that once a new version is issued, all support for previous issues ceases immediately. The underlying code may still be supported by Ubuntu, but all the security related programs will no longer have any support.
+
+Although I can't verify such on a personal basis, I have heard from a couple of users that attempting to update the underlying Ubuntu code from 10.04 to 11.04 can prove fatal to some of the security programs. Do an upgrade at your own peril!
+
+BackBox really doesn't address the issue on its website, but an email from the developer, Raffaele Forte, states users should also do a new install over attempting an upgrade. Only time will tell if future Ubuntu upgrades upset the apple cart, but, since all works quite fine in Natty, it can only be assumed the usual updates (as opposed to full blown upgrade) won't hurt anything.
+
+Best idea for either OS? Break out aptoncd and get busy backing up those programs you want to keep, and hope the security oriented programs you like are still there once the new installation is completed. 
+
+=== Installation ===
+
+Both OSes offer live mode, and the ability to use persistence via USB flash drive. Unless you need portability, these modes are often not preferred because they are slow.
+
+The real test is full installation, and this can sometimes be fraught with unnecessary perils.
+
+BackTrack (right) is unique in this respect in that all users must sign in as root. As a result, the usual Ubuntu installer method is lacking since there is no user ID or password collected – the OS is installed and that's that. About the only input involved is determining the amount of hard drive space to use.
+
+From DVD in to final restart took roughly 30 minutes, or about the average amount of time for an Ubuntu installation.
+
+BackBox is classic Ubiquity and installation was a rather spectacular 17 minutes. By the time I turned around to make a sandwich it was completed. 
+
+Hardware recognition was superb in both - with the only driver location necessary being that for my ATI/AMD graphics card. Wireless worked like a charm in either OS, although you'll have to read on about the snafu with finding connection information in BackTrack.
+
+Updates were equal with about 200MB waiting post-installation - which is good for BackTrack since it's based on last year's Ubuntu base.
+
+Hard drive space was typical with DVD contents expanding 100% once unpacked. BackTrack recommends 10GB hard drive space, while BackBox posts 2GB. BackTrack is more in line with reality, and it appears BackBox is using outdated or overly optimistic specs which wouldn't give enough wiggle room - especially for those preferring to use persistent drives.
+
+=== Login Protocol ===
+
+Just when you thought you'd never hear of the root/toor procedure again, it's back!
+
+BackTrack lives up to its name by using that procedure here - although users can change the password after installation (or if using persistence on a USB drive). Live mode users are stuck with it.
+
+Unfortunately, the OS comes with no instructions, but new users don't have to worry – if it senses no attempts to enter root and toor, it switches to another page where users are told to enter “startx” to fire up the GUI.
+
+Best as I can tell, BackTrack offers no option to use the standard Ubuntu protocol of user ID and password. You're in as root and that's all there is to that, although the password can be changed from toor once booted.
+
+Possibly because of the Gnome desktop, boot times were often somewhat dismal with 1 to 1.5 minutes being the norm (part of which was taken up entering root specs mentioned above).
+
+If you're looking for a colorful splash screen, forget it. BackTrack goes to verbose mode for the login process.
+
+BackBox uses the usual Ubuntu user ID and password and requires such during installation. Xfce really shines here - with cold boot times often less than 30 seconds even to the slightly busier BackBox Session version of Xfce.
+
+Much like BackTrack, there is no splash screen in BackBox, and new users may initially be put off by what they don't see. In short, a black screen with a flashing cursor is all that greets the user, and even that disappears after a few seconds - leaving just the blank screen until the desktop opens. At first, I thought the installation had failed and nearly powered down.
+
+Is one login protocol any better than the other? That's subject to interpretation - although most accounts I've reviewed state that signing in as root is inviting trouble since any mistakes or missteps can lead to the OS crashing. Fact is, anybody using root in live mode can merely do a forced reboot and be back to square one - but those using a persistent USB system may be doomed, since changes, including mistakes, are saved.
+
+=== Desktop ===
+
+BackBox is Xfce with a modification called BackBox session that adds a dock and top panel to the usual rat logo on a bland background. It doesn't offer Gnome or KDE as standard like BackTrack; however, that's not necessarily bad.
+
+The desktop design, in keeping with Xfce tradition, is minimalistic, but not lacking artistic thought, with a medium gray background and a sweeping blue ribbon going through the center. In the middle of it all is a stylized “BackBox Linux” heading in which the Bs are made to look like 3s (3ack3ox). Below that heading is another stating “Flexible Penetration Testing Distribution”. If you don't like that, you have your choice of roughly 10 alternatives, but most center around the Xfce rat logo, so plan on adding your own unless you like desktop rodents.
+
+There is the Xfce dock at the bottom, but look quickly because it disappears as soon as the desktop appears (right click the dock to kill autohide in options). It contains a few icons for Internet (aka Firefox), a mail reader, among others, but the one that's interesting is Vidalia. Not the onion, mind you, but the program that acts as a graphical front-end for Tor.
+
+That's not a misprint of Thor by the way, it is Tor, a program used to cover your tracks by redirecting your traces, to the point that surveillance is tough. Good thing, too, since some of the included programs I'll discuss later are best left unknown. The Firefox version included has Vidalia installed by default, and activation is by clicking the onion icon to the left of the URL field. (In one check it showed I was from the Ukraine when I was a few miles away in central Florida).
+
+A lone panel sits up top with the usual icons, with the only exception being the BackBox logo in the left corner acting as a main menu button. Xfce also allows access to most of the main menu via a left click anywhere on the desktop.
+
+BackTrack is also artistically designed, and the desktop design is eye catching. Consisting of a black and red mixture with what appears to be a galloping horse with a flowing mane in the background, the only thing breaking the design is the logo “<<back|track 5” (you've got to admire the rewind symbols), and “the quieter you become the more you are able to hear” statement (look closely since it nearly blends in with the background).
+
+I didn't get a chance to test the KDE desktop, so I can only comment on Gnome. Since this is based on Lucid 10.04 instead of Natty, there is no Unity option.
+
+Beyond aesthetics, the desktop may look like every other Gnome design you've seen, but this is deceiving. Sure, you get the usual tri-entry menu system in the left corner (Applications, Places, and System), and you'll also see the usual speaker icon along with date, time, and log out to the right, but a couple of things are missing.
+
+Find a screenshot and take a gander before guessing.
+
+Give up? No wireless or network connection icons, and the user name is gone from the right side. The missing name is obvious since you're signed in as root, but the network icon is something of a mystery. Yes, wireless and Ethernet both work, but BackTrack has dumped the icon as some sort of secretive measure to keep prying eyes from knowing(?).
+
+So how do you know you're connected? Go to Internet under the main menu, and find Wicd, and it'll advise you of wireless connections, and use Ubuntu's network manager for the Ethernet portion.
+
+And now for the curiosity that has everybody scratching their head.
+
+After one week of using BackBox, I opted to log out to test Xfce, and was surprised to see Gnome Classic and Unity listed as options. BackBox doesn't come with these two as standard, nor did I purposely install them. Somewhere in one of the updates, Gnome and Unity were slipped in; however, both were bare-bone basic without any visual pizazz - which means they didn't come from the developer, who, as it turns out, is just as confused as I am on this oddity.
+
+But there is one issue I find somewhat contradictory in both OSes: if these are supposed to be stealthy and secretive, then why do both have desktop designs that can be spotted half a mile away? True, you can change them, but those opting for live mode without persistence will have that clue pop up every time they boot.
+
+=== Standard Programs ===
+
+Let's be honest and admit the average Linux user is not going to pick either of these OSes as a main version for home computer usage. These are designed for specialists in security, or for hackers who should know better; however, even these persons like listening to music, playing the occasional game, or cranking out a newsletter.
+
+There is no doubt that BackTrack has more initial programs than BackBox but that is somewhat misleading in the long term.
+
+What you'll see, for the most part, is Disk Usage Analyzer, gedit Text Editor, Terminal, Take Screenshot, Wbar, xpdf, Firefox, Wicd, Zenmap, Dictionary, Keepnote, UNetbootin, Sound Recorder, Wine, plus a scant few others.
+
+BackBox is even lighter, with Abiword, Firefox, Vidalia, Tor, Sound Recorder, Transmission, ThunderBird, Pidgin, Bleachbit, Geany, Parole Media Player, plus a few others. This is really a bare cupboard.
+
+Adding Programs is discussed later, but make sure you read it because the results are somewhat unbelievable for one of the OS.
+
+=== Security Based Programs ===
+
+There is no doubt BackTrack wins in this category - with well over 100 included programs, some of which I've never heard of.
+
+And therein is a problem. The website gives little information of what is in there, so you'll have to try it for yourself to find out, and various online sources give figures ranging from 100 to 200 programs - so it's tough to tell what the actual figure is.
+
+For the most part, you find these under the area marked BackTrack on the main menu - which has subcategories for Information Gathering, Vulnerability Assessment, Exploitation Tools, Privilege Escalation, Maintaining Access, Reverse Engineering, RFID Tools, Stress Testing, Forensics, Reporting Tools, Services, and Miscellaneous.
+
+Each one of these categories breaks down into yet more categories listing programs galore to keep the most mischievous computer geek busy. While I could list them all, the total number is rather amazing, and must total over 100 as some menu categories cascade out to sub-sub-categories.
+
+BackBox is somewhat similar, just with fewer programs and a menu heading of Auditing. Here you'll find Vulnerability Assessment, Forensic Analysis, VOIP Analysis, Information Gathering, Exploitation, Privilege Escalation, Maintaining Access, and Stress Tools.
+
+Each of these categories branches out to yet other sub-headings which give a listing of programs that can best be described as scary. Why do I believe some of these programs are suspect? Instead of the usual colorful assortment of icons, these all get skull and crossbones insignia, and various warnings pop up prior to usage.
+
+BackBox is forthcoming with what their OS packs, just go to http://wiki.backbox.org/index.php/Category:Tools_list to find a listing.
+
+=== Secondary Security ===
+
+Compared to BackTrack, BackBox seems to be a slacker in this department - although that's subject to debate.
+
+Other than deleting musical notes and other sounds, along with including Vidalia/Tor in Firefox, I couldn't see much else. Something else may be there, but I just haven't seen it yet. It seems to be standard Ubuntu in all other respects (the website gives hints on how to add more security oriented Firefox extensions, but I use Chrome).
+
+For those unfamiliar with Vidalia/Tor, this is a Firefox add-on that covers Internet tracks during usage by redirecting users all over the globe.
+
+As a test, I had a friend see if he could identify what OS I was using while online. BackBox did drop the ball here since it readily identified itself as “BackBox Linux 2”, but Tor made it appear like I was from the Ukraine when I was still parked in central Florida.
+
+BackTrack takes the opposite path, and goes full hog on keeping the outside from knowing what you do. Not only is opening music gone, even password asterisks are blocked so eavesdroppers can't see the number of characters - but the height of craziness is the complete lack of wireless or Ethernet icons on the desktop, apparently to keep other eyes from noticing you're web surfing (since some of the security programs use a browser to operate, this'll be evident anyway).
+
+Online, it identifies itself as Ubuntu 10.04, with no other clue. Since Tor isn't activated unless users add it, my IP address was readily apparent.
+
+Probably the most aggravating BackTrack security feature is the inclusion of NoScript in Firefox. Until it's trained on what pages it'll accept, you can pretty much be guaranteed your page probably won't open unless you turn it off via the icon next to the URL, or remember to accept new pages as they open. New users will undoubtedly be stymied until they learn this, and the procedure was required for each and every site I visited (turning it off is good for one site at a time, and uninstalling the extension is the only way to dispose of it).
+
+While both seem to be interested in user security, I find it odd that both have artistic desktop designs that all but send up signal flares as advertising, and BackTrack has an initial verbose mode that is easily recognizable. Pity the poor tech stuck with live mode since he'll have to live with telltale signs.
+
+And before you state this isn't a problem, let me give you an example. While testing BackTrack at my local library, another techie behind me spotted the on-screen verbiage, and blurted out, “What version of BT are you using?”
+
+So much for stealth in this department.
+
+=== Adding Programs ===
+
+BackBox has Synaptic Package Manager and Ubuntu Software Center, and users, of course, can utilize apt-get. Anything that works in Ubuntu will work here, and adding outside repositories is no sweat.
+
+Although appearing somewhat limited, software sources are comprehensive - with two sources just for BackBox software, and, oddly enough, one link for openSUSE. 
+
+For those interested more in the security programs and artwork than the OS itself, the source can be added to standard Ubuntu via:
+
+deb http://ppa.launchpad.net/backbox/two/ubuntu natty main.
+
+BackTrack offers apt-get only, and goes as far as completely removing Synaptic and Ubuntu Software Center - meaning both have to be installed or users are stuck using terminal commands (which I had to use to install Synaptic so I could eventually get some programs). 
+
+No big deal, you say? Read on.
+
+Since BackTrack users are signed in as root, some newly installed programs may not work. A prime example is Google Chrome. It refuses to open in root, as did Opera, so my chances of using another browser just got shot down. After a while it got frustrating - since nearly 50% of what I installed wouldn't work in root.
+
+Much like BackBox, BackTrack utilizes their software package for the security oriented apps, and users wanting the programs without the OS can add the source (deb http://archive.offensive-security.com); however, keep in mind that this OS is based upon Lucid Lynx, and those using Natty may experience issues with programs working.
+
+=== Stability and Resource Usage ===
+
+Since both are based on Ubuntu, just different versions, stability is all but guaranteed - but BackBox's use of Xfce made for quicker and smoother operation. Other than the snafu with Gnome and Unity creeping in without my knowledge, everything worked when I asked it to.
+
+Resource usage was incredibly light - with processor rates rarely spiking above 5%, and RAM usage seemingly content parking itself around 8 to 10%. In fact, neither category ever seemed to get “excited” about much of anything, no matter what I opened or did.
+
+BackTrack with Gnome was also a pleasant operational experience - just a bit slower than Xfce to respond and boot, and this also showed in resource depletion with RAM and processor rates being nearly twice as high on the same computer - with occasional spikes to the red line.
+
+During one week of abusive testing, I never experienced an OS failure or crash. Quite impressive.
+
+=== Other Quirks and Final Comments ===
+
+This article consists of my personal observations concerning my testing of both OSes during the month of September, 2011.
+
+First, these are not your grandma's OS - unless the old lady did covert work for the NSA at one time. Both BackTrack and BackBox contain seriously dangerous software that can get users in trouble.
+
+How much so? Using Aircrack-ng (available in both OS), I had my personal wireless code cracked within a half hour, and most of that time was spent trying to follow youtube instructions while entering instructions. Truth is, this program can do the task in around 10 minutes on a bad day.
+
+Had I performed that operation on a corporate wireless system it would be called corporate espionage, and would probably net me 5 to 10 in the federal pen (and that's where you'll really find out what penetration testing is).
+
+Second, 99% of the included security programs for either OS require nothing short of an advanced degree in physics to decipher. Even with tutorial help, I have no idea what some of them do other than produce prodigious amounts of on-screen gibberish - and I'm no computer novice.
+
+So, the question really is, would the average user find much use in either OS? 
+
+No. Joe Average would have little use for such software, but, truthfully, it's a hoot to play with, just make sure you play nicely with friends. Just like that nice Doberman down the street, there is only so much ear tugging you can do before the fangs come out.
+
+Fact is, the security software included is for Ethical Hackers, aka White Hats, in the corporate world, and students in that area of expertise. Beyond that, the usefulness elludes me, and, if I want to swipe a signal, I'll go to McDonald's and use their free wireless before I attempt to steal my neighbor's. 
+
+Now for the final analysis. Which one would I choose?
+
+For my answer I went to fellow students and hackers, and let them give me comments.
+
+Although many were impressed by BackTrack, they found it difficult to use, and downright uncooperative when it came to added program acceptance. They also found it odd that wireless and Ethernet icons were gone, and several discovered what I did – if a signal drops, you won't know it until a webpage doesn't load.
+
+The biggest gripe? Having to use apt-get to install programs - often requiring searches to discover the proper command line for a given app. 
+
+The second most common complaint was about a lack of training for many of the security oriented programs, that often resulted in having to find tutorials online for assistance.
+
+They also agreed that running as root is just inviting a mistake - as one discovered when they did something to their network connection and it never worked again.
+
+BackBox fared better in that it was rated as easier to use, and much more cooperative when it came to adding programs that would work. Reviewers appreciated the inclusion of Synaptic Package Manager and Ubuntu Software Center, and they generally liked the Xfce desktop.
+
+But it was the desktop that also garnered the most complaints. Seems the dock is a front, and doesn't work the way you might think. Clicking on an icon does open the program, but nothing changes in the dock to indicate what's in use. For example, using the icon to open Firefox does just that - but, if you minimize the window, it goes to the top panel – there is nothing in the dock to indicate it's still open. Forget to go topside to maximize, and click the dock icon again, and it opens a new window, not the active one.
+
+As with BackTrack, difficulty in understanding some of the security oriented software was also mentioned, but many agreed the website tutorials did help.
+
+As a result, I would have to give the nod to BackBox. Yes, it doesn't have all the security features of BackTrack, but those can be added later if necessary. It just worked as an OS without being overly restrictive; Xfce was brisk and much quicker than Gnome, and the website isn't geared to pushing highly priced security training at the expense of instructions.
+
+BackBox is much more accommodating to users with limited expertise; the educational aides won't require hocking the family car to pay tuition, and programs are easy to add as long as they normally would work in Ubuntu.

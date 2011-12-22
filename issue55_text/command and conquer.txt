@@ -20,4 +20,55 @@ Vim offers a lot of features, not all of which will apply to you. As such, I rec
 === Macros: ===
 
 Vim offers the ability to create Macros on-the-fly. This means you can record a set of commands in Vim so that you can easily repeat them. The basic method is:
+
     [q]<letter><commands>[q]
+    
+The [q] key begins the capture of a Macro, which gets saved to the letter you supply. Once you have entered [q]<letter> you can then begin using any of Vim's commands to make the necessary edits to your text. Once finished, hit the q key again (outside of any mode). An example case could be:
+
+    [q][b]
+    <series of commands>
+    [q]
+
+This will bind the macro to the “b” key. The way to then execute a command is to enter “@<letter>”, which in this case would be:
+
+    @b
+
+As is the case with any command in Vim, you can repeat the command by appending a number before it. If you then typed “55@b” instead, it would then execute the “b” macro 55 times. Typing “@@” will also re-run the last macro. If you want to learn more about Macros, I recommend the article on the Vim Wiki: http://vim.wikia.com/wiki/Macros
+
+=== Search: ===
+
+In Vim (and programs similar to Vim, like more, less, mutt, etc.), you can search the text using the following format:
+
+    /<term>
+
+The slash tells the program the following is a search term (and in Vim the entire term including the slash is displayed on the bottom of the window). It will then move to the first occurrence of the word. You can move through the results using [n] to move to the next one and [shift]+[n] (henceforth referred to as [N]) to move to the previous one.
+
+=== and Replace: ===
+
+By default Vim supports regular expressions. This is extremely useful when replacing something (called “substitution” in Vim), because you can match the maximum number of results possible. First we'll cover normal search and replace behaviour:
+
+    :%s/<term>/<replacement>/
+
+This will find the first occurrence of <term> and replace it with <replacement>. If you want to make this change to all occurrences, you'll need to change the command to this:
+
+    :%s/<term>/<replacement>/g
+
+So if you wanted to replace all occurrences of “vim” with “Vim”, your command would read:
+
+    :%s/vim/Vim/g
+
+=== Regular expressions: ===
+
+With regular expressions, you could replace all occurrences of “vim, VIM, vIm, viM” with “Vim” using the following command:
+
+    :%s/[vV][iI][mM]/Vim/g
+
+As most of you can probably imagine, anything written in “[]” results in either possibility (or range of possibilities) being matched (henceforth called a set). You may ask yourself “why not put it all in one set?”. If you do it (go ahead and try it), you'll notice that it replaces each letter with the word “Vim” instead of replacing the entire word. This is because the square brackets denote a character/position in a word. If you tell it to replace all the letters, without specifying the location within a word (which is done by splitting it into separate sets of square brackets), it will simply replace each letter. 
+
+So, if you want to match all upper, lower, and numerical cases, you could use [A-Za-z0-9]. The way it works is that anything next to each other is taken as a new series, and anything on the opposite ends of a hyphen is a range. So your 3 ranges are: A-Z (capital letters), a-z (lower case letters), and 0-9 (numbers). If you want to match every single word that begins with the capital letter “T”, you could use T[a-z]*. The asterisk tells Vim that the last set can be repeated indefinitely. Since we didn't include space in the set, it will then stop at the end of a word.
+
+A great number of options opens up to you in this way. You can run a search for all numbers between 1000 and 9999 with [1-9][0-9]\{3\}. In this case, the braces contain a limiter (i.e. number of repetitions of the search term before it). You can also supply it as a range. For example [1-9][0-9]\{2,3\} will search for any number between 100 and 9999. You need to escape the braces with the backslash so that Vim will not include them as part of the search term.
+
+This is just a brief overview of a few regular expressions. They can become a lot more complicated as they become more advanced. If you want to learn more, I highly recommend this Tutorial: http://www.regular-expressions.info/tutorial.html. There are also a number of blog articles on how to wrap your head around creating expressions to do what you want.
+
+I hope you've found this article to be interesting. I plan to continue along this path next month, with an overview of Pentadactyl (a Vim-like interface for Firefox). If you have any questions, comments, or suggestions, feel free to email me at lswest34@gmail.com. If you do email me, please include “FCM” or “C&C” (or, as a regular expression: [fFcC][cC&][mMcC]) in the subject header.

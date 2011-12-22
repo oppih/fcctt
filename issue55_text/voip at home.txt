@@ -1,0 +1,226 @@
+In today's Lab, we are going to talk about VOIP. Probably most of you have heard about VOIP before. This article will try to explain - in a how-to style document - how to install a VOIP system at home (meaning “cheap”!).
+
+=== What is VOIP? ===
+
+VOIP stands for Voice Over IP. Basically, it means that you'll use a technology which enables you to have a phone-style conversation by using the Internet.
+
+This technology (hardware or software) will sample and convert your voice into binary data and send it over the Internet to the correspondent you are talking with.
+
+=== Why VOIP? ===
+
+VOIP is usually cheap and easy to setup at home, once you have an Internet connection. It is often free (with some restriction) – Skype is a good example – Skype to Skype calls are free, although Skype to regular phone has a small cost.
+
+VOIP is also convenient – if you are connected to the Internet, you can easily be reached, at the same number, even if you are far away from home.
+
+Before we move forward, please get familiarized with this short lexicon:
+PSTN = Public Switched Telephone Network, or a landline phone
+DID = Direct Inward Dialing: a virtual phone number, which will be linked to your VOIP SIP address
+ATA = Analog Telephony Adapter
+
+
+=== Get your free SIP address ===
+
+VOIP uses the Internet protocol called SIP (Session Initiation Protocol). It is the same analogy as web pages are rendered through the HTTP protocol, or file transfer via FTP.
+
+A SIP address is required in order to receive calls – same analogy as email – without an email address, you cannot get mail.
+
+As with email, SIP addresses can be subscribed for free or for a small fee. Just as examples (many more are available on the Internet!), www.sipsorcery.com, www.antisp.com, or iptel.org provide free SIP addresses. Please note that sipsorcery is more complicated to set up (typically for advanced users), although it is more powerful. Antisip or iptel.org should be preferred for beginners. Another option is to get a free SIP account with Ekiga.
+
+When you register, you will get your SIP address and the SIP server name. Also remember your password, it will be required later.
+
+=== Example ===
+
+Let's imagine you registered the account “tux” (without the quotes!)
+• your sipsorcery address will be sip:tux@sipsorcery.com, registered on the server sipsorcery.com
+• your antisip address will be sip:tux@sip.antisip.com, registered on the server sip.antip.com
+
+=== Place and Receive SIP phone calls ===
+
+Now that we have a SIP address, we can place and receive SIP phone calls, either by using VOIP software, or a VOIP hardware device. Please note here that we will be placing and receiving SIP phone calls, not PSTN (more on PSTN and VOIP later).
+
+=== Softphones ===
+
+Let's start by using software to place / receive our VOIP calls. Many open-source VOIP programs are available for Linux, examples are Ekiga (http://ekiga.org) or Linphone (http://www.linphone.org/) - both available in the Ubuntu repositories. In case you are a Windows user, Blink (http://icanblink.com/) is a good example.
+
+To setup Ekiga with your antisip account, proceed as follows:
+  • Start Ekiga and close the account wizard if you already have a SIP account. Go to the menu Edit > Accounts and then “Add a SIP account”:
+
+  • Key in your information
+  • Name is for display only
+  • Registrar is the SIP server name
+  • user and Authentication user is your SIP account
+  • key in the password you chose during SIP registration
+  • Make sure the checkbox “Enable Account” is checked, otherwise Ekiga will not connect this user.
+
+If everything went fine, you should see Ekiga getting connected to the SIP server.
+
+Now that you are connected to the SIP server, you can place other SIP phone calls. A good idea is to start with a test call:
+Music test > sip:music@iptel.org (should just play music)
+Echo test > sip:echo@iptel.org (will repeat everything you say)
+
+=== What's next? ===
+
+You may find what we did interesting, but you may also not be that much impressed since what we accomplished so far is precisely what Skype already does.
+
+While this is not totally true – after all we have used only Open-source software (which Skype is not) now the fun really begins for us. We will now call our SIP account with a real phone number!
+
+=== DID or Virtual Phone Number ===
+
+A DID is a Virtual Phone number which will be linked to your SIP account. 
+
+=== How does this work? ===
+
+When you sign-up for a DID (free service or not), you will key in your SIP information (SIP account, password, and SIP server), and you will be provided with a phone number. When this phone number is called, it will call the SIP account provided when you signed up for the service – if your computer is connected to the SIP account with your softphone, your computer will ring! 
+
+The beauty of this setup is the cost – you can be called for the price of a local call by the person calling you.
+
+=== Example ===
+
+Let's imagine you live in Europe and your relatives, living in the US, would like to call you for cheap (or free). You can subscribe for a DID in the US (so you'll get a US phone number) and link it to your SIP account. When your relatives will call your US phone number, your SIP account will ring (your computer in Europe) – and your relatives will be charged for a US phone call rather than an International phone call. Please note to inform your relatives about the time zone difference, otherwise you may be called in the middle of the night!!!
+
+=== How to get a DID? ===
+
+First, consider the country where you would like to get a DID. 
+
+Second, would you like to get a free or paid DID? Since there is no free lunch, a free DID has some strings attached – usually, a free DID is lost if it is not used at least once a month.
+
+By using a search engine on the Internet, you'll find many DID offers. As an example, this link http://wiki.sipsorcery.com/mw/index.php?title=DID_Providers provides a great list of DID providers in different countries.
+
+=== Example ===
+
+I personally needed a DID in the US, so I chose this website: http://www.ipkall.com/ 
+
+When you sign-up, you'll have to fill in the items shown below.
+
+  • Account type: SIP (we are dealing with SIP accounts in this article, right?)
+  • Area code – these are the first 3 digits of your future US number – pick the city of your most frequent callers
+  • SIP username: from our SIP account > sip:tux@sip.antisip.com
+  • Hostname: from our SIP account > sip.antisip.com
+  • Email: probably self-explanatory if you read this article
+  • Password: password for your IPKall account
+
+You'll then get a virtual US phone number in your email. When this phone number is called, it will ring the SIP account sip:tux@sip.antisip.com. If you are connected to your SIP account with a softphone, your computer should ring.
+
+
+=== What's next? ===
+
+Getting the call on the computer is nice, the next step is to get the call on a phone (and/or the computer at the same time).
+
+=== How does this work? ===
+
+We'll need a VOIP ATA device –  the VOIP device has a processor which samples your voice (analog sound) and converts your voice into a binary sequence. This binary blob is then sent via the Internet, using the SIP protocol, to the person who receives the call.
+
+In our example, I'll now explain how to setup the Linksys PAP2 ATA device. Please note that the setup is very similar for other devices (ex: Grandstream HandyTone 286).
+
+Please proceed as follows:
+  • Connect your VOIP ATA device to the Internet (probably to your router) and plug your phone in to the device. Tip – make sure your router's firewall does not block SIP, otherwise nothing will work!
+  • Power the ATA device, and find the IP address assigned to the device from your router.
+  • Using a web browser, connect to the VOIP ATA device (ex: http://192.168.1.111).
+  • Click on “Admin Login” and “Line 1”. 
+
+Then key in your SIP account information.
+  • Do not change the SIP Port, it is very likely using the standard (5060).
+  • Proxy is the SIP server (ex: sipsorcery.com or sip.antisip.com).
+  • Display name: I'll assume this one is self-explanatory.
+  • User ID: your SIP user ID (ex: tux – without server or domain name).
+  • Password: the password of your SIP account.
+
+Congratulations - if you call the DID we have set up before - from another line (for example your cell phone), the phone connected to the VOIP ATA device should ring!
+
+
+    <Big Fat DISCLAIMER>
+    This setup does NOT support calls to emergency numbers (ex: 911 in North America), and therefore should not be used as full replacement of a PSTN phone
+    </Big Fat DISCLAIMER>
+
+=== For advanced users, more than 1 DID number ===
+
+In case you have not noticed, ipkall.com is extremely flexible since when we signed-on for a DID, we have keyed in the SIP account the DID was bound to.
+
+Most DID providers (free or not) usually provide the DID number and a SIP account connected to the DID.
+
+Example – let's suppose we would like to have a DID in the US (provider is sip.tux-telecom-usa.com), another in France (provider is sip.tux-telecom-fr.com), and another in Romania (provider is sip.tux-telecom-ro.com). In the ATA device, we can specify only one SIP account, so we have a bit of a problem.
+
+The solution will be provided by a SIP aggregator. On the SIP aggregator website, we will:
+  • create a SIP account hosted by the aggregator
+  • create a connection to each DID
+  • link each DID connection to the SIP account created above in #1
+  • connect the VOIP ATA device to the SIP account created above in #1
+
+As a result, when any of the DIDs is called, the call will be forwarded to the SIP account created on the aggregator, which is linked to your ATA VOIP device, and the ATA VOIP device will ring!
+
+=== Demonstration on how to make this setup ===
+
+The SIP aggregator I personally use is www.sipsorcery.com – it is free for basic use (1 DID) with a fee for more than 1 DID:
+  • Register on www.sipsorcery.com 
+  • Once registered, get a free SIP account (go to “SIP Accounts”, click on “+”).
+This is the account that must be used in your ATA VOIP device.
+  • Click on “SIP Providers”, and click on “+” to add all the DID SIP accounts. Please note that 1 SIP account is free (for 1 DID), there is a fee for more than 1 DID
+  • Provider name: this is the name which will show in the list of servers.
+  • username: the username which was provided to you when you signed-on for the DID (ex: tux).
+  • password: the password which was provided to you when you signed-on for the DID (ex: secret).
+  • server: servername which was provided to you when you signed-on for the DID (ex: sip.tux-telecom-fr.com).
+  • Register: the check-box should be checked, otherwise when you get a call, your sipsorcery account will not be called.
+
+Once you have added the SIP account, check a few seconds later for the list “SIP Provider Binding” (you may need to use the refresh button a few times). If the column “Register” shows “True” - you should be all set. Otherwise check the login / password and try again.
+
+You can now test that all works fine – take another phone (for example your cell phone), and call the DID you just bound to your account – the phone connected to the ATA VOIP device should now ring.
+
+To summarize – by using the SIP aggregator, you can have as many DIDs as you wish, and link them to your ATA VOIP device. It is extremely useful if you have to get calls from different countries – by creating a DID in each of those countries, the party calling you will pay only for local communication (many times it will even be free).
+
+=== Additional tips for sipsorcery.com ===
+
+sipsorcery.com has a great debugging tool – you can trace any incoming or outgoing call. The only caveat is that the debugger runs only in … Silverlight. Yes, I know – it runs only in Microsoft Windows, but still – if you get into trouble and need to debug, the debugging console is really outstanding.
+
+In order to be able to use the debugger, when you logon to sipsorcery.com, you should use the “Silverlight logon” link.
+
+=== For super-advanced users, outgoing calls ===
+
+So far we have discussed only about incoming calls – there is a good reason – outgoing calls are more complicated … and not free!
+
+Think about incoming calls for just a minute: when somebody calls a DID, it hits the server of the DID provider - which just forwards the call via the Internet to your SIP account. Since the provider already pays for Internet access, this service has “virtually” no additional cost. Of course, if the bandwidth gets overloaded, the provider won't accept new subscribers or will enforce other limitations.
+
+Outgoing calls are another story – when you call a number, it is not easy to know if it is a PSTN, cell, VOIP number, or other (ex: international call). Please note that “not easy” doesn't mean technically impossible, but probably harder to determine right away (I am not an expert on this topic though).
+
+In any event, for the reasons described above, outgoing calls are usually not free.
+
+As an example, you could sign-up for a VOIP service where you would pay a fee for outgoing calls (either per call or a lump sum for the month). I won't give any examples here, there are really many available on the web. If you subscribe to any of these providers, you'll notice that incoming calls are free! 
+
+I don't know how it is in other countries, but in the lucky event you live in the US, and if you have a gmail account, you can subscribe for google-voice (for free). Right now (2011), google-voice offers free phone calls in North America – on all phones (PSTN, VOIP, cell phones, etc …). Please note that free is for 2011, I have not heard anything for 2012 yet.
+
+=== How to set up outgoing calls? ===
+
+There are several types of outgoing calls:
+  • to a SIP number (ex: sip:tux@sipsorcery.com)
+  • to a PSTN (could be VOIP, landline or cell – ex: 111-222-3333 for the US)
+
+=== Outgoing calls to a SIP number (using sipsorcery.com) ===
+
+I'll explain here how to setup outgoing calls to a SIP number in sipsorcery.com. I'll assume that you have already set up your sipsorcery account, as explained at the beginning of this article:
+  • Edit your sipsorcery account and make sure the “Out Dial Plan” is set to default.
+  • Go to the “Dial Plans” folder and edit the default script.
+
+The scripts are in Ruby on Rails – even if you are not familiar with Ruby, tweaking and enhancing an existing script is pretty easy if you are familiar with Linux scripting.
+
+An example script is shown right – I'll not go into details since the script has many comments (this script is heavily inspired from Mike Telis' Simple Dial Plan).
+
+From the script, calling tux requires you to key in *1# on your phone (the # sign is the equivalent of “enter” for the computer).
+
+The reason we had to use a speed dial is that we cannot key in sip addresses on a phone (just try to find the @ sign on a phone key pad!), this is why we need to setup a speed dial for SIP accounts.
+
+=== Free outgoing calls using Google-Voice ===
+
+If you are lucky enough to live in the US, you can place free calls to the US and Canada with Google-Voice (GV). GV works great on a computer; we would like to use our ATA VOIP device with our GV account. This is possible with a sipsorcery.com script – it is Mike Telis’ Simple Dial Plan
+
+In order to make this script work, you will need:
+  • a GV account (including a GV DID number)
+  • a DID (ex: from IPKall)
+
+=== Next steps: ===
+
+Once you have this script working properly, you can think of a few enhancements – for example call forwarding. Let's imagine you are traveling, and you would like to get all the calls placed on your SIP account on your cell phone – well, this is definitely possible – you could hard code your cell phone number in the script, for all incoming calls using GV to call your cell phone. Cool stuff!
+
+=== Conclusion: ===
+
+VOIP is a proven technology, which is thriving in today's market (home and business) thanks to democratization of cheap Internet bandwidth. 
+
+In addition, VOIP is easy to set up (I hope this article is the proof!), cheap (a VOIP ATA device costs less than $50), high quality sound, and flexible (call forwarding and voice-mail available in one mouse click).

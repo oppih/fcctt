@@ -1,0 +1,1122 @@
+Page 1
+
+Image26: /media/gentoo/issue55/images/cover/5046568508_a302a9c934_b.jpg
+Text141: Full Circle
+
+Text142: THE INDEPENDENT MAGAZINE FOR THE UBUNTU LINUX COMMUNITY
+
+Text143: ISSUE #55 - November 2011
+
+Image150: /media/gentoo/issue55/images/flavour banners/blackeubuntulogo.png
+Image152: /media/gentoo/issue55/images/flavour banners/kubuntu-logo-lucid.png
+Image154: /media/gentoo/issue55/images/flavour banners/xubuntu-brandmark-with-in-circle-logo-400.png
+Image156: /media/gentoo/issue55/images/flavour banners/lubuntu_logo.png
+Text159: full circle magazine is neither affiliated with, nor endorsed by, Canonical Ltd.
+
+Text36nh4: AUDACITY BASICS
+
+Copy of Text762 (2): 
+
+Text368b: MY STORY: THE ITALIAN TRANSLATION TEAM
+
+Text745: Duplication, perhaps linked-to frame
+
+Image258: /media/gentoo/issue55/images/flavour banners/main-mint-logo.png
+Image265: /media/gentoo/issue55/images/new-fcm_logo.png
+Text281: IMPROVE  YOUR PODCAST
+
+Text325: photo: tianhua1993 (Flickr.com)
+
+Image348: /media/gentoo/issue55/images/My Story/italy-flag.gif
+
+Page 2
+
+Text88: The articles contained in this magazine are released under the Creative Commons Attribution-Share Alike 3.0 Unported license. This means you can adapt, copy, distribute and transmit the articles but only under the following conditions: You must attribute the work to the original author in some way (at least a name, email or URL) and to this magazine by name ('full circle magazine') and the URL www.fullcirclemagazine.org (but not attribute the article(s) in any way that suggests that they endorse you or your use of the work). If you alter, transform, or build upon this work, you must distribute the resulting work under the same, similar or a compatible license.Full Circle magazine is entirely independent of Canonical, the sponsor of the Ubuntu projects, and the views and opinions in the magazine should in no way be assumed to have Canonical endorsement. 
+
+Image89: /media/gentoo/issue55/images/somerights20.png
+Text370: Duplication, perhaps linked-to frame
+
+Text161: Duplication, perhaps linked-to frame
+
+Text162: Duplication, perhaps linked-to frame
+
+Image164: /media/gentoo/issue55/images/HowTo/Backups3/fig1_deja_main.png
+Text165: Backup Strategy Pt3	p.16
+
+Image166: /media/gentoo/issue55/images/libre_office_logo.jpg
+Text167: LibreOffice Pt9		p.14
+
+Image168: /media/gentoo/issue55/images/HowTo/python-logo-master-v3-trans-300x101.png
+Text169: Program In Python Pt29	p.07
+
+Image170: /media/gentoo/issue55/images/HowTo/Audacity/images/image02.png
+Text171: Audacity Basics		p.19
+
+Text726: Duplication, perhaps linked-to frame
+
+Text729: Duplication, perhaps linked-to frame
+
+Text730: Duplication, perhaps linked-to frame
+
+Copy of Text729: Duplication, perhaps linked-to frame
+
+Image266: /media/gentoo/issue55/images/new-fcm_logo.png
+Text669k: HowTo
+
+Copy of Text669k (2): Opinions
+
+Image384: /media/gentoo/issue55/images/section icons/q+a.png
+Text385: Q&A				p.52
+
+Image386: /media/gentoo/issue55/images/Ubuntu Games/4.1.jpg
+Text387: Ubuntu Games		p.55
+
+Image388: /media/gentoo/issue55/images/Ubuntu Women/pangolin.jpg
+Text389: Ubuntu Women		p.54
+
+Image390: /media/gentoo/issue55/images/HowTo/comm-and-conq.jpg
+Text391: Command & Conquer	p.05
+
+Copy of Text726: Duplication, perhaps linked-to frame
+
+Copy of Text730 (2): Duplication, perhaps linked-to frame
+
+Image395: /media/gentoo/issue55/images/section icons/comm+conq.png
+Text396: Quick Home Server		p.22
+
+Copy of Text730 (3): Duplication, perhaps linked-to frame
+
+Copy of Text669k (3): Columns
+
+Image400: /media/gentoo/issue55/images/Linux Lab/images/image03.jpg
+Text401: Linux Labs			p.24
+
+Copy of Text729 (3): Duplication, perhaps linked-to frame
+
+Image403: /media/gentoo/issue55/images/Review/backbox-2-menu.preview.png
+Text404: Review			p.42
+
+Image405: /media/gentoo/issue55/images/I Think/install.jpg
+Text406: I Think...			p.39
+
+Image407: /media/gentoo/issue55/images/My Opinion/garmin-forerunner-50.jpg
+Text408: My Opinion			p.38
+
+Image409: /media/gentoo/issue55/images/My Story/fcm-it-logo.png
+Text410: My Story			p.33
+
+Copy of Text726 (2): Duplication, perhaps linked-to frame
+
+Copy of Text729 (4): Duplication, perhaps linked-to frame
+
+Copy of Text730 (4): Duplication, perhaps linked-to frame
+
+Copy of Text729 (5): Duplication, perhaps linked-to frame
+
+Image415: /media/gentoo/issue55/images/section icons/letter.jpg
+Text416: Letters			p.50
+
+Copy of Text730 (5): Duplication, perhaps linked-to frame
+
+Image418: /media/gentoo/issue55/images/desktop/marcelo-Desktop.jpg
+Text419: My Desktop			p.57
+
+Image420: /media/gentoo/issue55/images/HowTo/LinuxNews.jpg
+Text421: Linux News			p.04
+
+Copy of Text730 (6): Duplication, perhaps linked-to frame
+
+Copy of Text729 (6): Duplication, perhaps linked-to frame
+
+Image527: /media/gentoo/issue55/images/Closing Windows/xp-control-panel.jpg
+Text528: Closing Windows		p.30
+
+Copy of Text730: Duplication, perhaps linked-to frame
+
+Text898: Duplication, perhaps linked-to frame
+
+Text899: Duplication, perhaps linked-to frame
+
+
+Page 3
+
+Image91: /media/gentoo/issue55/images/gimp-splash.png
+Image92: /media/gentoo/issue55/images/libre_office_logo.jpg
+Text93: This magazine was created using :
+
+Image94: /media/gentoo/issue55/images/scribus-splash-clean.png
+Image95: /media/gentoo/issue55/images/cc-logo.jpg
+Text364: Duplication, perhaps linked-to frame
+
+Text367: Duplication, perhaps linked-to frame
+
+Text368: Duplication, perhaps linked-to frame
+
+Copy of Text369: Duplication, perhaps linked-to frame
+
+Text252: Full Circle Podcast
+
+Text253: Released monthly, each episode covers all the latest Ubuntu news, opinions, reviews, interviews and listener feedback. The Side-Pod is a new addition, it's an extra (irregular) short-form podcast which is intended to be a branch of the main podcast. It's somewhere to put all the general technology and non-Ubuntu stuff that doesn’t fit in the main podcast.Hosts:Robin CatlingEd HewittDave Wilkinshttp://fullcirclemagazine.org
+
+Text634: Duplication, perhaps linked-to frame
+
+Image255: /media/gentoo/issue55/images/news/audio_mp3_button.png
+Image256: /media/gentoo/issue55/images/news/audio_ogg_button.png
+Copy of UbuntuNews: EDITORIAL
+
+Image284: /media/gentoo/issue55/images/section icons/interview.png
+Copy of Text661 (2): Duplication, perhaps linked-to frame
+
+Text295: Welcome to another issue of Full Circle!Unfortunately due to work, Mr. Ubuntu Games (Ed Hewitt) has left us, but you, the good peoples of FCM-land, have stepped up and, after many an email I've not chosen a replacement. I've chosen several. This means that, from FCM#56, we'll have at least two Ubuntu Games articles each month. Even though he didn't send me an email to tell me he'd left us, I still wish the rascal well.As the Python series continues to run full steam ahead, LibreOffice returns, and the HowTo on backing up your data discusses Deja-Dup which is now installed as standard in 11.10. We have that Audacity article you wanted too. Not written by Robin Catling, mind you, but it's still as good!BackTrack vs BackBox is the subject up for review. If you're at all interested in IT security, or penetration, then this is a must read. Art's come up trumps with this whopping eight page review.Closing Windows focuses on the *buntu equivalents of Control Panel and Device Manager. It seems like Ubuntu makes you jump through hoops to get at, or properly install, a device manager look-a-like.My Story this month is a focus on the FCM Italian Translation Team. How they got started, and with each team member having something to say about the team, or process. Many thanks to them, and the other translation teams around the world. I salute you all.All the best, and keep in touch.Ronnieronnie@fullcirclemagazine.org
+
+Text690: Duplication, perhaps linked-to frame
+
+
+Page 4
+
+LinuxNews: LINUX NEWS
+
+Image120: /media/gentoo/issue55/images/section icons/news.png
+Copy of Text661: Duplication, perhaps linked-to frame
+
+Text811: Pay what you want for Darwinia, Multiwinia, DEFCON, and Uplink -- the complete catalog from the British indie studio, Introversion! If you beat the average price, you also receive Aquaria and Crayon Physics Deluxe!This DRM-free collection of games works on Mac, Windows, and Linux, and you can support two worthy charities with your purchase. Download the games instantly from the Humble Bundle or redeem them on Steam.Darwinia, Aquaria, and Crayon Physics Deluxe are year-on-year grand prize winners at the annual Independent Games Festival, representing the very best in distinctive, engaging gameplay.http://www.humblebundle.com/
+
+Text813: FC Notifier UpdateThe Full Circle Notifier is still at 1.0.2, but the PPA has been updated for Oneric. FCN is a small application that sits in your system tray and will announce issue/podcast releases, and can be set to download them too!For more info, see the FCN Google Group: http://goo.gl/4Ob4
+
+Text814: Duplication, perhaps linked-to frame
+
+Image815: /media/gentoo/issue55/images/news/introbanner3.png
+Image816: /media/gentoo/issue55/images/news/newsletter.png
+Text824: Duplication, perhaps linked-to frame
+
+Text825: Duplication, perhaps linked-to frame
+
+Text819: USB Stick Brings Android to PCs, TVsStick it [Cotton Candy] into any device that supports USB storage [...] from there, you can run Android  inside your desktop, courtesy of a Windows/OSX/Linux-compatible client embedded in the device. [...] [It] also features an HDMI connector.Under its [...] hood, the device sports a 1.2GHz ARM Cortex A9-based processor (the same basic processor architecture you’ll find in the fastest chips from Apple and Nvidia), as well as ARM’s quad-core Mali GPU and 1GB of RAM. It’s an impressive laundry list of specs, and seems more than capable of fueling Android 2.3, aka Gingerbread, the version of the OS that comes on the device.Source: Wired.com
+
+Image820: /media/gentoo/issue55/images/news/cotton.png
+Text821: £56 Open-Source Hardware Runs Linux An open-source hardware group announced a £56 (US$89) motherboard that could be used for robotics, gaming and medical devices.BeagleBoard's BeagleBone is targeted at the open-source hardware community. It runs a full version of Linux and a full-featured web server. The board is based on Texas Instruments' £3.14 ($5) Sitara AM335x ARM Cortex-A8 processor, which can deliver 720MHz of performance. TI announced the processor on Monday.Source: computerworlduk.com
+
+Image822: /media/gentoo/issue55/images/news/beaglebone-in-hand.JPG
+
+Page 5
+
+Text55: Last month, I wrote a brief introduction to Gvim/Vim, which I hope to expand upon in this article. I recently received an email from a reader asking me if it was worth learning your way around Vim or not. The relevant points in the email were:a) If you use Windows during the work day, is there even a point to learning how to use Vim?b) If you don't program much (or at all), is Vim going to be helpful?I sent back quite a long email, but it ultimately boiled down to:a) Gvim/Vim have a client for Windows, so you're more than welcome to use it there too.b) I find that Vim offers a set of features that makes repetitive tasks extremely easy to accomplish. This is most prominent in coding (i.e. headers, function calls, methods, formatting, refactoring, etc.), but if you do any kind of task where you find yourself repeatedly making the same change to a certain word or to large chunks of text at a time, Vim will definitely make your life a little easier.As such, I will be covering Macros, search/replace, find, and a basic introduction to regular expressions this month.Before I begin, please take the following to heart: Use Vim.By that I mean simply do your day-to-day tasks in Vim for a week or so, and once you notice yourself repeating a task, do a quick search online to find out how to automate the task (or, at the very least, reduce the number of key strokes). It may slow you down at the start, but it will ultimately cut down on the time you need. The reason I say to search online is simply because, in my experience, finding the answers to questions on your own tends to improve the ability to recall the solution, as opposed to getting the information fed to you from someone.Now, to the article...Vim offers a lot of features, not all of which will apply to you. As such, I recommend skipping over any parts you don't expect to need or use, in order to reduce the amount of information you need to take in. For all the following shortcuts, anything in “<>” are variables that you must decide, and anything in “[]” is a physical key on the keyboard you must press. Also, unless otherwise specified, all commands and key presses are entered in the default mode of Vim (the “blank” one).Macros:Vim offers the ability to create Macros on-the-fly. This means you can record a set of commands in Vim so that you can easily repeat them. The basic method is:[q]<letter><commands>[q]The [q] key begins the capture of a Macro, which gets saved to the letter you supply. Once you have entered [q]<letter> you can then begin using any of Vim's commands to make the necessary edits to your text. Once finished, hit the q key again (outside of any mode). An example case could be:[q][b]<series of commands>[q]This will bind the macro to the “b” key. The way to then execute a command is to enter “@<letter>”, which in this case would be:@bAs is the case with any command in Vim, you can repeat the command by appending a number before it. If you then typed “55@b” instead, it would then execute the “b” macro 55 times. Typing “@@” will also re-run the last macro. If you want to learn more about Macros, I recommend the article on the Vim Wiki: http://vim.wikia.com/wiki/MacrosSearch:In Vim (and programs similar to Vim, like more, less, mutt, etc.), you can search the text using the following format:/<term>The slash tells the program the following is a search term (and in Vim the entire term including the slash is displayed on the bottom of the window). It will then move to the first occurrence of the word. You can move through the results using [n] to move to the next one and [shift]+[n] (henceforth referred to as [N]) to move to the previous one.and Replace:By default Vim supports regular expressions. This is extremely useful when replacing something (called “substitution” in Vim), because you can match the maximum number of results possible. First we'll cover normal search and replace behaviour::%s/<term>/<replacement>/This will find the first occurrence of <term> and replace it with <replacement>. If you want to make this change to all occurrences, you'll need to change the command to this::%s/<term>/<replacement>/gSo if you wanted to replace all occurrences of “vim” with “Vim”, your command would read::%s/vim/Vim/gRegular expressions:With regular expressions, you could replace all occurrences of “vim, VIM, vIm, viM” with “Vim” using the following command::%s/[vV][iI][mM]/Vim/gAs most of you can probably imagine, anything written in “[]” results in either possibility (or range of possibilities) being matched (henceforth called a set). You may ask yourself “why not put it all in one set?”. If you do it (go ahead and try it), you'll notice that it replaces each letter with the word “Vim” instead of replacing the entire word. This is because the square brackets denote a character/position in a word. If you tell it to replace all the letters, without specifying the location within a word (which is done by splitting it into separate sets of square brackets), it will simply replace each letter. So, if you want to match all upper, lower, and numerical cases, you could use [A-Za-z0-9]. The way it works is that anything next to each other is taken as a new series, and anything on the opposite ends of a hyphen is a range. So your 3 ranges are: A-Z (capital letters), a-z (lower case letters), and 0-9 (numbers). If you want to match every single word that begins with the capital letter “T”, you could use T[a-z]*. The asterisk tells Vim that the last set can be repeated indefinitely. Since we didn't include space in the set, it will then stop at the end of a word.A great number of options opens up to you in this way. You can run a search for all numbers between 1000 and 9999 with [1-9][0-9]\{3\}. In this case, the braces contain a limiter (i.e. number of repetitions of the search term before it). You can also supply it as a range. For example [1-9][0-9]\{2,3\} will search for any number between 100 and 9999. You need to escape the braces with the backslash so that Vim will not include them as part of the search term.This is just a brief overview of a few regular expressions. They can become a lot more complicated as they become more advanced. If you want to learn more, I highly recommend this Tutorial: http://www.regular-expressions.info/tutorial.html. There are also a number of blog articles on how to wrap your head around creating expressions to do what you want.I hope you've found this article to be interesting. I plan to continue along this path next month, with an overview of Pentadactyl (a Vim-like interface for Firefox). If you have any questions, comments, or suggestions, feel free to email me at lswest34@gmail.com. If you do email me, please include “FCM” or “C&C” (or, as a regular expression: [fFcC][cC&][mMcC]) in the subject header.
+
+Text81: COMMAND & CONQUER
+
+Text82: Written by Lucas Westermann
+
+Image121: /media/gentoo/issue55/images/section icons/comm+conq.png
+Copy of Text661 (3): Duplication, perhaps linked-to frame
+
+Text311: VIM : Advanced Features
+
+Text759: Duplication, perhaps linked-to frame
+
+
+Page 6
+
+Text119: Lucas has learned all he knows from repeatedly breaking his system, then having no other option but to discover how to fix it. You can email Lucas at: lswest34@gmail.com.
+
+Text176: Duplication, perhaps linked-to frame
+
+Image178: /media/gentoo/issue55/images/section icons/contact.png
+Copy of Text661 (4): Duplication, perhaps linked-to frame
+
+Text562: Duplication, perhaps linked-to frame
+
+Text4l83: Duplication, perhaps linked-to frame
+
+Text760: Duplication, perhaps linked-to frame
+
+Text761: Duplication, perhaps linked-to frame
+
+
+Page 7
+
+Text221: HOW-TO
+
+Text222: Written by Greg Walters
+
+Text223: Program In Python - Part 29
+
+Image224: /media/gentoo/issue55/images/section icons/howto.png
+Copy of Text661 (9): Duplication, perhaps linked-to frame
+
+Text234: A little while ago, I was asked to convert a MySQL database to SQLite. Looking around the web for a quick and easy (and free) solution, I found nothing that worked with the current version of MySQL for me. So I decided to go ahead and “roll my own”.The MySQL Administrator program allows you to backup a database into a flat text file. Many SQLite browsers allow you to read a flat sql definition file and create the database from there. However, there are many things that MySQL supports that SQLite doesn't. So this month, we'll write a conversion program that reads a MySQL dump file and creates a SQLite version.Let's start by looking at the MySQL dump file. It consists of a section that creates the database, and then sections that create each table within the database followed by the data for that table, if it's included in the dump file. (There's an option to export the table schema(s) only). Shown above right is an example of one of the create table sections.The first thing that we would need to get rid of is in the last line. Everything after the ending parenthesis needs to go away. (SQLite does not support an InnoDB database). In addition to that, SQLite doesn't support the “PRIMARY KEY” line. In SQLite, we set a primary key by using “INTEGER PRIMARY KEY AUTOINCREMENT” when we define the field. The other thing that SQLite doesn't support is the “unsigned” keyword.When it comes to the data, the “INSERT INTO” statements are also non-compatible. The problem here is that SQLite doesn't allow multiple inserts within the same statement. Here's a short example from the MySql dump file. Notice (right) that the end-of-line marker is a semicolon.We will also ignore any comment lines, and the CREATE DATABASE and USE statements. Once we have the converted SQL file, we'll use a program similar to the public domain program SQLite Database Browser to actually deal with the process of creating the database, tables, and data.Let's get started. Start a new project folder and a new python file. Name it MySQL2SQLite.py.Shown above right is the import statement, the class definition, and the __init__ routine.This will be a commandline driven program, so we'll need to create the “if __name__” statement, a command line argument handler, and a usage routine (if the user doesn't know how to use the program). This goes at the very end of the program. All other code we create will go above this:def error(message):    print >> sys.stderr, str(message) Below is the handler that does the printing of the usage statement.The DoIt() routine is called if our program is being run stand-alone from the command line, which is the design. However, if we want to keep this as a library to be included in another program at another time, we can just use the class. Here we set up a number of variables to make sure that everything works correctly. The  code shown bottom right then parses the command line arguments passed to our program, and gets things ready for the main routines.When we start the program, we need to provide at least two variables on the command line. These are the Input file, and the Output file. We also will provide support for the user to see what is happening as the program is running, an option to just create the tables and not stuff the data, and for the user to call for help. Our “normal” command line to start the program looks like this:MySQL2SQLite Infile=Foo Outfile=Barwhere “Foo” is the name of the MySQL dump file, and “Bar” is the name of the SQLite sql file we want the program to create.You can also call it like this:MySQL2SQLite Infile=Foo Outfile=Bar Debug SchemaOnlyWhich will add the option to show the debug messages and to ONLY create the tables and not import the data.Finally if the user asks for help, we just go to the usage portion of the program.Before we continue, let's take another look at how the command line argument support works.When a user enters the program name from the command line (terminal), the operating system keeps track of the information entered and passes it to the program just in case there are any options entered. If no options (also called arguments) are entered, the number of arguments is one, which is the name of the application - in our case MySQL2SQLite.py. We can access these arguments by calling the sys.arg command. If the count is greater than one, we will access them in a for loop. We will step through the list of arguments and check each one. Some programs require you to enter the arguments in a specific order. By using the for loop approach, the arguments can be entered in any order. If the user doesn't supply any arguments, or uses the help arguments, we show the usage screen. Shown above is the routine for that.Moving on, once we have parsed the argument set, we instantiate the class, call the setup routine, which fills certain variables and then call the DoWork routine. We'll start our class now (which is shown on the next page, bottom right).This (next page, top right) is the definition and the __init__ routine. Here we setup the variables that we will need as we go through the code. Remember that right before we call the DoWork routine, we call the Setup routine. We take our empty variables and assign the correct values to them here. Notice that there is the ability to not write to a file, useful for debugging purposes. We also have the ability to simply write the schema, or database structure, without writing the data. This is helpful if you are taking a database and starting a new project without wanting to use any existing data.We start off by opening the SQL Dump file, then setting some internal scope variables. We also define some strings to save us typing later on. Then, if we are to write to an output file, we open it and then we start the entire process. We will read each line of the input file, process it, and potentially write it to the output file. We use a forced while loop to assist reading each line, with a break command when there is nothing left in the input file. We use f.readline() to get the line to work, and assign it to the variable “line”. Some lines, we can safely ignore. We'll simply use an if/elif statement followed by a pass statement to accomplish this (below).Next we can stop ignoring things and actually do something. If we have a CreateTable statement, we'll start that process. Remember we defined CT to be equal to “Create Table”. Here (above right), we set a variable “CreateTableMode” to be equal to 1, so we know that's what we are doing, since each field definition is on a separate line. We then take our line, remove the carriage return, and get that ready to write to our out file, and, if required, write it.Now (middle right) we need to start dealing with each line within the create table statements - manipulating each line to keep SQLite happy. There are many things that SQLite won't deal with. Let's look at a Create Table statement from MySQL again.One thing that SQLite will absolutely have an issue with is the entire last line after the closing parenthesis. Another is the line just above that, the Primary Key line. Yet another thing is the unsigned keyword in the second line. It will take a bit of code (below) to work around these issues, but we can make it happen.First, (third down on the right) we check to see if the line contains “auto increment”. We will assume that this will be the primary key line. While this might be true 98.6% of the time, it won't always be. However, we'll keep it simple. Next we check to see if the line starts with “) ”. This will signify this is the last line of the create table section. If so, we simply set a string to close the statement properly in the variable “newline”, turn off the CreateTableMode variable, and, if we are writing to file, write it out.Now (bottom right) we use the information we found about the auto increment key word. First, we strip the line of any spurious spaces, then check to see where (we are assuming it is there) the phrase “ int(“ is within the line. We will be replacing this with the phrase “ INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL”. The length of the integer doesn't matter to SQLite. Again, we write it out if we should.Now we look for the phrase “PRIMARY KEY “ within the line. Notice the extra space at the end - that's on purpose. If it arises, we ignore the line.elif line.strip().startswith(PK):          passNow (top right) we look for the phrase “ unsigned “ (again keep the extra spaces) and replace it with “ “.That's the end of the create table routine. Now (below) we move on to the insert statements for the data. The InsertStart variable is the phrase “INSERT INTO “. We check for that because MySQL allows for multiple insert statements in a single command, but SQLite does not. We need to make separate statements for each block of data. We set a variable called “insertmode” to 1, pull the “INSERT INTO {Table} {Fieldlist} VALUES (“ into a reusable variable (which I'll call our prelude), and move on.Now, we check to see if we are only supposed to work the schema. If so, we can safely ignore any portions of the insert statements. If not, we need to deal with them.elif self.SchemaOnly == 0:   if insertmode == 1:We check to see if there is either “');” or “'),” in our line. In the case of “');”, this would be the last line in our insert statement set.posx = line.find("');")pos1 = line.find("'),")l1 = line[:pos1]This line checks for escaped single quotes and replaces them.line = line.replace("\\'","''")If we have a closing statement (“);”), that is the end of our insert set, and we can create the statement by joining the prelude to the actual value statement. This is shown on the previous page, bottom right.This all works (top right) if the last value we have in the insert statement is a quoted string. However, if the last value is a numeric value, we have to deal with things a bit differently. You'll be able to pick out what we are doing here.Finally, we close our input file, and, if we are writing an output file, we close that as well.f.close()if self.WriteFile == 1:   OutFile.close()Once you have your converted file, you can use SQLite Database Browser to fill in the database structure and data.This code should work over 90% of the time as is. There might be somethings we missed due to other issues, hence the reason for the debug mode. However, I've tested this on multiple files and had no problems.As always, the code is up at PasteBin at http://pastebin.com/cPvzNT7T.See you next time.
+
+Text609: DROP TABLE IF EXISTS `categoriesmain`; CREATE TABLE `categoriesmain` (   `idCategoriesMain` int(10) unsigned NOT NULL auto_increment,   `CatText` char(100) NOT NULL default '',   PRIMARY KEY  (`idCategoriesMain`) ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
+
+Text611: INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES  (1,'Appetizer'),  (2,'Snack'),  (3,'Barbecue'),  (4,'Cake'),  (5,'Candy'),  (6,'Beverages');To make this compatible, we need to change this from a single statement format to a series of single statements like this:INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES (1,'Appetizer'); INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES (2,'Snack'); INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES (3,'Barbecue'); INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES (4,'Cake'); INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES (5,'Candy'); INSERT INTO `categoriesmain` (`idCategoriesMain`,`CatText`) VALUES (6,'Beverages');
+
+
+Page 8
+
+Text226: HOWTO - PROGRAM IN PYTHON - PART 29
+
+Copy of Text661 (12): Duplication, perhaps linked-to frame
+
+Text235: Duplication, perhaps linked-to frame
+
+Text613: #!/usr/bin/env python #==================================== # MySQL2SQLite.py #==================================== #            IMPORTS import sys #==================================== #==================================== #     BEGIN CLASS MySQL2SQLite #==================================== class MySQL2SQLite:     def __init__(self):         self.InputFile = ""         self.OutputFile = ""         self.WriteFile = 0         self.DebugMode = 0         self.SchemaOnly = 0         self.DirectMode = False
+
+Text615: def DoIt():     #=======================================     #            Setup Variables     #=======================================     SourceFile = ''     OutputFile = ''     Debug = False     Help = False     SchemaOnly = False     #======================================= 
+
+Text617:     if len(sys.argv) == 1:         usage()     else:         for a in sys.argv:             print a             if a.startswith("Infile="):                 pos = a.find("=")                 SourceFile = a[pos+1:]             elif a.startswith("Outfile="):                 pos = a.find("=")                 OutputFile = a[pos+1:]             elif a == 'Debug':                 Debug = True             elif a == 'SchemaOnly':                 SchemaOnly = True             elif a == '-Help' or a == '-H' or a == '-?':                 Help = True        if Help == True:             usage()         r = MySQL2SQLite()         r.SetUp(SourceFile,OutputFile,Debug,SchemaOnly)         r.DoWork()
+
+
+Page 9
+
+Text556tt: Duplication, perhaps linked-to frame
+
+Text337: Duplication, perhaps linked-to frame
+
+Copy of Text661 (13): Duplication, perhaps linked-to frame
+
+Text619: def usage():     message = (        '=======================================================================\n'         'MySQL2SQLite - A database converter\n'         'Author: Greg Walters\n'         'USAGE:\n'         'MySQL2SQLite Infile=filename [Outfile=filename] [SchemaOnly] [Debug] [-H-Help-?\n'         '   where\n'         '         Infile is the MySQL dump file\n'         '         Outfile (optional) is the output filename\n'         '            (if Outfile is omitted, assumed direct to SQLite\n'         '         SchemaOnly (optional) Create Tables, DO NOT IMPORT DATA\n'         '         Debug (optional) - Turn on debugging messages\n'         '         -H or -Help or -? - Show this message\n'         'Copyright (C) 2011 by G.D. Walters\n'         '=======================================================================\n'         )     error(message)     sys.exit(1)if __name__ == "__main__":    DoIt()
+
+
+Page 10
+
+Text555ll: Duplication, perhaps linked-to frame
+
+Text338: Duplication, perhaps linked-to frame
+
+Copy of Text661 (14): Duplication, perhaps linked-to frame
+
+Text621: #====================================#     BEGIN CLASS MySQL2SQLite#====================================class MySQL2SQLite:    def __init__(self):        self.InputFile = ""        self.OutputFile = ""        self.WriteFile = 0        self.DebugMode = 0        self.SchemaOnly = 0
+
+Text623:     def SetUp(self, In, Out = '', Debug = False, Schema = 0):        self.InputFile = In        if Out == '':            self.writeFile = 0        else:            self.WriteFile = 1            self.OutputFile = Out        if Debug == True:            self.DebugMode = 1        if Schema == 1:            self.SchemaOnly = 1 Now, we'll deal with the DoWork routine, which is where the actual “magic” happens.    def DoWork(self):        f = open(self.InputFile)        print "Starting Process"        cntr = 0        insertmode = 0        CreateTableMode = 0        InsertStart = "INSERT INTO "        AI = "auto_increment"        PK = "PRIMARY KEY "        IPK = " INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL"        CT = "CREATE TABLE "        # Begin        if self.WriteFile == 1:            OutFile = open(self.OutputFile,'w')
+
+Text625:         while 1:            line = f.readline()            cntr += 1            if not line:                break            # Ignore blank lines, lines that start with 	"--" or comments (/*!)            if line.startswith("--"): #Comments                pass            elif len(line) == 1: # Blank Lines                pass            elif line.startswith("/*!"): # Comments                pass            elif line.startswith("USE"):                 #Ignore USE lines                pass            elif line.startswith("CREATE DATABASE "):                pass
+
+
+Page 11
+
+Text341: Duplication, perhaps linked-to frame
+
+Copy of Text661 (16): Duplication, perhaps linked-to frame
+
+Text349: Duplication, perhaps linked-to frame
+
+Text627:             elif line.startswith(CT):                CreateTableMode = 1                l1 = len(line)                line = line[:l1-1]                if self.DebugMode == 1:                    print "Starting Create Table"                    print line                if self.WriteFile == 1:                    OutFile.write(line)
+
+Text629: CREATE TABLE `categoriesmain` (   `idCategoriesMain` int(10) unsigned NOT NULL auto_increment,   `CatText` char(100) NOT NULL default '',   PRIMARY KEY  (`idCategoriesMain`) ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
+
+Text631:             elif CreateTableMode == 1:                # Parse the line...                if self.DebugMode == 1:                    print "Line to process – {0}".format(line)
+
+Text633:                 p1 = line.find(AI)                if line.startswith(") "):                    CreateTableMode = 0                    if self.DebugMode == 1:                        print "Finished Table Create"                    newline = ");\n"                    if self.WriteFile == 1:                        OutFile.write(newline)                        if self.DebugMode == 1:                            print "Writing Line {0}".format(newline)
+
+Text635:                 elif p1 != -1:                    # Line is primary key line                    l = line.strip()                    fnpos = l.find(" int(")                    if fnpos != -1:                        fn = l[:fnpos]                    newline = fn + IPK #+ ",\n"                    if self.WriteFile == 1:                        OutFile.write(newline)                        if self.DebugMode == 1:                            print "Writing Line {0}".format(newline)
+
+
+Page 12
+
+Text480: Duplication, perhaps linked-to frame
+
+Copy of Text661 (18): Duplication, perhaps linked-to frame
+
+Text484: Duplication, perhaps linked-to frame
+
+Text637:                 elif line.find(" unsigned ") != -1:                    line = line.replace(" unsigned "," ")                    line = line.strip()                    l1 = len(line)                    line = line[:l1-1]                    if self.WriteFile == 1:                        OutFile.write("," + line)                        if self.DebugMode == 1:                            print "Writing Line {0}".format(line)			Otherwise, we can deal with the line.                else:                    l1 = len(line)                    line = line.strip()                    line = line[:l1-4]                    if self.DebugMode == 1:                        print "," + line                    if self.WriteFile == 1:                        OutFile.write("," + line)
+
+Text639:             elif line.startswith(InsertStart):                if insertmode == 0:                    insertmode = 1                    # Get tablename and field list here                    istatement = line                    # Strip CR/LF from istatement line                    l = len(istatement)                    istatement = istatement[:l-2]
+
+Text641:                     if posx != -1:                        l1 = line[:posx+3]                        insertmode = 0                        if self.DebugMode == 1:                            print istatement + l1                            print "------------------------------"                        if self.WriteFile == 1:                            OutFile.write(istatement + l1+"\n")				Otherwise, we join the prelude to the value 								statement and end it with a semicolon.                    elif pos1 != -1:                        l1 = line[:pos1+2]                        if self.DebugMode == 1:                            print istatement + l1 + ";"                        if self.WriteFile == 1:                            OutFile.write(istatement + l1 + ";\n")
+
+
+Page 13
+
+Text230: Greg Walters is owner of RainyDay Solutions, LLC, a consulting company in Colorado and has been programming since 1972. He enjoys cooking, hiking, music, and spending time with his family. His website is www.thedesignatedgeek.com.
+
+Image232: /media/gentoo/issue55/images/section icons/contact.png
+Text851: Duplication, perhaps linked-to frame
+
+Text481: Duplication, perhaps linked-to frame
+
+Copy of Text661 (21): Duplication, perhaps linked-to frame
+
+Text485: Duplication, perhaps linked-to frame
+
+Text643:                     else:                        if self.DebugMode == 1:                            print "Testing line {0}".format(line)                        pos1 = line.find("),")                        posx = line.find(");")                        if self.DebugMode == 1:                            print "pos1 = {0}, posx = {1}".format(pos1,posx)                        if pos1 != -1:                            l1 = line[:pos1+1]                            if self.DebugMode == 1:                                print istatement + l1 + ";"                            if self.WriteFile == 1:                                OutFile.write(istatement + l1 + ";\n")                        else:                            insertmode = 0                            l1 = line[:posx+1]                            if self.DebugMode == 1:                                print istatement + l1 + ";"                            if self.WriteFile == 1:                                OutFile.write(istatement + l1 + ";\n")
+
+Text798: Duplication, perhaps linked-to frame
+
+Image645: /media/gentoo/issue55/images/HowTo/python-logo-master-v3-trans-300x101.png
+
+Page 14
+
+Text196: Duplication, perhaps linked-to frame
+
+Text197: Written by Elmer Perry
+
+Text198: LibreOffice - Part 9
+
+Image199: /media/gentoo/issue55/images/section icons/howto.png
+Copy of Text661 (5): Duplication, perhaps linked-to frame
+
+Text485zsdf: In Part 8, we looked into formatting our spreadsheet cells to look a certain way, but the true power of Calc comes from its ability to calculate formulas using basic math and its built-in functions. Calc formulas are just what you think, mathematical expressions that use data to create a result. Calc functions give us predefined calculations and decision making. With just a little knowledge of formulas and functions, Calc becomes a powerful data analysis tool. When entering a formula or function into a cell, your formula or function must begin with the = (equals), - (minus), or + (positive) signs. Arithmetic OperatorsCalc has five basic arithmetic operators:+ (Plus) – add two numbers together, or as a sign for a number. Ex. =2+5 or +5- (Minus) – subtract one number from another, or negate a number. Ex. =5-2 or -5* (Asterisk) – multiplication. Ex. =2*3/ (Slash) – division. Ex. =21/7^ (Caret) – exponentiation. Ex. =5^2Just like in real math, you can use parentheses to group expressions together to create more complicated formulas. For example, if you enter the equation =5-2*3 in a cell, when you press the Enter key, you get -1 for the result. However, if you enter the equation =(5-2)*3 in a cell, you get 9 for the result when you press the Enter key. This happens because Calc obeys the rules of precedence. In the first equation, the multiplication is done first, as per the rules, which gives us 5-6, which equals -1. In the second equation, we change the order of operation by using parentheses. In this case, 5-2 is calculated first because of the parentheses, giving us 3, and 3 x 3 is 9. Cell ReferencesHard coding our numbers doesn't make much sense. We could just use a calculator for that. To unleash the power of Calc's calculating abilities, a reference to the data in our spreadsheet is needed. Cell references allows us to use the data within our spreadsheet in our calculations. Cells are referenced by the column letter and row number. The first cell of the first column is A1, the second cell of the first column is A2, the first cell of the second column is B1, the second cell of the second column is B2, etc. If we enter 5 in cell A1 and 6 in cell B1, we can enter the equation =A1+B1 in any other cell in the spreadsheet, and the result will show as 11. In some functions, you will need to reference a range of cells rather than just individual cells. To reference a range of cells, start with the first cell in the range, followed by a colon (:), and the last cell in the range. To access the first 9 items in the B column, use B1:B9. To access the first 5 items in row 1 use A1:E1.What if you need to reference multiple rows and columns? You just start with the first cell in the block and end with the last cell in the block. For example, to reference all the cells in the first 5 columns and rows, you would use A1:E5.Mathematical FunctionsIf you need to sum a column of numbers, using basic mathematical operators could become laborious very quickly. Calc provides many functions for mathematic calculations, from finding the sum of given cells to trigonometry functions. These functions speed up your entry of formulas. SUM() is the bread and butter of mathematical functions. This function is used so often, it has its own button on the function toolbar. SUM() can take up to 30 numbers or cell references between parentheses. You can also use range references with SUM(), which allows you to quickly total a column, row, or range of rows and columns. Multiple numbers, cell references, or range of cells are separated by a semicolon (;).SUM() Examples=SUM(A1;C2;D5) – sum of the three cells=SUM(2;A1;C5) – sum the number 2 with A1 and C5=SUM(A1:A5) – sum the first five cells in column A=SUM(A1:B5) – sum the first five cells in columns A and B=SUM(A1:A5;C1:C5) – sum the first five cells in columns A and CCalc provides many other mathematical functions. See the LibreOffice Calc documentation for a complete list, including the trigonometry functions. Conditional CalculationsSometimes, you only want to perform a calculation when certain conditions are met. A good example of this is avoiding division by zero. If you try to divide-by-zero, you get an error. The conditional function IF() helps us accomplish this. The basic syntax of the IF() function is:IF( Test; ThenValue; ElseValue)So, if we want to divide A1 by B2, but we want to avoid the operation if B2 is zero, we could use the IF() function:=IF(B2>0;A1/B2;”Can't div by zero”)This translates as “If B2 is greater than 0, divide A1 by B2; else, output the text 'Can't div by zero'.”Conditional calculations can help you avoid errors in your spreadsheets. Use them any time you think problems might pop up, like division-by-zero, or a number not being entered. Comparative OperatorsCalc provides six comparative operators we can use in our test.= (equal to)> (greater than)< (less than)>= (greater than or equal to)<= (less than or equal to)< > (not equal to)In addition to the comparative operators, we can use the NOT() and AND() functions in our test. The AND() function allows us to test more than one condition and NOT negates the condition. This time, let's make sure neither of the numbers equal 0:=IF(AND(NOT(A1=0);NOT(B2=0)); A1/B2; “Can't div by zero”)In this formula, we make sure than A1 is NOT zero AND B2 is NOT zero before we do our calculation. While this formula shows both the AND() and NOT() functions being used, a more practical formula would be:=IF(AND(A1>0;B2>0);A1/B2;”Can't div by zero.”)We have only begun to scratch the surface of the possibilities using Calc's formulas and functions. Next time, we will take a look at some practical uses for some of these functions. 
+
+
+Page 15
+
+Text343: HOWTO - LIBREOFFICE PART 9
+
+Copy of Text661 (6): Duplication, perhaps linked-to frame
+
+Text486: Duplication, perhaps linked-to frame
+
+Image529: /media/gentoo/issue55/images/news/ubuntu_uk_logo300.png
+Text530: The Ubuntu Podcast covers all the latest news and issues facing Ubuntu Linux users and Free Software fans in general. The show appeals to the newest user and the oldest coder. Our discussions cover the development of Ubuntu but aren’t overly technical. We are lucky enough to have some great guests on the show, telling us first hand about the latest exciting developments they are working on, in a way that we can all understand! We also talk about the Ubuntu community and what it gets up to.The show is presented by members of the UK’s Ubuntu Linux community. Because it is covered by the Ubuntu Code of Conduct it is suitable for all.The show is broadcast live every fortnight on a Tuesday evening (British time) and is available for download the following day.podcast.ubuntu-uk.org
+
+Text768: Duplication, perhaps linked-to frame
+
+Text647: Elmer Perry's history of working, and programming, computers involves an Apple IIE, adding some Amiga, a generous helping of DOS and Windows, a dash of Unix, and blend well with Linux and Ubuntu.
+
+Image649: /media/gentoo/issue55/images/section icons/contact.png
+
+Page 16
+
+Text115: Duplication, perhaps linked-to frame
+
+Text116: Written by Allan J. Smithie
+
+Text117: Backup Strategy - Part 3
+
+Image122: /media/gentoo/issue55/images/section icons/howto.png
+Text179: Last time, we looked at data backup from the top down, strategic level. On to more practical matters now, how to back up your data with a 'conventional' utility, and where better to start than with the tool already lined up for the default choice in Ubuntu 11.10 onward: Déjà Dup. This choice has come from left-field, in that Déjà Dup's simplicity is also its weakness. Clearly, we want to get everyone taking responsible back-ups of their data in the simplest way possible, but we'll need a more 'complete' version of the package than is currently on offer. As we take a look at all the missing features, you'll see why.Déjà Dup is not particularly new, nor is it revolutionary, being a graphical interface onto the command-line backup tool, Duplicity, with the rsync utility providing incremental back-ups. Déjà Dup does include data encryption, network backup using the SSH protocol, and access to some Cloud back-up services.Déjà Dup is already in the official repositories for Ubuntu Lucid, Maverick and Natty. Install it through the Ubuntu Software Center by searching for 'deja', or use the old-school terminal command:sudo apt-get install Déjà-dup It sets up a menu entry in Gnome, under System Tools, whilst Unity users need only press the <Super> key and search your desktop for 'Deja' for two launchers to appear, Déjà Dup Backup Tool and Déjà Dup Preferences. As a Gnome desktop application, Déjà Dup has integration with Nautilus, which requires a re-boot after installation to activate.First UseThe main application window features just two big buttons for Back-up and Restore. Before performing your first back-up, you'll want to set your preferences using the Déjà Dup Preferences launcher, or Edit > Preferences from the main menu. In Déjà Dup Preferences, you'll find tabs for Storage, Files, and Schedule. Storage sets your preferred back-up location, including local, network, and Cloud Storage if you have either Amazon S3 or Rackspace accounts. Déjà Dup provides a wizard to guide the novice (or the lazy) through configuration. Also among the choices are FTP, Windows shares, WebDAV, and SSH. We're coming to the Cloud as a back-up medium in the next article, so let's say Déjà Dup treats the Cloud as just another storage location. The Storage tab is also where you choose to encrypt data or not, using the .gpg standard. Files actually sets the folders that you wish to include or exclude from your back-up regime. This is the weakest part of the program at present. It works only at folder level - not at file level, so you can add or remove folders and sub-folders from the set, but not individual files or file types, say 'exlude all *.tmp files.' Moreover, there's no implementation of incremental back-ups; requesting whatever files are added or changed since the last time you ran it, or any key date you might want - such as your last system upgrade, tax-filing date, or your birthday. All of which is possible in the command line tools on which Déjà Dup is built and which are present in just about every other Linux back-up program such as S-Backup.Schedule sets the timetable for your back-ups, and again, this is where the current version of Déjà Dup is a little disappointing; Déjà Dup doesn't (yet) support precise timing beyond Daily, Weekly, Monthly. I want the choice of 1am, or 1pm, or whenever I'm not busy at the machine. We're hoping to see this by the time Ubuntu 11.10 is released.EncryptionThere's nothing elaborate in Déjà Dup's encryption; it relies on Duplicity to apply gpg using just the password you provide. You can store this in the default Gnome keyring under your Gnome user ID. This is old-school back-up encryption of the kind we've had the last twenty years. Just don't forget or lose that password if you intend ever to restore your data!Backup, BackupHaving saved your preferences, you can close this application and fire up the Backup Tool. The big 'Backup' button initiates an immediate back-up. Here, through the wizard, you can click through your default preferences, or override them with custom settings.What Déjà Dup creates is a back-up set consisting of two files, or three if you encrypt;the manifest, listing your back-up selection, and named duplicity-inc.20110720T204326Z.to.20110720T210455Z.manifest.gpgthe back-up data file itself, in my example duplicity-inc.20110720T204326Z.to.20110720T210455Z.vol1.difftar.gpgthe encryption signature file, in this case duplicity-inc.20110720T204326Z.to.20110720T210455Z.sigtar.gpgYou can see in the naming convention, Duplicity identifies itself, then includes the date-time stamp of the back-up set, in which each set is given a sequential volume number.Restoration DramaThere is no drama, if all you want is to restore an entire back-up; just click that big Restore button. It will check your back-up folder for previous back-up sets. Choose to restore one to the original location or to another folder. Anything more selective than that, such as choosing includes, excludes, or date ranges to restore, is not currently supported. Roll on the 11.10 version.Yet what we do have is the ability to selectively restore individual files using the option added to the Nautilus right-click context menu – 'Restore to Previous Version.' Here you can select single or multiple files, and the Restore option fires up Déjà Dup's Restore program to pull in the specified files from whichever back-up set you choose.Click on a blank area of a Nautilus window, and you get an option in the right-click context menu to 'Restore Missing Files,' that is, anything included a specified back-up set that isn't in the destination folder now, including multiple selections. It's a kind of differential Restore, comparing two of the file lists - backed-up versus current. You can also Revert to Previous Version, which allows you to recover a file from a backup set. ConclusionWhilst Déjà Dup is a promisingly simple and effective tool in those areas it covers, it's a long way off parity with others such as S-Backup for Gnome, Nepomuk and Kbackup for KDE, and only has a subset of the rsync features available at the command line. In short, Déjà Dup is a hand-held blunt instrument - while we want a remote-controlled laser-scalpel. Some of the missing features have been spotted in development versions, but this makes it a long way off our ideal back-up tool for supporting our strategy for incremental, differential, scheduled, and specific back-up, with local and off-site capability.Next time, we'll widen our horizons again, searching for the ideal Cloud back-up solution.
+
+Copy of Text661 (7): Duplication, perhaps linked-to frame
+
+Image650: /media/gentoo/issue55/images/HowTo/Backups3/fig2_deja_pref_loctn.png
+Image651: /media/gentoo/issue55/images/HowTo/Backups3/fig3_deja_prefs_files.png
+
+Page 17
+
+Text316: HOWTO - BACKUP STRATEGY - PART 3
+
+Text317: Duplication, perhaps linked-to frame
+
+Copy of Text661 (10): Duplication, perhaps linked-to frame
+
+Image652: /media/gentoo/issue55/images/HowTo/Backups3/fig4_deja_prefs_shcedule.png
+Image653: /media/gentoo/issue55/images/HowTo/Backups3/fig5_deja_bu_passwd.png
+Image654: /media/gentoo/issue55/images/HowTo/Backups3/fig6_deja_bu_progress.png
+
+Page 18
+
+Text547: Allan J. Smithie is a journalist and commentator based in Dubai. His blog, 'No Expert,' is at: http://allanjsmithie.wordpress.com
+
+Image549: /media/gentoo/issue55/images/section icons/contact.png
+Text823: Duplication, perhaps linked-to frame
+
+Text656: Duplication, perhaps linked-to frame
+
+Copy of Text661 (11): Duplication, perhaps linked-to frame
+
+Text658: Duplication, perhaps linked-to frame
+
+Image659: /media/gentoo/issue55/images/HowTo/Backups3/fig9_deja_nautilus_restore_multiple.png
+Image661: /media/gentoo/issue55/images/HowTo/Backups3/fig7_deja_restore_where1.png
+Image662: /media/gentoo/issue55/images/HowTo/Backups3/fig 8_deja_desktop_integration.png
+
+Page 19
+
+Text364: Duplication, perhaps linked-to frame
+
+Text365: Written by Attila Balazs
+
+Text366: Audacity Basics
+
+Image367: /media/gentoo/issue55/images/section icons/howto.png
+Copy of Text661 (26): Duplication, perhaps linked-to frame
+
+Text505: This article aims to show you some simple techniques to improve the quality of your voice recording quickly and cheaply (for free actually). But first things first...The best audio is the one you don’t have to improve. Some simple steps you can perform in advance to maximize quality:• Use quality equipment. Here are some articles about the equipment that great-sounding podcasters use. You don’t have to spend a lot of money, but definitely stay away from the built-in laptop microphone.• Eliminate ambient noise as much as possible (close windows, draw the blinds, stop other electronic equipment in the room, etc).• Record each person on a separate channel - if possible on a computer local to them (avoid recording through Skype, GoToMeeting, or other VoIP solutions).• Try keeping the recording volume for each microphone at the optimal level – not too low, but also avoiding clipping.After you have the audio recording there is still a lot you can do, but it is preferable to start out with the best source material. For the example below, I’ll be using the raw recordings from a recent SE Radio podcast (shown above):The situation with this recording is as follows:• There are separate audio tracks for the interviewer and interviewee (good).• There is background noise on the tracks (easily correctable).• Both persons were picked up by both microphones (correctable).• The interviewer has some clipping (partially correctable – luckily it’s not the interviewee who has clipping).The steps to improve the quality of this recording are as follows:First, install the Noise Gate plugin for Audacity, since it requires program restart (under Windows you have to copy the downloaded noisegate.ny to C:\Program Files (x86)\Audacity 1.3 Beta (Unicode)\Plug-Ins, or to a similar location; under Linux you have to place it in /usr/share/audacity). After copying the file, you have to close and restart Audacity. To verify that the plugin was properly installed, check in the Effect menu – you should see an entry title “Noise gate”.Now that we have Audacity all set up and the plugin installed, first split the stereo track into mono tracks, since they don’t actually represent left-right channels but rather two speakers which will be mixed together at the end. For this, click on the arrow after the filename in the track, and select “Split Stereo to Mono”. Sidenote: some people will prefer to mix different speakers in podcasts with different panning (that is to the left or to the right). I would advise against this: it is distracting if you are doing something else while listening to the podcast (like walking / jogging / riding a bike / etc). It can also backfire if, for some reason, the listening device is missing one of the channels (the “damaged headphone” scenario).The first thing will be to remove the constant background noise (like AC hum for example). To do this, zoom in (Ctrl + 1) and look for low volume zones. Select those zones, and go to Effects –> Noise Removal –> Get Noise Profile. Now select a zone where the noise is mixed with speech, and test out the settings (Effect –> Noise Removal –> Ok). After the test, you can use Undo (Ctrl + Z) to roll back the changes. You should watch for the noise being removed but also the natural sound of the voice being preserved (too aggressive of a noise removal can lead to a “robot voice” effect). If you are satisfied, you can go ahead and apply it to the entire track. Also, since the noise source might change during the recording, you should at least do a quick scroll to check for other low-volume zones which can be a sign of noise. If you find noise from other sources, you can use the same steps to remove it.Now that you have removed the noise, the next step would be to remove the voices from the channels they don’t belong to. This is where we’ll be using the Noise Gate plugin: since there is a considerable level difference between the wanted audio and the unwanted audio on each channel, we can just declare everything below a certain volume “noise” and use the plugin to silence it. A couple of tips:• This needs to be done separately for each channel, since the cutoff volume will be different.• You can use the “Analyse Noise Level” function of the plugin to gauge the approximate level of the cutoff volume – this will give you only an estimate, and you will have to play around with the settings a little bit to find the optimal volume.• Use a “Level reduction” of –100 dB to completely filter out the sound, and an “Attack/Decay” of 1000 milliseconds to avoid false positives.• As with all the steps, you can experiment on a smaller portion of the audio file (since it is much quicker) to fine tune the settings by repeatedly applying the effect with different parameters and undoing (Ctrl+Z) the result after evaluation. When the parameters seem right, just select the entire track and press Ctrl+R (Repeat last effect).After we’ve finished with both tracks, we have a better situation (shown above).Now we will fix the clipping as much as possible (a perfect fix isn’t possible since clipping means that information got lost and the plugins can only “guess” what the information might have looked like). First, we reduce the amplification of the second track (the one which contains the clipping) by 10 dB as the Clip Fix plugin suggests (Effect > Amplify > –10 dB), after which we use the Clip Fix plugin. Unfortunately, this plugin runs very slowly if we apply it to the entire track at once. Fortunately, we have a reasonable workaround: select portions of the track and apply the plugin to them individually. After the first application, you can use the “Repeat last effect” shortcut (Ctrl+R) to speed up the operation. Sidenote: it is a good habit to use the “Find Zero Crossing” function whenever you do a selection (the shortcut is Z – so, whenever you select a portion, just press Z afterwards). This eliminates some weird artifacts when cutting / pasting / silencing part of the audio, and it might even help when applying different effects. The fixed audio looks like the one shown below.Now that all the cleanup steps have been performed, there is one last step which is as important as the cleanup: maximizing the audible volume without introducing clipping. This is very important because all devices can reduce volume but few of them can increase it (some exceptions being: the Linux audio stack, and VLC). The easiest way to do this is by using the Levelator (note: while the Levelator is free – as in beer – and does not restrict what you can do with the output, it is not free as in freedom if this is a consideration for you).To do this, export the audio to WAV (make sure that all tracks are unmuted during export), and run the Levelator on it. The end result will look like the one shown below.Of course the Levelator isn’t magic pixie dust either, so here are a couple of things to check after it has been run:• Did it amplify some residual noise which wasn’t available in the initial audio? (if so, you should remove it using the Noise Removal plugin).• Did it miss segments? (it is rare, but it happens – those segments need to be amplified manually).• It results in “weird” sounding audio if the recording has been preprocessed by a dynamic compressor – for example GoToMeeting has an option to improve sound quality which uses dynamic compression and thus makes the recording unsuitable for the use with Levelator.That’s it for this rather long article. Don’t be discouraged by the length of the article: after going over the steps a couple of times, it shouldn’t take longer than 15 minutes to process a 2 hour interview (excluding the cutting / pasting / moving parts around), and you will gain listeners because of the higher production value.A final note on the output formats: while during processing you should always use lossless formats, the final output format I recommend is: MP3 at 64 kbps CBR, Joint Stereo, 22050 MHz sampling rate. I found that this is the best balance between quality, file size, and compatibility with the most playback devices out there.
+
+Text655: Duplication, perhaps linked-to frame
+
+Image660: /media/gentoo/issue55/images/HowTo/Audacity/images/image02.png
+Image823: /media/gentoo/issue55/images/HowTo/Audacity/audacity-6colorcmyk.png
+
+Page 20
+
+Copy of Text661 (43): Duplication, perhaps linked-to frame
+
+Text369: Duplication, perhaps linked-to frame
+
+Text506: Duplication, perhaps linked-to frame
+
+Image663: /media/gentoo/issue55/images/HowTo/Audacity/images/image03.png
+Image664: /media/gentoo/issue55/images/HowTo/Audacity/images/image01.png
+
+Page 21
+
+Copy of Text661 (52): Duplication, perhaps linked-to frame
+
+Text674hh: Duplication, perhaps linked-to frame
+
+Text508: HOWTO - AUDACITY BASICS
+
+Image665: /media/gentoo/issue55/images/HowTo/Audacity/images/image00.png
+Image824: /media/gentoo/issue55/images/HowTo/Audacity/audacity-linux.png
+
+Page 22
+
+Text497: Duplication, perhaps linked-to frame
+
+Text498: Written by Ken Robson
+
+Text499: Quick Home Server
+
+Image500: /media/gentoo/issue55/images/section icons/howto.png
+Copy of Text661 (53): Duplication, perhaps linked-to frame
+
+Text504: My home “server” is the WLX-652 NAS which is equipped with two USB 2.0 ports, built in BitTorrent client, and supports NTFS and EXT2/3. It is a simple device using an ARM processor and has its USB ports on the back. It consumes about 3 watts in use, and is completely silent.I have it connected to USB hubs, and from there I share my printer (Canon iP4200) and my USB HDDs to all the machines on the network, and it's flashed with Snake OS (http://code.google.com/p/snake-os/) rather than the default system. This comes with inbuilt cifs (SAMBA), FTP, print, DDNS, SSH and SFTP servers, along with Transmission to use it as a torrent client. All admin is done via a web page, which is well set out and easy to navigate. Although for Transmission control I use transmission-gui. I have my shared HDDs in external cases connected to the USB hubs. The machines are connected via wireless or wired to my ADSL router, and all the shares are mounted in fstab using://nas/TV /home/ken/TV cifs guest,user,rw,file_mode=0777,dir_mode=0777,noserverino 0 0nas is the name of the “server”TV is one of the shares (containing my TV episodes to watch)then there is the folder it is shared to (TV in my home folder)then the type (cifs), andsome “filler” to make it writeable on all the PCs.Or you can just use Network in Nautilus to browse to the shares; I wanted them automounted when I logged in to a PC.I use the FTP functionality to allow me to save files from my Android phone to the server using a wireless connection. Similarly, the printer is just connected to using the Print Server option in the “Add new printer” wizard - with the address of nas to show all the connected printers. Then the correct driver is installed as normal.For someone who has several external drives, this is a simple and clean way of sharing them to all the PCs without needing to share folders on the PCs, and allows them to be powered and accessible all the time. The only downside to using this low-power server is, the network speed is quite LOW. (1Mb/s write and 2Mb/s reading) - however the speed is sufficient to stream 720p movies to my media player for watching on my TV. For transferring large files, I tend to remove them from the NAS and plug directly into the PC to be transferred from. But the cost/power saving make this ideal for my normal working environment. 
+
+Copy of Text823: Duplication, perhaps linked-to frame
+
+Image667: /media/gentoo/issue55/images/HowTo/Server/WLX652-.jpg
+Image668: /media/gentoo/issue55/images/HowTo/Server/AP-AS-USNS-WLX652(B)2.jpg
+
+Page 23
+
+Text269: Duplication, perhaps linked-to frame
+
+Text270: Written by Ronnie Tucker
+
+Text271: Write For Full Circle Magazine
+
+Image272: /media/gentoo/issue55/images/section icons/howto.png
+Copy of Text661 (8): Duplication, perhaps linked-to frame
+
+Text274: GuidelinesThe single rule for an article is that it must somehow be linked to Ubuntu or one of the many derivatives of Ubuntu (Kubuntu, Xubuntu, Lubuntu, etc).Write your article in whichever software you choose. I would recommend OpenOffice, but PLEASE SPELL AND GRAMMAR CHECK IT!WritingIn your article, please indicate where you would like a particular image to be placed. Please do not embed images into your Open Office document.ImagesImages should be JPG with low compression.Regarding image sizes: if in doubt, send a full size screengrab and we will crop the image.If you are writing a review, please follow the guidelines shown here.For a more detailed list of the style rules and common pitfalls please refer to: https://wiki.ubuntu.com/UbuntuMagazine/Style - in short: US spelling, no l33t speak and no smilies.When you are ready to submit your article please email it to: articles@fullcirclemagazine.orgIf you can't write articles, but hang out in Ubuntu Forums, send us interesting forum threads that we could print.Non-English WritersIf your native language is not English, don't worry. Write your article, and one of the proofreaders will read it for you and correct any grammatical or spelling errors. Not only are you helping the magazine and the community, but we'll help you with your English!
+
+Text276: REVIEWSGames/ApplicationsWhen reviewing games/applications please state clearly:•  title of the game•  who makes the game•  is it free, or a paid download?•  where to get it from (give download/homepage URL)•  is it Linux native, or did you use Wine?•  your marks out of five•  a summary with positive and negative pointsHardwareWhen reviewing hardware please state clearly:•  make and model of the hardware•  what category would you put this hardware into?•  any glitches that you may have had while using the hardware?•  easy to get the hardware working in Linux?•  did you have to use Windows drivers?•  marks out of five•  a summary with positive and negative points
+
+Text673: Duplication, perhaps linked-to frame
+
+Text674: Duplication, perhaps linked-to frame
+
+Text280: You don't need to be an expert to write an article - write about the games, applications and hardware that you use every day.
+
+
+Page 24
+
+Text288: LINUX LAB
+
+Text289: Written by John D
+
+Image290: /media/gentoo/issue55/images/section icons/laboratory.png
+Copy of Text661 (29): Duplication, perhaps linked-to frame
+
+Text345: VOIP @ Home
+
+Text368: Duplication, perhaps linked-to frame
+
+Text847: Duplication, perhaps linked-to frame
+
+Text848: Duplication, perhaps linked-to frame
+
+Text849: Duplication, perhaps linked-to frame
+
+
+Page 25
+
+Text319: LINUX LAB - VOIP @ HOME
+
+Copy of Text661 (33): Duplication, perhaps linked-to frame
+
+Text370: Duplication, perhaps linked-to frame
+
+Image684: /media/gentoo/issue55/images/Linux Lab/images/image02.jpg
+Image685: /media/gentoo/issue55/images/Linux Lab/images/image03.jpg
+Image686: /media/gentoo/issue55/images/Linux Lab/images/image04.jpg
+
+Page 26
+
+Text669: Duplication, perhaps linked-to frame
+
+Copy of Text661 (34): Duplication, perhaps linked-to frame
+
+Text671: In today's Lab, we are going to talk about VOIP. Probably most of you have heard about VOIP before. This article will try to explain - in a how-to style document - how to install a VOIP system at home (meaning “cheap”!).What is VOIP?VOIP stands for Voice Over IP. Basically, it means that you'll use a technology which enables you to have a phone-style conversation by using the Internet.This technology (hardware or software) will sample and convert your voice into binary data and send it over the Internet to the correspondent you are talking with.Why VOIP?VOIP is usually cheap and easy to setup at home, once you have an Internet connection. It is often free (with some restriction) – Skype is a good example – Skype to Skype calls are free, although Skype to regular phone has a small cost.VOIP is also convenient – if you are connected to the Internet, you can easily be reached, at the same number, even if you are far away from home.Before we move forward, please get familiarized with this short lexicon:PSTN = Public Switched Telephone Network, or a landline phoneDID = Direct Inward Dialing: a virtual phone number, which will be linked to your VOIP SIP addressATA = Analog Telephony AdapterGet your free SIP addressVOIP uses the Internet protocol called SIP (Session Initiation Protocol). It is the same analogy as web pages are rendered through the HTTP protocol, or file transfer via FTP.A SIP address is required in order to receive calls – same analogy as email – without an email address, you cannot get mail.As with email, SIP addresses can be subscribed for free or for a small fee. Just as examples (many more are available on the Internet!), www.sipsorcery.com, www.antisp.com, or iptel.org provide free SIP addresses. Please note that sipsorcery is more complicated to set up (typically for advanced users), although it is more powerful. Antisip or iptel.org should be preferred for beginners. Another option is to get a free SIP account with Ekiga.When you register, you will get your SIP address and the SIP server name. Also remember your password, it will be required later.ExampleLet's imagine you registered the account “tux” (without the quotes!)• your sipsorcery address will be sip:tux@sipsorcery.com, registered on the server sipsorcery.com• your antisip address will be sip:tux@sip.antisip.com, registered on the server sip.antip.comPlace and Receive SIP phone callsNow that we have a SIP address, we can place and receive SIP phone calls, either by using VOIP software, or a VOIP hardware device. Please note here that we will be placing and receiving SIP phone calls, not PSTN (more on PSTN and VOIP later).SoftphonesLet's start by using software to place / receive our VOIP calls. Many open-source VOIP programs are available for Linux, examples are Ekiga (http://ekiga.org) or Linphone (http://www.linphone.org/) - both available in the Ubuntu repositories. In case you are a Windows user, Blink (http://icanblink.com/) is a good example.To setup Ekiga with your antisip account, proceed as follows:• Start Ekiga and close the account wizard if you already have a SIP account. Go to the menu Edit > Accounts and then “Add a SIP account”:• Key in your information• Name is for display only• Registrar is the SIP server name• user and Authentication user is your SIP account• key in the password you chose during SIP registration• Make sure the checkbox “Enable Account” is checked, otherwise Ekiga will not connect this user.If everything went fine, you should see Ekiga getting connected to the SIP server.Now that you are connected to the SIP server, you can place other SIP phone calls. A good idea is to start with a test call:Music test > sip:music@iptel.org (should just play music)Echo test > sip:echo@iptel.org (will repeat everything you say)What's next?You may find what we did interesting, but you may also not be that much impressed since what we accomplished so far is precisely what Skype already does.While this is not totally true – after all we have used only Open-source software (which Skype is not) now the fun really begins for us. We will now call our SIP account with a real phone number!DID or Virtual Phone NumberA DID is a Virtual Phone number which will be linked to your SIP account. How does this work? When you sign-up for a DID (free service or not), you will key in your SIP information (SIP account, password, and SIP server), and you will be provided with a phone number. When this phone number is called, it will call the SIP account provided when you signed up for the service – if your computer is connected to the SIP account with your softphone, your computer will ring! The beauty of this setup is the cost – you can be called for the price of a local call by the person calling you.ExampleLet's imagine you live in Europe and your relatives, living in the US, would like to call you for cheap (or free). You can subscribe for a DID in the US (so you'll get a US phone number) and link it to your SIP account. When your relatives will call your US phone number, your SIP account will ring (your computer in Europe) – and your relatives will be charged for a US phone call rather than an International phone call. Please note to inform your relatives about the time zone difference, otherwise you may be called in the middle of the night!!!How to get a DID?First, consider the country where you would like to get a DID. Second, would you like to get a free or paid DID? Since there is no free lunch, a free DID has some strings attached – usually, a free DID is lost if it is not used at least once a month.By using a search engine on the Internet, you'll find many DID offers. As an example, this link http://wiki.sipsorcery.com/mw/index.php?title=DID_Providers provides a great list of DID providers in different countries.ExampleI personally needed a DID in the US, so I chose this website: http://www.ipkall.com/ When you sign-up, you'll have to fill in the items shown below.• Account type: SIP (we are dealing with SIP accounts in this article, right?)• Area code – these are the first 3 digits of your future US number – pick the city of your most frequent callers• SIP username: from our SIP account > sip:tux@sip.antisip.com• Hostname: from our SIP account > sip.antisip.com• Email: probably self-explanatory if you read this article• Password: password for your IPKall accountYou'll then get a virtual US phone number in your email. When this phone number is called, it will ring the SIP account sip:tux@sip.antisip.com. If you are connected to your SIP account with a softphone, your computer should ring.What's next?Getting the call on the computer is nice, the next step is to get the call on a phone (and/or the computer at the same time).How does this work?We'll need a VOIP ATA device –  the VOIP device has a processor which samples your voice (analog sound) and converts your voice into a binary sequence. This binary blob is then sent via the Internet, using the SIP protocol, to the person who receives the call.In our example, I'll now explain how to setup the Linksys PAP2 ATA device. Please note that the setup is very similar for other devices (ex: Grandstream HandyTone 286).Please proceed as follows:• Connect your VOIP ATA device to the Internet (probably to your router) and plug your phone in to the device. Tip – make sure your router's firewall does not block SIP, otherwise nothing will work!• Power the ATA device, and find the IP address assigned to the device from your router.• Using a web browser, connect to the VOIP ATA device (ex: http://192.168.1.111).• Click on “Admin Login” and “Line 1”. Then key in your SIP account information.• Do not change the SIP Port, it is very likely using the standard (5060).• Proxy is the SIP server (ex: sipsorcery.com or sip.antisip.com).• Display name: I'll assume this one is self-explanatory.• User ID: your SIP user ID (ex: tux – without server or domain name).• Password: the password of your SIP account.Congratulations - if you call the DID we have set up before - from another line (for example your cell phone), the phone connected to the VOIP ATA device should ring!<Big Fat DISCLAIMER>This setup does NOT support calls to emergency numbers (ex: 911 in North America), and therefore should not be used as full replacement of a PSTN phone</Big Fat DISCLAIMER>For advanced users, more than 1 DID numberIn case you have not noticed, ipkall.com is extremely flexible since when we signed-on for a DID, we have keyed in the SIP account the DID was bound to.Most DID providers (free or not) usually provide the DID number and a SIP account connected to the DID.Example – let's suppose we would like to have a DID in the US (provider is sip.tux-telecom-usa.com), another in France (provider is sip.tux-telecom-fr.com), and another in Romania (provider is sip.tux-telecom-ro.com). In the ATA device, we can specify only one SIP account, so we have a bit of a problem.The solution will be provided by a SIP aggregator. On the SIP aggregator website, we will:• create a SIP account hosted by the aggregator• create a connection to each DID• link each DID connection to the SIP account created above in #1• connect the VOIP ATA device to the SIP account created above in #1As a result, when any of the DIDs is called, the call will be forwarded to the SIP account created on the aggregator, which is linked to your ATA VOIP device, and the ATA VOIP device will ring!Demonstration on how to make this setupThe SIP aggregator I personally use is www.sipsorcery.com – it is free for basic use (1 DID) with a fee for more than 1 DID:• Register on www.sipsorcery.com • Once registered, get a free SIP account (go to “SIP Accounts”, click on “+”).This is the account that must be used in your ATA VOIP device.• Click on “SIP Providers”, and click on “+” to add all the DID SIP accounts. Please note that 1 SIP account is free (for 1 DID), there is a fee for more than 1 DID• Provider name: this is the name which will show in the list of servers.• username: the username which was provided to you when you signed-on for the DID (ex: tux).• password: the password which was provided to you when you signed-on for the DID (ex: secret).• server: servername which was provided to you when you signed-on for the DID (ex: sip.tux-telecom-fr.com).• Register: the check-box should be checked, otherwise when you get a call, your sipsorcery account will not be called.Once you have added the SIP account, check a few seconds later for the list “SIP Provider Binding” (you may need to use the refresh button a few times). If the column “Register” shows “True” - you should be all set. Otherwise check the login / password and try again.You can now test that all works fine – take another phone (for example your cell phone), and call the DID you just bound to your account – the phone connected to the ATA VOIP device should now ring.To summarize – by using the SIP aggregator, you can have as many DIDs as you wish, and link them to your ATA VOIP device. It is extremely useful if you have to get calls from different countries – by creating a DID in each of those countries, the party calling you will pay only for local communication (many times it will even be free).Additional tips for sipsorcery.comsipsorcery.com has a great debugging tool – you can trace any incoming or outgoing call. The only caveat is that the debugger runs only in … Silverlight. Yes, I know – it runs only in Microsoft Windows, but still – if you get into trouble and need to debug, the debugging console is really outstanding.In order to be able to use the debugger, when you logon to sipsorcery.com, you should use the “Silverlight logon” link.For super-advanced users, outgoing callsSo far we have discussed only about incoming calls – there is a good reason – outgoing calls are more complicated … and not free!Think about incoming calls for just a minute: when somebody calls a DID, it hits the server of the DID provider - which just forwards the call via the Internet to your SIP account. Since the provider already pays for Internet access, this service has “virtually” no additional cost. Of course, if the bandwidth gets overloaded, the provider won't accept new subscribers or will enforce other limitations.Outgoing calls are another story – when you call a number, it is not easy to know if it is a PSTN, cell, VOIP number, or other (ex: international call). Please note that “not easy” doesn't mean technically impossible, but probably harder to determine right away (I am not an expert on this topic though).In any event, for the reasons described above, outgoing calls are usually not free.As an example, you could sign-up for a VOIP service where you would pay a fee for outgoing calls (either per call or a lump sum for the month). I won't give any examples here, there are really many available on the web. If you subscribe to any of these providers, you'll notice that incoming calls are free! I don't know how it is in other countries, but in the lucky event you live in the US, and if you have a gmail account, you can subscribe for google-voice (for free). Right now (2011), google-voice offers free phone calls in North America – on all phones (PSTN, VOIP, cell phones, etc …). Please note that free is for 2011, I have not heard anything for 2012 yet.How to set up outgoing calls?There are several types of outgoing calls:• to a SIP number (ex: sip:tux@sipsorcery.com)• to a PSTN (could be VOIP, landline or cell – ex: 111-222-3333 for the US)Outgoing calls to a SIP number (using sipsorcery.com)I'll explain here how to setup outgoing calls to a SIP number in sipsorcery.com. I'll assume that you have already set up your sipsorcery account, as explained at the beginning of this article:• Edit your sipsorcery account and make sure the “Out Dial Plan” is set to default.• Go to the “Dial Plans” folder and edit the default script.The scripts are in Ruby on Rails – even if you are not familiar with Ruby, tweaking and enhancing an existing script is pretty easy if you are familiar with Linux scripting.An example script is shown right – I'll not go into details since the script has many comments (this script is heavily inspired from Mike Telis' Simple Dial Plan).From the script, calling tux requires you to key in *1# on your phone (the # sign is the equivalent of “enter” for the computer).The reason we had to use a speed dial is that we cannot key in sip addresses on a phone (just try to find the @ sign on a phone key pad!), this is why we need to setup a speed dial for SIP accounts.Free outgoing calls using Google-VoiceIf you are lucky enough to live in the US, you can place free calls to the US and Canada with Google-Voice (GV). GV works great on a computer; we would like to use our ATA VOIP device with our GV account. This is possible with a sipsorcery.com script – it is Mike Telis’ Simple Dial PlanIn order to make this script work, you will need:• a GV account (including a GV DID number)• a DID (ex: from IPKall)Next steps:Once you have this script working properly, you can think of a few enhancements – for example call forwarding. Let's imagine you are traveling, and you would like to get all the calls placed on your SIP account on your cell phone – well, this is definitely possible – you could hard code your cell phone number in the script, for all incoming calls using GV to call your cell phone. Cool stuff!Conclusion:VOIP is a proven technology, which is thriving in today's market (home and business) thanks to democratization of cheap Internet bandwidth. In addition, VOIP is easy to set up (I hope this article is the proof!), cheap (a VOIP ATA device costs less than $50), high quality sound, and flexible (call forwarding and voice-mail available in one mouse click).
+
+Text853: Duplication, perhaps linked-to frame
+
+Text854: Duplication, perhaps linked-to frame
+
+Image689: /media/gentoo/issue55/images/Linux Lab/images/image05.jpg
+Image690: /media/gentoo/issue55/images/Linux Lab/images/image07.jpg
+Image691: /media/gentoo/issue55/images/Linux Lab/images/image06.jpg
+
+Page 27
+
+Text672: Duplication, perhaps linked-to frame
+
+Copy of Text661 (35): Duplication, perhaps linked-to frame
+
+Text674: Duplication, perhaps linked-to frame
+
+Image692: /media/gentoo/issue55/images/Linux Lab/images/image08.jpg
+Text765: Duplication, perhaps linked-to frame
+
+Image694: /media/gentoo/issue55/images/Linux Lab/images/image09.jpg
+
+Page 28
+
+Text675: Duplication, perhaps linked-to frame
+
+Copy of Text661 (36): Duplication, perhaps linked-to frame
+
+Text677: Duplication, perhaps linked-to frame
+
+Image695: /media/gentoo/issue55/images/Linux Lab/images/image10.jpg
+
+Page 29
+
+Text678: Duplication, perhaps linked-to frame
+
+Copy of Text661 (37): Duplication, perhaps linked-to frame
+
+Text680: Duplication, perhaps linked-to frame
+
+Text697: SPEED_DIAL = {                     	# my speed dial numbers '*1'   => 'tux@sipsorcery.com',    # Tux}begin if sys.Out    # outbound call   num = req.URI.User.to_s        # Get a string copy of the number to dial   num = SPEED_DIAL[num] || num   # Substitute with speed dial entry, if any  if num =~ /@/ 	# Make sure we have an @ sign       sys.Log "**URI DIAL** --> #{num}"      sys.Dial num   # URI dialing  else     sys.Log "Error - not supoprted"	# No @ sign - not calling a SIP number but probably calling a PSTN  end else          # sys.Out# Do nothing - script should not be called for Dial in endrescue sys.Log("** Error: " + $!) unless $!.to_s =~ /Thread was being aborted./end
+
+
+Page 30
+
+Text567: CLOSING WINDOWS
+
+Image568: /media/gentoo/issue55/images/section icons/laboratory.png
+Text569: Control Panel / Device Manager
+
+Text570: Written by:Ronnie Tucker (KDE)Jan Mussche (Gnome)Elizabeth Krumbach (XFCE)Mark Boyajian (LXDE)David Tigue (Unity)
+
+Text571: The one part of Windows that is used just as much as, if not more than, My Computer, is the Control Panel. The Control Panel is where you configure your Windows, and some hardware, settings.Control PanelAll *buntu’s have their own version of Control Panel. In Ubuntu (Gnome), it’s called Control Center, and in Natty it is installed - but it does not show up in the menus. Either you start it from a terminal, or you have to add an entry in the menus.From a terminal:• choose Applications > Accessories > Terminal.• In the terminal, type: gnome-control-center• Hint: After choosing Applications > Accessories, right-click Terminal and choose “Add this launcher to panel” to have it available at all times.Adding an entry to the menus:• Choose System > Preferences > Main Menu• In the left column, choose menu System Tools. On the right-hand side, you will see all the items in this menu.• Click button “New item”• For Name, you can fill in: “Control Center”• for Command, it will be “gnome-control-center”• and for Comment, you can use: “Control center for Gnome Desktop”Only the Command field is important, the others are just texts to help you find it. Make sure to type entries without the quotes.• Click OK, and you will see a new item in the menu. Close this window.• Open menu Application > System Tools > Control Center.In Unity, it’s located under the icon resembling a gear, in the top left-hand corner of your screen. Click on the gear, and navigate down to system settings. Once you click on system settings, a window will appear with all your ‘Control Panel’ type settings within it. In Kubuntu, it’s called System Settings, and can be found under K > Applications > Settings > System Settings. It’s sometimes found at the top of K > Favorites too. In Lubuntu, it’s called Lubuntu Control Center, and it’s at Menu > System Tools; however, to keep Lubuntu as “light” as possible during the initial install, this application is not installed by default because all the system settings can be easily accessed from the menu system without the Control Center application. Fortunately, the excellent software installer/manager makes it easy to select and install the Control Center, which very nicely gives you access to all the primary system control in one place. Xubuntu calls it Settings Manager, and it can be found via the main menu (the mouse icon) and under Settings. Needless to say, since each desktop flavour is different, the layout and settings available are different. One thing that’s similar among all desktops is that to configure anything you’ll be asked to enter your root (or administrator) password. This is to prevent unauthorised tweaking. Always keep your root password safe!Device ManagerAnother crucial part of Windows is its Device Manager. In here, you’ll see a list of all available hardware, and if it’s working or not. The Device Manager lets you select pieces of hardware, diagnose problems, and install new drivers, amongst other things. Linux differs quite a bit here since it doesn’t use drivers as such, but, thankfully, Linux has superb hardware recognition. There are exceptions to the rule though. Some hardware manufacturers are what Linux users call ‘proprietary’ - this means that they aren’t very open to sharing their documentation with developers, and that makes it very difficult for developers to get some hardware working in Linux. Like I say though, thankfully it’s becoming quite rare now.To see what hardware you have while using Ubuntu (Gnome), you have to install a program first. This can be done in a few ways, like everything in Linux:The Terminal way:• Choose Applications > Accessories > Terminal, or click the terminal icon in your panel• In the Terminal type:sudo apt-get install gnome-device-managerYou will be asked for your password. Type it and press Enter. (Password will not be shown on screen)The Synaptic way:• Choose System > Administration > Synaptic, and type your password when asked• In the small search field on top, start typing: gnome-device-manager• When you type slowly, you will see the contents of the list change. The correct program will show up after having typed just a few characters.• Click with the right mouse button on the name of the program. A small box appears in which you select “Mark for Installation”.• Now click on the Apply icon in the Toolbar, and, in the summary window which pops up, click Apply again.• Hint: when installing software, tick the selection button to automatically close the window after the installation.The Software Center way:• Choose Application > Ubuntu Software Center• In the search field top-right, type: gnome-device-manager, and, again after a few characters, the program is found.• Click the name of the program and it is marked. On the far right, you see a button Install. Click it, and the program will be installed - after you type your password.The Device-Manager shows up in menu Application > System Tools.For Unity, like with most other versions, you have several ways to view this type of information. Here is one way - although not very intuitive - you get to it by clicking on the ‘Dash Home’ button and typing ‘System’. You will notice an icon labeled ‘System Monitoring’, and one labeled ‘System Info’. They both give you some information that is similar, so feel free to explore both, but what you are looking for is the devices - so click on ‘System Monitoring’. Then click the ‘File Systems’ systems tab. Here are a couple of other ways to see this type of information - but with more detailed info. Try this: in the ‘Dash Home’ type ‘Disk’. There you will see two more icons named ‘Disk Utility’ and ‘Disk Usage Analyzer’. They both can be very useful. Take some time now and open both of them and have a look around. Be careful, the ‘Disk Utility’ application gives you access to format the hard drive, and I’m willing to bet you don’t want to do that. ‘Disk Usage Analyzer’, on the other hand, won’t allow you to destroy the hard drive, but it will allow you to see exactly what is using up your hard drive’s precious space. Kubuntu has KInfoCentre; it’s found at K > Applications > System > Info Centre. By default, Lubuntu uses the System Information utility which is at Menu > System Tools > System Profiler and Benchmark. As with the Control Center, you can easily install the gnome-device-manager - which will provide much of the same information as the System Information screen but organized differently and with greater detail. Once installed, it can be opened from Menu > System Tools > Device Manager. Xubuntu also uses the gnome-device-manager which is installed as outlined above, and then shows up under Mouse > System > Device Manager.Most Linux device manager equivalents are just displaying a list of what you have in your machine, they won’t let you tinker with the hardware. Hardware configuration is usually done in the equivalent of control panel (see above) - as Linux will want to see your root password before letting you configure anything. Entering your root/admin password all the time may seem annoying, but it keeps your hardware (and software) safe, secure, and stable!Next issue, we’ll discuss moving, renaming, and finding files, as well as the sometimes confusing methods of deleting/restoring files.
+
+Text572: Duplication, perhaps linked-to frame
+
+Image577: /media/gentoo/issue55/images/Closing Windows/kde-systemsettingswindow.jpg
+Image578: /media/gentoo/issue55/images/Closing Windows/Control-center.jpg
+Image579: /media/gentoo/issue55/images/Closing Windows/LubuntuControlCenter.png
+Image580: /media/gentoo/issue55/images/Closing Windows/xubuntu_settings.png
+Image581: /media/gentoo/issue55/images/Closing Windows/Control-center.jpg
+Image582: /media/gentoo/issue55/images/Closing Windows/xp-control-panel.jpg
+Text583: Ubuntu (Classic)
+
+Text584: Lubuntu
+
+Text585: Xubuntu
+
+Text586: Kubuntu
+
+Text587: Ubuntu (Unity)
+
+Text588: Windows XP
+
+
+Page 31
+
+Text573: Duplication, perhaps linked-to frame
+
+Text574: Duplication, perhaps linked-to frame
+
+Image589: /media/gentoo/issue55/images/Closing Windows/kde-kinfocentre.jpg
+Image590: /media/gentoo/issue55/images/Closing Windows/xp-device-manager.jpg
+Image591: /media/gentoo/issue55/images/Closing Windows/Device Manager.jpg
+Image592: /media/gentoo/issue55/images/Closing Windows/DeviceManager.png
+Image593: /media/gentoo/issue55/images/Closing Windows/Device Manager.jpg
+Image594: /media/gentoo/issue55/images/Closing Windows/Device Manager.jpg
+Text595: Duplication, perhaps linked-to frame
+
+Text596: Duplication, perhaps linked-to frame
+
+Text597: Duplication, perhaps linked-to frame
+
+Text598: Duplication, perhaps linked-to frame
+
+Text599: Duplication, perhaps linked-to frame
+
+Text600: Duplication, perhaps linked-to frame
+
+
+Page 32
+
+Text575: Duplication, perhaps linked-to frame
+
+Text576: Duplication, perhaps linked-to frame
+
+Text700: “
+
+Text701: Entering your root/admin password [...] may seem annoying, but it keeps your hardware (and software) safe, secure, and stable!
+
+
+Page 33
+
+Text124: MY STORY
+
+Text125: Written by The Italian Translation Team
+
+Image126: /media/gentoo/issue55/images/section icons/myStory.png
+Text180: First of all we would like to thank Ronnie and his entire team for allowing the Italian FCM team to write about this wonderful magazine. Let's start by saying that our team was born with the first appearance of FCM on the web, and immediately joined the project of the Italian community of Ubuntu. We are now an official project of the Italian LoCo team. During these years, the group proceeded to translate, edit, and paginate FCM - using a dedicated section of the official Italian wiki, where some members post drafts of the translations, and others revise them; when the article is ready to be imported into Scribus, other members proceed to insert them, and in order to do this, they use a shared folder of a cloud service.To coordinate itself, the team makes massive use of the mailing list, especially now where, with the advent of smart phones and tablets, many can also be connected via portable devices and respond quickly to a discussion on the mailing list.Every day, the team also uses the Freenode IRC channel (#ubuntu-it-fcm – come and visit our channel, you will be welcome!), where many people meet and also talk to coordinate the project - and have the opportunity to exchange a few jokes; joking helps to work better! However, the IRC also helps to involve new members to the group allowing a full socialization within the group.In the past year, the group lost a bit of energy to the point that twelve issues of the magazine separated the International edition and the Italian one. In June, 2011, with an enormous force of will, the group decided to reset the gap between the two editions: in only three months, it translated, reviewed, and published thirteen issues! Now, the Italian team can proudly say that it has all the numbers available in its language, special issues included! Actally, we have an extra number, an Italian-only issue with a collection of past articles.Among our new projects, may we introduce you to the e-Pub version (a version for E-book readers) and the Audio Book version (an audio version of the magazine where the translators read the articles using their own voices); the latter version is in advanced development stage, and shortly we will be able to offer it to all, but bearing in mind especially those people who are visually impaired: the world of GNU/Linux, Ubuntu, and Open Source in general must be accessible to all.And now let's listen to some of the contributors of the Italian FCM group, who want to spread a bit of the energy, spirit, harmony, and cohesion that made it possible for us to stay updated.And remember:FCM Italia ROCKS!Translators say...My collaboration with the Italian FCM group started about a year and an half ago (April 2010), and doubtless it was the experience that made me decide to definitively switch to Ubuntu, leaving once and for all that other OS.Since I’m not very skilled at IT, I've always had some doubt in to definitively switch to Linux, but the Ubuntu community was very useful to me, and so, one day, I decided to do the 'big jump'.So, considering that I've received a lot from the other members of the community, I decided that I would have to repay, and browsing the huge Italian Ubuntu community, I came across the FCM group. I've never heard about Full Circle Magazine before then, so I've downloaded some issues and I felt in love immediately, and I decided that I also wanted to give my little help to this precious work, that is to the magazine translation.That's how I met this wonderful group of people who are enthusiastic and always full of new ideas, who have made the FCM Italian group the first in the world (and I'm very proud about this).I love this group, and I'll never leave it.“But...there's one more thing” (quote): FCM Italia ROCKS! (as someone in our group is used to saying)Cristiano Luinetti(aka Palombo)I would like to introduce you to the world of the true face of FCM Italy. But it is almost impossible in a few lines, and even less so to those who are not familiar with our work. A group of people united, close-knit, coherent, strong, trusting each other, friendly, devoted to teamwork, always ready for new challenges. Helping in coordinating this amazing group has been for me a personal growth, assessment of personal skills and of the group skills. In short, I gave a little of my time to this group, but I can say that I have received back all that I have given multiplied by one thousand. Thanks Guys, thanks Ubuntu-It, thanks FCM Italy.Marco Buono(aka newlife)Some years ago, along with a friend, I decided to start the translation of the FCM International magazine "Full Circle", and created a group of Italian translators on the Ubuntu Wiki.After the release of the first three translated numbers, we received an invitation to bring this project within the Italian LoCo Team, creating the 'FCM Group'. Since then, the translation of the magazine has greatly improved thanks to the significant contribution of all the friends who have been part of this group. Here all the tricks, techniques, and methods used today to translate, revise, and reformat this beautiful magazine were born. The rest of what has been done is ... history!Paolo Garbin(aka paolettopn)I’ve been an FCM fan since it first appeared. So, I’ve recommended it to each of my friends or relatives that I successfully persuaded to try Ubuntu. A friend of mine, for whom I installed Ubuntu 11.04, said to me: “All I’m reading in FCM is interesting, but completely different from what is installed on my PC” (the last FCM translated to Italian was #39, more or less). He was using 11.04, but he was reading about 10.04. That experience pushed me to join the Italian FCM translation team (a great team) to avoid having someone again tell what my friend had said.Fabrizio Nicastro(bifslacko)I've been a member of the Italian translation team for a few months, when I finally decided to contribute to the Ubuntu Community in some way. I started reading FCM on a friend’s recommendation, but I often complain about the Italian translators because our releases were spit out really slowly. Then I said "Why not become a member and help them?", and, in a few days, I started to translate for FCM Italy. It didn't take a long time to settle into a so friendly atmosphere like this, made of many willing and competent people. Looking back, I'm glad to have become a member just in time for the final sprint that has aligned us with International releases. Now that the sprint has come to an end, I think my days will be a little more empty.Anyway, guys, I think people like this are good for the spirit of Ubuntu and FOSS philosophy.Giuseppe D'Andrea(intruder)I always read every issue of FCM with great pleasure, so that, a few months ago, I decided to join the Italian translation group. I believe that, in addition to the fact that the magazine is excellent, the 'FCM Italy' group is a group of really amazing people with whom you work well. It's also a pleasure to talk with them, and joke a little, and turn away from the boredom of our days. Making yourself useful and fun: you can do it joining FCM Italy!Irene Bontà(sharkbait)I started contributing to the FCM Italian translation some years ago, because I thought it was a good idea, and I wished Italian people could find some interesting stuff in it. Now, I'm doing my little contribution, but the other guys are doing very good, and FCM is now better than ever.Dario Cavedon(iced)I have started to collaborate since #37 (even if I read it before). At first, the reason was keeping my English trained, testing, and learning new things, doing something good, a present for me and other people, to collaborate on a shared project. FCM is a great example of how fantastic it is for people to deeply and professionally develop together a project for free. Today, the FCM Italian group is my next degree thesis. At least I'll give it to all, you have earned this.Davide MiceliTranslating the magazine is my way of saying thanks to the FCM team, your work will be appreciated even by people speaking a different language.Filling the gap was a necessity, and a bet, at the same time, since outdated articles are so unattractive. We won the bet and now let's keep the pace!Gianluca Santoro(aka Geekluca)I still remember very well when, in 2007, I was involved in the activities of the “Gruppo FCM”. Since then, I never stopped working for the magazine, having in mind only to spread the free software culture. But what still amazes me is that I don't know if the group has received more from me, or whether I was getting more from the group. By the way - thank you, Gruppo FCM!Aldo Latino(aka aldolat)Sometimes it can be difficult to leave the comfortable land of proprietary software to jump into the world of free software: I made up my mind about three years ago, switchin’ to Ubuntu just to become a great admirer of this OS - with five recruits (at least) as assets! And, once I was in, the next logical step couldn’t be nothing but giving, in some way, my contribution: and since I don’t know anything about computers or programming, the choice was simple: I joined the awesome FCM translation group! And my gratification is to know that, if today we reached this goal, even if in a small way, it’s thanks to me too!Roald De TinoWhen we first started talking about a sprint to recover lost ground, I remembered a phrase from W. Churchill: “A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty”. Obviously, the path was not easy, but, with the great dedication of all members of the group which I am honored to be part of, finally we got our opportunity.Giuseppe Calà(gcala)I am a new Linux user, and, after several experiences with different distros, I found in Ubuntu, more than a valuable alternative to Microsoft’s world. Why does the Community impress me so? The philosophy on which it is based! Not only the Freeware, but also the Sharing value.Some time ago I discovered Full Circle Magazine and I noticed that the Italian Translations were behind compared to the English issues. So I decided to give a helping hand with translations, and give a contribution to the Community, hoping that more and more people will have the opportunity to discover and learn about the huge capabilities of Linux and Freeware. What can I say about FCM Italy? I am so proud of being in because there is a wonderful atmosphere that makes it such a real great Family!Francesco CargiuliI am happy to join this wonderful group where everyone is willing to help. This sprint - we set this goal - was the driving force that led us to be even more dedicated and active, which at first I did not perceive. In addition to knowing each other and working together, we offer all lovers of Linux in Italy an open, free, and up-to-date magazine. What more can one get out of life? Last but not least ... Thanks to the whole group FCM!Alessandro Losavio(aka alo21)	 	 	Despite the progress made in recent years, it is undeniable that the free software world is still semi-unknown to many of the people who use a PC. Many continue to use proprietary software - not by choice but due to lack of information. In my small way, I converted my family and my girlfriend’s family to Ubuntu – it's a first step, especially to demonstrate that new things can be absorbed well within traditional contexts. Being part of the translation group of FCM seemed a great way to use my skills to serve a common goal. The strength of the community is empowered by the fact that everyone can help out, according to their abilities.Giulio TaniI am a guy who has been using Linux (Ubuntu) for a long time. Honestly, it's not so well known in Italy, no one knows the word “open-source”. I tried to convert all schools, especially mine (ITIS), to Ubuntu because it's a special Operating System, free of charge, up-to-date, and does not need anti-virus... It's completely safe without fear of any intrusion... But these schools apparently did not want to believe. After using Ubuntu one day, I asked myself: "Why not help the Italian community of Ubuntu?" So I started as a joke. I started with the group Ubuntu-test. They welcomed me with open arms and then switched to Ubuntu-promotion. For health reasons, I was forced several times to be away for long periods, but I always returned to the open arms that welcomed me (something to envy... you could only dream of this behaviour in other environments :D) But now I am also on Ubuntu-it-fcm. I integrated myself in this nice, warm and welcoming group! Together we do a good job, and I'm proud to give my little contribution too! Good Job Guys!Only one last thing .. THANK YOU VERY MUCH WITH ALL MY HEART, GROUP FCM <3Mirko Pizii(aka hallino1)I learned about Ubuntu from an article in a magazine specializing in computers, I opened my browser to see the Ubuntu WebSite. After browsing the pages of the site, I found this project FCM. I am a fan of open source software and freeware, and I like to test software to find any problems, I also like to improve the quality of translations from English into Italian. I joined FCM Italy to review the articles of the magazine to make them more professional, but also to not present to our readers any typos.Riccardo Vianello.What can I say that is special, if I have only recently joined this great group? I have always followed them as an observer, and their beautiful and precise work has made me take the leap as if to say: I want to be with them!!..... and I immediately enrolled in the group! I actively participate in the group-test, but I want to make my contribution in my ability even here, because the Ubuntu Community also deserves it and these guys too! Their spirit of cooperation is very high ..... so I'm there!! Congratulations to the whole group FCM!Antonio Allegretti(aka Tiranno)My personal “FCM story” started at the very moment when I began to use Ubuntu 6.10 Edgy Eft, and it quickly overwhelmed me. Wow, 5 years have already passed! I was looking for an OS I wanted to use instead of Windows, and a friend of mine (who already collaborated with FCM), introduced me to Ubuntu and the Ubuntu-it community. Since then, as it delighted me, my desire to collaborate and share the Ubuntu Philosophy grew. But alas! I'm not a programmer, so the only way to collaborate was working as a translator for a review or something similar, a good way to keep my English trained, and return back my enthusiasm to the community! The same friend of mine then introduced to me this group, and FCM entered into my life. We translated all the issues, but, as happens to volunteers, we started to withdraw, and it was frustrating sometimes to translate articles talking about software on which development was already stopped! But many stories have a happy ending, and the superheroes of FCM Italy, helped by new vital forces, reached their goal!Marco Letizia(aka letissier85)It has been more than 2 years now since I joined the FCM Italian team. At that time, I was starting my migration to Ubuntu, and I wanted to contribute to the community and keep practicing my English. My experience was great, the people are awesome, and, during these years, more and more people joined us. I’m proud of being part of this group, which was able to reach a great goal: translate all the issues so far. I would like to thank my fellow translators, and wish them good luck. We rock guys!Luigi Di Gaetano
+
+Copy of Text661 (15): Duplication, perhaps linked-to frame
+
+Text702: The Italian Translation Team
+
+
+Page 34
+
+Text703: Duplication, perhaps linked-to frame
+
+Text706: MY STORY - THE ITALIAN TRANSLATION TEAM
+
+Image710: /media/gentoo/issue55/images/My Story/it.jpg
+Image711: /media/gentoo/issue55/images/My Story/Italy_flag.jpg
+Copy of Text661 (17): Duplication, perhaps linked-to frame
+
+
+Page 35
+
+Text704: Duplication, perhaps linked-to frame
+
+Text707: Duplication, perhaps linked-to frame
+
+Image712: /media/gentoo/issue55/images/My Story/italy 400.jpg
+Copy of Text661 (19): Duplication, perhaps linked-to frame
+
+
+Page 36
+
+Text705: Duplication, perhaps linked-to frame
+
+Text708: Duplication, perhaps linked-to frame
+
+Copy of Text661 (27): Duplication, perhaps linked-to frame
+
+Image717: /media/gentoo/issue55/images/My Story/fcm-it-logo.png
+
+Page 37
+
+Text709: Duplication, perhaps linked-to frame
+
+Copy of Text661 (28): Duplication, perhaps linked-to frame
+
+Image719: /media/gentoo/issue55/images/new-fcm_logo.png
+Image720: /media/gentoo/issue55/images/My Story/Italy_flag.jpg
+Text721: From The EditorI'd like to take this opportunity to thank all the translation teams around the world who work so hard to bring Full Circle to their native language.To all those who wonder if FCM will ever be in their language? Well, you have to start the team yourself. If you do, drop me an email (ronnie@fullcirclemagazine.org) and I'll give you access to the plain text, Scribus files, and help wherever I can.Sure, we could just shove the raw text through Google Translate and pull it out as a translated edition, but (unfortunately) I don't have the time to do more than one edition, and no doubt (good as it is) Google Translate would mangle the translation somehow. So, it's up to you (the readers) to translate each issue.All the best!Ronnie
+
+Text803: Duplication, perhaps linked-to frame
+
+Text723: Duplication, perhaps linked-to frame
+
+
+Page 38
+
+Text351: MY OPINION
+
+Text352: Written by Alexander Salomon
+
+Image353: /media/gentoo/issue55/images/section icons/myStory.png
+njkln: My first Linux was Ubuntu 9.10. I had an old computer which needed a replacement and I was looking for a cheap and secure alternative in order to surf the Internet, check my mails, do some easy calculations, write letters, and so on.I was running Firefox at that time, and I thought that Open Source could be an alternative to Windows. After some research, I choose Ubuntu, which I installed with Wubi in order to try it out. What should I say - it worked. With some support from Ubuntuusers.de, everything worked well. I bought an old P4 for very little money (less than € 30, -), bought a second 500 GB HDD, two additional GB of RAM, a cheap Nvidia graphic card, and even a TV Card, and I got everything running for less than € 200,-, currently with Ubuntu 10.10.So far - so good, I can do what I initially wanted to do, and we could stop here with the success story.However, when I take a second look, I need to admit that some things do NOT work. They are not essential, but it makes life hard.• I’m running a Garmin navigation system with a lifetime maps update. I did not find a way to update the device under Linux. Maybe there is one, but I spent so many hours in research – I’m tired of it.• Next device that doesn’t work is my Garmin Forerunner 50. It transfers the data about my workouts via ANT+ technology to the computer. Unfortunately, not under Linux.• My wife’s Ipod – I got it to work somehow but it’s not very smooth. Synchronizing songs is always a pain.• I tried to convert some videos from Apple’s .mov format to .avi. I was unable to get it to work under Linux with WinFF or VLC. Under XP it works just fine with the same programs!• Compare OpenOffice or LibreOffice with the MS product. There are worlds between them. Don’t get me wrong, the open source programs do what they need to do, and the developers have done a great job – but in a professional environment I don’t want to miss my Excel. The open source programs are about 10 years behind. That’s just a fact.These are just a few examples why Linux will never have more than probably 2-3% share in the developed world (EU/US/Japan).At the end, I’m running XP and Ubuntu on two HDD on my computer. But honestly, although Ubuntu is great, my 10-year-old XP can do most of the things better than my one-year-old Ubuntu.As long as no “Linux-Company” (Canonical, Red Hat…) sits together with Nokia, Apple, Canon, Samsung, Garmin, TomTom (I could go on and on and on …) defining standards to get peripheral equipment to run, most people will return to Apple or Windows in the long term.The “dummy user” has not the knowledge and time to spend hours to get the equipment to run.Linux really had the potential to play a significant role in the operating system market, but I don’t see any working strategy to establish it alongside Windows and Apple – which is a pity.That’s just my meandering thought about open source. It works great in an isolated environment - unfortunately not more.I will stick with Linux, I like the look and feel, and I feel more secure when surfing the internet, but I cannot give up my Windows (which I wanted to do initially).Anyhow, keep writing the Full Circle Magazine. I love it.
+
+Copy of Text661 (20): Duplication, perhaps linked-to frame
+
+Image724: /media/gentoo/issue55/images/My Opinion/garmin-forerunner-50.jpg
+
+Page 39
+
+Text426: I THINK...
+
+Image427: /media/gentoo/issue55/images/section icons/myStory.png
+Text429: Did you update your current install, or do a fresh install?
+
+Text430: Last month's question was:
+
+Copy of Text661 (51): Duplication, perhaps linked-to frame
+
+Text517: Why did you upgrade instead of a fresh install?to mantain apps and usersIt keeps all my installed programs and filesDidn't want to risk losing any of my data and/or settings as I have in the pastRetains my preferred setup, plus previous upgrades have always failed so keep trying. Fresh 11.10 install doesn't work on my laptop.I want to see if this time upgrade works for meWanted to know how it would go, if it had failed, a fresh install would always have been an option. Went perfectly, of course, as this ZaReason laptop was made for LinuxIf you did a fresh install, why did you not upgrade?Ubuntu upgrades always cause problems. Its easier to start fresh and move files back in from an external drive. Have to keep good notes of the tweaks though.Keeps the system faster, and it’s cleaner old style!Less clutter, less contradicting config filesI never upgrade OSsTo avoid unexpected bugs and errors.I have heard the horror stories how things go wrong after upgrading. A fresh install seems to be the easy way to avoid all problems.I love a clean fresh setup. I have a separate /home partition, so I can always install fresh.It takes about 20 minutes to do a fresh install vs. 2 hours for an updateTrust issues - it failed miserably in the pastUpgrade takes longer & does not always work.To avoid problems of different software versions and to get rid of clutter. Past experience has proved to me that a fresh install is most trouble-free option.found Ubuntu Remix and Gnome3!If you're not upgrading, why not?Still on 10.10, happy there. Waiting for Unity to mature in 12.04I do not like Unity, and I do not like the fact that I can't choose Gnome when upgrading or doing a fresh install. If I have to I will move to another distro to have Gnome.Because of Unity, moved to MintNo choice of desktop - switched to Debian Squeeze.I don't like Unity or the direction Ubuntu is going. I've moved to Mint 10, but also looking at Mint Debian Edition. I stick with the LTS releases - less drama.LTS installs only; I do change repositories to have latest, e.g., LibreOffice, Firefox, etc.I finally have 11.04 configured the way I want it. I don't see that 11.10 offers enough for me to change.Perfectly happy with Gnome 2, upgrading from 9.04 to 10.04 was a bad experience
+
+Text555: Duplication, perhaps linked-to frame
+
+Text556: Duplication, perhaps linked-to frame
+
+Text557: Duplication, perhaps linked-to frame
+
+Text558: Duplication, perhaps linked-to frame
+
+Text559: Duplication, perhaps linked-to frame
+
+Text560: Duplication, perhaps linked-to frame
+
+Text563: Duplication, perhaps linked-to frame
+
+Image725: /media/gentoo/issue55/images/I Think/install.jpg
+Text726: Duplication, perhaps linked-to frame
+
+Text727: Duplication, perhaps linked-to frame
+
+Text728: Duplication, perhaps linked-to frame
+
+Text729: Duplication, perhaps linked-to frame
+
+Text730: Duplication, perhaps linked-to frame
+
+Text731: Duplication, perhaps linked-to frame
+
+Text737: Duplication, perhaps linked-to frame
+
+Text738: Duplication, perhaps linked-to frame
+
+Text739: Duplication, perhaps linked-to frame
+
+
+Page 40
+
+Text326: A PLEA ON BEHALF OF THE PODCAST PARTYAs you often hear in the podcast, we're calling for opinion topics for that section of the show. Instead of us having a rant about whatever strikes us, why not prompt us with a topic and watch for the mushroom clouds over the horizon! It's highly unlikely that the three of us will agree.Or, an even more radical thought, send us an opinion by way of a contribution!You can post comments and opinions on the podcast page at fullcirclemagazine.org, in our Ubuntu Forums section, or email podcast@fullcirclemagazine.org. You can also send us a comment by recording an audio clip of no more than 30 seconds and sending it to the same address. Comments and audio may be edited for length. Please remember this is a family-friendly show.It would be great to have contributors come on the show and express an opinion in person.Robin
+
+Text599: Duplication, perhaps linked-to frame
+
+Text600: Duplication, perhaps linked-to frame
+
+Image329: /media/gentoo/issue55/images/new-fcm_logo.png
+Text732: Duplication, perhaps linked-to frame
+
+Copy of Text661 (54): Duplication, perhaps linked-to frame
+
+Text734: Duplication, perhaps linked-to frame
+
+Text736: Duplication, perhaps linked-to frame
+
+Text740: Duplication, perhaps linked-to frame
+
+Text729YY: The question I'd like to pose for FCM#56 is:Would you join the FCM team on IRC for an informal meeting once a month?To give your answer, go to: http://goo.gl/BEuYb
+
+Text844: Duplication, perhaps linked-to frame
+
+Text744: Duplication, perhaps linked-to frame
+
+Text745: Duplication, perhaps linked-to frame
+
+Text746: Duplication, perhaps linked-to frame
+
+Text747: Duplication, perhaps linked-to frame
+
+Text748: Duplication, perhaps linked-to frame
+
+Text749: Duplication, perhaps linked-to frame
+
+Text750: Duplication, perhaps linked-to frame
+
+Text751: Duplication, perhaps linked-to frame
+
+
+Page 41
+
+Copy of Text661 (44): Duplication, perhaps linked-to frame
+
+Image249: /media/gentoo/issue55/images/news/ubuntu-user-ad/Ubuntu-User_1-1q.jpg
+Text620: Duplication, perhaps linked-to frame
+
+Copy of Text620: Duplication, perhaps linked-to frame
+
+
+Page 42
+
+Text132: REVIEW
+
+Text133: Written by Art Schreckengost
+
+Image134: /media/gentoo/issue55/images/section icons/review.png
+Text181: For many years, the only choice for IT security personnel when it came to penetration tests (sometimes called pentesting) was to pick BackTrack Linux or create their own modified OS.Just over a year ago, user options broadened with the introduction of BackBox, an Ubuntu based OS (as BackTrack is, too) from Italy which may be heir apparent to the pentesting throne.On the surface, both appear similar and they are in several respects, but there are radical differences between them, so a head-to-head comparison may be merited.History and Underlying BaseBackTrack is from Switzerland, and was created in 2006 with the merger of two Knoppix based OSs, Whax and Auditor Security Collection. A switch from Knoppix to Slax based live-CD distributions lasted until 2009 - when another change to Ubuntu resulted in BackTrack 4. BackTrack 5 Revolution based on Ubuntu 10.04 LTS (Lucid Lynx) was released in May, 2011, and August, 2011 saw the release of the current version, BackTrack 5 R1, also based on Lucid. Backbox comes from Italy, and, prior to 2010, it really didn't have much of a track record, at least not online. Other than scant mentions of version 1 (RC and then beta), even distrowatch.com doesn't mention anything until version 2 was released in September, 2011. The current version, BackBox 2, is based on Ubuntu 11.04 Natty Narwhal - which is an upgrade from versions 1.x which were based on 10.04 like BackTrack.WebsiteBackTrack's website (backtrack-linux.org) is best described as eclectic. With a motto of the quieter you become the more you are able to hear, and a wiki page labeled The Ninjas Guide to BackTrack, one can only imagine what's lurking in the shadows, and a sense of paranoia about being watched might surface. Probably not helping is a design consisting of flames in the background - as if to tell users they may burn for using this OS.Dig far enough into the website, and you'll find a litany of instructional courses offered in “offensive security” - almost all requiring students to pentest and attack actual systems in a controlled environment. While some are free, they appear to be lead-ins for the more costly and extensive training scenarios. My favorite course is the 5-day venture offered in St. Kitts, Caribbean, but, at $4,000, that's a little out of my wallet's range.Those wishing to skip all the pages can jump to offensive-security.com to get right to the courses; however, the website is nearly identical to links off the main BackTrack page, and, since it has the .com suffix, it's quite apparent the goal is sales. It could be argued that many developers pitch paraphernalia on their websites, but most of it won't require a second mortgage.Forums appear to be comprehensive, with some tutorials sprinkled liberally throughout, but you'll have to search through hundreds, if not thousands, of entries to find what you need.BackBox is a little different in their website. Mainly in English, about half of the forum contents are in Italian - so if you need information there, use your browser's translation extension. In addition, there are 3 pages of video instructions that contain little or no dialog (just follow what is shown), but brush up on your Italian because the on-screen version of the OS is in that language (sort of odd since the screenshots show an American flag sitting in the panel).Unlike BackTrack, BackBox doesn't sell instructional materials - although I did find it curious that it has Google links to other Linux distributions including Suse (sort of like a Ford dealer pushing Chevys). The forums are puny compared to BackTrack, but this OS is only a year old, and it’s trying to build a fan base. Since some of the security-based programs are the same or nearly identical to those offered by BackTrack, users could jump the fence and visit the competition's forums, if necessary.It appears there may have been an Italian site at http://backbox.opensoluzioni.it/, but I couldn't get it to load, and a quick search shows it may have been discontinued for the predominantly English version. OS Size and OptionsBackBox (right) packs two desktops as standard, Xfce, and BackBox Session - a modified Xfce design with a bottom dock, top panel, and more sophisticated background design than standard Xfce. In early 2011, it appears a Fluxbox package was offered but I couldn't determine if it applies to the current version (Fluxbox had some teething problems with more than just this OS and may have been pulled).32-bit and 64-bit options at 913MB and 945MB, respectively, are offered, but not in the same download, so users have to make an initial choice or take time burning both. BackTrack offers Gnome and KDE as desktop options - along with 32 and 64-bit configurations, but instead of combining Gnome and KDE in the same package, they are split so users wanting to test all varieties would have to download 4 packages.No matter which version you choose, the image is near or at 2GB.Upgrade From Earlier Versions?Even though both OS are based on Ubuntu, the upgrade process is not the same as going to Update Manager and stepping up to the next available version. Yes, you can do that for the underlying code base, but what could happen to the specialized security software?BackTrack doesn't offer an upgrade option, and even states such on their website. Those wanting to upgrade from one version to the next must do a fresh installation. At least they don't pick any bones about it, but the upsetting issue is that once a new version is issued, all support for previous issues ceases immediately. The underlying code may still be supported by Ubuntu, but all the security related programs will no longer have any support.Although I can't verify such on a personal basis, I have heard from a couple of users that attempting to update the underlying Ubuntu code from 10.04 to 11.04 can prove fatal to some of the security programs. Do an upgrade at your own peril!BackBox really doesn't address the issue on its website, but an email from the developer, Raffaele Forte, states users should also do a new install over attempting an upgrade. Only time will tell if future Ubuntu upgrades upset the apple cart, but, since all works quite fine in Natty, it can only be assumed the usual updates (as opposed to full blown upgrade) won't hurt anything.Best idea for either OS? Break out aptoncd and get busy backing up those programs you want to keep, and hope the security oriented programs you like are still there once the new installation is completed. InstallationBoth OSes offer live mode, and the ability to use persistence via USB flash drive. Unless you need portability, these modes are often not preferred because they are slow.The real test is full installation, and this can sometimes be fraught with unnecessary perils.BackTrack (right) is unique in this respect in that all users must sign in as root. As a result, the usual Ubuntu installer method is lacking since there is no user ID or password collected – the OS is installed and that's that. About the only input involved is determining the amount of hard drive space to use.From DVD in to final restart took roughly 30 minutes, or about the average amount of time for an Ubuntu installation.BackBox is classic Ubiquity and installation was a rather spectacular 17 minutes. By the time I turned around to make a sandwich it was completed. Hardware recognition was superb in both - with the only driver location necessary being that for my ATI/AMD graphics card. Wireless worked like a charm in either OS, although you'll have to read on about the snafu with finding connection information in BackTrack.Updates were equal with about 200MB waiting post-installation - which is good for BackTrack since it's based on last year's Ubuntu base.Hard drive space was typical with DVD contents expanding 100% once unpacked. BackTrack recommends 10GB hard drive space, while BackBox posts 2GB. BackTrack is more in line with reality, and it appears BackBox is using outdated or overly optimistic specs which wouldn't give enough wiggle room - especially for those preferring to use persistent drives.Login ProtocolJust when you thought you'd never hear of the root/toor procedure again, it's back!BackTrack lives up to its name by using that procedure here - although users can change the password after installation (or if using persistence on a USB drive). Live mode users are stuck with it.Unfortunately, the OS comes with no instructions, but new users don't have to worry – if it senses no attempts to enter root and toor, it switches to another page where users are told to enter “startx” to fire up the GUI.Best as I can tell, BackTrack offers no option to use the standard Ubuntu protocol of user ID and password. You're in as root and that's all there is to that, although the password can be changed from toor once booted.Possibly because of the Gnome desktop, boot times were often somewhat dismal with 1 to 1.5 minutes being the norm (part of which was taken up entering root specs mentioned above).If you're looking for a colorful splash screen, forget it. BackTrack goes to verbose mode for the login process.BackBox uses the usual Ubuntu user ID and password and requires such during installation. Xfce really shines here - with cold boot times often less than 30 seconds even to the slightly busier BackBox Session version of Xfce.Much like BackTrack, there is no splash screen in BackBox, and new users may initially be put off by what they don't see. In short, a black screen with a flashing cursor is all that greets the user, and even that disappears after a few seconds - leaving just the blank screen until the desktop opens. At first, I thought the installation had failed and nearly powered down.Is one login protocol any better than the other? That's subject to interpretation - although most accounts I've reviewed state that signing in as root is inviting trouble since any mistakes or missteps can lead to the OS crashing. Fact is, anybody using root in live mode can merely do a forced reboot and be back to square one - but those using a persistent USB system may be doomed, since changes, including mistakes, are saved.DesktopBackBox is Xfce with a modification called BackBox session that adds a dock and top panel to the usual rat logo on a bland background. It doesn't offer Gnome or KDE as standard like BackTrack; however, that's not necessarily bad.The desktop design, in keeping with Xfce tradition, is minimalistic, but not lacking artistic thought, with a medium gray background and a sweeping blue ribbon going through the center. In the middle of it all is a stylized “BackBox Linux” heading in which the Bs are made to look like 3s (3ack3ox). Below that heading is another stating “Flexible Penetration Testing Distribution”. If you don't like that, you have your choice of roughly 10 alternatives, but most center around the Xfce rat logo, so plan on adding your own unless you like desktop rodents.There is the Xfce dock at the bottom, but look quickly because it disappears as soon as the desktop appears (right click the dock to kill autohide in options). It contains a few icons for Internet (aka Firefox), a mail reader, among others, but the one that's interesting is Vidalia. Not the onion, mind you, but the program that acts as a graphical front-end for Tor.That's not a misprint of Thor by the way, it is Tor, a program used to cover your tracks by redirecting your traces, to the point that surveillance is tough. Good thing, too, since some of the included programs I'll discuss later are best left unknown. The Firefox version included has Vidalia installed by default, and activation is by clicking the onion icon to the left of the URL field. (In one check it showed I was from the Ukraine when I was a few miles away in central Florida).A lone panel sits up top with the usual icons, with the only exception being the BackBox logo in the left corner acting as a main menu button. Xfce also allows access to most of the main menu via a left click anywhere on the desktop.BackTrack is also artistically designed, and the desktop design is eye catching. Consisting of a black and red mixture with what appears to be a galloping horse with a flowing mane in the background, the only thing breaking the design is the logo “<<back|track 5” (you've got to admire the rewind symbols), and “the quieter you become the more you are able to hear” statement (look closely since it nearly blends in with the background).I didn't get a chance to test the KDE desktop, so I can only comment on Gnome. Since this is based on Lucid 10.04 instead of Natty, there is no Unity option.Beyond aesthetics, the desktop may look like every other Gnome design you've seen, but this is deceiving. Sure, you get the usual tri-entry menu system in the left corner (Applications, Places, and System), and you'll also see the usual speaker icon along with date, time, and log out to the right, but a couple of things are missing.Find a screenshot and take a gander before guessing.Give up? No wireless or network connection icons, and the user name is gone from the right side. The missing name is obvious since you're signed in as root, but the network icon is something of a mystery. Yes, wireless and Ethernet both work, but BackTrack has dumped the icon as some sort of secretive measure to keep prying eyes from knowing(?).So how do you know you're connected? Go to Internet under the main menu, and find Wicd, and it'll advise you of wireless connections, and use Ubuntu's network manager for the Ethernet portion.And now for the curiosity that has everybody scratching their head.After one week of using BackBox, I opted to log out to test Xfce, and was surprised to see Gnome Classic and Unity listed as options. BackBox doesn't come with these two as standard, nor did I purposely install them. Somewhere in one of the updates, Gnome and Unity were slipped in; however, both were bare-bone basic without any visual pizazz - which means they didn't come from the developer, who, as it turns out, is just as confused as I am on this oddity.But there is one issue I find somewhat contradictory in both OSes: if these are supposed to be stealthy and secretive, then why do both have desktop designs that can be spotted half a mile away? True, you can change them, but those opting for live mode without persistence will have that clue pop up every time they boot.Standard ProgramsLet's be honest and admit the average Linux user is not going to pick either of these OSes as a main version for home computer usage. These are designed for specialists in security, or for hackers who should know better; however, even these persons like listening to music, playing the occasional game, or cranking out a newsletter.There is no doubt that BackTrack has more initial programs than BackBox but that is somewhat misleading in the long term.What you'll see, for the most part, is Disk Usage Analyzer, gedit Text Editor, Terminal, Take Screenshot, Wbar, xpdf, Firefox, Wicd, Zenmap, Dictionary, Keepnote, UNetbootin, Sound Recorder, Wine, plus a scant few others.BackBox is even lighter, with Abiword, Firefox, Vidalia, Tor, Sound Recorder, Transmission, ThunderBird, Pidgin, Bleachbit, Geany, Parole Media Player, plus a few others. This is really a bare cupboard.Adding Programs is discussed later, but make sure you read it because the results are somewhat unbelievable for one of the OS.Security Based ProgramsThere is no doubt BackTrack wins in this category - with well over 100 included programs, some of which I've never heard of.And therein is a problem. The website gives little information of what is in there, so you'll have to try it for yourself to find out, and various online sources give figures ranging from 100 to 200 programs - so it's tough to tell what the actual figure is.For the most part, you find these under the area marked BackTrack on the main menu - which has subcategories for Information Gathering, Vulnerability Assessment, Exploitation Tools, Privilege Escalation, Maintaining Access, Reverse Engineering, RFID Tools, Stress Testing, Forensics, Reporting Tools, Services, and Miscellaneous.Each one of these categories breaks down into yet more categories listing programs galore to keep the most mischievous computer geek busy. While I could list them all, the total number is rather amazing, and must total over 100 as some menu categories cascade out to sub-sub-categories.BackBox is somewhat similar, just with fewer programs and a menu heading of Auditing. Here you'll find Vulnerability Assessment, Forensic Analysis, VOIP Analysis, Information Gathering, Exploitation, Privilege Escalation, Maintaining Access, and Stress Tools.Each of these categories branches out to yet other sub-headings which give a listing of programs that can best be described as scary. Why do I believe some of these programs are suspect? Instead of the usual colorful assortment of icons, these all get skull and crossbones insignia, and various warnings pop up prior to usage.BackBox is forthcoming with what their OS packs, just go to http://wiki.backbox.org/index.php/Category:Tools_list to find a listing.Secondary SecurityCompared to BackTrack, BackBox seems to be a slacker in this department - although that's subject to debate.Other than deleting musical notes and other sounds, along with including Vidalia/Tor in Firefox, I couldn't see much else. Something else may be there, but I just haven't seen it yet. It seems to be standard Ubuntu in all other respects (the website gives hints on how to add more security oriented Firefox extensions, but I use Chrome).For those unfamiliar with Vidalia/Tor, this is a Firefox add-on that covers Internet tracks during usage by redirecting users all over the globe.As a test, I had a friend see if he could identify what OS I was using while online. BackBox did drop the ball here since it readily identified itself as “BackBox Linux 2”, but Tor made it appear like I was from the Ukraine when I was still parked in central Florida.BackTrack takes the opposite path, and goes full hog on keeping the outside from knowing what you do. Not only is opening music gone, even password asterisks are blocked so eavesdroppers can't see the number of characters - but the height of craziness is the complete lack of wireless or Ethernet icons on the desktop, apparently to keep other eyes from noticing you're web surfing (since some of the security programs use a browser to operate, this'll be evident anyway).Online, it identifies itself as Ubuntu 10.04, with no other clue. Since Tor isn't activated unless users add it, my IP address was readily apparent.Probably the most aggravating BackTrack security feature is the inclusion of NoScript in Firefox. Until it's trained on what pages it'll accept, you can pretty much be guaranteed your page probably won't open unless you turn it off via the icon next to the URL, or remember to accept new pages as they open. New users will undoubtedly be stymied until they learn this, and the procedure was required for each and every site I visited (turning it off is good for one site at a time, and uninstalling the extension is the only way to dispose of it).While both seem to be interested in user security, I find it odd that both have artistic desktop designs that all but send up signal flares as advertising, and BackTrack has an initial verbose mode that is easily recognizable. Pity the poor tech stuck with live mode since he'll have to live with telltale signs.And before you state this isn't a problem, let me give you an example. While testing BackTrack at my local library, another techie behind me spotted the on-screen verbiage, and blurted out, “What version of BT are you using?”So much for stealth in this department.Adding ProgramsBackBox has Synaptic Package Manager and Ubuntu Software Center, and users, of course, can utilize apt-get. Anything that works in Ubuntu will work here, and adding outside repositories is no sweat.Although appearing somewhat limited, software sources are comprehensive - with two sources just for BackBox software, and, oddly enough, one link for openSUSE. For those interested more in the security programs and artwork than the OS itself, the source can be added to standard Ubuntu via:deb http://ppa.launchpad.net/backbox/two/ubuntu natty main.BackTrack offers apt-get only, and goes as far as completely removing Synaptic and Ubuntu Software Center - meaning both have to be installed or users are stuck using terminal commands (which I had to use to install Synaptic so I could eventually get some programs). No big deal, you say? Read on.Since BackTrack users are signed in as root, some newly installed programs may not work. A prime example is Google Chrome. It refuses to open in root, as did Opera, so my chances of using another browser just got shot down. After a while it got frustrating - since nearly 50% of what I installed wouldn't work in root.Much like BackBox, BackTrack utilizes their software package for the security oriented apps, and users wanting the programs without the OS can add the source (deb http://archive.offensive-security.com); however, keep in mind that this OS is based upon Lucid Lynx, and those using Natty may experience issues with programs working.Stability and Resource Usage Since both are based on Ubuntu, just different versions, stability is all but guaranteed - but BackBox's use of Xfce made for quicker and smoother operation. Other than the snafu with Gnome and Unity creeping in without my knowledge, everything worked when I asked it to.Resource usage was incredibly light - with processor rates rarely spiking above 5%, and RAM usage seemingly content parking itself around 8 to 10%. In fact, neither category ever seemed to get “excited” about much of anything, no matter what I opened or did.BackTrack with Gnome was also a pleasant operational experience - just a bit slower than Xfce to respond and boot, and this also showed in resource depletion with RAM and processor rates being nearly twice as high on the same computer - with occasional spikes to the red line.During one week of abusive testing, I never experienced an OS failure or crash. Quite impressive.Other Quirks and Final CommentsThis article consists of my personal observations concerning my testing of both OSes during the month of September, 2011.First, these are not your grandma's OS - unless the old lady did covert work for the NSA at one time. Both BackTrack and BackBox contain seriously dangerous software that can get users in trouble.How much so? Using Aircrack-ng (available in both OS), I had my personal wireless code cracked within a half hour, and most of that time was spent trying to follow youtube instructions while entering instructions. Truth is, this program can do the task in around 10 minutes on a bad day.Had I performed that operation on a corporate wireless system it would be called corporate espionage, and would probably net me 5 to 10 in the federal pen (and that's where you'll really find out what penetration testing is).Second, 99% of the included security programs for either OS require nothing short of an advanced degree in physics to decipher. Even with tutorial help, I have no idea what some of them do other than produce prodigious amounts of on-screen gibberish - and I'm no computer novice.So, the question really is, would the average user find much use in either OS? No. Joe Average would have little use for such software, but, truthfully, it's a hoot to play with, just make sure you play nicely with friends. Just like that nice Doberman down the street, there is only so much ear tugging you can do before the fangs come out.Fact is, the security software included is for Ethical Hackers, aka White Hats, in the corporate world, and students in that area of expertise. Beyond that, the usefulness elludes me, and, if I want to swipe a signal, I'll go to McDonald's and use their free wireless before I attempt to steal my neighbor's. Now for the final analysis. Which one would I choose?For my answer I went to fellow students and hackers, and let them give me comments.Although many were impressed by BackTrack, they found it difficult to use, and downright uncooperative when it came to added program acceptance. They also found it odd that wireless and Ethernet icons were gone, and several discovered what I did – if a signal drops, you won't know it until a webpage doesn't load.The biggest gripe? Having to use apt-get to install programs - often requiring searches to discover the proper command line for a given app. The second most common complaint was about a lack of training for many of the security oriented programs, that often resulted in having to find tutorials online for assistance.They also agreed that running as root is just inviting a mistake - as one discovered when they did something to their network connection and it never worked again.BackBox fared better in that it was rated as easier to use, and much more cooperative when it came to adding programs that would work. Reviewers appreciated the inclusion of Synaptic Package Manager and Ubuntu Software Center, and they generally liked the Xfce desktop.But it was the desktop that also garnered the most complaints. Seems the dock is a front, and doesn't work the way you might think. Clicking on an icon does open the program, but nothing changes in the dock to indicate what's in use. For example, using the icon to open Firefox does just that - but, if you minimize the window, it goes to the top panel – there is nothing in the dock to indicate it's still open. Forget to go topside to maximize, and click the dock icon again, and it opens a new window, not the active one.As with BackTrack, difficulty in understanding some of the security oriented software was also mentioned, but many agreed the website tutorials did help.As a result, I would have to give the nod to BackBox. Yes, it doesn't have all the security features of BackTrack, but those can be added later if necessary. It just worked as an OS without being overly restrictive; Xfce was brisk and much quicker than Gnome, and the website isn't geared to pushing highly priced security training at the expense of instructions.BackBox is much more accommodating to users with limited expertise; the educational aides won't require hocking the family car to pay tuition, and programs are easy to add as long as they normally would work in Ubuntu.
+
+Copy of Text661 (22): Duplication, perhaps linked-to frame
+
+Text292: BackTrack vs BackBox
+
+Text834: Duplication, perhaps linked-to frame
+
+Text835: Duplication, perhaps linked-to frame
+
+Text837: Duplication, perhaps linked-to frame
+
+Text838: Duplication, perhaps linked-to frame
+
+
+Page 43
+
+Text321: REVIEW: BACKTRACK VS BACKBOX
+
+Text322: Duplication, perhaps linked-to frame
+
+Copy of Text661 (23): Duplication, perhaps linked-to frame
+
+Text836: Duplication, perhaps linked-to frame
+
+Image779: /media/gentoo/issue55/images/Review/backbox-2-menu.preview.png
+Image780: /media/gentoo/issue55/images/Review/backbox-header-home.jpeg
+
+Page 44
+
+Text760: Duplication, perhaps linked-to frame
+
+Copy of Text661 (39): Duplication, perhaps linked-to frame
+
+Text763: Duplication, perhaps linked-to frame
+
+Image781: /media/gentoo/issue55/images/Review/bt5-g0.png
+Image782: /media/gentoo/issue55/images/Review/BackTrackLogo.png
+
+Page 45
+
+Text761: Duplication, perhaps linked-to frame
+
+Copy of Text661 (41): Duplication, perhaps linked-to frame
+
+Text765: Duplication, perhaps linked-to frame
+
+
+Page 46
+
+Text766: Duplication, perhaps linked-to frame
+
+Text768: Duplication, perhaps linked-to frame
+
+Copy of Text661 (42): Duplication, perhaps linked-to frame
+
+Image825: /media/gentoo/issue55/images/Review/bt5-g0.png
+
+Page 47
+
+Text767: Duplication, perhaps linked-to frame
+
+Text769: Duplication, perhaps linked-to frame
+
+Copy of Text661 (45): Duplication, perhaps linked-to frame
+
+Text863: Duplication, perhaps linked-to frame
+
+
+Page 48
+
+Text770: Duplication, perhaps linked-to frame
+
+Text772: Duplication, perhaps linked-to frame
+
+Copy of Text661 (46): Duplication, perhaps linked-to frame
+
+Image826: /media/gentoo/issue55/images/Review/backbox-2-menu.preview.png
+
+Page 49
+
+Text771: Duplication, perhaps linked-to frame
+
+Text773: Duplication, perhaps linked-to frame
+
+Copy of Text661 (47): Duplication, perhaps linked-to frame
+
+
+Page 50
+
+Text73: LETTERS
+
+Text99: Every month we like to publish some of the emails we receive. If you would like to submit a letter for publication, compliment or complaint, please email it to: letters@fullcirclemagazine.org. PLEASE NOTE: some letters may be edited for space.
+
+Text369: Duplication, perhaps linked-to frame
+
+Image127: /media/gentoo/issue55/images/section icons/letters.png
+Text182: Ubuntu ClassicHave you told the readers how easy it is to revert back to the classic view in Ubuntu 11.04?At the login, click other. It will ask for the new user ID. Just type in your user ID, and, at the bottom of the screen, you can select the classic view, and then enter your password, and, presto, you have the old friendly classic view.James BainterYes, we have printed a minor variation on this. - Ed.Easy InstallI have a method for installing a different version of Ubuntu or its derivatives. I gave up doing upgrades a couple years ago when they became unreliable. I do only fresh installs now, so this method works for upgrading or downgrading your computer.The first thing I do is to backup all my files that I want to keep. I do not use a backup tool, I just copy all the files to an external device. In my case, it is a 150GB hard drive.After that is done, I compile a list of all the applications and files that I have added and wish to keep as well. To do this, I open Gedit and list all the applications and files in alphabetical order, separating each one with a space.At the start of the list I type:sudo apt-get installfollowed by a space. Be sure to use the names of the applications and files that are used to open them from the terminal. Be sure to copy this to your backup file so you will have it to use later.With that’s all done, it is time to install the version that you wish to have on your computer. After that is done, boot into your system and open the terminal and your list of apps. Copy and paste the entire list into the terminal, and press enter. If there are any errors in any of the names, the terminal will let you know. The terminal will ask you if you wish to continue, enter y and press enter. This could take a while so it would be a good time to configure your desktop to your desires.Every time I install a new application, I add it to my list so that when it comes time to change my system the list is ready to go.I have been using Ubuntu on my notebook computer for five and a half years, and truly love it. It is easy to use, fast, and easily configured to fit my tastes. Unfortunately, Ubuntu is going in a direction with Unity that I cannot follow. Unity does not allow me to do what I do as easily as Gnome 2.x. Lucid Lynx is probably going to be the last Ubuntu version that this computer will ever see. I will still use Linux - as Windows and Apple are not options for me.Jim Barber WaveMakerFor Bob Nelson: you might want to try WaveMaker -- http://www.wavemaker.com/product/It’s a cross platform RAD tool that builds a HTML enabled application in record time. Linux binaries are available. Provide the right environment, LAMP, and you might have a close proximity to your old application.John McGinnisA ConvertI work as a volunteer at a local community centre due to being made redundant last year. They had a Windows 2003 Server and Windows XP workstations. They were moving to a new location, but the company that installed it could not remember the domain admin password. We could move the server but we could not access the files at the new location due to the server using Sharepoint. All attempts failed trying to use password clearing software, so, as a last resort, I installed Ubuntu as a parallel OS. Logging into Ubuntu, I was able to see and copy all the shared files and folders. We then re-installed the Server as a fresh install - with password recorded by them. I have being playing with Ubuntu for only a few weeks as part of my Open University T155 Linux: an introduction course. I have now installed it on a few desktops and an old laptop, and I am really impressed. I am a true convert – and now spreading the word. Mark SellarsTriple/Quad Boot?Ubuntu is the first choice for almost all windows converts. But after spending some time with Linux, and getting yourself dipped into Linux culture, many people are simply just not satisfied with only one Linux Distro.Can you please explain triple boot / quad boot with one windows XP / 7, and other two are Ubuntu and any other distro like Mint or Debain OS, or any other distro (may be Lubuntu) of your choice. Can you also explain manual partitioning. Once you get a grip on manual partitioning, the fear of installation will go away. So end users like me can upgrade it to the latest versions.A fresh install is a good option, because Ubuntu keeps changing default apps. So, after a successful upgrade, you have many softwares for one application like music.Experimenting inside virtualbox is always preferable. But recent windows converts do not know about virtualbox.Currently, I am dual booting XP and Ubuntu 10.04 LTS.SujalNon-Printing CharactersI am also having trouble with Garmin GPS and would also appreciate any ideas. I tried a virtual Windows XP box (using VirtualBox) but even that wouldn't work. And of course Garmin Helpdesk are worse than useless.In the Q&A section, there was a question about finding non-printing characters in LibreOffice/OpenOffice. I have found the extension "alternative find and replace" from Thomas Bilek to be very helpful with this.JohnUbuntu Developer SummitIf you are like me then you spent some time participating remotely in UDS-P over the past week. I was pretty impressed by the goals that Mark Shuttleworth announced for 14.04 and even more I was delighted to see such a great turnout. I'm hopeful in the future I may be able to travel to physically participate in a UDS because I think the breadth of information you get to take back is well worth the trip not to mention the Ubuntu Community networking opportunities.Benjamin Kerensa
+
+Copy of Text661 (24): Duplication, perhaps linked-to frame
+
+Text331: Join us on:
+
+Image332: /media/gentoo/issue55/images/letters/Facebook_icon.png
+Image333: /media/gentoo/issue55/images/letters/twitter_icon.gif
+Image433: /media/gentoo/issue55/images/letters/linkedin-logo.jpg
+Text434: facebook.com/fullcirclemagazine
+
+Text435: twitter.com/#!/fullcirclemag
+
+Text436: linkedin.com/company/full-circle-magazine
+
+Text1008: Duplication, perhaps linked-to frame
+
+Text1009: Duplication, perhaps linked-to frame
+
+Text1010: Duplication, perhaps linked-to frame
+
+Image440: /media/gentoo/issue55/images/flavour banners/blackeubuntulogo.png
+Text441: ubuntuforums.org/forumdisplay.php?f=270
+
+Text1013: Duplication, perhaps linked-to frame
+
+Image752: /media/gentoo/issue55/images/letters/Google+-Logo.jpg
+Text753: goo.gl/FRTMl
+
+Copy of Text1008: Duplication, perhaps linked-to frame
+
+Text868: Duplication, perhaps linked-to frame
+
+
+Page 51
+
+Text356: Duplication, perhaps linked-to frame
+
+Text357: Duplication, perhaps linked-to frame
+
+Copy of Text661 (25): Duplication, perhaps linked-to frame
+
+Image784: /media/gentoo/issue55/images/letters/Screenshot-1.png
+
+Page 52
+
+Text75: Q&A
+
+Text0449: Compiled by Gord Campbell
+
+Text97: If you have Ubuntu-related questions, email them to: questions@fullcirclemagazine.org, and Gord will answer them in a future issue. Please include as much information as you can about your problem.
+
+Text373: Duplication, perhaps linked-to frame
+
+Image128: /media/gentoo/issue55/images/section icons/q+a.png
+Text364kjn: Q Is there any way to have the "classical" gnome user interface with Ubuntu 11.10?A No, but you can come close. I used Software Centre to install Synaptic Package Manager. In Synaptic, I searched for "gnome-panel," and installed it. Several dependencies were installed at the same time. When I rebooted, at the logon screen I clicked on the gear, to the right of my username, and selected GNOME Classic. It's not exactly the same as the interface in Ubuntu 10.10, but it's similar.Q How to compile and run lex program in ubuntu 10.04? I have installed flez and yacc and have also compiled file with -lfl option, but it shows an undefined reference to yywrap.A Just use Synaptic Package Manager to install flex.Q I've installed the latest version of Ubuntu. What now?A http://debianhelp.wordpress.com/2011/09/12/to-do-list-after-installing-ubuntu-11-10-aka-oneiric-ocelot/Q I have been reading, and apparently I need to add myself to the scanner Group. How can I do that in Ubuntu 11.10?A Previous releases included a nice application called Users and Groups. Defective thinking led to this being cut back to just User Accounts. There are command-line solutions, but Asus701user in the Ubuntu Forums has a better answer: install gnome-system-tools, which includes good old Users and Groups.Q How can I speed up my web browsing?A Enter the Terminal command:gksudo gedit /etc/samba/smb.confFind the line which begins: name resolve orderMove the word "host," so it reads:  name resolve order = lmhosts wins bcast hostQ Can I use Ubuntu to develop Android apps?A Yes, Ubuntu is an excellent platform for developing Android applications. The Software Development Kit is available at http://developer.android.com/sdk/index.htmlQ When I upgraded my Wubi install, the boot time became outrageous. Suggestions?A Two suggestions, which you probably won't be too thrilled about. Wubi is really intended to let people evaluate Ubuntu, without making significant changes to their system. So suggestion number 1 is: shrink a partition on your hard drive, and install Ubuntu into that space. You need to be very careful when installing, so you only format the new partition you will be creating.The second suggestion is: don't upgrade, install from scratch. This is a lot easier if you have a root partition (/) and a Home partition. You'll spend 15 minutes figuring out how to do that, and an extra 15 minutes during installation to double-check that you have it right, but it's worth the effort.And, of course, always make sure you have backup. Hard drives fail, so even if you aren't messing around with your system, all your data could disappear at any moment.Tips and techniquesFSOSSLast month, I presented "Comparing Unity and Gnome 3" at the Free Software and Open Source Symposium (FSOSS) / Linuxfest Toronto.My sub-title was, "Smartphones on your desktop," which is just a mild exaggeration. I suggested that Unity, as implemented in Ubuntu 11.10, is a little more polished and complete than Gnome 3.2, as implemented in Opensuse 11.4. However, Opensuse has the edge when it comes to accessibility. The net-net: I am using 11.10 on my laptop, and I plan to switch to Ubuntu 12.04 with Unity on my primary, desktop computer.Just to see more options, I have also installed Kubuntu 11.10 on my laptop.I attended several other presentations. The most interesting was about deploying OLPCs (One Laptop Per Child) in Kenya. Apparently, seven families in Toronto are involved in an effort which has changed two schools, and is being expanded to four others. Biggest surprise: the typical shepherd in Kenya uses his cellphone to text back and forth with his family. They said the data network was much better than what they have experienced in Canada.On the first trip to Kenya, they arrived with a solar array and four computers, and the solar array was completely overwhelmed by noon-day sun at the equator, 2,000 feet above sea level. After spending a day whining and kicking malfunctioning equipment, they found a solar engineer 20 miles down the road, who came in and fixed that part of the problem. They used a cell device to create a local Wifi hot spot, and connected the computers to it. The schools have very few text books, which do not hold up well in the local conditions. Having access to the resources of the Internet made a huge change in the school.The first school wound up getting 40 OLPCs, two of which have succumbed to the environment over three years. The OLPC can be used in bright sunshine, which makes a big difference in Kenya.I got the impression from the talk that deploying small computers is mostly about bringing them to the site, setting up what is needed, and showing teachers and students how to use them. Raising $5,000 and shipping 25 OLPCs to some remote school doesn't actually do anything helpful in the real world. Better to spend $4,000 on airfare for three people to deliver 5 OLPCs, and provide a lot of on-site help and setup.The other wonderful presentation was "When you cannot be there -- remote access and collaboration," by Raul Suarez. In 50 minutes, he went from Telnet to SSH, VNC and Web conferencing, with a few other approaches thrown in for good measure. There's an online version of his presentation at http://kwlug.org/node/667This was probably the most sophisticated presentation I have ever seen which was not backed by the resources of a major vendor.The conference itself featured superb organization, but it needs more publicity.
+
+Copy of Text661 (30): Duplication, perhaps linked-to frame
+
+Text502: Duplication, perhaps linked-to frame
+
+Text871: Duplication, perhaps linked-to frame
+
+Text873: Duplication, perhaps linked-to frame
+
+
+Page 53
+
+Text243: Q & A
+
+Text364qa: Duplication, perhaps linked-to frame
+
+Copy of Text661 (38): Duplication, perhaps linked-to frame
+
+Image787: /media/gentoo/issue55/images/q-and-a/logo.png
+
+Page 54
+
+Text789: UBUNTU WOMEN
+
+Text790: Written by Elizabeth Krumbach
+
+Image791: /media/gentoo/issue55/images/section icons/review.png
+Text792: Duplication, perhaps linked-to frame
+
+Copy of Text661 (48): Duplication, perhaps linked-to frame
+
+Text800: In our last article for Full Circle Magazine, we discussed the personal goals from the newly elected leadership team of the Ubuntu Women project. On the heels of the Ubuntu Developer Summit in Orlando, Florida, I’d now like to talk about some of the key goals the team has for the next Ubuntu release cycle.1. Mentoring programThis is an area that all three of our leaders strongly identified with, and the team is still committed to. Our project has always had some kind of mentoring program in place, starting with a very rigid program, and moving into the very informal infrastructure we have now where we collaboratively mentor new members and each other as questions arise in our resource space, whether this be on the mailing list, chat, or direct requests for guidance sent to our leadership team. In this cycle, Amber Graner wants to continue her work with following up the existing mentoring programs in the Open Source world to see what we can learn from them and what resources we can share.2. Website developmentOur primary website still has a very old theme and dated look to it. We’re in the process of migrating the site to be all-wiki - with a select number of pages which will be editable only by administrators. Our hope is that this will invite more updates to our content, and, in general, get our branding more firmly in place.3. Improve our recommendations for teamsI feel the project is good at mentoring women who already have an interest in Open Source and are now ready to take the next steps, but we haven’t done much outreach to other teams within the wider Ubuntu community to help them attract more women to their teams. We have a short page of “Best Practices” for in-person events - based largely on an older document “How-to Encourage Women in Linux,” but, in the current form, our own document needs a lot of work to add more practical ways to make a project welcoming to everyone and generally read in a more positive light.4. Broadly identify our target audience and come up with strategiesFinally, we have a few new contributors to the project and one of them suggested that we come up with broad targets for those we’re trying to reach out to with our project, and then come up with specific strategies targeted toward those women. In our collaboration session at the Ubuntu Developer Summit, we briefly outlined the following groups:• already using Ubuntu but not yet contributing• already using Open Source but not Ubuntu• friends and family of Ubuntu contributors• have a need for technology but no direct exposure to Open Source yet.We’re excited about all of these projects, and it’s been very inspiring to be a part of a team that not only has folks dedicated to our work, but is constantly growing to bring in new people with fresh ideas to further our goals.
+
+Image801: /media/gentoo/issue55/images/Ubuntu Women/pangolin.jpg
+
+Page 55
+
+Text794: UBUNTU GAMES
+
+Text795: Written by Riku Järvinen
+
+Image796: /media/gentoo/issue55/images/section icons/review.png
+Text797: Frozen Synapse
+
+Copy of Text661 (49): Duplication, perhaps linked-to frame
+
+Text802: Frozen Synapse is a turn-based strategy game by Mode7 games, and it has received rave reviews since it was originally released in May 2011. In October, the Humble Frozen Synapse Bundle was launched, including FS, along with Trauma and SpaceChem. This was an opportunity to get the game and a ton of extras at a nominal price: If you paid more than the average (that is, about six dollars), the bundle also included the games of the Humble Frozenbyte Bundle sold earlier this year (and three soundtracks... a bargain alright).In many ways, my first encounter with FS brought to mind the Rainbow Six games I played many years back, but in a somewhat more simple setting - since the graphics were essentially 2-dimensional and the camera angle was fixed.It suffices to say that FS is all about how you can, in the sense of logical thought, outsmart your opponent. There are two teams fighting, and both have units with different abilities (such as movement, and battle engagement speed), and weapons of terror (machine gun, shotgun, sniper, grenade launcher, and rocket launcher). The battle takes place in a rectangular maze of blue wall structures, some of which are full-height and others half-height. The half-height walls can be used as shelters; units can dock behind them to avoid enemy fire, and attack while standing up. The units are shown as simple uni-color human-form figures, green versus red in the standard case. Before commencing battle, there is a planning stage: one simulates the movements of units (one can also simulate the opponent!), while developing a working strategy. When the decisions are made, the outcome resolves: units act according to their orders, moving, firing, trying to survive five seconds of intensive combat, after which the next planning stage takes place. This cycle is repeated as long as neither of the teams has completed their objective, given before any action takes place. Whether to go all-out offensive, or to defend territory, is by no means an easy decision - which depends solely on the goal to be achieved. In addition to the ‘’plain and simple’’ extermination mode, one can rescue hostages, defend areas, or “hold the line” for as long as is necessary. Installation and gameplayThe installation is relatively straightforward: just CHMOD the bin file to an executable, and run it to start the installer. It creates a subdirectory called frozensynapse in the directory to be specified. There you find the runnable file named Frozensynapse (run the file with ./ command). Once started, a login screen appears where you can create an account for the multiplayer, or simply choose to play offline in a random skirmish or campaign mode. I suggest creating the account and starting multiplayer as soon as you are familiar with the basic controls since many of the “cool tricks” cannot be learned anywhere else. For the basics, there’s a tutorial which is easy to follow. There’s also a collection of additional tutorial videos on the Frozen Synapse website http://goo.gl/qGbsm.I’m more of an online gamer, so I consider the beauty of Frozen Synapse to lie in multiplayer mode. The offline campaign mode has received positive reviews elsewhere which I will not repeat here. The thing in multiplayer is to sign up for a collection of battles going on at the same time, and participating currently on a game where there is action, i.e. not to waste time waiting for an hour or two for the other players’ decisions. Normally, people on the servers spend a lot of time planning their moves, and I got my ass kicked big time in the first few fights. Relatively simple-looking battles may take many hours, while players are concurrently occupied in possibly dozens of different scenarios. While Frozen Synapse triumphs in the area of gameplay and music, it loses some points due to the modest graphics. Nevertheless, in the heat of battle, one quickly forgets eye-candy and concentrates on the winning strategy. Come to think of it, the simple but elegant nature of the graphics - along with the blueish theme and soundtrack packed with quality electronic music - creates an unique, futuristic, atmosphere. I play Frozen Synapse on my laptop (an HP Elitebook 8460p) with an additional 19” LED display. The specs are Core i7 2620QM 2.7 GHz, AMD Radeon HD 6470, 4 GB DDR3 1333 MHz, 128 GB SSD, and Ubuntu 11.10 . While playing with maximum resolution and best graphics options, there was some lag which is probably due to my inadequate graphics card.Frozen Synapse can be purchased from their website (http://www.frozensynapse.com/) at a price of 24.99 $, which includes an extra free copy you can give to a friend. For 10 $ more, a sword-fighting game called Determinance, a soundtrack of FS, and a cd (in mp3) are added to the bundle. ConclusionsFor someone beginning Frozen Synapse multiplayer, I suggest going through the tutorial and running a few skirmish battles. You probably get smoked a few times, but that’s the fastest way to learn. Once prepared, login and meet the real challenge! Here’s a summary of the things I considered good or bad in relation to FS multiplayer mode.Good:• the sum of the parts (gameplay idea, music, theme) creates a characteristic feeling• packed with tons of relatively simple properties that together create complex combat situations• multiplayer action is intriguing, and could very well become a classic.Bad:• graphics could be more accurate and beautiful • some crashes on Ubuntu 11.10 while uploading videos to Youtube, and some other minor compatibility issuesscore:  9/10
+
+Image807: /media/gentoo/issue55/images/Ubuntu Games/4.1.jpg
+
+Page 56
+
+Text803: Duplication, perhaps linked-to frame
+
+Text804: Duplication, perhaps linked-to frame
+
+Text893: Duplication, perhaps linked-to frame
+
+Text894: Duplication, perhaps linked-to frame
+
+Image808: /media/gentoo/issue55/images/Ubuntu Games/2.1.jpg
+
+Page 57
+
+Text78: MY DESKTOP
+
+Text79: My desktop is a tribute for the legend of heavy-metal, Dimebag Darrell. I'm using a Mike Capprotti drawing about this legendary guitar player.I'm using Cairo-Dock for taskbar and shortcurts.My specs: Acer Aspire 3050-1458, AMD Sempron 3500+ 1.8 GHz, 1,5GB RAM, and 80 GB.Marcelo Goulart
+
+Image86: /media/gentoo/issue55/images/desktop/roy-Screenshot.jpg
+Text101: Your chance to show the world your desktop or PC. Email your screenshots and photos to: misc@fullcirclemagazine.org and include a brief paragraph about your desktop, your PC's specs and any other interesting tidbits about your setup.
+
+Text374: Duplication, perhaps linked-to frame
+
+Text470luj: This is my desktop. I like it clean and simple.I am running Ubuntu 10.04 LTS, with Docky (bottom & left-hand side docks, auto-hide), and panel on top (auto-hide). Wallpaper is ubuntu-black - can't remember where it came from. Screenlets are circle clock, and three ring sensors showing hard drive space.I've been using Ubuntu since '05, loving the progress.Roy Jensen 
+
+Image113: /media/gentoo/issue55/images/desktop/marcelo-Desktop.jpg
+Image129: /media/gentoo/issue55/images/section icons/myDesktop.png
+Copy of Text661 (31): Duplication, perhaps linked-to frame
+
+
+Page 58
+
+Text190: Duplication, perhaps linked-to frame
+
+Copy of Text661 (32): Duplication, perhaps linked-to frame
+
+Text373ll: The wallpaper, a picture I took of a leaf bug. The theme is called Bamboo-zen created by Zgegball. I also use Zgegball's icons - it’s called ubuntu-sunrise. There are 5 screenlets, Calender with no back, A clock, a bulls eye, which I just have because I think it looks nice. The word of the day to stay up on my vocab, CPU usage, and, last but not least, the Cairo-Dock. The green gives me an earthly feel.System Specs:Ubuntu 10.04 (lucid) running on my Dell xps one, with an Intel Core(TM) dual processor 2.3Ghz, 4GBs of ram, 300GB Harddrive space. Deon Ragin
+
+Image262: /media/gentoo/issue55/images/desktop/bijay-desktop.jpg
+Copy of Text470luj: My desktop runs Ubuntu 10.04, with Plusone wallpaper from deviantART, and Awoken light theme from gnome-looks. I have removed the bottom panel and replaced it with AWN dock. I've been using Ubuntu since Gutsy, and I use my computer mainly for web and software development as a freelancer.System specs:Intel Celeron 2.3GHz1GB RAM80 GB HDD18.5 inch LCD screen at 1360x768 resolution.Bijay Chamling
+
+Image264: /media/gentoo/issue55/images/desktop/deon-Screenshot.jpg
+
+Page 59
+
+Image50: /media/gentoo/issue55/images/new-fcm_logo.png
+Text60: HOW TO CONTRIBUTE
+
+Text61: We are always looking for new articles to include in Full Circle. For article guidelines, ideas, and for issue translation, please see our wiki: http://wiki.ubuntu.com/UbuntuMagazinePlease email your articles to: articles@fullcirclemagazine.org
+
+Text63: Full Circle TeamEditor - Ronnie Tuckerronnie@fullcirclemagazine.orgWebmaster - Rob Kerfiaadmin@fullcirclemagazine.orgComms Mgr - Robert Clipshammrmonday@fullcirclemagazine.orgPodcast - Robin Catlingpodcast@fullcirclemagazine.orgEditing & ProofreadingMike KennedyLucas WestermannGord CampbellOur thanks go out to Canonical, the many translation teams around the world and to Thorsten Wilms for the current Full Circle logo.
+
+Text64: Duplication, perhaps linked-to frame
+
+Text65: If you would like to submit news, email it to: news@fullcirclemagazine.orgSend your comments or Linux experiences to: letters@fullcirclemagazine.orgHardware/software reviews should be sent to: reviews@fullcirclemagazine.orgQuestions for Q&A should go to: questions@fullcirclemagazine.orgDesktop screens should be emailed to: misc@fullcirclemagazine.org... or you can visit our forum via: www.fullcirclemagazine.org
+
+Text66: Duplication, perhaps linked-to frame
+
+Text67: Duplication, perhaps linked-to frame
+
+Text68: Duplication, perhaps linked-to frame
+
+Text69: Duplication, perhaps linked-to frame
+
+Text70: Duplication, perhaps linked-to frame
+
+Text71: Duplication, perhaps linked-to frame
+
+Text483: Duplication, perhaps linked-to frame
+
+Text484: Duplication, perhaps linked-to frame
+
+Text485: Duplication, perhaps linked-to frame
+
+Text103: Deadline for Issue #56:Sunday 11th Dec. 2011.Release date for issue #56:Friday 30th Dec. 2011.
+
+Text405: Duplication, perhaps linked-to frame
+
+Image130: /media/gentoo/issue55/images/section icons/howto.png
+Text136: FULL CIRCLE NEEDS YOU!A magazine isn't a magazine without articles and Full Circle is no exception. We need your Opinions, Desktops and Stories. We also need Reviews (games, apps & hardware), How-To articles (on any K/X/Ubuntu subject) and any questions, or suggestions, you may have.Send them to: articles@fullcirclemagazine.org
+
+Copy of Text486: Duplication, perhaps linked-to frame
+
+Copy of Text661 (40): Duplication, perhaps linked-to frame
+
+Text644: Duplication, perhaps linked-to frame
+
+Image267: /media/gentoo/issue55/images/new-fcm_logo.png
+Image305: /media/gentoo/issue55/images/news/fcm-qrcode.png
+

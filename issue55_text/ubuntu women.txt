@@ -1,0 +1,25 @@
+Written by Elizabeth Krumbach
+
+In our last article for Full Circle Magazine, we discussed the personal goals from the newly elected leadership team of the Ubuntu Women project. On the heels of the Ubuntu Developer Summit in Orlando, Florida, I’d now like to talk about some of the key goals the team has for the next Ubuntu release cycle.
+
+== 1. Mentoring program ==
+
+This is an area that all three of our leaders strongly identified with, and the team is still committed to. Our project has always had some kind of mentoring program in place, starting with a very rigid program, and moving into the very informal infrastructure we have now where we collaboratively mentor new members and each other as questions arise in our resource space, whether this be on the mailing list, chat, or direct requests for guidance sent to our leadership team. In this cycle, Amber Graner wants to continue her work with following up the existing mentoring programs in the Open Source world to see what we can learn from them and what resources we can share.
+
+== 2. Website development ==
+
+Our primary website still has a very old theme and dated look to it. We’re in the process of migrating the site to be all-wiki - with a select number of pages which will be editable only by administrators. Our hope is that this will invite more updates to our content, and, in general, get our branding more firmly in place.
+
+== 3. Improve our recommendations for teams ==
+
+I feel the project is good at mentoring women who already have an interest in Open Source and are now ready to take the next steps, but we haven’t done much outreach to other teams within the wider Ubuntu community to help them attract more women to their teams. We have a short page of “Best Practices” for in-person events - based largely on an older document “How-to Encourage Women in Linux,” but, in the current form, our own document needs a lot of work to add more practical ways to make a project welcoming to everyone and generally read in a more positive light.
+
+== 4. Broadly identify our target audience and come up with strategies ==
+
+Finally, we have a few new contributors to the project and one of them suggested that we come up with broad targets for those we’re trying to reach out to with our project, and then come up with specific strategies targeted toward those women. In our collaboration session at the Ubuntu Developer Summit, we briefly outlined the following groups:
+  • already using Ubuntu but not yet contributing
+  • already using Open Source but not Ubuntu
+  • friends and family of Ubuntu contributors
+  • have a need for technology but no direct exposure to Open Source yet.
+
+We’re excited about all of these projects, and it’s been very inspiring to be a part of a team that not only has folks dedicated to our work, but is constantly growing to bring in new people with fresh ideas to further our goals.

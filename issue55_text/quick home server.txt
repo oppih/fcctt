@@ -1,0 +1,17 @@
+My home “server” is the WLX-652 NAS which is equipped with two USB 2.0 ports, built in BitTorrent client, and supports NTFS and EXT2/3. It is a simple device using an ARM processor and has its USB ports on the back. It consumes about 3 watts in use, and is completely silent.
+
+I have it connected to USB hubs, and from there I share my printer (Canon iP4200) and my USB HDDs to all the machines on the network, and it's flashed with Snake OS (http://code.google.com/p/snake-os/) rather than the default system. This comes with inbuilt cifs (SAMBA), FTP, print, DDNS, SSH and SFTP servers, along with Transmission to use it as a torrent client. All admin is done via a web page, which is well set out and easy to navigate. Although for Transmission control I use transmission-gui. I have my shared HDDs in external cases connected to the USB hubs. The machines are connected via wireless or wired to my ADSL router, and all the shares are mounted in fstab using:
+
+    //nas/TV /home/ken/TV cifs guest,user,rw,file_mode=0777,dir_mode=0777,noserverino 0 0
+
+nas is the name of the “server”
+TV is one of the shares (containing my TV episodes to watch)
+then there is the folder it is shared to (TV in my home folder)
+then the type (cifs), and
+some “filler” to make it writeable on all the PCs.
+
+Or you can just use Network in Nautilus to browse to the shares; I wanted them automounted when I logged in to a PC.
+
+I use the FTP functionality to allow me to save files from my Android phone to the server using a wireless connection. Similarly, the printer is just connected to using the Print Server option in the “Add new printer” wizard - with the address of nas to show all the connected printers. Then the correct driver is installed as normal.
+
+For someone who has several external drives, this is a simple and clean way of sharing them to all the PCs without needing to share folders on the PCs, and allows them to be powered and accessible all the time. The only downside to using this low-power server is, the network speed is quite LOW. (1Mb/s write and 2Mb/s reading) - however the speed is sufficient to stream 720p movies to my media player for watching on my TV. For transferring large files, I tend to remove them from the NAS and plug directly into the PC to be transferred from. But the cost/power saving make this ideal for my normal working environment. 

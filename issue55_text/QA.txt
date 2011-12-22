@@ -1,0 +1,73 @@
+Compiled by Gord Campbell
+
+Q Is there any way to have the "classical" gnome user interface with Ubuntu 11.10?
+
+A No, but you can come close. I used Software Centre to install Synaptic Package Manager. In Synaptic, I searched for "gnome-panel," and installed it. Several dependencies were installed at the same time. When I rebooted, at the logon screen I clicked on the gear, to the right of my username, and selected GNOME Classic. It's not exactly the same as the interface in Ubuntu 10.10, but it's similar.
+
+
+Q How to compile and run lex program in ubuntu 10.04? I have installed flez and yacc and have also compiled file with -lfl option, but it shows an undefined reference to yywrap.
+
+A Just use Synaptic Package Manager to install flex.
+
+
+Q I've installed the latest version of Ubuntu. What now?
+
+A http://debianhelp.wordpress.com/2011/09/12/to-do-list-after-installing-ubuntu-11-10-aka-oneiric-ocelot/
+
+
+Q I have been reading, and apparently I need to add myself to the scanner Group. How can I do that in Ubuntu 11.10?
+
+A Previous releases included a nice application called Users and Groups. Defective thinking led to this being cut back to just User Accounts. There are command-line solutions, but Asus701user in the Ubuntu Forums has a better answer: install gnome-system-tools, which includes good old Users and Groups.
+
+
+Q How can I speed up my web browsing?
+
+A Enter the Terminal command:
+
+    gksudo gedit /etc/samba/smb.conf
+
+Find the line which begins: name resolve order
+
+Move the word "host," so it reads:  name resolve order = lmhosts wins bcast host
+
+
+
+Q Can I use Ubuntu to develop Android apps?
+
+A Yes, Ubuntu is an excellent platform for developing Android applications. The Software Development Kit is available at http://developer.android.com/sdk/index.html
+
+
+
+Q When I upgraded my Wubi install, the boot time became outrageous. Suggestions?
+
+A Two suggestions, which you probably won't be too thrilled about. Wubi is really intended to let people evaluate Ubuntu, without making significant changes to their system. So suggestion number 1 is: shrink a partition on your hard drive, and install Ubuntu into that space. You need to be very careful when installing, so you only format the new partition you will be creating.
+
+The second suggestion is: don't upgrade, install from scratch. This is a lot easier if you have a root partition (/) and a Home partition. You'll spend 15 minutes figuring out how to do that, and an extra 15 minutes during installation to double-check that you have it right, but it's worth the effort.
+
+And, of course, always make sure you have backup. Hard drives fail, so even if you aren't messing around with your system, all your data could disappear at any moment.
+
+
+
+== Tips and techniques ==
+
+=== FSOSS ===
+
+Last month, I presented "Comparing Unity and Gnome 3" at the Free Software and Open Source Symposium (FSOSS) / Linuxfest Toronto.
+
+My sub-title was, "Smartphones on your desktop," which is just a mild exaggeration. I suggested that Unity, as implemented in Ubuntu 11.10, is a little more polished and complete than Gnome 3.2, as implemented in Opensuse 11.4. However, Opensuse has the edge when it comes to accessibility. The net-net: I am using 11.10 on my laptop, and I plan to switch to Ubuntu 12.04 with Unity on my primary, desktop computer.
+
+Just to see more options, I have also installed Kubuntu 11.10 on my laptop.
+
+I attended several other presentations. The most interesting was about deploying OLPCs (One Laptop Per Child) in Kenya. Apparently, seven families in Toronto are involved in an effort which has changed two schools, and is being expanded to four others. Biggest surprise: the typical shepherd in Kenya uses his cellphone to text back and forth with his family. They said the data network was much better than what they have experienced in Canada.
+
+On the first trip to Kenya, they arrived with a solar array and four computers, and the solar array was completely overwhelmed by noon-day sun at the equator, 2,000 feet above sea level. After spending a day whining and kicking malfunctioning equipment, they found a solar engineer 20 miles down the road, who came in and fixed that part of the problem. They used a cell device to create a local Wifi hot spot, and connected the computers to it. The schools have very few text books, which do not hold up well in the local conditions. Having access to the resources of the Internet made a huge change in the school.
+
+The first school wound up getting 40 OLPCs, two of which have succumbed to the environment over three years. The OLPC can be used in bright sunshine, which makes a big difference in Kenya.
+
+I got the impression from the talk that deploying small computers is mostly about bringing them to the site, setting up what is needed, and showing teachers and students how to use them. Raising $5,000 and shipping 25 OLPCs to some remote school doesn't actually do anything helpful in the real world. Better to spend $4,000 on airfare for three people to deliver 5 OLPCs, and provide a lot of on-site help and setup.
+
+The other wonderful presentation was "When you cannot be there -- remote access and collaboration," by Raul Suarez. In 50 minutes, he went from Telnet to SSH, VNC and Web conferencing, with a few other approaches thrown in for good measure. There's an online version of his presentation at http://kwlug.org/node/667
+
+This was probably the most sophisticated presentation I have ever seen which was not backed by the resources of a major vendor.
+
+The conference itself featured superb organization, but it needs more publicity.
