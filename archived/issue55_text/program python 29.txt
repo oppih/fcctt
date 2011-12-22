@@ -1,0 +1,101 @@
+A little while ago, I was asked to convert a MySQL database to SQLite. Looking around the web for a quick and easy (and free) solution, I found nothing that worked with the current version of MySQL for me. So I decided to go ahead and “roll my own”.
+
+The MySQL Administrator program allows you to backup a database into a flat text file. Many SQLite browsers allow you to read a flat sql definition file and create the database from there. However, there are many things that MySQL supports that SQLite doesn't. So this month, we'll write a conversion program that reads a MySQL dump file and creates a SQLite version.
+
+Let's start by looking at the MySQL dump file. It consists of a section that creates the database, and then sections that create each table within the database followed by the data for that table, if it's included in the dump file. (There's an option to export the table schema(s) only). Shown above right is an example of one of the create table sections.
+
+The first thing that we would need to get rid of is in the last line. Everything after the ending parenthesis needs to go away. (SQLite does not support an InnoDB database). In addition to that, SQLite doesn't support the “PRIMARY KEY” line. In SQLite, we set a primary key by using “INTEGER PRIMARY KEY AUTOINCREMENT” when we define the field. The other thing that SQLite doesn't support is the “unsigned” keyword.
+
+When it comes to the data, the “INSERT INTO” statements are also non-compatible. The problem here is that SQLite doesn't allow multiple inserts within the same statement. Here's a short example from the MySql dump file. Notice (right) that the end-of-line marker is a semicolon.
+
+We will also ignore any comment lines, and the CREATE DATABASE and USE statements. Once we have the converted SQL file, we'll use a program similar to the public domain program SQLite Database Browser to actually deal with the process of creating the database, tables, and data.
+
+Let's get started. Start a new project folder and a new python file. Name it MySQL2SQLite.py.
+
+Shown above right is the import statement, the class definition, and the __init__ routine.
+
+This will be a commandline driven program, so we'll need to create the “if __name__” statement, a command line argument handler, and a usage routine (if the user doesn't know how to use the program). This goes at the very end of the program. All other code we create will go above this:
+
+    def error(message):
+        print >> sys.stderr, str(message) 
+
+Below is the handler that does the printing of the usage statement.
+
+The DoIt() routine is called if our program is being run stand-alone from the command line, which is the design. However, if we want to keep this as a library to be included in another program at another time, we can just use the class. Here we set up a number of variables to make sure that everything works correctly. The  code shown bottom right then parses the command line arguments passed to our program, and gets things ready for the main routines.
+
+When we start the program, we need to provide at least two variables on the command line. These are the Input file, and the Output file. We also will provide support for the user to see what is happening as the program is running, an option to just create the tables and not stuff the data, and for the user to call for help. Our “normal” command line to start the program looks like this:
+
+    MySQL2SQLite Infile=Foo Outfile=Bar
+
+where “Foo” is the name of the MySQL dump file, and “Bar” is the name of the SQLite sql file we want the program to create.
+
+You can also call it like this:
+
+    MySQL2SQLite Infile=Foo Outfile=Bar Debug SchemaOnly
+
+Which will add the option to show the debug messages and to ONLY create the tables and not import the data.
+
+Finally if the user asks for help, we just go to the usage portion of the program.
+
+Before we continue, let's take another look at how the command line argument support works.
+
+When a user enters the program name from the command line (terminal), the operating system keeps track of the information entered and passes it to the program just in case there are any options entered. If no options (also called arguments) are entered, the number of arguments is one, which is the name of the application - in our case MySQL2SQLite.py. We can access these arguments by calling the sys.arg command. If the count is greater than one, we will access them in a for loop. We will step through the list of arguments and check each one. Some programs require you to enter the arguments in a specific order. By using the for loop approach, the arguments can be entered in any order. If the user doesn't supply any arguments, or uses the help arguments, we show the usage screen. Shown above is the routine for that.
+
+Moving on, once we have parsed the argument set, we instantiate the class, call the setup routine, which fills certain variables and then call the DoWork routine. We'll start our class now (which is shown on the next page, bottom right).
+
+This (next page, top right) is the definition and the __init__ routine. Here we setup the variables that we will need as we go through the code. Remember that right before we call the DoWork routine, we call the Setup routine. We take our empty variables and assign the correct values to them here. Notice that there is the ability to not write to a file, useful for debugging purposes. We also have the ability to simply write the schema, or database structure, without writing the data. This is helpful if you are taking a database and starting a new project without wanting to use any existing data.
+
+We start off by opening the SQL Dump file, then setting some internal scope variables. We also define some strings to save us typing later on. Then, if we are to write to an output file, we open it and then we start the entire process. We will read each line of the input file, process it, and potentially write it to the output file. We use a forced while loop to assist reading each line, with a break command when there is nothing left in the input file. We use f.readline() to get the line to work, and assign it to the variable “line”. Some lines, we can safely ignore. We'll simply use an if/elif statement followed by a pass statement to accomplish this (below).
+
+Next we can stop ignoring things and actually do something. If we have a CreateTable statement, we'll start that process. Remember we defined CT to be equal to “Create Table”. Here (above right), we set a variable “CreateTableMode” to be equal to 1, so we know that's what we are doing, since each field definition is on a separate line. We then take our line, remove the carriage return, and get that ready to write to our out file, and, if required, write it.
+
+Now (middle right) we need to start dealing with each line within the create table statements - manipulating each line to keep SQLite happy. There are many things that SQLite won't deal with. Let's look at a Create Table statement from MySQL again.
+
+One thing that SQLite will absolutely have an issue with is the entire last line after the closing parenthesis. Another is the line just above that, the Primary Key line. Yet another thing is the unsigned keyword in the second line. It will take a bit of code (below) to work around these issues, but we can make it happen.
+
+First, (third down on the right) we check to see if the line contains “auto increment”. We will assume that this will be the primary key line. While this might be true 98.6% of the time, it won't always be. However, we'll keep it simple. Next we check to see if the line starts with “) ”. This will signify this is the last line of the create table section. If so, we simply set a string to close the statement properly in the variable “newline”, turn off the CreateTableMode variable, and, if we are writing to file, write it out.
+
+Now (bottom right) we use the information we found about the auto increment key word. First, we strip the line of any spurious spaces, then check to see where (we are assuming it is there) the phrase “ int(“ is within the line. We will be replacing this with the phrase “ INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL”. The length of the integer doesn't matter to SQLite. Again, we write it out if we should.
+
+Now we look for the phrase “PRIMARY KEY “ within the line. Notice the extra space at the end - that's on purpose. If it arises, we ignore the line.
+
+    elif line.strip().startswith(PK):
+      
+        pass
+
+Now (top right) we look for the phrase “ unsigned “ (again keep the extra spaces) and replace it with “ “.
+
+That's the end of the create table routine. Now (below) we move on to the insert statements for the data. The InsertStart variable is the phrase “INSERT INTO “. We check for that because MySQL allows for multiple insert statements in a single command, but SQLite does not. We need to make separate statements for each block of data. We set a variable called “insertmode” to 1, pull the “INSERT INTO {Table} {Fieldlist} VALUES (“ into a reusable variable (which I'll call our prelude), and move on.
+
+Now, we check to see if we are only supposed to work the schema. If so, we can safely ignore any portions of the insert statements. If not, we need to deal with them.
+
+    elif self.SchemaOnly == 0:
+        if insertmode == 1:
+
+We check to see if there is either “');” or “'),” in our line. In the case of “');”, this would be the last line in our insert statement set.
+
+    posx = line.find("');")
+    pos1 = line.find("'),")
+    l1 = line[:pos1]
+
+This line checks for escaped single quotes and replaces them.
+
+    line = line.replace("\\'","''")
+
+If we have a closing statement (“);”), that is the end of our insert set, and we can create the statement by joining the prelude to the actual value statement. This is shown on the previous page, bottom right.
+
+This all works (top right) if the last value we have in the insert statement is a quoted string. However, if the last value is a numeric value, we have to deal with things a bit differently. You'll be able to pick out what we are doing here.
+
+Finally, we close our input file, and, if we are writing an output file, we close that as well.
+
+    f.close()
+    if self.WriteFile == 1:
+        OutFile.close()
+
+Once you have your converted file, you can use SQLite Database Browser to fill in the database structure and data.
+
+This code should work over 90% of the time as is. There might be somethings we missed due to other issues, hence the reason for the debug mode. However, I've tested this on multiple files and had no problems.
+
+As always, the code is up at PasteBin at http://pastebin.com/cPvzNT7T.
+
+See you next time.
