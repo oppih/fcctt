@@ -14,7 +14,12 @@ def walkThrough():
         for filename in fnmatch.filter(files, pattern0):
             print os.path.join(root, filename) # this produces a string
         for filename in fnmatch.filter(files, pattern1):
-            print os.path.join(root, filename)
+            #print os.path.join(root, filename)
+            convertPic(os.path.join(root, filename))
+
+def convertPic(picPathStr):
+    # use ImageMagic tool to convert the size and file pattern
+
 
 if __name__ == "__main__":
     walkThrough()
